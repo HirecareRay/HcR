@@ -34,7 +34,6 @@ CATCH 데이터는 `company`, `title`, `job`, `detail_text`, `detail_img`, `deta
 
 - 잡코리아: `basic_info`, `financial`, `benefits`, `location` 활용
 - 인크루트: `basic_info` 중심으로 대표자, 업종, 기업규모, 매출액, 사원수 등 추출
-- 사람인: 동일한 상위 컬럼 구조라면 `saramin` source로 확장 가능
 
 ## DART 연결 방향
 

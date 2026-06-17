@@ -1,0 +1,375 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "company_name": {
+      "type": "string"
+    },
+    "posting_title": {
+      "type": "string"
+    },
+    "source_site": {
+      "type": "string"
+    },
+    "source_url": {
+      "type": "string"
+    },
+    "common": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "education": {
+          "type": "string"
+        },
+        "major": {
+          "type": "string"
+        },
+        "preferred": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "documents": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "education",
+        "major",
+        "preferred",
+        "documents"
+      ]
+    },
+    "jobs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/job"
+      }
+    },
+    "process": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "work_conditions": {
+      "$ref": "#/$defs/work_conditions"
+    },
+    "raw_meta": {
+      "$ref": "#/$defs/raw_meta"
+    },
+    "preprocess_log": {
+      "$ref": "#/$defs/preprocess_log"
+    }
+  },
+  "required": [
+    "company_name",
+    "posting_title",
+    "source_site",
+    "source_url",
+    "common",
+    "jobs",
+    "process",
+    "work_conditions",
+    "raw_meta",
+    "preprocess_log"
+  ],
+  "$defs": {
+    "job": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "job_name": {
+          "type": "string"
+        },
+        "headcount": {
+          "type": "string"
+        },
+        "education": {
+          "type": "string"
+        },
+        "major": {
+          "type": "string"
+        },
+        "locations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "responsibilities": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "preferred_common": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "tracks": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "newcomer": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "preferred": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "responsibilities": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "documents": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "requirements",
+                "preferred",
+                "responsibilities",
+                "documents"
+              ]
+            },
+            "experienced": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "requirements": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "preferred": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "responsibilities": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "documents": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": [
+                "requirements",
+                "preferred",
+                "responsibilities",
+                "documents"
+              ]
+            }
+          },
+          "required": [
+            "newcomer",
+            "experienced"
+          ]
+        }
+      },
+      "required": [
+        "job_name",
+        "headcount",
+        "education",
+        "major",
+        "locations",
+        "responsibilities",
+        "preferred_common",
+        "tracks"
+      ]
+    },
+    "work_conditions": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "employment_type": {
+          "type": "string"
+        },
+        "work_type": {
+          "type": "string"
+        },
+        "salary": {
+          "type": "string"
+        },
+        "benefits": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "deadline": {
+          "type": "string"
+        },
+        "recruit_url": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "employment_type",
+        "work_type",
+        "salary",
+        "benefits",
+        "deadline",
+        "recruit_url"
+      ]
+    },
+    "raw_meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "source_file": {
+          "type": "string"
+        },
+        "source_row": {
+          "type": "integer"
+        },
+        "source_url": {
+          "type": "string"
+        },
+        "ocr_used": {
+          "type": "boolean"
+        },
+        "llm_used": {
+          "type": "boolean"
+        },
+        "llm_error": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "source_file",
+        "source_row",
+        "source_url",
+        "ocr_used",
+        "llm_used",
+        "llm_error"
+      ]
+    },
+    "preprocess_log": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "dropped_fields": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/dropped_field"
+          }
+        },
+        "low_confidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/low_confidence"
+          }
+        },
+        "parse_warnings": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "original_text_snapshot": {
+          "$ref": "#/$defs/original_text_snapshot"
+        }
+      },
+      "required": [
+        "dropped_fields",
+        "low_confidence",
+        "parse_warnings",
+        "original_text_snapshot"
+      ]
+    },
+    "dropped_field": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "field": {
+          "type": "string"
+        },
+        "original_value": {
+          "type": "string"
+        },
+        "reason": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "field",
+        "original_value",
+        "reason"
+      ]
+    },
+    "low_confidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "field": {
+          "type": "string"
+        },
+        "original_text": {
+          "type": "string"
+        },
+        "issue": {
+          "type": "string"
+        },
+        "confidence": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "field",
+        "original_text",
+        "issue",
+        "confidence"
+      ]
+    },
+    "original_text_snapshot": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "raw_ocr_excerpt": {
+          "type": "string"
+        },
+        "final_text_excerpt": {
+          "type": "string"
+        },
+        "llm_input_hash": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "raw_ocr_excerpt",
+        "final_text_excerpt",
+        "llm_input_hash"
+      ]
+    }
+  }
+}
