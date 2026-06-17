@@ -26,17 +26,39 @@ DART 데이터 수집 메인 실행 파일.
         2026-02: ref=2025 → start=2023-01-01
 """
 
+import time
 from collections import defaultdict
 from datetime import datetime
 
 import export_json
 from corp_code import get_corp_code
-from dart_api import ANNUAL_SEMI_REPRT, QUARTERLY_REPRT, get_company, get_finance_range
+from dart_api import (
+    ANNUAL_SEMI_REPRT,
+    API_CALL_DELAY,
+    QUARTERLY_REPRT,
+    get_company,
+    get_employees,
+    get_finance_range,
+    get_financial_indicators,
+    get_litigation,
+)
 from dart_audit import get_audit_reports, get_audit_text
 from dart_report import get_latest_report_rcept_no, get_report_text
 
 # DART 원문 보고서 직링크 — rcept_no로 원본 공시를 바로 열어볼 수 있다.
 _DART_REPORT_URL = "https://dart.fss.or.kr/dsaf001/main.do?rcpNo={rcept_no}"
+
+# 사업보고서 코드 — 직원현황·재무지표는 연간 사업보고서(11011) 기준으로 수집한다.
+_ANNUAL_REPRT_CODE = "11011"
+
+# 재무지표 분류 코드 ↔ 명칭. 취준생 관점에선 안정성(부채비율)·수익성(ROE)이 핵심이지만,
+# 성장성·활동성까지 함께 담아 회사 상태를 입체적으로 보여준다.
+_INDICATOR_CATEGORIES: dict[str, str] = {
+    "M210000": "수익성",
+    "M220000": "안정성",
+    "M230000": "성장성",
+    "M240000": "활동성",
+}
 
 
 def _calc_start_year(today: datetime) -> int:
@@ -75,8 +97,77 @@ def _empty_result() -> dict:
         "finances_annual_semi": [],
         "finances_quarterly":   [],
         "report_texts":         [],
+        "employees":            [],
+        "financial_indicators": [],
+        "litigation":           [],
         "failures":             [],
     }
+
+
+def _collect_employees(
+    corp_code: str, corp_name: str, start_year: int, end_year: int
+) -> list[dict]:
+    """
+    연도별 직원현황(empSttus.json)을 수집한다 — 취준생 핵심: 연봉·직원수·근속.
+
+    주요 필드: sm(직원수), sexdstn(성별), avrg_cnwk_sdytrn(평균 근속연수),
+              jan_salary_am(1인 평균 급여액), fyer_salary_totamt(연간 급여 총액)
+    데이터 없는 연도(status 013)는 건너뛴다.
+    """
+    rows: list[dict] = []
+    for idx, year in enumerate(range(start_year, end_year + 1)):
+        if idx > 0:
+            time.sleep(API_CALL_DELAY)  # DART rate limit 보호
+        data = get_employees(corp_code, str(year), _ANNUAL_REPRT_CODE)
+        if not data or "list" not in data:
+            continue
+        for row in data["list"]:
+            rows.append({"corp_name": corp_name, "bsns_year": str(year), **row})
+    return rows
+
+
+def _collect_indicators(
+    corp_code: str, corp_name: str, start_year: int, end_year: int
+) -> list[dict]:
+    """
+    연도별 주요 재무지표(fnlttSinglIndx.json)를 4개 분류 전부 수집한다.
+
+    DART가 이미 계산해 둔 지표(부채비율·ROE 등)라 취준생이 회사 안정성·수익성을
+    바로 가늠할 수 있다. 데이터 없는 연도/분류(status 013)는 건너뛴다.
+    """
+    rows: list[dict] = []
+    first = True
+    for year in range(start_year, end_year + 1):
+        for idx_code, idx_nm in _INDICATOR_CATEGORIES.items():
+            if not first:
+                time.sleep(API_CALL_DELAY)  # DART rate limit 보호
+            first = False
+            data = get_financial_indicators(
+                corp_code, str(year), _ANNUAL_REPRT_CODE, idx_code
+            )
+            if not data or "list" not in data:
+                continue
+            for row in data["list"]:
+                rows.append({
+                    "corp_name":  corp_name,
+                    "bsns_year":  str(year),
+                    "idx_cl_nm":  idx_nm,   # 분류 명칭(수익성/안정성/성장성/활동성)
+                    **row,
+                })
+    return rows
+
+
+def _collect_litigation(
+    corp_code: str, corp_name: str, bgn_de: str, end_de: str
+) -> list[dict]:
+    """
+    기간 내 소송 내역(lwstLg.json)을 수집한다 — 회사 리스크 체크용.
+    소송이 없는 기간은 status 013이 정상이며 빈 리스트를 반환한다.
+    """
+    data = get_litigation(corp_code, bgn_de, end_de)
+    if not data or "list" not in data:
+        return []
+    return [{"corp_name": corp_name, **row} for row in data["list"]]
 
 
 def collect(corp_name: str) -> dict:
@@ -225,6 +316,19 @@ def collect(corp_name: str) -> dict:
     else:
         print("[STEP 3] 분기보고서 재무 데이터 없음")
 
+    # ────────────────────────────────────────────────────────────────────────
+    # STEP 4. 취준생 관심 정보 — 직원현황(연봉·직원수) / 재무지표 / 소송
+    # ────────────────────────────────────────────────────────────────────────
+    print(f"\n[STEP 4] 직원현황·재무지표·소송 수집")
+    result["employees"] = _collect_employees(corp_code, corp_name, start_year, end_year)
+    print(f"[STEP 4] 직원현황 {len(result['employees'])}건")
+
+    result["financial_indicators"] = _collect_indicators(corp_code, corp_name, start_year, end_year)
+    print(f"[STEP 4] 재무지표 {len(result['financial_indicators'])}건")
+
+    result["litigation"] = _collect_litigation(corp_code, corp_name, bgn_de, end_de)
+    print(f"[STEP 4] 소송내역 {len(result['litigation'])}건")
+
     print(f"\n{'=' * 60}")
     print(f"  {corp_name} 데이터 수집 완료")
     print(f"{'=' * 60}\n")
@@ -270,6 +374,9 @@ if __name__ == "__main__":
     all_annual_semi: list[dict] = []
     all_quarterly:   list[dict] = []
     all_report_text: list[dict] = []
+    all_employees:   list[dict] = []
+    all_indicators:  list[dict] = []
+    all_litigation:  list[dict] = []
     all_failures:    list[dict] = []
     errored: list[str] = []
 
@@ -283,6 +390,9 @@ if __name__ == "__main__":
             all_annual_semi.extend(result["finances_annual_semi"])
             all_quarterly.extend(result["finances_quarterly"])
             all_report_text.extend(result["report_texts"])
+            all_employees.extend(result["employees"])
+            all_indicators.extend(result["financial_indicators"])
+            all_litigation.extend(result["litigation"])
             all_failures.extend(result["failures"])
         except Exception as e:
             print(f"[오류] {corp_name} 수집 실패: {e}")
@@ -295,6 +405,9 @@ if __name__ == "__main__":
         finances_annual_semi=all_annual_semi,
         finances_quarterly=all_quarterly,
         report_texts=all_report_text,
+        employees=all_employees,
+        financial_indicators=all_indicators,
+        litigation=all_litigation,
         failures=all_failures,
     )
 
