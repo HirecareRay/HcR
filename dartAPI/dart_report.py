@@ -20,39 +20,40 @@ import requests
 from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
 
 # DART XML을 html.parser로 파싱할 때 발생하는 경고 억제
-warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
+warnings.filterwarnings('ignore', category=XMLParsedAsHTMLWarning)
 
 from config import DART_API_KEY
 
 # ── 상수 ──────────────────────────────────────────────────────────────────────
-OPENDART_BASE = "https://opendart.fss.or.kr/api"
+OPENDART_BASE = 'https://opendart.fss.or.kr/api'
 
 # reprt_code → 보고서명 핵심 키워드 매핑
 REPRT_CODE_NAME: dict[str, str] = {
-    "11011": "사업보고서",
-    "11012": "반기보고서",
-    "11013": "1분기보고서",
-    "11014": "3분기보고서",
+    '11011': '사업보고서',
+    '11012': '반기보고서',
+    '11013': '1분기보고서',
+    '11014': '3분기보고서',
 }
 
 TEXT_MAX_LEN = 10000  # RAG 파이프라인 청킹 전 최대 글자 수
 
 # 텍스트 추출 시 해당 줄부터 다음 소제목 전까지 제거할 키워드 목록
 _SKIP_SUBTITLE_KEYWORDS = [
-    "예측정보에 대한 주의사항",
-    "본 자료는 미래에 대한",
+    '예측정보에 대한 주의사항',
+    '본 자료는 미래에 대한',
 ]
 
 _HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/120.0.0.0 Safari/537.36"
+    'User-Agent': (
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
+        'AppleWebKit/537.36 (KHTML, like Gecko) '
+        'Chrome/120.0.0.0 Safari/537.36'
     ),
 }
 
 
 # ── 내부 유틸 ─────────────────────────────────────────────────────────────────
+
 
 def _download_report_zip(rcept_no: str) -> bytes | None:
     """
@@ -63,19 +64,19 @@ def _download_report_zip(rcept_no: str) -> bytes | None:
     """
     try:
         resp = requests.get(
-            f"{OPENDART_BASE}/document.xml",
-            params={"crtfc_key": DART_API_KEY, "rcept_no": rcept_no},
+            f'{OPENDART_BASE}/document.xml',
+            params={'crtfc_key': DART_API_KEY, 'rcept_no': rcept_no},
             headers=_HEADERS,
             timeout=120,  # 큰 파일이므로 넉넉하게
         )
         resp.raise_for_status()
         # 오류 응답은 XML로 온다 (Content-Type: text/xml)
-        if "xml" in resp.headers.get("Content-Type", "") and resp.content[:2] != b"PK":
-            warnings.warn(f"[경고] ZIP이 아닌 응답: {resp.text[:200]}")
+        if 'xml' in resp.headers.get('Content-Type', '') and resp.content[:2] != b'PK':
+            warnings.warn(f'[경고] ZIP이 아닌 응답: {resp.text[:200]}')
             return None
         return resp.content
     except Exception as exc:
-        warnings.warn(f"[경고] ZIP 다운로드 실패 (rcept_no={rcept_no}): {exc}")
+        warnings.warn(f'[경고] ZIP 다운로드 실패 (rcept_no={rcept_no}): {exc}')
         return None
 
 
@@ -90,19 +91,24 @@ def _load_main_xml(zip_bytes: bytes, rcept_no: str) -> BeautifulSoup | None:
     try:
         z = zipfile.ZipFile(io.BytesIO(zip_bytes))
         # 메인 파일: 접두어가 rcept_no이고 언더스코어+숫자 접미어가 없는 파일
-        main_name = f"{rcept_no}.xml"
+        main_name = f'{rcept_no}.xml'
         if main_name not in z.namelist():
-            # 폴백: 언더스코어가 없는 첫 번째 XML 파일
-            candidates = [n for n in z.namelist() if n.endswith(".xml") and "_" not in n]
-            if not candidates:
-                warnings.warn(f"[경고] ZIP에서 메인 XML을 찾지 못했음: {z.namelist()}")
+            xml_files = [n for n in z.namelist() if n.endswith('.xml')]
+            # 폴백 1: 언더스코어 없는 XML (일반 사업보고서 형태)
+            candidates = [n for n in xml_files if '_' not in n]
+            if candidates:
+                main_name = candidates[0]
+            # 폴백 2: XML이 하나뿐이면 그대로 사용 (감사보고서는 rcept_no_숫자.xml 한 개)
+            elif len(xml_files) == 1:
+                main_name = xml_files[0]
+            else:
+                warnings.warn(f'[경고] ZIP에서 메인 XML을 찾지 못했음: {z.namelist()}')
                 return None
-            main_name = candidates[0]
 
-        raw = z.read(main_name).decode("utf-8", errors="replace")
-        return BeautifulSoup(raw, "html.parser")
+        raw = z.read(main_name).decode('utf-8', errors='replace')
+        return BeautifulSoup(raw, 'html.parser')
     except Exception as exc:
-        warnings.warn(f"[경고] ZIP 파싱 실패: {exc}")
+        warnings.warn(f'[경고] ZIP 파싱 실패: {exc}')
         return None
 
 
@@ -116,7 +122,7 @@ def _remove_skip_sections(soup_element: BeautifulSoup) -> set[str]:
     Returns:
         제거되지 않고 남은 소제목 텍스트 집합 (텍스트 레벨 2차 정리에 사용)
     """
-    all_titles = soup_element.find_all("title", attrs={"atoc": "Y"})
+    all_titles = soup_element.find_all('title', attrs={'atoc': 'Y'})
 
     remaining_subtitles: set[str] = set()
     to_decompose: list = []
@@ -152,7 +158,7 @@ def _clean_text(soup_element: BeautifulSoup, max_len: int = TEXT_MAX_LEN) -> str
     remaining_subtitles = _remove_skip_sections(soup_element)
 
     # ② 텍스트 추출 및 빈 줄 제거
-    raw = soup_element.get_text(separator="\n", strip=True)
+    raw = soup_element.get_text(separator='\n', strip=True)
     lines = [line for line in raw.splitlines() if line.strip()]
 
     # ③ 텍스트 레벨 2차 정리: <TITLE> 밖에 있는 키워드도 제거
@@ -171,7 +177,7 @@ def _clean_text(soup_element: BeautifulSoup, max_len: int = TEXT_MAX_LEN) -> str
             cleaned_lines.append(line)
 
     # ④ 최대 글자 수로 자름
-    return "\n".join(cleaned_lines)[:max_len]
+    return '\n'.join(cleaned_lines)[:max_len]
 
 
 def _find_section_by_title(soup: BeautifulSoup, target: str) -> BeautifulSoup | None:
@@ -184,7 +190,7 @@ def _find_section_by_title(soup: BeautifulSoup, target: str) -> BeautifulSoup | 
       2) target이 태그 텍스트에 포함
       3) 태그 텍스트가 target에 포함 (짧은 제목 대응)
     """
-    all_titles = soup.find_all("title", attrs={"atoc": "Y"})
+    all_titles = soup.find_all('title', attrs={'atoc': 'Y'})
 
     matched_tag = None
 
@@ -230,36 +236,39 @@ def _search_regular_disclosures(
     """
     try:
         resp = requests.get(
-            f"{OPENDART_BASE}/list.json",
+            f'{OPENDART_BASE}/list.json',
             params={
-                "crtfc_key": DART_API_KEY,
-                "corp_code": corp_code,
-                "bgn_de": bgn_de,
-                "end_de": end_de,
-                "pblntf_ty": "A",   # 정기공시만
-                "page_count": 100,  # 한 번에 최대 조회
+                'crtfc_key': DART_API_KEY,
+                'corp_code': corp_code,
+                'bgn_de': bgn_de,
+                'end_de': end_de,
+                'pblntf_ty': 'A',  # 정기공시만
+                'page_count': 100,  # 한 번에 최대 조회
             },
             headers=_HEADERS,
             timeout=30,
         )
         resp.raise_for_status()
         data = resp.json()
-        if data.get("status") == "000" and "list" in data:
-            return data["list"]
+        if data.get('status') == '000' and 'list' in data:
+            return data['list']
         # "013" = 조회 데이터 없음 — 정상 케이스
-        if data.get("status") == "013":
+        if data.get('status') == '013':
             return []
-        warnings.warn(f"[경고] list.json 오류: status={data.get('status')} message={data.get('message')}")
+        warnings.warn(
+            f'[경고] list.json 오류: status={data.get("status")} message={data.get("message")}'
+        )
     except Exception as exc:
-        warnings.warn(f"[경고] 정기공시 목록 조회 실패: {exc}")
+        warnings.warn(f'[경고] 정기공시 목록 조회 실패: {exc}')
     return []
 
 
 # ── 공개 함수 ─────────────────────────────────────────────────────────────────
 
+
 def get_latest_report_rcept_no(
     corp_code: str,
-    reprt_code: str = "11011",
+    reprt_code: str = '11011',
 ) -> str | None:
     """
     해당 기업·보고서 코드의 최신 접수번호(rcept_no)를 반환한다.
@@ -274,34 +283,37 @@ def get_latest_report_rcept_no(
     Returns:
         최신 접수번호 문자열, 없으면 None
     """
-    target_keyword = REPRT_CODE_NAME.get(reprt_code, "사업보고서")
+    target_keyword = REPRT_CODE_NAME.get(reprt_code, '사업보고서')
     today = datetime.today()
-    end_de = today.strftime("%Y%m%d")
-    bgn_de = (today - timedelta(days=730)).strftime("%Y%m%d")  # 최대 2년 전까지 탐색
+    end_de = today.strftime('%Y%m%d')
+    bgn_de = (today - timedelta(days=730)).strftime('%Y%m%d')  # 최대 2년 전까지 탐색
 
-    print(f"[get_latest_report_rcept_no] corp_code={corp_code}, 보고서={target_keyword}, 기간={bgn_de}~{end_de}")
+    print(
+        f'[get_latest_report_rcept_no] corp_code={corp_code}, 보고서={target_keyword}, 기간={bgn_de}~{end_de}'
+    )
 
     items = _search_regular_disclosures(corp_code, bgn_de, end_de)
     if not items:
-        warnings.warn(f"[경고] 정기공시 목록이 비어있음 (corp_code={corp_code})")
+        warnings.warn(f'[경고] 정기공시 목록이 비어있음 (corp_code={corp_code})')
         return None
 
     # 보고서명에 키워드가 포함된 항목만 필터
     # "[기재정정]사업보고서" 처럼 접두어가 붙은 경우도 포함
-    matched = [
-        item for item in items
-        if target_keyword in item.get("report_nm", "")
-    ]
+    matched = [item for item in items if target_keyword in item.get('report_nm', '')]
 
     if not matched:
-        warnings.warn(f"[경고] '{target_keyword}' 보고서를 찾지 못했음 (corp_code={corp_code})")
+        warnings.warn(
+            f"[경고] '{target_keyword}' 보고서를 찾지 못했음 (corp_code={corp_code})"
+        )
         return None
 
     # 접수일자 내림차순 → 가장 최신 선택
-    matched.sort(key=lambda x: x.get("rcept_dt", ""), reverse=True)
+    matched.sort(key=lambda x: x.get('rcept_dt', ''), reverse=True)
     best = matched[0]
-    print(f"[get_latest_report_rcept_no] 최신 접수번호={best['rcept_no']} ({best.get('report_nm')})")
-    return best["rcept_no"]
+    print(
+        f'[get_latest_report_rcept_no] 최신 접수번호={best["rcept_no"]} ({best.get("report_nm")})'
+    )
+    return best['rcept_no']
 
 
 def get_report_text(
@@ -327,13 +339,13 @@ def get_report_text(
         파싱에 실패한 챕터는 빈 문자열("") 반환.
     """
     if sections is None:
-        sections = ["사업의 내용", "이사의 경영진단"]
+        sections = ['사업의 내용', '이사의 경영진단']
 
     # 결과 초기값: 모든 챕터를 빈 문자열로 초기화
-    result: dict[str, str] = {s: "" for s in sections}
+    result: dict[str, str] = {s: '' for s in sections}
 
     # ① ZIP 다운로드
-    print(f"[get_report_text] ZIP 다운로드 중 (rcept_no={rcept_no}) ...")
+    print(f'[get_report_text] ZIP 다운로드 중 (rcept_no={rcept_no}) ...')
     zip_bytes = _download_report_zip(rcept_no)
     if not zip_bytes:
         return result
@@ -343,13 +355,15 @@ def get_report_text(
     if not soup:
         return result
 
-    print(f"[get_report_text] XML 파싱 완료, 챕터 추출 시작")
+    print(f'[get_report_text] XML 파싱 완료, 챕터 추출 시작')
 
     # ③ 각 챕터별 텍스트 추출
     for section in sections:
         section_elem = _find_section_by_title(soup, section)
         if not section_elem:
-            warnings.warn(f"[경고] 챕터 '{section}'을 찾지 못했음 (rcept_no={rcept_no})")
+            warnings.warn(
+                f"[경고] 챕터 '{section}'을 찾지 못했음 (rcept_no={rcept_no})"
+            )
             continue
 
         text = _clean_text(section_elem)
@@ -361,31 +375,31 @@ def get_report_text(
 
 # ── 직접 실행 시 테스트 ───────────────────────────────────────────────────────
 
-if __name__ == "__main__":
-    SAMSUNG = "00126380"       # 삼성전자 고유번호
-    TARGET_SECTIONS = ["사업의 내용", "이사의 경영진단"]
+if __name__ == '__main__':
+    SAMSUNG = '00126380'  # 삼성전자 고유번호
+    TARGET_SECTIONS = ['사업의 내용', '이사의 경영진단']
 
-    print("=" * 64)
-    print("  삼성전자 사업보고서(11011) 텍스트 파싱 테스트")
-    print("=" * 64)
+    print('=' * 64)
+    print('  삼성전자 사업보고서(11011) 텍스트 파싱 테스트')
+    print('=' * 64)
 
     # 1. 최신 사업보고서 접수번호 조회
-    rcept_no = get_latest_report_rcept_no(SAMSUNG, reprt_code="11011")
+    rcept_no = get_latest_report_rcept_no(SAMSUNG, reprt_code='11011')
     if not rcept_no:
-        print("\n[오류] 접수번호를 가져오지 못했습니다. 종료합니다.")
+        print('\n[오류] 접수번호를 가져오지 못했습니다. 종료합니다.')
     else:
-        print(f"\n최신 사업보고서 접수번호: {rcept_no}\n")
+        print(f'\n최신 사업보고서 접수번호: {rcept_no}\n')
 
         # 2. 지정 챕터 텍스트 파싱
         texts = get_report_text(rcept_no, sections=TARGET_SECTIONS)
 
         for section, text in texts.items():
-            print(f"\n{'─' * 64}")
-            print(f"  [{section}]")
-            print("─" * 64)
+            print(f'\n{"─" * 64}')
+            print(f'  [{section}]')
+            print('─' * 64)
             if text:
                 # 테스트 출력은 500자만 — 전체는 최대 10000자
                 print(text[:500])
-                print(f"\n... (파싱된 텍스트 총 {len(text)}자 / 최대 {TEXT_MAX_LEN}자)")
+                print(f'\n... (파싱된 텍스트 총 {len(text)}자 / 최대 {TEXT_MAX_LEN}자)')
             else:
-                print("  (텍스트를 가져오지 못했습니다)")
+                print('  (텍스트를 가져오지 못했습니다)')

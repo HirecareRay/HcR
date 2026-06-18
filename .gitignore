@@ -220,4 +220,33 @@ __marimo__/
 # Local recruitment preprocessing data
 test_data/
 *.tsv
+
+.history
+
+.claude
+
+# macOS
 .DS_Store
+
+# 데이터베이스
+*.db
+*.sqlite
+*.sqlite3
+
+# 데이터 파일 / 수집 결과
+data/
+**/data/
+*.csv
+output/
+**/output/
+
+# API 키 / 시크릿
+*.env
+.env.*
+*.key
+secrets.toml
+credentials.json
+
+# 회사 목록 / 테스트 입력 데이터
+companies.txt
+test_*.txt
