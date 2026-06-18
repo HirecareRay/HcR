@@ -45,6 +45,29 @@ def test_rank_references_is_stable_for_non_jobsites():
     assert rank_references(urls) == urls
 
 
+def test_rank_references_prefers_company_info_over_job_posting():
+    # 같은 잡사이트라도 기업정보 페이지를 개별 채용공고보다 우선한다.
+    urls = [
+        "https://www.saramin.co.kr/zf_user/jobs/relay/pop-view?rec_idx=54202305",
+        "https://www.jobkorea.co.kr/company/48025673/info",
+    ]
+    ranked = rank_references(urls)
+    assert ranked[0].endswith("/company/48025673/info")
+    assert "rec_idx" in ranked[1]
+
+
+def test_rank_references_company_info_beats_other_jobsite_posting():
+    # 기업정보(어느 잡사이트든)가 모든 개별 공고보다 앞선다.
+    urls = [
+        "https://www.saramin.co.kr/zf_user/jobs/view?rec_idx=1",
+        "https://www.incruit.com/company/2776903/referenceroom/",
+        "https://job.incruit.com/jobdb_list/searchjob.asp",
+    ]
+    ranked = rank_references(urls)
+    assert "/company/" in ranked[0]
+    assert all("jobs" in u or "jobdb" in u for u in ranked[1:])
+
+
 def test_reference_junk_filters_search_engine_and_social():
     # 검색엔진/소셜 내부 링크는 참고 후보에서 버린다.
     assert _is_reference_junk("https://search.naver.com/search.naver?q=x")

@@ -118,9 +118,35 @@ def _jobsite_rank(url: str) -> int:
     return len(REFERENCE_JOBSITES)
 
 
+# 회사 차원의 '인재상'이 실리는 기업정보 페이지 경로 힌트.
+_COMPANY_INFO_HINTS = (
+    "/company/", "/comp/", "company-info", "companyinfo",
+    "company_info", "compinfo", "compsummary",
+)
+# 개별 채용공고 경로 힌트: 공고별 '직무 자격요건'이라 인재상이 새기 쉬워 후순위.
+_JOB_POSTING_HINTS = (
+    "/jobs/", "jobdb", "rec_idx", "gi_read", "/recruit/", "jobpost", "jobview",
+)
+
+
+def _posting_penalty(url: str) -> int:
+    """기업정보 페이지(0) < 기타(1) < 개별 채용공고(2) 순으로 후순위 가중치."""
+    low = url.lower()
+    if any(h in low for h in _COMPANY_INFO_HINTS):
+        return 0
+    if any(h in low for h in _JOB_POSTING_HINTS):
+        return 2
+    return 1
+
+
 def rank_references(urls: list[str]) -> list[str]:
-    """크롤 안정성이 높은 잡사이트를 앞으로 정렬(안정 정렬로 원순서 유지)."""
-    return sorted(urls, key=_jobsite_rank)
+    """참고 후보를 정렬한다(안정 정렬로 원순서 유지).
+
+    1순위: 기업정보 페이지 우선(개별 채용공고는 후순위) — 공고별 직무 자격요건이
+    인재상으로 새는 것을 줄인다.
+    2순위: 크롤 안정성이 높은 잡사이트.
+    """
+    return sorted(urls, key=lambda u: (_posting_penalty(u), _jobsite_rank(u)))
 
 
 # 참고 검색에서 버릴 검색엔진/소셜 내부 링크(잡사이트·뉴스·블로그는 유지).
