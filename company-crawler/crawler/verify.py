@@ -51,6 +51,18 @@ def name_matches(company_name: str, *signals: str) -> bool:
     return False
 
 
+def mentions_company(company_name: str, page: Page) -> bool:
+    """참고(폴백) 페이지가 '대상 기업의 것'인지 보수적으로 확인한다.
+
+    잡사이트 검색이 동명이 아닌 다른 회사의 채용공고/기업정보를 반환하는
+    오매칭(예: '러쉬에잇' 검색에 '러쉬코리아' 공고)을 막는다. 본문은 사이드바·
+    추천 영역에 타사명이 섞여 오탐이 크므로, 권위 있는 제목/사이트명만 신뢰한다.
+    """
+    if not page.ok:
+        return False
+    return name_matches(company_name, page.title, page.og_site_name)
+
+
 def verify_homepage(company_name: str, page: Page) -> tuple[bool, str]:
     """(검증여부, 사유)를 반환한다. 보수적으로 판단한다.
 

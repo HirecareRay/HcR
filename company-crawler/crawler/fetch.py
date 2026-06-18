@@ -36,10 +36,20 @@ def _clean_text(soup: BeautifulSoup) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
+def _request_headers(url: str) -> dict:
+    """잡사이트 등이 봇 차단으로 빈 본문을 주는 경우를 줄이기 위해
+    동일 도메인 Referer를 덧붙인 헤더를 만든다(원본 HEADERS는 변경하지 않음)."""
+    parsed = urlparse(url)
+    if not parsed.scheme or not parsed.netloc:
+        return HEADERS
+    return {**HEADERS, "Referer": f"{parsed.scheme}://{parsed.netloc}/"}
+
+
 def fetch_page(url: str) -> Page:
     """단일 URL을 가져온다. 실존 확인(2xx + 본문)을 포함한다."""
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
+        resp = requests.get(url, headers=_request_headers(url),
+                            timeout=REQUEST_TIMEOUT)
     except Exception as e:
         return Page(url, False, None, "", "", "", f"요청 실패: {e}")
 

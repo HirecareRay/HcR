@@ -21,8 +21,19 @@ HEADERS = {
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/120.0.0.0 Safari/537.36"
     ),
+    "Accept": (
+        "text/html,application/xhtml+xml,application/xml;q=0.9,"
+        "image/avif,image/webp,*/*;q=0.8"
+    ),
     "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
 }
+
+# 참고 출처(폴백) 우선순위: 인재상이 서버 HTML로 잘 노출돼 크롤이 안정적인 순.
+# 검색 site: 필터와 후보 정렬에 함께 쓴다. 앞쪽일수록 우선 시도한다.
+REFERENCE_JOBSITES = (
+    "catch.co.kr", "jobkorea.co.kr", "saramin.co.kr",
+    "incruit.com", "jobplanet.co.kr", "wanted.co.kr",
+)
 
 # 공식 홈페이지가 아닌 것으로 간주해 후보에서 제외할 도메인
 BLOCKED_DOMAINS = (

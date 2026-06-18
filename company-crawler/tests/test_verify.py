@@ -7,7 +7,12 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from crawler.verify import name_matches, normalize_name  # noqa: E402
+from crawler.fetch import Page  # noqa: E402
+from crawler.verify import mentions_company, name_matches, normalize_name  # noqa: E402
+
+
+def _page(title: str, og: str = "") -> Page:
+    return Page("https://x", True, 200, title, og, "본문")
 
 
 def test_normalize_strips_corp_suffix_and_symbols():
@@ -52,3 +57,18 @@ def test_short_latin_abbreviation_requires_exact_match():
 def test_short_latin_abbreviation_not_matched_as_substring():
     # 짧은 영문 약어는 부분 포함으로 통과시키지 않는다.
     assert not name_matches("kt", "ktotelecom 회사소개", "")
+
+
+def test_mentions_company_accepts_matching_reference_page():
+    # 제목에 대상 기업명이 있으면 참고 출처로 신뢰한다.
+    assert mentions_company("한세엠케이", _page("2026년 한세엠케이 채용 | 인크루트"))
+
+
+def test_mentions_company_rejects_other_company_posting():
+    # 검색이 반환한 다른 회사 공고는 거부한다(핵심: 오매칭 차단).
+    assert not mentions_company("러쉬에잇", _page("러쉬코리아 디자이너 채용 - 사람인"))
+    assert not mentions_company("인포벨리코리아", _page("씨엠티정보통신 기업정보 - 잡코리아"))
+
+
+def test_mentions_company_rejects_failed_page():
+    assert not mentions_company("카카오", Page("https://x", False, 404, "", "", ""))
