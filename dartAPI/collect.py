@@ -8,9 +8,9 @@ DART 데이터 수집 메인 실행 파일.
 
 수집 순서:
   1) 감사보고서       → 감사보고서.json
-  2) 사업·반기보고서  → 재무_사업반기.json + 사업보고서원문.json
+  2) 사업·반기보고서  → 재무_사업반기.json
   3) 분기보고서       → 재무_분기.json
-  + 기업 기본 정보    → 기업정보.json
+  + 직원현황·재무지표 → 직원현황.json + 재무지표.json
   + 수집 실패 케이스  → 수집실패.json
 
 저장 방식(메모리 누적 → 1회 기록):
@@ -36,14 +36,11 @@ from dart_api import (
     ANNUAL_SEMI_REPRT,
     API_CALL_DELAY,
     QUARTERLY_REPRT,
-    get_company,
     get_employees,
     get_finance_range,
     get_financial_indicators,
-    get_litigation,
 )
 from dart_audit import get_audit_reports, get_audit_text
-from dart_report import get_latest_report_rcept_no, get_report_text
 
 # DART 원문 보고서 직링크 — rcept_no로 원본 공시를 바로 열어볼 수 있다.
 _DART_REPORT_URL = "https://dart.fss.or.kr/dsaf001/main.do?rcpNo={rcept_no}"
@@ -79,27 +76,14 @@ def _print_finance_summary(label: str, finance_list: list[dict]) -> None:
     print(f"\n[{label} 수집 요약] {summary if summary else '데이터 없음'}")
 
 
-def _extract_company(data: dict | None) -> dict | None:
-    """
-    get_company() 응답에서 DART API 봉투(status, message)를 제거하고
-    기업 정보 필드만 보존해 반환한다. data가 없으면 None.
-    """
-    if not data:
-        return None
-    return {k: v for k, v in data.items() if k not in ("status", "message")}
-
-
 def _empty_result() -> dict:
     """수집 결과의 빈 골격. corp_code 조회 실패 등에서 사용한다."""
     return {
-        "company":              None,
         "audit_reports":        [],
         "finances_annual_semi": [],
         "finances_quarterly":   [],
-        "report_texts":         [],
         "employees":            [],
         "financial_indicators": [],
-        "litigation":           [],
         "failures":             [],
     }
 
@@ -157,19 +141,6 @@ def _collect_indicators(
     return rows
 
 
-def _collect_litigation(
-    corp_code: str, corp_name: str, bgn_de: str, end_de: str
-) -> list[dict]:
-    """
-    기간 내 소송 내역(lwstLg.json)을 수집한다 — 회사 리스크 체크용.
-    소송이 없는 기간은 status 013이 정상이며 빈 리스트를 반환한다.
-    """
-    data = get_litigation(corp_code, bgn_de, end_de)
-    if not data or "list" not in data:
-        return []
-    return [{"corp_name": corp_name, **row} for row in data["list"]]
-
-
 def collect(corp_name: str) -> dict:
     """
     회사명으로 DART 데이터를 수집해 카테고리별 레코드 dict로 반환한다.
@@ -177,11 +148,11 @@ def collect(corp_name: str) -> dict:
 
     Returns:
         {
-          "company":              dict | None,   # 기업 기본 정보
           "audit_reports":        list[dict],    # 감사보고서 (financial_tables 중첩 포함)
           "finances_annual_semi": list[dict],    # 사업·반기보고서 재무 계정 행
           "finances_quarterly":   list[dict],    # 분기보고서 재무 계정 행
-          "report_texts":         list[dict],    # 사업보고서 원문 텍스트 (RAG 핵심)
+          "employees":            list[dict],    # 직원현황 (연봉·직원수·근속)
+          "financial_indicators": list[dict],    # 주요 재무지표 (부채비율·ROE 등)
           "failures":             list[dict],    # 수집 실패 케이스
         }
     """
@@ -215,11 +186,6 @@ def collect(corp_name: str) -> dict:
     print(f"  {corp_name} ({corp_code}) 데이터 수집 시작")
     print(f"  수집 기간: {bgn_de} ~ {end_de}  (start_year={start_year})")
     print(f"{'=' * 60}\n")
-
-    # ── 기업 기본 정보 ───────────────────────────────────────────────────────
-    company = _extract_company(get_company(corp_code))
-    if company:
-        result["company"] = {"corp_name": corp_name, **company}
 
     # ────────────────────────────────────────────────────────────────────────
     # STEP 1. 감사보고서
@@ -278,22 +244,6 @@ def collect(corp_name: str) -> dict:
             {"corp_name": corp_name, **row} for row in annual_list
         ]
         _print_finance_summary("사업·반기보고서", annual_list)
-
-        # 사업보고서 원문 텍스트 (사업의 내용, 이사의 경영진단) — RAG 핵심 소스
-        rcept_no = get_latest_report_rcept_no(corp_code)
-        if rcept_no:
-            texts = get_report_text(rcept_no)
-            for section_nm, content in texts.items():
-                if content:
-                    result["report_texts"].append({
-                        "corp_name":  corp_name,
-                        "corp_code":  corp_code,
-                        "rcept_no":   rcept_no,
-                        "section_nm": section_nm,
-                        "content":    content,
-                    })
-        else:
-            print("[STEP 2] 최신 사업보고서 접수번호 없음")
     else:
         print("[STEP 2] 사업·반기보고서 재무 데이터 없음")
 
@@ -317,17 +267,14 @@ def collect(corp_name: str) -> dict:
         print("[STEP 3] 분기보고서 재무 데이터 없음")
 
     # ────────────────────────────────────────────────────────────────────────
-    # STEP 4. 취준생 관심 정보 — 직원현황(연봉·직원수) / 재무지표 / 소송
+    # STEP 4. 취준생 관심 정보 — 직원현황(연봉·직원수) / 재무지표
     # ────────────────────────────────────────────────────────────────────────
-    print(f"\n[STEP 4] 직원현황·재무지표·소송 수집")
+    print(f"\n[STEP 4] 직원현황·재무지표 수집")
     result["employees"] = _collect_employees(corp_code, corp_name, start_year, end_year)
     print(f"[STEP 4] 직원현황 {len(result['employees'])}건")
 
     result["financial_indicators"] = _collect_indicators(corp_code, corp_name, start_year, end_year)
     print(f"[STEP 4] 재무지표 {len(result['financial_indicators'])}건")
-
-    result["litigation"] = _collect_litigation(corp_code, corp_name, bgn_de, end_de)
-    print(f"[STEP 4] 소송내역 {len(result['litigation'])}건")
 
     print(f"\n{'=' * 60}")
     print(f"  {corp_name} 데이터 수집 완료")
@@ -369,14 +316,11 @@ if __name__ == "__main__":
     print(f"[일괄 수집 시작] 총 {total}개 회사")
 
     # 모든 회사의 결과를 카테고리별로 메모리에 누적한다(방법2).
-    all_companies:   list[dict] = []
     all_audit:       list[dict] = []
     all_annual_semi: list[dict] = []
     all_quarterly:   list[dict] = []
-    all_report_text: list[dict] = []
     all_employees:   list[dict] = []
     all_indicators:  list[dict] = []
-    all_litigation:  list[dict] = []
     all_failures:    list[dict] = []
     errored: list[str] = []
 
@@ -384,15 +328,11 @@ if __name__ == "__main__":
         print(f"\n[{idx}/{total}] {corp_name} 수집 시작")
         try:
             result = collect(corp_name)
-            if result["company"]:
-                all_companies.append(result["company"])
             all_audit.extend(result["audit_reports"])
             all_annual_semi.extend(result["finances_annual_semi"])
             all_quarterly.extend(result["finances_quarterly"])
-            all_report_text.extend(result["report_texts"])
             all_employees.extend(result["employees"])
             all_indicators.extend(result["financial_indicators"])
-            all_litigation.extend(result["litigation"])
             all_failures.extend(result["failures"])
         except Exception as e:
             print(f"[오류] {corp_name} 수집 실패: {e}")
@@ -400,14 +340,11 @@ if __name__ == "__main__":
 
     # 배치 종료 후 JSON 파일을 한 번만 통째로 기록한다.
     export_json.save_all(
-        companies=all_companies,
         audit_reports=all_audit,
         finances_annual_semi=all_annual_semi,
         finances_quarterly=all_quarterly,
-        report_texts=all_report_text,
         employees=all_employees,
         financial_indicators=all_indicators,
-        litigation=all_litigation,
         failures=all_failures,
     )
 
