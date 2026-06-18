@@ -4,3 +4,4 @@ beautifulsoup4
 googlesearch-python
 lxml
 python-dotenv
+pytest
