@@ -1,0 +1,3010 @@
+company	title	job	detail_text	detail_img	detail	etc_info	company_info	url
+에스씨301의원	[SC301의원 삼성동/코엑스] 웹 개발팀 팀원 모집	['웹', '개발자']	"
+
+
+
+
+
+
+
+
+포지션 및 자격요건
+
+
+
+
+
+
+
+병원 개발자 ( ○명 ) 
+
+
+
+
+
+
+
+담당업무
+- 병원 CRM(MEDIS) 유지보수 및 기능 개발- PHP/MySQL 기반 운영 시스템 개발- 상담/예약/통계 관련 기능 개선- 워드프레스 및 외부 서비스 연동 개발- AI 챗봇 및 RAG 기반 기능 확장 보조- 운영팀 이슈 대응 및 시스템 개선 참여현재 개발 환경- PHP 5.5- MySQL 5.5- Linux- Apache- Legacy CRM (MEDIS)※ 현재 레거시 운영 시스템 기반이며, 점진적으로 AI/자동화/RAG 구조로 확장 중입니다.핵심 기술 스택
+ㆍ필수 사항
+- PHP 개발 경험- MySQL 사용 경험- Linux 서버 기본 이해- API 연동 경험- Git 사용 경험 
+우대 사항
+ - 레거시 시스템 유지보수 경험- 워드프레스 연동 경험- Python 또는 AI 서비스 관심- OpenAI API 등 LLM 활용 경험- Docker / PostgreSQL 경험- AWS 기반 서비스 운영 경험- Kubernetes(k8s) 또는 컨테이너 환경 경험- RAG / Vector DB에 대한 관심- 병원 CRM 또는 상담 시스템 경험
+이런 분을 찾고 있습니다. - 실무 흐름을 이해하려고 노력하는 분- 책임감 있게 운영 이슈를 함께 해결할 수 있는 분- 단순 기능 개발보다 “왜 필요한지” 고민하는 분- 팀과 함께 성장하는 걸 중요하게 생각하는 분- 새로운 기술(AI/RAG 등)에 관심 있는 분
+자격요건
+- 학력 : 대졸이상
+
+- 경력 : 10년 미만
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+전형절차
+ㆍ서류전형 > 1차면접 > 2차면접 >  최종합격
+ㆍ면접일정은 서류전형 통과되시면 개별 안내드립니다
+
+
+
+
+
+
+
+
+
+유의사항
+ㆍ허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"	['https://www.sc301.co.kr/jobkorea/03.jpg', 'https://www.sc301.co.kr/jobkorea/01.jpg', 'https://www.sc301.co.kr/jobkorea/02.jpg']	모집분야   웹 개발자   모집인원   ○명   고용형태   정규직   (수습 3개월)   ,    계약직   (근무기간 3개월, 정규직 전환 가능)   급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 강남구 영동대로 611 (삼성동, Chan&ChanTower) 3/4/B1F SC301성형외과   인근지하철   주5일(월~금)   09:00 ~ 18:30	경력3년↑, 대졸↑, 서울 강남구, 정규직 외	{'basic_info': {'산업': '의료(병원분류별)', '사원수': '20명 | ', '기업구분': '중소기업', '설립일': '2007 | (20년차)', '자본금': '- | ', '매출액': '28억 7천만원 | (2023.12.31)', '대표자': '신동진', '대졸초임': '6,000만원', '주요사업': '성형외과, 피부과', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://sc301.co.kr', '주소': '서울 강남구 영동대로 611 (삼성동, Chan&ChanTower) 4층'}, 'financial': {'매출액': {'current_value': '28억 7천만원'}, '영업이익': {'current_value': '3억 7,657만원'}, '당기순이익': {'current_value': '2억 6,632만원'}, '총자산 증가율': {'current_value': '11억 2천만원'}, '동종업계 순위': {'current_value': None}}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험'], '휴무·휴가·행사': ['주5일제', '연차제도'], '보상·수당·지원': ['퇴직금', '경조금', '인센티브', '장기근속 포상', '직책수당', '명절선물/명절상여'], '사내시설': ['휴식공간'], '편의·여가·건강': ['사내 동호회', '점심 식사 지원', '저녁 식사 지원']}, 'location': {'address': '서울 강남구 영동대로 611 (삼성동, Chan&ChanTower) 4층', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%ec%97%90%ec%8a%a4%ec%94%a8301%ec%9d%98%ec%9b%90&lat=37.5147330547044&lng=127.059430579639'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49381273
+㈜소프트웍스	[경력] 웹 서비스 개발자 (Vue.js / Spring Boot)	['SI/SM', '프로젝트']	"
+
+
+
+
+㈜소프트웍스
+
+
+[경력] 웹 서비스 개발자 (Vue.js / Spring Boot)
+
+
+
+
+㈜소프트웍스는 2011년에 설립된 15년차 중소기업입니다. 서울 서초구 사임당로10길 3 (서초동, 원진빌딩)에 위치하고 있으며, 소프트웨어 개발, 컨설팅사업을 하고 있습니다.
+
+
+
+
+
+
+
+포지션 및 자격요건
+
+
+
+
+
+
+
+포지션 ( 1명 ) 
+
+
+
+저희 소프트웍스는 자체 수주한 SI·SM 프로젝트를 직접 수행하고 있습니다. 개발자는 프로젝트 구성원으로서 설계, 개발, 운영 등 전 과정에 참여하며 다양한 경험을 쌓을 수 있습니다.또한, 역량과 성장 의지에 따라 AI·신기술 연구개발을 담당하는 R&D 부서로의 전환 기회도 제공하고 있습니다.
+
+
+
+
+
+담당업무
+ㆍvue.js 기반 프론트엔드 설계·개발·운영
+ㆍSpring Boot 기반 백엔드 서비스 설계·개발·운영
+
+자격요건
+ㆍ학력 : 학력무관ㆍ요구사항 분석 및 기능 설계(업무 프로세스 및 시스템 흐름도 작성) 경험ㆍvue.js/react 기반 Front-End 개발 경험ㆍJPA 기반 데이터 처리 및 개발 경험
+
+우대사항
+ㆍDocker, Kubernetes 등 컨테이너 환경 구축 경험
+ㆍCI/CD 환경 구축 및 운영 경험ㆍERD 및 데이터 모델링 경험ㆍ중·대규모 SI/SM 프로젝트 수행 경험ㆍAPI 명세서 및 설계 문서 작성 경험
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+전형절차
+ㆍ서류전형 > 1차면접 > 2차면접 > 임원면접 > 최종합격
+ㆍ면접일정은 추후 통보됩니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+유의사항
+ㆍ허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+
+
+
+
+
+
+"	[]	모집분야   SI/SM 프로젝트   모집인원   1명   고용형태   정규직      ,    계약직      급여   회사 내규에 따름   근무시간   근무지주소   서울 서초구 명달로 65 (서초동, 일흥스포렉스) 4층   인근지하철   주5일(월~금)   10:00 ~ 19:00   탄력근무제	경력3년↑, 학력무관, 서울 서초구 외, 정규직 외	{'basic_info': {'산업': '솔루션·SI·CRM·ERP', '사원수': '100명 | ', '기업구분': '중소기업', '설립일': '2011.05.20 | (16년차)', '대표자': '구본철', '주요사업': '소프트웨어 개발, 컨설팅', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://www.softworks.co.kr', '주소': '서울 서초구 사임당로10길 3 (서초동, 원진빌딩) 501호'}, 'financial': {'영업이익': {'current_value': '5억 5,033만원'}, '산업 내 위치': {'current_value': None}, '기업등급': {'current_value': None}, '총자산 증가율': {'current_value': '83억 5천만원'}, '동종업계 순위': {'current_value': None}}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험', '퇴직연금'], '휴무·휴가·행사': ['연차제도', '워크샵/MT'], '보상·수당·지원': ['경조금', '임직원 교육비', '자기개발 지원', '야간교통비 지급', '각종 기념일 선물', '도서 구입비 지원']}, 'location': {'address': '서울 서초구 사임당로10길 3 (서초동, 원진빌딩) 501호', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%ec%86%8c%ed%94%84%ed%8a%b8%ec%9b%8d%ec%8a%a4&lat=37.4885562198062&lng=127.016144487045'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49381103
+㈜이에스티소프트	oo기업 생성형 AI Agent 서비스 구축 / Python / 시청	['개발자', '모집']	"
+
+
+
+
+㈜이에스티소프트
+
+
+oo기업 생성형 AI Agent 서비스 구축 / Python / 시청
+
+
+
+
+㈜이에스티소프트는 2021년에 설립된 회사로 자본금 1,000만원, 매출액 20억 5,769만원, 사원수 50명 규모의 고용노동부에서 선정한  강소기업입니다.  서울 영등포구 당산로28길 4 (당산동3가)에 위치하고 있으며, 공공, 제조, 유통/물류 등의 SI 컨설팅 수행, SM, ITO사업을 하고 있습니다.
+
+
+
+
+
+
+
+포지션 및 자격요건
+
+
+
+
+
+
+
+개발자 모집 ( ○○명 ) 
+
+
+
+[oo기업 생성형 AI Agent 서비스 구축 / Python / 시청]- 기간:즉시 ~27.03.31- skillset : AI Agent, 파이썬, devops, AI Ops 개발자, Google adk (or 조건으로)/은행권 경험자 우대- 장소 : 시청역- 기타 : 경력증빙 가능자 (KOSA 혹은 건보대체가능)- 인원 :  초급~고급 00***아래 관련 기술 중 해당되는  기술 보유자 우대- Python /- Elasticsearch(Vector DB)- Object Storage (S3 Compatible) /- Apache Kafka- Web Crawling / - OCR / Parsing- RAG /- LLMOps- MCP /- RBAC / ABAC- Docker / Kubernetes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+전형절차
+ㆍ서류전형 > 1차면접 > 2차면접 > 임원면접 > 최종합격
+ㆍ면접일정은 추후 통보됩니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+유의사항
+ㆍ허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+
+
+
+
+
+
+"	[]	모집분야   개발자 모집   모집인원   ○○명   고용형태   계약직   (정규직 전환 가능)   ,    프리랜서   (정규직 전환 가능)   급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 중구 서소문로 127 (서소문동, 시청역2호선) 인근지역   인근지하철   주5일(월~금)   09:00 ~ 18:00	경력, 학력무관, 서울 중구, 계약직 외	{'basic_info': {'산업': '시스템 소프트웨어 개발 및 공급업', '사원수': '50명 | ', '기업구분': '중소기업', '설립일': '2021.01.01 | (6년차)', '자본금': '1,000만원 | (2024.12.31)', '매출액': '20억 5천만원 | (2024.12.31)', '대표자': '임은수', '주요사업': '시스템 소프트웨어 개발 및 공급업', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://www.estsw.co.kr', '주소': '서울 영등포구 당산로28길 4 (당산동3가) 송암빌딩 3층'}, 'financial': {'매출액': {'current_value': '20억 5천만원'}, '영업이익': {'current_value': '2,535만원'}, '당기순이익': {'current_value': '2,037만원'}, '산업 내 위치': {'current_value': None}, '기업등급': {'current_value': None}, '총자산 증가율': {'current_value': '26억 3천만원'}, '동종업계 순위': {'current_value': None}}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험'], '휴무·휴가·행사': ['주5일제', '연차제도', '월차제도', '반차제도', '리프레시 휴가'], '보상·수당·지원': ['퇴직금', '장기근속 포상', '임직원 교육비', '야간교통비 지급', '도서 구입비 지원', '성과급', '복리후생 지원'], '사내제도·성장': ['신입 사원 교육', '직무능력향상교육'], '사내시설': ['구내식당', '휴식공간']}, 'location': {'address': '서울 영등포구 당산로28길 4 (당산동3가) 송암빌딩 3층', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%ec%9d%b4%ec%97%90%ec%8a%a4%ed%8b%b0%ec%86%8c%ed%94%84%ed%8a%b8&lat=37.5246715244513&lng=126.896949314545'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49380992
+㈜이에스티소프트	[(주)이에스티소프트] IT 웹 개발자 신입/경력 채용	['웹', '개발자']	"
+
+
+
+
+㈜이에스티소프트
+
+
+[(주)이에스티소프트] IT 웹 개발자 신입/경력 채용
+
+
+
+
+㈜이에스티소프트는 2021년에 설립된 회사로 자본금 1,000만원, 매출액 20억 5,769만원, 사원수 50명 규모의 고용노동부에서 선정한  강소기업입니다.  서울 영등포구 당산로28길 4 (당산동3가)에 위치하고 있으며, 공공, 제조, 유통/물류 등의 SI 컨설팅 수행, SM, ITO사업을 하고 있습니다.
+
+
+
+
+
+
+
+포지션 및 자격요건
+
+
+
+
+
+
+
+웹 개발자 ( ○명 ) 
+
+
+
+
+
+
+
+스킬
+ㆍAjax, JAVA, Javascript
+
+자격요건
+ㆍ학력 : 학력무관
+ㆍ경력 : 경력무관
+
+우대사항
+ㆍ컴퓨터활용능력 우수자
+ㆍ유관업무 경험자(인턴·알바)
+ㆍ지방근무 가능자
+ㆍ관련 학과 전공자
+ㆍ관련 자격증 보유자
+ㆍ즉시출근 가능자
+ㆍ자격증 : 정보처리기사
+ㆍ전공 : 정보통신공학과, 컴퓨터공학과, 응용소프트웨어공학과
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+전형절차
+ㆍ서류전형 > 1차면접 > 2차면접 > 임원면접 > 최종합격
+ㆍ면접일정은 추후 통보됩니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+유의사항
+ㆍ허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+
+
+
+
+
+
+"	[]	모집분야   웹 개발자   모집인원   ○명   고용형태   정규직   (수습 3개월)   ,    계약직   (정규직 전환 가능)   ,    프리랜서   (정규직 전환 가능)   직급/직책   급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 영등포구 당산로28길 4 (당산동3가) 송암빌딩 3층   인근지하철   주5일(월~금)   09:00 ~ 18:00	경력무관, 학력무관, 서울 영등포구, 정규직 외, 사원급 외	{'basic_info': {'산업': '시스템 소프트웨어 개발 및 공급업', '사원수': '50명 | ', '기업구분': '중소기업', '설립일': '2021.01.01 | (6년차)', '자본금': '1,000만원 | (2024.12.31)', '매출액': '20억 5천만원 | (2024.12.31)', '대표자': '임은수', '주요사업': '시스템 소프트웨어 개발 및 공급업', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://www.estsw.co.kr', '주소': '서울 영등포구 당산로28길 4 (당산동3가) 송암빌딩 3층'}, 'financial': {'매출액': {'current_value': '20억 5천만원'}, '영업이익': {'current_value': '2,535만원'}, '당기순이익': {'current_value': '2,037만원'}, '산업 내 위치': {'current_value': None}, '기업등급': {'current_value': None}, '총자산 증가율': {'current_value': '26억 3천만원'}, '동종업계 순위': {'current_value': None}}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험'], '휴무·휴가·행사': ['주5일제', '연차제도', '월차제도', '반차제도', '리프레시 휴가'], '보상·수당·지원': ['퇴직금', '장기근속 포상', '임직원 교육비', '야간교통비 지급', '도서 구입비 지원', '성과급', '복리후생 지원'], '사내제도·성장': ['신입 사원 교육', '직무능력향상교육'], '사내시설': ['구내식당', '휴식공간']}, 'location': {'address': '서울 영등포구 당산로28길 4 (당산동3가) 송암빌딩 3층', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%ec%9d%b4%ec%97%90%ec%8a%a4%ed%8b%b0%ec%86%8c%ed%94%84%ed%8a%b8&lat=37.5246715244513&lng=126.896949314545'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49380829
+㈜가람감정평가법인	가람감정평가법인 시스템 운영관리 및 전산업무 채용	['전산개발']	"
+
+
+
+
+㈜가람감정평가법인
+
+가람감정평가법인 시스템 운영관리 및 전산업무 채용
+
+
+
+
+㈜가람감정평가법인은 2000년에 설립된 회사로 자본금 70억 2,490만원, 매출액 676억, 사원수 440명 규모의 중견기업입니다. 서울 서초구 남부순환로364길 8-9 (양재동, 가람빌딩)에 위치하고 있으며, 부동산 감정평가 공시지가 조사사업을 하고 있습니다.
+
+
+
+
+
+
+
+포지션 및 자격요건
+
+
+
+
+
+
+
+포지션 ( 1명 ) 
+
+
+
+
+
+
+
+담당업무
+ㆍWEB 시스템 운영 및 APP(flutter) 운영 관리
+ㆍ전산 인프라 관리
+
+자격요건
+ㆍ경력 : 4년이상
+우대사항
+ㆍAPP(flutter) 개발 및 배포(Android/IOS) 경험자
+ㆍ서버 관리 경험자ㆍ즉시 출근 가능자
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+전형절차
+ㆍ서류전형 > 1차면접 > 2차면접 > 임원면접 > 최종합격
+ㆍ면접일정은 추후 통보됩니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+유의사항
+ㆍ허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+
+
+
+
+
+
+"	[]	모집분야   전산개발   모집인원   1명   고용형태   정규직      직급/직책   급여   연봉 4,300~4,500만원 (면접 후 결정)   근무시간   근무지주소   서울 서초구 남부순환로364길 8-9 (양재동, 가람빌딩) 4층    인근지하철   주5일(월~금)   09:00 ~ 18:00	경력4년↑, 학력무관, 서울 서초구, 정규직, 4,300~4,500만원, 주임~대리급 외	{'basic_info': {'산업': '컨설팅·연구·조사', '사원수': '440명 | ', '기업구분': '중견기업', '설립일': '2000.06.15 | (27년차)', '자본금': '70억 2천만원 | ', '매출액': '676억 | ', '대표자': '공무경', '주요사업': '부동산 감정평가 공시지가 조사', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://www.kaaram.com', '주소': '서울 서초구 남부순환로364길 8-9 (양재동, 가람빌딩) 4층'}, 'financial': {'매출액': {'current_value': '638억 3천만원'}, '영업이익': {'current_value': '12억 8천만원'}, '당기순이익': {'current_value': '9억 9,066만원'}, '산업 내 위치': {'current_value': None}, '기업등급': {'current_value': None}, '총자산 증가율': {'current_value': '347억 6천만원'}, '동종업계 순위': {'current_value': None}}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험', '퇴직연금', '상해보험'], '휴무·휴가·행사': ['주5일제', '연차제도', '경조휴가', '반차제도', '육아휴직', '남성출산휴가', '보건휴가', '노동절 휴무', '워크샵/MT', '체육대회', '야유회'], '보상·수당·지원': ['퇴직금', '경조금', '장기근속 포상', '우수사원 포상제도', '임직원 교육비', '야간근로수당', '휴일근로수당', '야간교통비 지급'], '사내시설': ['헬스시설'], '편의·여가·건강': ['사내 동호회', '건강검진', '점심 식사 지원', '저녁 식사 지원']}, 'location': {'address': '서울 서초구 남부순환로364길 8-9 (양재동, 가람빌딩) 4층', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%ea%b0%80%eb%9e%8c%ea%b0%90%ec%a0%95%ed%8f%89%ea%b0%80%eb%b2%95%ec%9d%b8&lat=37.4846631210006&lng=127.040178245092'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49380367
+㈜테크온베이스	고급/JAVA/6개월/구반포역: HR 운영 및 추가개발	['고급/JAVA/6개월/구반포역']	"
+
+
+
+
+테크온베이스
+
+
+고급/JAVA/6개월/구반포역: HR 운영 및 추가개발(6월22일~)
+
+
+
+
+
+
+
+
+
+
+
+
+포지션 및 자격요건
+
+
+
+
+
+
+
+JAVA/6개월/구반포역:HR 운영 및 추가개발(6월22일~)( 1명 ) 
+
+
+
+
+
+
+
+담당업무
+ㆍHR 운영 및 추가개발ㆍ암복호화 모듈 개발 / 마이그레이션(암복호화)
+
+스킬
+ㆍJAVA, JSP, Spring, Jquery, sql 쿼리 능숙ㆍHR 프로젝트 경험, 유지보수(sm) 경험우대사항ㆍvue.js기간ㆍ6월22일~12월21일
+
+자격요건
+ㆍ학력 : 학력무관
+ㆍ경력 : 경력10년↑
+
+기타
+ㆍ노트북 지참ㆍ경력 증빙 필수
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+전형절차
+ㆍ서류전형 > 1차면접 > 2차면접 > 임원면접 > 최종합격
+ㆍ면접일정은 추후 통보됩니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+유의사항
+ㆍ허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+
+
+
+
+
+
+"	[]	모집분야   고급/JAVA/6개월/구반포역   모집인원   1명   고용형태   프리랜서   (근무기간 6개월)   급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 서초구 신반포로 17 (반포동, 구반포역)    인근지하철   주5일(월~금)   09:00 ~ 18:00	경력10년↑, 학력무관, 서울 서초구, 프리랜서	{'basic_info': {'산업': '솔루션·SI·CRM·ERP', '사원수': '- | ', '기업구분': '중소기업', '설립일': '-', '자본금': '- | ', '매출액': '- | ', '대표자': '정환석', '주요사업': '-', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': '-', '주소': '서울 강동구 천호대로 989 (천호동, 천호역한강청년주택) 2층 203-비06'}, 'financial': {}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {}, 'location': {'address': '서울 강동구 천호대로 989 (천호동, 천호역한강청년주택) 2층 203-비06', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%ed%85%8c%ed%81%ac%ec%98%a8%eb%b2%a0%ec%9d%b4%ec%8a%a4&lat=37.5394652156312&lng=127.122408074564'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49380210
+㈜윈스	[을지로] 은행 기업금융 진단 플랫폼 운영 SM 프리랜서 채용(JAVA 중급)	['JAVA', '프로그래머']	"
+
+
+
+
+㈜윈스
+
+
+
+
+
+
+
+(을지로) 은행 기업금융 진단 플랫폼SM 프리랜서 채용(JAVA 중급)(주)윈스는 2011년에 설립된 회사로 본사는 서울시 서대문구 디지털미디어시티에 위치하고 있습니다.(주)윈스는 국내 제1금융권 SI/SM 1차 도급업체로서 다양한 사업수행을 맡고 있고, Oracle, EMC, 솔루션 공급 사업을 하고 있습니다.다가오는 4차 산업혁명 시대를 대비하여 창의적인 전문성과 신의를 바탕으로 같이 성장해나갈 IT 인재들을 모시고 있습니다.
+
+
+
+
+
+
+
+채용분야
+
+
+
+
+
+
+
+JAVA 개발자
+
+
+-업무: 기업금융 진단 플랫폼(금융주치의) 운영-기간: 2026.07.01 ~ 2027.06.30-필수요건: iFramework 경험자-우대요건:   DB 활용(쿼리 작성 능력)금융 업무에 대한 기본적인 이해도-등급: 중급 1명-근무지: 을지로-단가: 협의*경력증빙 필수 (KOSA)
+
+
+
+
+
+
+
+
+
+
+근무조건근무형태 : 프리랜서(상주)근무요일 : 주5일근무시간 : 09시 00분 ~ 18시 00분급여 : 회사내규에 따름(면접 후 결정)전형절차 *면접일정은 추후 통보됩니다.접수방법★★아래 내용을 ""메일 발송""해주시면 경쟁자들보다 신속한 검토가 가능해져서 ""투입 성사율""이 매우 높아지십니다. (메일발송 주실 내용)1.  투입 가능일:2. 희망 단가:3. 경력증빙 가능여부(KOSA)4. 기술이력서 첨부접수처: ito@winssystem.com기타사항허위사실이 발견될 경우 채용이 취소될 수 있습니다
+
+
+
+
+
+
+
+"	['data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAasAAABECAMAAAAIquq8AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEsUExURQAAAAAAAJ+fnwAAAJ+fnwAAAKqqqgAAAKenpwAAAKampgAAAKWlpQAAAKSkpAAAAKenpwAAAKamppaWlgAAAKampgAAAKWlpQAAAKWlpQAAAKSkpAAAAKampgAAAKampgAAAKWlpQAAAKampgAAAKampgMDAwAAAKenp3t7eygoKAAAAKenpwAAAKampp+fn1hYWAAAAAkJCaampnNzcwAAAKamphkZGZiYmAAAAKenpwAAAKenpwAAAKampgEBASMjIwAAAKampgAAADs7O6ampl9fXxEREQAAAKampgAAAKampgQEBAAAAKampmZmZgAAAAUFBQoKChAQEBUVFR8fHy8vLzk5OT4+Pk5OTlNTU1hYWGJiYmhoaHd3d4eHh4yMjJGRkaGhoaampshnGW0AAABQdFJOUwAICBAQGBggICgoMDA4OEBASEhOUFBYWGBgaGhwcHh4gICHh4+Pk5eXmp6fn6enqq2vr6+0t7e6vL+/x8fPz9HT19ff39/h5ufn7+/19/f6T4haAAAAAAlwSFlzAAAXEQAAFxEByibzPwAACa5JREFUeF7NnYtX3MYVxsXagLGNWZPEAWxsHk5wA3abuqQFg1vsOMEQyMZxnUcfabz///9Q3e9+MxrNSMouJ8zd3+FIc0ezd+75tJLmpaVoZHbh/tru3iATz/Y21m7fYNUBM/3V9af7p8NM7O+vr/evs+6AyRCjhTu7/FxWjlausH5l8Qk1zMvBMusnkyFGM9NrxyyfnbPtOQZRXL37gtrl5/XmNUYxIWK0sXLGsjZsTSGKxdfUzYbzB4hiQsRoYdrkgg85mi8vqh1qZsdB+dyaDDHaWDphocHx9trSwiyzL5nphTtrW0eseDDY+MBfVKdP1u82Pe0vhWv95fWdV6y5vLQmQ4y2S2uDBQa7d5iTkfltd8N5917lOlju8VhGfIvmJ0ZjLMZu88m6z8MPM32FYq7c4zf5nWj1Ra7rKWZmU6r/l4ZiL8YuM2os6bHj27QNmHumMfw4PI1azlm59WL4Hw1kEsTYph3woR55PEq7/vL4TKP4coa2Db0/aRj/sBWDN7qHND3zeoNsOIk5uXXOL/Q9ZthAMX4cWl7dJbzVRWJMadPjMU0jemUH+N8I5MzoMQEoxg9lQ9T2+i5WEEgkhjYBWxod2ViXp/rPCGWPWRaoGGiOPmWWFWsIpSbGPLIOjU/VzXM5VwefIpgVZuaHYvxRghl+zEwrHiKYQAy96M9GH929HJ6LOOfXNZqTaebmxonRQ5f8tfFdMBFDGxxrtKxYFW2GD9wX+3Nm58aLsYh4PmG2FZEYUxhMtr4DFhhZfy5jFVuIz+bCCsTAsOS58YUViYGulfkd8CNRZnhTkqrXBrJzE4gxg7sgx9zNqIuBDrJxc70ovhBh2O66JxEdm1zooRhol742GJWsEYpxQ9KDjuH3LNwUXYaLakyjM7qkRlZqYsygYWrdFAzFwA3xEElDHoksz2kU21Yx1cXAoLsPyopADAzo2nVnCJbArNLg19tg8KIuhl7sfkrfiEoMpE6sG4FQ5bR6NBxKVPlvgrEY6PIZjwoGYuDRZdWZ8aBzFYzoYHAl/0hyLAZaFzs0zPBifC4J23Htkqciir8FFsWCRPWSRj5iMfoS1isaZngxcIe27lzp4wqdK2UKjZ/sD6xYjB5agtYPLCfGnOzOmDkWgwETbbCAVIBUxweuiyTnNAD6OR/S6CBxGmeMEUWDGAcS2Ec0Omjz2lptVxgJFOOO7MabgWA1rjZxQEIrDSe2Az4WSfZpAAwwJ1OiDtRQ4p3Sdhm0ggKe2A5JxfhEAusYE2Ql3itsRTMcavNQmY6Pd0IxMFQ53nAOq0lq8xlhAXGvpB+oeCCSbNIAkK21caGu4NY7ZcpnhLaWFKrjDaRi4Es0QuOi5tUbqBHUCjBrdCgGJtbuM280WI2rTRwQzYgLOGI7AGuHaiNveJ62Xu/qSraVU6Z8RmyT2A5JxUDjonbBh0hxEHrVjJgwS9INRdqhGOgUj9eRYTWutrTWMke8+nKS0m0bGNKu9WPQ02kduVBXsvVO4V82VYaaamtKt62kYqDf1zlyof68V/XvaxGHLMAEyzpjJCgGFgKPt7SK1dSqDhGPuvfbatMMBm45GKjMipfWRnvl2jstE0i7jAtE0SDGNQmss9Ee1lLuXBVVKtgAqUOgOQoUA02M8QZuy2rkQ642TQOXIX8uvCqpdiNobt2ioQQOU5zrqoyvIcjwecFh2s00iCGBDZlughHUvFZGdczluYCrMqMgtQyKl7Idqx+Dj2EPMwH5sgmKyWf4sUawjrzejUFXp22BXuWaTqtdmCEbtWkCsZtpEAMdv6s0EuAtrKUGs8ONlkOSiZGAGAVmsn7Pc8XscudT3R8QMKtXP1edgcFniXOauGZGufMpFG8oGtBQZ0NkHnqsfKf4Q3GBrjBSEFiBtRfjDFtIJahIa5OPB4QxBMnfAvP3wbBFibr7TVwZXxaJ4JOjOHE0iCGBdd0D6X+cWi6AioEXYReYNQJVaD48JrztCAooNBvYF0X6NMC0fOCERgfOa1AZE2SMKBrEmJHATmk0og6TWmgH+dx5YI8GxXgsu9FfWwliSMPArsp3tB6owKRebQK2ux3YVImHNnYVI0TRIMaY7cDKOxOx7YntTigGJkIvNNPYFlYSReuBCswK36UBuvvC7ZW4RGuB5EBAKkZnX1hKe1yW7l2CBwXYnq4wEigG5kYutDQwDQu7NIrWAxWYJ1qnAbCeqH1arbUSl2gtkBwISMXA6qoRVkon3pmIbU9sd0IxsLz9QpN6bWGJQ6IZPodmA3dFktqwG2b92uOCP6U5g2kB9ihRNIiBOdBxxgNRhRCZcb2dccRQDD+PZUo6p2cyBZqKEc+B2kAxjCb1ItI5PZMp0FSMeA7UBicG2qn5V6FEoNEeDN7qIhUa+YjF0CU7NMzwYhitQomIF6EYrdiJxYiX7NjgxbgtCfMHFl7KCB5YRit2YjEw/j8pj6uiuCKJcUYuLoWrIko1K6LrgvMHFYmhi6Rr4ykGBGLgHm2+QDB89YCT6RYvH9TFwHS1+csHgRj6FovVa4QOfaWHLUF9j8Xi5b2aGPpq42S81EMxkLZ52ykAU1hcMWT49QnFWJaQzF+Wq4mBZobN204BaHKd6qwe5mdtbsuhGFjNbr5CuiaGPru2aFmh3WEoo7/BYfNGWCCGvsBs3RGOxMDyHSNtKrBsUhpd07gPta5humS8GNoIbF1vlolYjFl8l46M74L6eu6rns4imfUivBhomUYLdvKTiKG/JWPdvMCjfLiJ/qjhSArFwIpb859MaBAD3QrzUUF8k3/5RkI5NvyJMRXjWwmmvMpNuYFR27oYc7jwzwx/Lk+4Vj4hfnkjkYyxquD3R8X47r/luaotL82PnqpYDP21FOuTtTr89XsEYjuMomKUJ8u4vT6LdkUqhjZ/zoxvg395izC+tv2RxeKviOK7r1rXcGZhHktLB4eJGFP8hetdw8GmKf468ttfDywHC3o7799pIJMgxsuGeWB3sk7M7oNzeN9cTtXQ8gdvb70YDt3Jshej6VSVJ4tHB0crFj0t/4873vxPWmDDVw8s7kC9ZbwGMXz/T0ZjLMZJy3+quKL9rpKTrYWsXdH5hQ19jJb8/Q8Qq+R8Z7Gftc3c7z/y/xXob39mPKZiHLb/U5Hqt/4FNF0zUKtnY6roYwDD4dW7ZGr1nK9OihjtWP8PDf0PGub/UET+ncikiNHBEobgbXh5332PFnUwzoYXfrH2ZIjRwdxW7eLPxuNam+t69ejIy5PaWMVkiNHB1NLa7l6uG7TwbG/jXtKV6S1v7mPZYDae7z9aTTp2kyFGURTF/wFTnIN+lTW8AwAAAABJRU5ErkJggg==']	모집분야   JAVA 프로그래머   모집인원   ○명   고용형태   프리랜서      급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 중구 을지로2가 206   인근지하철   주5일(월~금)   09:00 ~ 18:00	경력무관, 학력무관, 서울 중구, 프리랜서	{'basic_info': {'산업': '컴퓨터 및 주변장치, 소프트웨어 도매업', '사원수': '71명 | ', '기업구분': '중소기업', '설립일': '2011.11.01 | (16년차)', '자본금': '5,000만원 | (2020.12.31)', '매출액': '37억 3천만원 | (2020.12.31)', '대표자': '신희선', '주요사업': '컴퓨터,주변장치,소프트웨어 도매/소프트웨어 개발,공급', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://www.winssystem.com', '주소': '서울 서대문구 응암로 89 (북가좌동) 한오빌딩 4층'}, 'financial': {'매출액': {'current_value': '37억 3천만원'}, '영업이익': {'current_value': '-4,578만원'}, '당기순이익': {'current_value': '1,438만원'}, '기업등급': {'current_value': None}, '동종업계 순위': {'current_value': None}}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험']}, 'location': {'address': '서울 서대문구 응암로 89 (북가좌동) 한오빌딩 4층', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%ec%9c%88%ec%8a%a4&lat=37.581089498775&lng=126.911945208341'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49380152
+엠플러스정보시스템㈜	OO카드 오토금융 시스템 개선 (채널)	['Java', '웹프로그래머']	"                        OO 카드   오토금융 시스템   개선   www.mplusit.com    은행,증권,보험 분야의 금융업무를 기반으로 하는 소프트웨어를 제조 및 판매하는 회사입니다. 신의와 성실로 고객의 성공을 위하여 일하는 회사입니다                   모집부문 및 자격요건       프로젝트 상세내용     OO카드 오토금융시스템 개선 - 개발기간: 7.16 ~ 5개월                   (중급은 7.16 ~ 3.5개월)- 등급: 초급 1명, 중급 1명- 근무지역: 상암동- 스킬내용 : java, oracle, websquare- 고용형태 : 프리랜서- 업무 : 여신(채널계)- 필수조건 : 금융권의 채널 업무 경력 있는 분                제출서류         이 력 서 : 투입가능일,연락처,희망급여기재    경력증명서 : 업무,기간,역할,개발환경(기종,OS,언어,DBMS,TOOL)중심의 경력서         지원방법         E-mail 접수 : mplus@mplusit.com    지원제목에 ""프로젝트명 - 성명” 표기    희망연봉을 기재         기타사항         서류전형 합격 후 개별 통보     문의 : 02-780-8933 김예슬 대리         "	['http://img.jobkorea.co.kr/GI_info_imgView.asp?FN=wiseui_com18_botright.jpg', 'http://img.jobkorea.co.kr/GI_info_imgView.asp?FN=wiseui_icon_blue_m27.gif', 'http://img.jobkorea.co.kr/GI_info_imgView.asp?FN=wiseui_665line_12_black.jpg', 'http://logo.jobkorea.co.kr/C_Logo_View.asp?FN=2011\\2\\JK_CO_mplus0419.gif', 'http://img.jobkorea.co.kr/GI_info_imgView.asp?FN=wiseui_icon_blue_s13.png', 'http://img.jobkorea.co.kr/GI_info_imgView.asp?FN=wiseui_com18_topright.jpg', 'http://img.jobkorea.co.kr/GI_info_imgView.asp?FN=txt_jobkorea.gif', 'http://img.jobkorea.co.kr/GI_info_imgView.asp?FN=wiseui_com18_topleft.jpg', 'http://img.jobkorea.co.kr/GI_info_imgView.asp?FN=wiseui_com18_botleft.jpg']	모집분야   Java 웹프로그래머   모집인원   ○명   고용형태   프리랜서   (근무기간 5개월)   급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 마포구 상암동 1585 우리금융상암센터   인근지하철   주5일(월~금)	경력2년↑, 학력무관, 서울 마포구, 프리랜서	{'basic_info': {'산업': '솔루션·SI·CRM·ERP', '사원수': '78명 | ', '기업구분': '중소기업', '설립일': '2009.01.15 | (18년차)', '자본금': '1억원 | ', '매출액': '23억 | ', '대표자': '문형열', '주요사업': '소프트웨어개발및 판매', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://www.mplusit.com', '주소': '서울 영등포구 국제금융로6길 33 (여의도동) 맨하탄빌딩 1021호'}, 'financial': {}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험', '퇴직연금'], '휴무·휴가·행사': ['주5일제'], '보상·수당·지원': ['명절선물/명절상여']}, 'location': {'address': '서울 영등포구 국제금융로6길 33 (여의도동) 맨하탄빌딩 1021호', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%ec%97%a0%ed%94%8c%eb%9f%ac%ec%8a%a4%ec%a0%95%eb%b3%b4%ec%8b%9c%ec%8a%a4%ed%85%9c%e3%88%9c&lat=37.520784696111&lng=126.926905753754'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49380145
+기적기획	[신입/경력] 웹 퍼블리셔 및 프론트엔드 개발자 채용(그누보드)	['그누보드', '웹퍼블리셔', '및', '프론트엔드', '개발자', '채용']	"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ "	['https://mmcmso.com/saramin_bottom_common_250925.jpg', 'https://mmcmso.com/saramin_devel_250903.jpg', 'https://mmcmso.com/saramin_apply.jpg', 'https://mmcmso.com/saramin_story.jpg', 'https://mmcmso.com/saramin_mid_common_240813.jpg']	모집분야   그누보드 웹퍼블리셔 및 프론트엔드 개발자 채용   모집인원   ○명   고용형태   정규직   (수습 3개월)   직급/직책   급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 강남구 학동로23길 17 (논현동, 초석빌딩) 2층   인근지하철   주5일(월~금)   10:00 ~ 19:00   탄력근무제	신입·경력2년↑, 학력무관, 서울 강남구, 정규직, 사원급 외	{'basic_info': {'산업': '컨설팅·연구·조사', '사원수': '25명 | ', '기업구분': '중소기업', '설립일': '2018.02.01 | (9년차)', '자본금': '- | ', '매출액': '- | ', '대표자': '김인기', '주요사업': '포털, 인터넷정보매개/간판, 광고물 제조/인테리어공사', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://www.mmcmso.com', '주소': '서울 강남구 학동로23길 17 (논현동, 초석빌딩) 2층 기적기획'}, 'financial': {}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험', '퇴직연금'], '휴무·휴가·행사': ['주5일제', '연차제도', '반차제도', '포상휴가', '출산휴가', '육아휴직', '남성출산휴가', '노동절 휴무', '워크샵/MT', '체육대회', '야유회', '공휴일 휴무', '생일 이벤트', '자유로운 휴가문화', '주말 휴무'], '보상·수당·지원': ['퇴직금', '경조금', '인센티브', '장기근속 포상', '우수사원 포상제도', '자기개발 지원', '야간근로수당', '휴일근로수당', '직책수당', '장기근속수당', '명절선물/명절상여', '야간교통비 지급', '도서 구입비 지원', '헬스비', '휴가비', '성과급', '복리후생 지원', '문화생활 지원', '교통비', '상여금', '연장근로수당', '연차수당', '회식비 지원'], '사내제도·성장': ['자율복장', '주40시간', '칼퇴 권장'], '사내시설': ['카페테리아', '주차장', '흡연공간', '쾌적한 업무공간', '탕비실'], '편의·여가·건강': ['저녁 식사 지원', '음료/간식 제공']}, 'location': {'address': '서울 강남구 학동로23길 17 (논현동, 초석빌딩) 2층 기적기획', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%ea%b8%b0%ec%a0%81%ea%b8%b0%ed%9a%8d&lat=37.5144422512859&lng=127.027964890298'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49379785
+㈜미래아이씨티	커머스 개발 및 운영 Java	['커머스', '사이트', '개발', '및', '운영']	커머스  사이트  개발 및 운영 (강서구 증미역)모집부문 및 자격요건커머스 기능개선 운영 (SM)웹사이트  * B2B 사이트 운영 (AEM)[상시개선 운영업무]업무 : AEM Component 및 F/E 개발필요 스킬 : React , Java, Typescript,                   AEM (Adobe Experience Manager)기술등급 : 중급근무지 : 강서구 증미역 (전철역 50m, 1분거리)근무기간 : 7월초  ~ 6개월이상, 연단위필수사항 : Java, React, Next, TypeScript 경력자우대사항 : 어도비 AEM 경력자 (경력이 없어도  지원가능합니다)* B2B 사이트 운영 (PIM)[상시개선  운영업무]업무 : PIM (Product Information Management)  시스템 운영필요 스킬 : Java, JSP, JavaScript, Spring DB기술등급 : 초급, 중급근무지 : 강서구 증미역 (전철역 50m, 1분거리)근무기간 : 즉시  ~ 6개월이상, 연단위상기 필요스킬과 유관된 업무 경력이 있으신 분들만 지원바랍니다.프로필(경력기술서)와 연락처를 메일  gslee@miraeict.com으로 보내주세요.  초급0명중급0명전형절차 근무환경근무형태 : 계약직, 프리랜서, 정규직근무지 : 강서구 증미역 (NH서울타워, 역앞에 바로있음)근무시간 : 9시~18시페이 : 협의  접수기간 및 방법마감일 : 채용시 마감이력서양식 : 개인양식 접수방법 : 이메일접수 gslee@miraeict.com 제출서류프로파일(경력기술서(Skill Inventory) )  기타 유의사항허위사실이 발견될 경우 채용이 취소될 수 있습니다.  	['http://file1.jobkorea.co.kr/Mng/2019/5/miraeict_0523_01.jpg', 'http://file1.jobkorea.co.kr/Mng/2019/5/miraeict_0523_00.jpg']	모집분야   커머스 사이트 개발 및 운영   모집인원   ○명   고용형태   계약직   (근무기간 12개월)   ,    프리랜서   (근무기간 12개월)   급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 강서구 양천로 560 (등촌동, 증미역 9호선)    인근지하철   주5일(월~금)	경력4년↑, 학력무관, 서울 강서구, 계약직 외	{'basic_info': {'산업': '시스템 소프트웨어 개발 및 공급업', '사원수': '40명 | ', '기업구분': '중소기업', '설립일': '2013.01.24 | (14년차)', '자본금': '5,000만원 | (2024.12.31)', '매출액': '45억 4천만원 | (2024.12.31)', '대표자': '정수경', '주요사업': '소프트웨어\u3000개발\u3000및\u3000판매', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://www.miraeict.com', '주소': '서울 관악구 남현3길 69 (남현동, 파크빌오피스텔) 408호'}, 'financial': {'매출액': {'current_value': '45억 4천만원'}, '영업이익': {'current_value': '9,376만원'}, '당기순이익': {'current_value': '9,329만원'}, '산업 내 위치': {'current_value': None}, '기업등급': {'current_value': None}, '총자산 증가율': {'current_value': '8억 1,954만원'}, '동종업계 순위': {'current_value': None}}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'휴무·휴가·행사': ['주5일제']}, 'location': {'address': '서울 관악구 남현3길 69 (남현동, 파크빌오피스텔) 408호', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%eb%af%b8%eb%9e%98%ec%95%84%ec%9d%b4%ec%94%a8%ed%8b%b0&lat=37.4754115394155&lng=126.980217280017'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49379741
+㈜이네스닷컴	JAVA개발자 중급(2명,카드사,8월부터 5개월)	['웹프로그래머프리랜서']	"
+
+
+
+
+
+㈜이네스닷컴
+
+
+JAVA개발자 중급(2명,카드사,8월부터 5개월)
+
+
+
+
+㈜이네스닷컴은 2001년에 설립된 회사로 자본금 1억 5,000만원, 매출액 12억 1,803만원, 사원수 15명 규모의 중소기업입니다. 서울 은평구 통일로 856 (불광동, 메트로타워)에 위치하고 있으며, Web Soultion 개발 / SI사업 /SM사업을 하고 있습니다.
+
+
+
+
+
+
+
+포지션 및 자격요건
+
+
+
+
+
+
+
+웹프로그래머프리랜서 ( 2명 ) 
+
+
+
+
+
+
+
+고객사명 : BC카드담당업무 : 내부시스템 개발모집인원 : 중급 2명개발언어 : JAVA근무장소 : 을지로4가 BC카드본사계약기간 : 8월 ~12월(5M)제출서류 : 이력서
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+전형절차
+ㆍ서류전형 > 1차면접 > 2차면접 > 임원면접 > 최종합격
+ㆍ면접일정은 추후 통보됩니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+유의사항
+ㆍ허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+
+
+
+
+
+
+"	[]	모집분야   웹프로그래머프리랜서   모집인원   2명   고용형태   계약직   (근무기간 5개월)   ,    프리랜서   (근무기간 5개월)   급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 은평구 통일로 856 (불광동, 메트로타워) 1102호   인근지하철   주5일(월~금)   09:00 ~ 18:00	경력4년↑, 학력무관, 서울 은평구 외, 계약직 외	{'basic_info': {'산업': '응용 소프트웨어 개발 및 공급업', '사원수': '15명 | (2026.04.21)', '기업구분': '중소기업', '설립일': '2001.11.10 | (26년차)', '자본금': '1억 5,000만원 | (2025.12.31)', '매출액': '12억 1천만원 | (2025.12.31)', '대표자': '김성주', '주요사업': '소프트웨어 개발,공급,자문,온라인 정보제공,네트워크,전산장비 유지보수/인터넷 웹통신판매', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://www.e-nes.com', '주소': '서울 은평구 통일로 856 (불광동, 메트로타워) 1102호'}, 'financial': {'매출액': {'current_value': '12억 1천만원'}, '영업이익': {'current_value': '-5,448만원'}, '당기순이익': {'current_value': '-3,939만원'}, '산업 내 위치': {'current_value': None}}, 'history': [{'year': '2001', 'month': '11', 'events': ['(주)이네스닷컴 설립']}], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험']}, 'location': {'address': '서울 은평구 통일로 856 (불광동, 메트로타워) 1102호', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%ec%9d%b4%eb%84%a4%ec%8a%a4%eb%8b%b7%ec%bb%b4&lat=37.6197160747606&lng=126.921690617462'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49379679
+에스케이쉴더스㈜	웹 개발자 경력직 채용	['웹', '개발자']	   	['//file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=1690079']	모집분야   웹 개발자   모집인원   ○명   고용형태   정규직      급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 강남구 테헤란로87길 36 (삼성동, 도심공항타워)    인근지하철   주5일(월~금)   09:00 ~ 18:00	경력3년↑, 초대졸↑, 서울 강남구, 정규직	"{'basic_info': {'산업': '시설관리·보안·경비', '사원수': '7,393명 | ', '기업구분': '대기업', '설립일': '2000.06.26 | (27년차)', '자본금': '447억 4천만원 | ', '매출액': '1조 8,734천억 | ', '대표자': '민기식', '주요사업': '무인경비, 영상보안, 출입통제, 정보보안', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'https://www.skshieldus.com/kor/index.do', '주소': '경기 성남시 분당구 판교로227번길 23 (삼평동, 판교R&D센터) 4&5층', '계열사': '쉴더스그룹 (주)캡스텍'}, 'financial': {'사업분석': {'current_value': None}, '매출액': {'current_value': '2조 3,685억원'}, '영업이익': {'current_value': '2조 3,683억원'}, '당기순이익': {'current_value': '1조 2,078억원'}, '산업 내 위치': {'current_value': None}, '기업등급': {'current_value': None}}, 'history': [{'year': '2024', 'month': '11', 'events': ['2024년 차별없는 일터 사업장 고용노동부장관상 수상', '2024년 일,생활균형 우수기업 선정', '지속가능경영 보고서 발간(3년 연속)', '‘2024년 클라우드 보안 가이드북’ 발간', '서스틴베스트 2023년 하반기 ESG 종합평가 전체등급 AA 획득', '2023년 여가친화 우수기업 선정', '2023년 일,생활균형 우수기업 선정', ""'제8회 대한민국 범죄예방 대상' 여성가족부 장관상 수상"", '대표이사 변경: 김병무 -> 홍원표', '지속가능경영 보고서 발간(2년 연속)', '최대주주 변경: 코리아시큐리티홀딩스(주)', '주식의 포괄적 이전에 따른 완전모회사 설립-코리아시큐리티홀딩스(주)(KSH)', '한국에서 가장 존경받는 기업 정보보안 부문 1위(3년 연속)', '‘2023년 정보보호 및 개인정보보호 관리체계(ISMS-P)운영 가이드’ 발간', '헝가리법인 설립', '환경경영시스템 ISO14001 인증 획득', 'AWS 경계보안 MSSP 자격 획득', '지속가능경영보고서 발간', '한국서비스품질지수(KS-SQI) 무인경비서비스 부문 1위(2년연속)', ""글로벌 랜섬웨어 위협 공유협의체 '노모어랜섬' 가입"", '민간 주도 랜섬웨어 대응 협의체 KARA(Korea Anti Ransomware Alliance) 발족', '대한민국 퍼스트브랜드 대상 1위(8년 연속)', 'AI 영상 모니터링 솔루션', '최대주주 변경: 에스케이텔레콤(주) -> 에스케이스퀘어(주)', '상호명을 에스케이쉴더스(주)로 변경', '한국서비스품질지수(KS-SQI) 무인경비서비스 부문 1위', '미국법인 설립 (조지아주)', '모바일 보안 T가드 사업 양수', 'AWS 올해의 기술파트너상 수상', 'ESG 위원회 설치 후 ESG 경영 강화', '(주)에이디티캡스를 흡수합병 이후 상호를 (주)에이디티캡스로 변경', '[흡수합병]에스케이인포섹(주)(존속법인)-구(주)에이디티캡스(소멸법인)를 합병, 보안전문기업 출범', '대한민국 퍼스트브랜드 대상 1위(7년 연속)', '최대주주 변경: 에스케이텔레콤(주)', '[흡수합병]에스케이인포섹(주)(존속법인)-라이프앤시큐리티홀딩스(주)(소멸법인)을 흡수합병', '대한민국 범죄예방대상 민간보안전문기업 유일 경찰청장상 4회 수상', '에스케이하이스텍(주)의 보안사업 일체를 양수하는 영업양수도 계약을 체결', 'ISMS-P (정보보호관리체계 및 개인정보관리체계 인증)', 'AWS Security Competency 인증 획득', '고객감동 브랜드지수 1위 수상(7년 연속)', '[흡수합병]구(주)에이디티캡스(존속법인)-(주)에이디티시큐리티(소멸법인)를 흡수합병', '대한민국 퍼스트브랜드 대상 1위(6년 연속)', '안전보건경영시스템 ISO45001 인증 획득', '에스케이인포섹(주) 중국법인 설립', '2019 대한민국 ICT 이노베이션 어워드 과학기술정보통신부 장관상', '대한민국 범죄예방대상 민간보안전문기업 유일 경찰청장상 4회 수상', '2019 대한민국일자리 으뜸기업 선정', '본사 이전: 경기도 성남시 분당구 판교로 227번길 23', '고객감동 브랜드지수 1위 수상(6년 연속)', '2019 대한민국 브랜드 명예의 전당 수상(2년 연속)', '에스케이인포섹(주)로 상호 변경', '본사 이전: 경기도 성남시 분당구 판교로 255번길 46', '비젠(주)흡수합병. 6,318백만원으로 자본금 증자', '(주)인디펜던스 흡수합병', '에스케이계열에 신규편입', '인포섹코리아(주) 회사설립', '본사 이전: 서울특별시 강남구 대치동 1008-4']}, {'year': '2024', 'month': '11', 'events': ['2024년 차별없는 일터 사업장 고용노동부장관상 수상']}, {'year': '2024', 'month': '09', 'events': ['2024년 일,생활균형 우수기업 선정']}, {'year': '2024', 'month': '07', 'events': ['지속가능경영 보고서 발간(3년 연속)']}, {'year': '2024', 'month': '', 'events': ['‘2024년 클라우드 보안 가이드북’ 발간']}, {'year': '2023', 'month': '12', 'events': ['서스틴베스트 2023년 하반기 ESG 종합평가 전체등급 AA 획득']}, {'year': '2023', 'month': '11', 'events': ['2023년 여가친화 우수기업 선정']}, {'year': '2023', 'month': '', 'events': ['2023년 일,생활균형 우수기업 선정']}, {'year': '2023', 'month': '', 'events': [""'제8회 대한민국 범죄예방 대상' 여성가족부 장관상 수상""]}, {'year': '2023', 'month': '08', 'events': ['대표이사 변경: 김병무 -> 홍원표']}, {'year': '2023', 'month': '07', 'events': ['지속가능경영 보고서 발간(2년 연속)']}, {'year': '2023', 'month': '06', 'events': ['최대주주 변경: 코리아시큐리티홀딩스(주)']}, {'year': '2023', 'month': '', 'events': ['주식의 포괄적 이전에 따른 완전모회사 설립-코리아시큐리티홀딩스(주)(KSH)']}, {'year': '2023', 'month': '03', 'events': ['한국에서 가장 존경받는 기업 정보보안 부문 1위(3년 연속)']}, {'year': '2023', 'month': '', 'events': ['‘2023년 정보보호 및 개인정보보호 관리체계(ISMS-P)운영 가이드’ 발간']}, {'year': '2023', 'month': '01', 'events': ['헝가리법인 설립']}, {'year': '2022', 'month': '12', 'events': ['환경경영시스템 ISO14001 인증 획득']}, {'year': '2022', 'month': '10', 'events': ['AWS 경계보안 MSSP 자격 획득']}, {'year': '2022', 'month': '08', 'events': ['지속가능경영보고서 발간']}, {'year': '2022', 'month': '06', 'events': ['한국서비스품질지수(KS-SQI) 무인경비서비스 부문 1위(2년연속)']}, {'year': '2022', 'month': '05', 'events': [""글로벌 랜섬웨어 위협 공유협의체 '노모어랜섬' 가입""]}, {'year': '2022', 'month': '03', 'events': ['민간 주도 랜섬웨어 대응 협의체 KARA(Korea Anti Ransomware Alliance) 발족']}, {'year': '2022', 'month': '01', 'events': ['대한민국 퍼스트브랜드 대상 1위(8년 연속)']}, {'year': '2021', 'month': '12', 'events': ['AI 영상 모니터링 솔루션']}, {'year': '2021', 'month': '11', 'events': ['최대주주 변경: 에스케이텔레콤(주) -> 에스케이스퀘어(주)']}, {'year': '2021', 'month': '10', 'events': ['상호명을 에스케이쉴더스(주)로 변경']}, {'year': '2021', 'month': '07', 'events': ['한국서비스품질지수(KS-SQI) 무인경비서비스 부문 1위']}, {'year': '2021', 'month': '06', 'events': ['미국법인 설립 (조지아주)']}, {'year': '2021', 'month': '05', 'events': ['모바일 보안 T가드 사업 양수']}, {'year': '2021', 'month': '', 'events': ['AWS 올해의 기술파트너상 수상']}, {'year': '2021', 'month': '04', 'events': ['ESG 위원회 설치 후 ESG 경영 강화']}, {'year': '2021', 'month': '03', 'events': ['(주)에이디티캡스를 흡수합병 이후 상호를 (주)에이디티캡스로 변경']}, {'year': '2021', 'month': '', 'events': ['[흡수합병]에스케이인포섹(주)(존속법인)-구(주)에이디티캡스(소멸법인)를 합병, 보안전문기업 출범']}, {'year': '2021', 'month': '01', 'events': ['대한민국 퍼스트브랜드 대상 1위(7년 연속)']}, {'year': '2020', 'month': '12', 'events': ['최대주주 변경: 에스케이텔레콤(주)']}, {'year': '2020', 'month': '', 'events': ['[흡수합병]에스케이인포섹(주)(존속법인)-라이프앤시큐리티홀딩스(주)(소멸법인)을 흡수합병']}, {'year': '2020', 'month': '10', 'events': ['대한민국 범죄예방대상 민간보안전문기업 유일 경찰청장상 4회 수상']}, {'year': '2020', 'month': '07', 'events': ['에스케이하이스텍(주)의 보안사업 일체를 양수하는 영업양수도 계약을 체결']}, {'year': '2020', 'month': '', 'events': ['ISMS-P (정보보호관리체계 및 개인정보관리체계 인증)']}, {'year': '2020', 'month': '05', 'events': ['AWS Security Competency 인증 획득']}, {'year': '2020', 'month': '04', 'events': ['고객감동 브랜드지수 1위 수상(7년 연속)']}, {'year': '2020', 'month': '01', 'events': ['[흡수합병]구(주)에이디티캡스(존속법인)-(주)에이디티시큐리티(소멸법인)를 흡수합병']}, {'year': '2019', 'month': '12', 'events': ['대한민국 퍼스트브랜드 대상 1위(6년 연속)']}, {'year': '2019', 'month': '11', 'events': ['안전보건경영시스템 ISO45001 인증 획득']}, {'year': '2019', 'month': '10', 'events': ['에스케이인포섹(주) 중국법인 설립']}, {'year': '2019', 'month': '09', 'events': ['2019 대한민국 ICT 이노베이션 어워드 과학기술정보통신부 장관상']}, {'year': '2019', 'month': '07', 'events': ['대한민국 범죄예방대상 민간보안전문기업 유일 경찰청장상 4회 수상']}, {'year': '2019', 'month': '', 'events': ['2019 대한민국일자리 으뜸기업 선정']}, {'year': '2019', 'month': '04', 'events': ['본사 이전: 경기도 성남시 분당구 판교로 227번길 23']}, {'year': '2019', 'month': '', 'events': ['고객감동 브랜드지수 1위 수상(6년 연속)']}, {'year': '2019', 'month': '02', 'events': ['2019 대한민국 브랜드 명예의 전당 수상(2년 연속)']}, {'year': '2015', 'month': '08', 'events': ['에스케이인포섹(주)로 상호 변경']}, {'year': '2015', 'month': '', 'events': ['본사 이전: 경기도 성남시 분당구 판교로 255번길 46']}, {'year': '2015', 'month': '01', 'events': ['비젠(주)흡수합병. 6,318백만원으로 자본금 증자']}, {'year': '2013', 'month': '03', 'events': ['(주)인디펜던스 흡수합병']}, {'year': '2000', 'month': '07', 'events': ['에스케이계열에 신규편입']}, {'year': '2000', 'month': '06', 'events': ['인포섹코리아(주) 회사설립']}, {'year': '2000', 'month': '', 'events': ['본사 이전: 서울특별시 강남구 대치동 1008-4']}], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험'], '휴무·휴가·행사': ['주5일제', '연차제도', '경조휴가'], '보상·수당·지원': ['퇴직금', '경조금', '자녀교육비', '장기근속 포상', '우수사원 포상제도', '가족 의료비 지원', '자기개발 지원', '야간근로수당', '휴일근로수당', '연월차제도수당', '장기근속수당'], '편의·여가·건강': ['사내 동호회', '건강검진']}, 'location': {'address': '경기 성남시 분당구 판교로227번길 23 (삼평동, 판교R&D센터) 4&5층', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%ec%97%90%ec%8a%a4%ec%bc%80%ec%9d%b4%ec%89%b4%eb%8d%94%ec%8a%a4%e3%88%9c&lat=37.4044533878306&lng=127.098954865626'}}"	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49379669
+넥시큐어 시스템 테크놀로지㈜	[금융권/정규직] JAVA 개발자 신입 및 경력직 모집합니다.	['C#', 'Java', '개발']	"
+
+
+
+
+넥시큐어 시스템 테크놀로지㈜
+
+
+[금융권/정규직] JAVA 개발자 신입 및 경력직 모집합니다.
+
+
+
+
+넥시큐어 시스템 테크놀로지㈜는 2006년에 설립된 회사로 자본금 3억 1,600만원, 매출액 42억 8,579만원, 사원수 39명 규모의 중소기업입니다. 서울 영등포구 여의도동에 위치하고 있으며, 보안인증 솔루션, 시스템 구축,SSO, IAM, EAM, OTP사업을 하고 있습니다.
+
+
+
+
+
+
+
+포지션 및 자격요건
+
+
+
+
+
+
+
+Java 개발 ( 1명 ) 
+
+
+
+
+
+
+
+담당업무
+ㆍ금융권 대기업 시스템 운영ㆍ금융권 대기업 시스템 개선 개발
+
+스킬
+ㆍJAVA
+
+핵심역량
+
+                                                                ㆍ
+                                                                        성실성,
+ 꼼꼼함,
+성취지향성, 적응성, 협동심
+                                                            
+
+자격요건
+ㆍ학력 : 초대졸이상
+ㆍ경력 : 신입·경력연봉ㆍ신입 : 3,100만원 (대졸기준)ㆍ경력 : 협의
+
+우대사항
+ㆍ컴퓨터활용능력 우수자
+ㆍ자격증 : 정보처리기사, 정보처리산업기사
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+전형절차
+ㆍ서류전형 > 1차 팀장 면접 > 2차 실무진 면접 > 최종합격
+ㆍ면접일정은 추후 통보됩니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+유의사항
+ㆍ허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+
+
+
+
+
+
+"	[]	모집분야   C# Java 개발   모집인원   1명   고용형태   정규직      직급/직책   급여   연봉 3,100만원 이상 (면접 후 결정)   근무시간   근무지주소   서울 영등포구 여의도동 국회대로 68길 11, 삼보호정빌딩 401호   인근지하철   주5일(월~금)   09:00 ~ 18:00	신입·경력, 초대졸↑, 서울 영등포구, 정규직, 3,100만원 이상, 사원급 외	{'basic_info': {'산업': '응용 소프트웨어 개발 및 공급업', '사원수': '39명 | (2026.03.27)', '기업구분': '중소기업', '설립일': '2006.09.13 | (21년차)', '자본금': '3억 1,600만원 | (2025.12.31)', '매출액': '42억 8천만원 | (2025.12.31)', '대표자': '고영현', '주요사업': '소프트웨어 개발/전자상거래', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://www.nexicure.com', '주소': '서울 영등포구 여의도동 국회대로 68길 11, 삼보호정빌딩 401호'}, 'financial': {'영업이익': {'current_value': '-2억 2,467만원'}, '산업 내 위치': {'current_value': None}, '기업등급': {'current_value': None}, '총자산 증가율': {'current_value': '61억 9천만원'}}, 'history': [{'year': '2024', 'month': '05', 'events': ['고용노동부 강소기업 선정']}, {'year': '2020', 'month': '04', 'events': ['N-MAS GS인증 1등급 획득']}, {'year': '2020', 'month': '01', 'events': ['고용노동부 2020년 청년친화 강소기업 선정']}, {'year': '2019', 'month': '08', 'events': ['서울시 서울형 강소기업 선정']}, {'year': '2019', 'month': '01', 'events': ['고용노동부 2019년 청년친화 강소기업 선정', '하이서울브랜드 기업 선정']}, {'year': '2018', 'month': '04', 'events': ['고용노동부 2018년 강소기업 선정']}, {'year': '2018', 'month': '02', 'events': ['NMAS S-oil 납품']}, {'year': '2017', 'month': '12', 'events': ['고용노동부 2018년 청년친화 강소기업 선정']}, {'year': '2017', 'month': '11', 'events': ['SBA 일자리 우수 서울형 강소기업 선정']}, {'year': '2017', 'month': '03', 'events': ['현대오토에버 동반성장 협력 체결']}, {'year': '2016', 'month': '05', 'events': ['서울시형 강소기업 선정']}, {'year': '2016', 'month': '04', 'events': ['고용노동부 청년 친화 강소기업 선정']}, {'year': '2016', 'month': '03', 'events': ['오토에버 5스타 협력사 선정']}, {'year': '2015', 'month': '09', 'events': ['이노비즈 선정', 'Kibo A+ Members 기업 선정', '이노비즈 인증 획득']}, {'year': '2015', 'month': '03', 'events': ['오토에버 5스타 협력사 선정']}, {'year': '2014', 'month': '01', 'events': ['기업부설 연구소 설립']}, {'year': '2013', 'month': '08', 'events': ['자본금증자(316,000,000)']}, {'year': '2013', 'month': '07', 'events': ['SK C&C Biz Partner 등록']}, {'year': '2012', 'month': '06', 'events': ['싱가포르 DS3와 Reseller Partner 등록(TAS 제조사), VASCO사와 Reseller Partner 등록(OTP제조사)']}, {'year': '2012', 'month': '05', 'events': ['회사명 변경 (에스피아이티(주) -- 넥시큐어시스템테놀로지(주))']}, {'year': '2012', 'month': '04', 'events': ['사무실 확장 이전 (서울시 영등포구 국회대로 68길 11 삼보호정빌딩 401호)']}, {'year': '2012', 'month': '02', 'events': ['자본금 증자 (총 310,000,000원)']}, {'year': '2011', 'month': '12', 'events': ['프로그램개발등록 N-MAS(Nexicure-Multi Authentication Server), N-MAS for TAS']}, {'year': '2011', 'month': '10', 'events': ['프로그램 개발등록 SSMS(SPIT System Monitoring System)']}, {'year': '2008', 'month': '05', 'events': ['벤처기업 인증(통합계정관리 및 통합권한관리 솔루션 분야)']}, {'year': '2008', 'month': '04', 'events': ['자본금 증자 (총 300,000,000원)']}, {'year': '2008', 'month': '02', 'events': ['프로그램 개발등록 SIM(SPIT Identity Manager with TIM), SEM(SPIT EAM MAnager for TAM)']}, {'year': '2007', 'month': '09', 'events': ['IBM Business Partner 선정']}, {'year': '2007', 'month': '08', 'events': ['자본금 120,000,000원으로 증자']}, {'year': '2006', 'month': '09', 'events': ['에스피아이티(주) 설립']}], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험', '퇴직연금'], '휴무·휴가·행사': ['주5일제', '연차제도', '정기휴가', '경조휴가', '반차제도', '출산휴가', '육아휴직', '남성출산휴가', '노동절 휴무', '창립일 행사', '체육대회', '공휴일 휴무', '반반차 제도', '자유로운 휴가문화', '주말 휴무'], '보상·수당·지원': ['경조금', '장기근속 포상', '직책수당', '명절선물/명절상여', '야간교통비 지급', '각종 기념일 선물', '도서 구입비 지원', '헬스비', '교통비', '상여금', '창립일 선물', '회사 차량 지원', '임신/출산 지원'], '사내제도·성장': ['임산부 근로시간 단축', '주40시간', '칼퇴 권장'], '사내시설': ['탕비실'], '편의·여가·건강': ['건강검진', '저녁 식사 지원']}, 'location': {'address': '서울 영등포구 여의도동 국회대로 68길 11, 삼보호정빌딩 401호', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%eb%84%a5%ec%8b%9c%ed%81%90%ec%96%b4+%ec%8b%9c%ec%8a%a4%ed%85%9c+%ed%85%8c%ed%81%ac%eb%86%80%eb%a1%9c%ec%a7%80%e3%88%9c&lat=37.5292691959886&lng=126.919622514809'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49379412
+㈜소프트웍스	[R&D] AI 서비스 개발자(LLM/RAG 기반)	['AI', '개발자']	"
+
+
+
+
+㈜소프트웍스
+
+
+[R&D] AI 서비스 개발자(LLM/RAG 기반)
+
+
+
+
+㈜소프트웍스는 2011년에 설립된 15년차 중소기업입니다. 서울 서초구 사임당로10길 3 (서초동, 원진빌딩)에 위치하고 있으며, 소프트웨어 개발, 컨설팅사업을 하고 있습니다.
+
+
+
+
+
+
+
+포지션 및 자격요건
+
+
+
+
+
+
+
+포지션 ( 1명 ) 
+
+
+
+
+
+
+
+담당업무
+ㆍ LLM 기반 AI 서비스 설계 및 개발ㆍLangChain/LangGraph 기반 AI Agent 및 워크플로우 구현ㆍ RAG 기반 지식 검색 및 응답 시스템 개발ㆍ Prompt Engineering 및 LLM 응답 품질 개선
+
+자격요건
+ㆍ학력 : 학력무관ㆍPython 기반 백엔드 서비스 개발 경험 3년 이상 또는 이에 준하는 역량 보유자ㆍLLM(OpenAI 등) 활용 서비스 개발 경험 또는 이에 대한 이해ㆍLangChain 또는 LangGraph 기반 Agent/워크플로우 구현 경험ㆍRAG(Retrieval-Augmented Generation) 기반 서비스 개발 또는 활용 경험
+
+우대사항
+ㆍLangGraph 기반 Agent 설계 및 상태 기반 워크플로우 구현 경험ㆍPrompt Engineering 및 LLM 응답 품질 개선 경험
+ㆍRAG 검색 품질 개선 경험 (쿼리 튜닝, 재랭킹 등)ㆍKubernetes 또는 클라우드 환경에서 서비스 개발/운영 경험
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+전형절차
+ㆍ서류전형 > 1차면접 > 2차면접 > 임원면접 > 최종합격
+ㆍ면접일정은 추후 통보됩니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+유의사항
+ㆍ허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+
+
+
+
+
+
+"	[]	모집분야   AI 개발자   모집인원   1명   고용형태   정규직      ,    계약직      직급/직책   급여   회사 내규에 따름   근무시간   근무지주소   서울 서초구 명달로 65 (서초동, 일흥스포렉스) 4층   인근지하철   주5일(월~금)   10:00 ~ 19:00   탄력근무제	경력5년↑, 학력무관, 서울 서초구, 정규직 외, 과장~차장급 외	{'basic_info': {'산업': '솔루션·SI·CRM·ERP', '사원수': '100명 | ', '기업구분': '중소기업', '설립일': '2011.05.20 | (16년차)', '대표자': '구본철', '주요사업': '소프트웨어 개발, 컨설팅', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://www.softworks.co.kr', '주소': '서울 서초구 사임당로10길 3 (서초동, 원진빌딩) 501호'}, 'financial': {'영업이익': {'current_value': '5억 5,033만원'}, '산업 내 위치': {'current_value': None}, '기업등급': {'current_value': None}, '총자산 증가율': {'current_value': '83억 5천만원'}, '동종업계 순위': {'current_value': None}}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험', '퇴직연금'], '휴무·휴가·행사': ['연차제도', '워크샵/MT'], '보상·수당·지원': ['경조금', '임직원 교육비', '자기개발 지원', '야간교통비 지급', '각종 기념일 선물', '도서 구입비 지원']}, 'location': {'address': '서울 서초구 사임당로10길 3 (서초동, 원진빌딩) 501호', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%ec%86%8c%ed%94%84%ed%8a%b8%ec%9b%8d%ec%8a%a4&lat=37.4885562198062&lng=127.016144487045'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49379329
+알서포트㈜	[코스닥 상장사] mOS 개발자 채용	['mOS', '개발자']	  	['//file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=1733150', '//file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=1733151', '//file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=1757831']	모집분야   mOS 개발자   모집인원   ○명   고용형태   정규직   (수습 3개월)   급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울특별시 강동구 고덕비즈밸리로2가길 12  (고덕동) 알서포트 사옥   주5일(월~금)   09:00 ~ 18:00   탄력근무제	경력6년↑, 학력무관, 서울 강동구 외, 정규직		https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49378978
+에프피티소프트웨어코리아㈜	[글로벌 외국계 / FPT코리아] AI Technical Consultant 채용	['AI', 'Technical', 'Consultant']	  	['//file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=1710138']	모집분야   AI Technical Consultant   모집인원   ○명   고용형태   계약직   (근무기간 12개월, 정규직 전환 가능)   급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 영등포구 여의공원로 115 (여의도동, 세우빌딩)    인근지하철   주5일(월~금)   09:00 ~ 18:00	경력10년↑, 학력무관, 서울 영등포구, 계약직	{'company_name': '에프피티소프트웨어코리아㈜', 'founded': '설립 6년 차', 'employee_count': '324명', 'company_type': '글로벌 기업', 'revenue': '819억 3천만 원', 'reasons_to_join': [], 'history': [{'year': 'FPT Software 설립', 'events': []}, {'year': '2024년매출 12.2억 달러 달성', 'events': []}, {'year': '30개 국가 및 지역에서88개의 사무소 운영', 'events': []}, {'year': '전 세계 1,100여 개기업과 협업', 'events': []}], 'benefits': [], 'talents': [], 'recruit_process': [], 'jobs': [], 'address': '서울특별시 영등포구 여의공원로 115 (여의동) 세우빌딩 3,7층', 'website': 'fptsoftware.kr'}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49378908
+위쉬정보기술㈜	정자 SK하이닉스 WPF C# REACT 개발	['정자', 'SK하이닉스', 'WPF', 'C#', 'REACT', '개발']	"
+
+정자 SK하이닉스 WPF C# REACT 개발
+
+ 
+
+         모집분야 및 자격요건 모집부분담당업무자격요건모집인원SK하이닉스WPF 개발- 근무지 : 정자- 기술 : C#, WPF, react- 등급 : 3년 이상 0명   
+
+
+
+ 
+
+
+
+
+
+서류전형
+
+
+
+
+
+
+실무자면접
+
+
+
+
+
+
+임원면접
+
+
+
+
+
+
+최종합격
+
+
+
+
+
+
+
+ 
+
+- 이력서양식 : 잡코리아온라인 이력서, 지원자자유 이력서- 접수방법 : 잡코리아 온라인 채용시스템
+
+
+ 
+
+- 이력서, 자기소개서 제출 - 최종합격 후 졸업증명서, 최종학교 전 학년 성적 증명서, 공인시험 및 기타 자격증 사본(소지자에 한함), 취업보호대상증명서(대상자에 한함) 제출
+
+
+
+ 
+
+- 허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+ "	['http://i.jobkorea.kr/content/images/yocruit/yctr/gen/skin/blue/step_shape_7_light.gif?v4', 'http://i.jobkorea.kr/content/images/yocruit/yctr/gen/skin/blue/icn_shape_7.gif', 'http://i.jobkorea.kr/content/images/yocruit/yctr/gen/hd_doc.png', 'http://i.jobkorea.kr/content/images/yocruit/yctr/gen/icn_arr_step.png', 'http://i.jobkorea.kr/content/images/yocruit/yctr/gen/hd_step.png', 'http://i.jobkorea.kr/content/images/yocruit/yctr/gen/hd_req.png', 'http://i.jobkorea.kr/content/images/yocruit/yctr/gen/skin/blue/step_shape_7.gif?v4', 'http://i.jobkorea.kr/content/images/yocruit/yctr/gen/hd_how.png', 'http://i.jobkorea.kr/content/images/yocruit/yctr/gen/hd_guid.png']	모집분야   정자 SK하이닉스 WPF C# REACT 개발   모집인원   ○○명   고용형태   정규직      ,    계약직   (협의)   ,    프리랜서   (협의)   급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 구로구 구로동 222-7 코오롱디지털타워 A동311호   인근지하철   주5일(월~금)	경력무관, 학력무관, 서울 구로구, 정규직 외	{'basic_info': {'산업': '응용 소프트웨어 개발 및 공급업', '사원수': '81명 | (200712)', '기업구분': '중소기업', '설립일': '2000.02.01 | (27년차)', '자본금': '5억원 | ', '매출액': '80억 | ', '대표자': '이종수', '주요사업': '소프트웨어 자문,개발,공급', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://www.wishit.co.kr', '주소': '서울 구로구 구로동 222-7 코오롱디지털타워빌란트 1차 311호'}, 'financial': {'기업등급': {'current_value': None}}, 'history': [{'year': '2002', 'month': '01', 'events': ['국내 60여개 기업 ERP 구축사업']}, {'year': '2001', 'month': '04', 'events': ['중소기업청 중소기업 IT지원업체선정']}, {'year': '2000', 'month': '02', 'events': ['Wish-ERP Package 출시', '위쉬정보기술(주) 법인등록']}], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험', '퇴직연금'], '보상·수당·지원': ['임직원 교육비', '자기개발 지원', '도서 구입비 지원'], '편의·여가·건강': ['건강검진']}, 'location': {'address': '서울 구로구 구로동 222-7 코오롱디지털타워빌란트 1차 311호', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%ec%9c%84%ec%89%ac%ec%a0%95%eb%b3%b4%ea%b8%b0%ec%88%a0%e3%88%9c&lat=37.483507960708&lng=126.896537167252'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49378850
+㈜타이호인스트	(정규직) 웨더사업부 JAVA경력개발자 채용	['JAVA개발자']	            ㈜타이호인스트 (정규직) JAVA 경력개발자 채용       ㈜타이호인스트는 2005년 8월 설립 이래 고객에게 가치(Value)를 제공하고 이를 통한 고객만족지향적 서비스 제공을 모토로 지속적으로 성장하고 있습니다. ㈜타이호인스트의 주요 사업영역은 15년 이상 된 IT Service 역량을 기반으로 4차 산업의 핵심인 AI, Big Data, RPA에 집중하고 있습니다. ㈜타이호인스트는 고객의 업무를 효율화하기 위한 최적의 솔루션 제공 뿐 아니라 고객 사업의 경쟁력 창출을 위해 최적의 시스템 설계, 개발, 운영을 제공하여 기업이 정보화에 의한 전략적 경영을 할 수 있는 IT Service를 제공하고 있습니다. 그리고 마이크로소프트의 강력한 AI Platform을 기반으로 고객의 다양한 Needs를 빠르고 효율적으로 해결하며, 자체 개발한 머신 러닝 및 고급 분석 기반으로 보다 진화된 결과를 이끌어내어 고객 만족과 더불어 스마트 한 AI Service를 제공합니다. 또한 RPA 플랫폼의 선두인 UiPath와 함께 비즈니스 프로세스 자동화를 통해 생산성 향상과 비즈니스 혁신을 가속화할 수 있는 RPA Service를 제공합니다.          모집분야 및 자격요건      모집분야 및 자격요건 정보      모집분야 담당업무 자격요건 모집인원      JAVA개발자   웨더사업부 기상/기후/지진 관련 시스템구축 및 유지보수 프로젝트 수행      [공통지원자격] 해외여행 결격 사유가 없는 분 남성의 경우 군필 또는 면제자  [필수자격요건] 학력 : 초대졸 이상 경력 :  JAVA 개발 경력 6년 이상 과장급 이상 Java, Jsp, Javascript, Miplatform, Spring, Ajax, Jquery, Flex, Oracle 경험자 공공기관 SI 프로젝트 경험자    [우대사항] C, C++, PHP , Mysql, MariaDB 가능한 분 우대 PM 경험자 우대제안서 작성 가능한 분 우대다음 업무 중에서 관련 경험이 있는 분 우대지진 관련 시스템 구축or 유지관리 경험(지진관측장비, 지진가속도계측기 등 포함)ODA 관련 기상기후 프로젝트 경험 00명                근무조건   근무형태 : 정규직 근 무 지 : 서울 구로구 근무요일 : 주 5일 근무시간 : 09시 00분 ~ 18시 00분 급 여 : 면접 후 협의           전형절차         서류전형    면접전형    최종합격    ※ 면접일정은 추후 통보됩니다.        접수방법   2026.06.28 (일) 23시 까지 접수방법 : 잡코리아 접수 이 력 서 : 잡코리아이력서           제출서류   이력서, 경력기술서 제출           기타사항   허위사실이 발견될 경우 채용이 취소될 수 있습니다.           	['https://file1.jobkorea.co.kr/Mng/2025/12/taihoinst_251226_j01.png']	모집분야   JAVA개발자   모집인원   ○○명   고용형태   정규직   (수습 3개월)   급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 구로구 디지털로33길 55 (구로동, 이앤씨벤처드림타워2차)    인근지하철   주5일(월~금)   09:00 ~ 18:00	경력6년↑, 초대졸↑, 서울 구로구, 정규직	"{'basic_info': {'산업': '응용 소프트웨어 개발 및 공급업', '사원수': '145명 | (2026.03.01)', '기업구분': '중소기업', '설립일': '2005.08.25 | (22년차)', '자본금': '5억 5,000만원 | (2025.12.31)', '매출액': '422억 7천만원 | (2025.12.31)', '대표자': '정희영', '주요사업': '소프트웨어 개발,공급/무역/출판,영상,방송통신/부동산 임대', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://www.taihoinst.com', '주소': '서울 구로구 구로3동 E＆C 벤처드림타워 2차 804호', '계열사': '타이호인스트그룹 (주)티웹'}, 'financial': {'매출액': {'current_value': '422억 7천만원'}, '영업이익': {'current_value': '2억 1,065만원'}, '당기순이익': {'current_value': '1억 5,059만원'}, '산업 내 위치': {'current_value': None}, '기업등급': {'current_value': None}, '총자산 증가율': {'current_value': '182억 1천만원'}, '동종업계 순위': {'current_value': None}}, 'history': [{'year': '2024', 'month': '02', 'events': ['한국기상산업협회 회원 등재']}, {'year': '2023', 'month': '11', 'events': ['기상사업 등록(기상예보업, 기상장비업)']}, {'year': '2021', 'month': '12', 'events': ['스마트앱어워드 2021 Innovater 최우수상 수상(농협중앙회 상호금융 마이데이터)']}, {'year': '2020', 'month': '12', 'events': ['네이버 클라우드 플랫폼 파트너 선정', '삼성SDS Brity Works 비즈니스 파트너 선정']}, {'year': '2019', 'month': '06', 'events': ['UiPath Business Partner 선정']}, {'year': '2018', 'month': '03', 'events': ['이노비즈(INNO-BIZ) 획득(기술혁신형 중소기업 확인서, 중소벤처기업부)']}, {'year': '2018', 'month': '02', 'events': ['Microsoft AI부문 SI파트너사 선정', '수협은행 IT개발 협력사 선정']}, {'year': '2017', 'month': '06', 'events': ['초음파 신호를 이용한 스마트폰 통신 방법(MCU) 특허 등록']}, {'year': '2017', 'month': '05', 'events': ['Microsoft CSP(Cloud Solution Provider) Partner']}, {'year': '2017', 'month': '04', 'events': ['고용노동부 강소기업 인증']}, {'year': '2017', 'month': '01', 'events': ['Microsoft Managed Partner(Silver Competency 획득)']}, {'year': '2016', 'month': '08', 'events': ['농협정보시스템 협력사 등록']}, {'year': '2016', 'month': '02', 'events': ['스마트론 액세서리 특허 등록']}, {'year': '2015', 'month': '11', 'events': ['사업목적에 부가통신업 등을 추가']}, {'year': '2014', 'month': '07', 'events': ['일학습병행제 훈련사업자선정']}, {'year': '2014', 'month': '05', 'events': ['초음파 신호를 이용한 스마트폰 통신 방법(MCU), 스마트폰 액세서리 국내 및 국제 특허출원']}, {'year': '2013', 'month': '05', 'events': ['""유사일기도 검색 시스템 및 그 방법"" 특허 등록']}, {'year': '2012', 'month': '12', 'events': ['기업부설 연구소 설립(한국산업기술진흥협회)']}, {'year': '2012', 'month': '05', 'events': ['INNO-BIZ(기술혁신형) 기업 선정(중소기업청)(제120103-00422호)', '벤처기업 인증 획득(인증번호:제20120102472호)', '사업목적에 부동산임대업을 추가', '본점을 서울 구로구 디지털로33길 55, 803호,804호(구로동) 소재로 이전']}, {'year': '2012', 'month': '01', 'events': ['LG CNS 협력회사(육성군 후보) 선정']}, {'year': '2011', 'month': '06', 'events': ['LG CNS 협력회사(특화군) 선정']}, {'year': '2011', 'month': '04', 'events': ['정보통신공사업 면허 등록[201459]']}, {'year': '2011', 'month': '02', 'events': ['SK C&C 협력사 등록']}, {'year': '2010', 'month': '10', 'events': ['한화 S&C 전략적 협력사 선정']}, {'year': '2009', 'month': '12', 'events': ['일본세이코프리시젼과 전략적 협력관계 체결']}, {'year': '2009', 'month': '06', 'events': ['LG CNS 협력사', '일본 현지법인 타이호인스트재팬 설립(무역 및 IT서비스업)']}, {'year': '2008', 'month': '12', 'events': ['팬택 C&I 협력사']}, {'year': '2008', 'month': '11', 'events': ['포스데이타 협력사 등록']}, {'year': '2008', 'month': '03', 'events': ['벤처기업확인서 취득(벤처기업확인서,기술보증기금)']}, {'year': '2007', 'month': '11', 'events': ['두산정보통신 협력사 등록']}, {'year': '2007', 'month': '06', 'events': ['근로자파견사업허가 등록 (허가번호:2007-202)']}, {'year': '2007', 'month': '05', 'events': ['한국소프트웨어산업협회 소프트웨어 신고자 등록(신고번호:2007-05038)']}, {'year': '2006', 'month': '07', 'events': ['대한 상공회의소 회원사 등재']}, {'year': '2006', 'month': '06', 'events': ['무역업 등록 및 업무 개시']}, {'year': '2006', 'month': '02', 'events': ['본점을 서울 구로구 구로동 197-48 에이스테크노타워 3차 402호 소재로 이전']}, {'year': '2005', 'month': '12', 'events': ['자본금을 550백만원으로 증자']}, {'year': '2005', 'month': '10', 'events': ['대우정보시스템 협력사']}, {'year': '2005', 'month': '09', 'events': ['한화 S&C 협력사', '자본금을 150백만원으로 증자']}, {'year': '2005', 'month': '08', 'events': ['소프트웨어개발 자문 및 공급업, 시스템 및 네트워크 통합사업 등을 목적으로 (주)타이호 설립', '상호를 (주)타이호인스트로 변경']}], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험', '퇴직연금'], '휴무·휴가·행사': ['주5일제', '연차제도', '정기휴가', '경조휴가', '반차제도', '리프레시 휴가', '출산휴가', '육아휴직', '노동절 휴무'], '보상·수당·지원': ['퇴직금', '경조금', '인센티브', '임직원 교육비', '도서 구입비 지원'], '사내제도·성장': ['직무능력향상교육', '사이버연수원운영'], '사내시설': ['기숙사 지원', '카페테리아'], '편의·여가·건강': ['사내 동호회', '건강검진']}, 'location': {'address': '서울 구로구 구로3동 E＆C 벤처드림타워 2차 804호', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%ed%83%80%ec%9d%b4%ed%98%b8%ec%9d%b8%ec%8a%a4%ed%8a%b8&lat=37.4873513489472&lng=126.890329332248'}}"	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49378800
+케이에이큐	JavaScript 웹 개발자 채용 / 시스템 유지보수 및 플랫폼 개발	['JavaScript', '웹', '개발자']	"
+
+
+
+
+케이에이큐
+
+
+JavaScript 웹 개발자 채용｜결제 시스템 구축 및 플랫폼 개발
+
+
+
+
+
+
+
+
+
+포지션 및 자격요건
+
+JavaScript 웹 개발자 ( ○명 ) 
+
+
+
+담당업무
+ㆍ플랫폼 유지보수 ? 버그 수정·안정화, 배포 관리, 에러 모니터링, 라이브러리·보안 업데이트ㆍ기능 개발·개선 ? 신규 기능 개발, 기존 기능 수정ㆍ사용자 데이터 분석 ? 이용·활동 데이터 분석, 통계·리포트 작성, 사용량 집계ㆍ콘텐츠 운영 ? 과제·프롬프트 등록 및 분류 관리 (엑셀 업로드 포함)ㆍ생성형 AI API 연동 관리 ? 모델 추가·교체, 응답 품질·비용·사용량 관리ㆍ인수·협업 ? 외주 개발사로부터 코드/문서 인수, 기술 소통, 자문위원 보고
+스킬
+ㆍ웹 풀스택: TypeScript/JavaScript, React / Next.js, Node.jsㆍ데이터베이스: PostgreSQL / SQL, ORM(Prisma 등)ㆍGit 협업, 클라우드 배포(Vercel 등), 환경변수·시크릿 관리ㆍ생성형 AI API 연동 (OpenAI · Gemini · Anthropic · Perplexity)ㆍ기존 코드 분석·디버깅 능력 (외주 코드 인수가 첫 과제)
+
+자격요건
+ㆍ학력 : 고졸 이상
+ㆍ경력 : 경력무관
+
+우대사항
+ㆍ유관업무 경력자ㆍ컴퓨터 공학, 소프트웨어 공학 우대
+
+
+
+
+
+
+
+
+
+
+전형절차
+ㆍ서류전형 > 1차면접 > 2차면접 > 임원면접 > 최종합격
+ㆍ면접일정은 추후 통보됩니다.
+
+
+
+
+
+
+
+유의사항
+ㆍ허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+
+
+
+"	[]	모집분야   JavaScript 웹 개발자   모집인원   ○명   고용형태   계약직   (근무기간 3개월)   직급/직책      급여   월급 300~350만원 (면접 후 결정)   근무시간   근무지주소   서울 송파구 양산로8길 5-12 (거여동) 1층   인근지하철   주5일(월~금)   09:00 ~ 18:00   탄력근무제	경력무관, 학력무관, 서울 송파구, 계약직, 300~350만원(월), 사원급	{'basic_info': {'산업': '포털 및 기타 인터넷 정보매개 서비스업', '사원수': '8명 | (2025.09.25)', '기업구분': '중소기업', '설립일': '2023.12.11 | (4년차)', '자본금': '3,000만원 | (2024.12.31)', '매출액': '- | ', '대표자': '신완선', '주요사업': '디지털 정보서비스,안전품질 플랫폼', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': '-', '주소': '경기 수원시 장안구 서부로 2066 (천천동, 성균관대학교) 27403호'}, 'financial': {'영업이익': {'current_value': '-5,660만원'}, '당기순이익': {'current_value': '-4,320만원'}, '산업 내 위치': {'current_value': None}, '총자산 증가율': {'current_value': '764만원'}}, 'history': [{'year': '2023', 'month': '12', 'events': ['창업']}], 'employment': {'recruitments': []}, 'benefits': {}, 'location': {'address': '경기 수원시 장안구 서부로 2066 (천천동, 성균관대학교) 27403호', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%ec%bc%80%ec%9d%b4%ec%97%90%ec%9d%b4%ed%81%90&lat=37.2933656786197&lng=126.974660781718'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49378788
+㈜아이티에스컨버젼스	[ITS컨버젼스] Avaya EP(IVR) 시나리오 개발자 모집	['IVR', '개발', '및', '유지보수']	"
+
+
+
+
+㈜아이티에스컨버젼스
+
+
+성실하고 책임감있는 IVR 개발자 모집합니다
+
+
+
+
+㈜아이티에스컨버젼스는 1999년에 설립된 회사로 자본금 5억원, 매출액 100억, 사원수 35명 규모의 중소기업입니다. 서울 영등포구 경인로 775 (문래동3가, 에이스하이테크시티)에 위치하고 있으며, 기업통신솔루션(IP Telephony, IP Contact center), 딜링 솔루션사업을 하고 있습니다.
+
+
+
+
+
+
+
+포지션 및 자격요건
+
+
+
+
+
+
+
+IVR 개발 및 유지보수 ( 1명 ) 
+
+
+
+
+● 주요 업무- Avaya EP IVR 시나리오 개발 및 유지보수- 서비스 장애 분석 및 개선- Java 기반 연동 모듈 개발 및 유지보수● 스킬- 논리적인 사고 및 문제 해결 능력- 커뮤니케이션 능력- Language: Java● 자격요건- 학력 : 학력무관- 경력 : 경력무관● 우대사항- Avaya EP, Cisco IPIVR, CVP, GVP 솔루션 경험- Linux/Unix 환경 경험- CTI, ARS, 컨텍센터 시스템 경험- 로그 분석 및 오류 원인 파악 경험- REST API 연동 개발 경험- DB(SQL) 활용 경험● 이런 분께 적합합니다- 순수 서비스 개발보다는 기업용 솔루션 연동 개발에 관심 있는 분- Java를 기반으로 외부 시스템 연동, API 개발, 데이터 처리 업무를 해본 분- 컨택센터, 상담 시스템, CTI, IVR 구조를 배우고 싶은 분- 고객사 환경에 맞춰 시스템을 안정적으로 연결하고 개선하는 일에 관심 있는 분- 개발뿐 아니라 운영 이슈 분석과 기술 지원 업무도 함께 수행할 수 있는 분● 이런 분과는 맞지 않을 수 있습니다- Spring Boot 기반 신규 백엔드 서비스 개발만을 기대하는 분- 하루 대부분을 순수 코딩 업무로만 보내고 싶은 분- 컨택센터 솔루션, 운영 이슈, 고객사 대응 업무를 원하지 않는 분- 상용 솔루션 연동이나 SI성 프로젝트에 관심이 적은 분
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+전형절차
+ㆍ서류전형 > 1차면접 > 임원면접 > 최종합격
+ㆍ면접일정은 추후 통보됩니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+유의사항
+ㆍ허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+
+
+
+
+
+
+"	[]	모집분야   IVR 개발 및 유지보수   모집인원   1명   고용형태   정규직   (수습 3개월)   급여   연봉 3,500만원 이상 (면접 후 결정)   근무시간   근무지주소   서울 영등포구 경인로 775 (문래동3가, 에이스하이테크시티) 2동 701호 아이티에스컨버젼스   인근지하철   주5일(월~금)   09:00 ~ 18:00   탄력근무제	경력무관, 학력무관, 서울 영등포구, 정규직, 3,500만원 이상	{'basic_info': {'산업': '네트워크·통신서비스', '사원수': '35명 | ', '기업구분': '중소기업', '설립일': '1999 | (28년차)', '자본금': '5억원 | ', '매출액': '100억 | ', '대표자': '신춘식', '주요사업': '기업통신솔루션(IP Telephony, IP Contact center), 딜링 솔루션', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://www.itsconv.com', '주소': '서울 영등포구 경인로 775 (문래동3가, 에이스하이테크시티) 2동 701호 아이티에스컨버젼스'}, 'financial': {'매출액': {'current_value': '86억 5천만원'}, '영업이익': {'current_value': '1억 626만원'}, '당기순이익': {'current_value': '-5억 94만원'}, '산업 내 위치': {'current_value': None}, '기업등급': {'current_value': None}, '총자산 증가율': {'current_value': '142억 4천만원'}, '동종업계 순위': {'current_value': None}}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험', '퇴직연금'], '휴무·휴가·행사': ['주5일제', '연차제도', '정기휴가', '경조휴가', '반차제도', '출산휴가', '노동절 휴무', '워크샵/MT'], '보상·수당·지원': ['경조금', '장기근속 포상', '우수사원 포상제도', '명절선물/명절상여'], '사내시설': ['휴식공간', '카페테리아']}, 'location': {'address': '서울 영등포구 경인로 775 (문래동3가, 에이스하이테크시티) 2동 701호 아이티에스컨버젼스', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%ec%95%84%ec%9d%b4%ed%8b%b0%ec%97%90%ec%8a%a4%ec%bb%a8%eb%b2%84%ec%a0%bc%ec%8a%a4&lat=37.5143841158228&lng=126.899148153164'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49378773
+㈜두시스템	[경력] 웹/서버 개발 - 정규직 채용	['웹/서버', '개발']	"
+
+
+
+
+㈜두시스템
+
+
+채용제목을 입력해주세요
+
+
+
+
+● 회사소개 ㈜두시스템은 2024년에 설립된 임직원 40명 규모의 중소기업입니다. 서울 용산구 한강대로 366 (동자동, 트윈시티남산)에 위치하고 있으며, 4호선 서울역에서 도보 2분 거리의 우수한 접근성을 자랑합니다.● 주요사업 ㈜두시스템은 금융권 디지털 채널 서비스 개발 및 운영, 솔루션 개발, IoT 서비스 등을 주력 사업으로 전개하고 있습니다.자유롭고 수평적인 조직 문화 속에서 모든 임직원이 열정과 성심을 다해 함께 성장하고 있습니다.● 복지제도 및 임직원 혜택 ㈜두시스템은 4대 보험 및 퇴직연금 제도를 기본으로 운영하며, 장기근속 포상과 리프레시 휴가, 우수 사원 포상제도를 통해 임직원의 노고에 보답하고 있습니다. 또한 업무 관련 교육비와 전문 서적 및 업무용품 구입을 지원하는 등 임직원의 업무 환경 개선과 개인 역량 강화를 위해 지속적으로 노력하고 있습니다. 
+
+
+
+
+
+
+
+포지션 및 자격요건
+
+
+
+
+
+
+
+SI사업 웹/서버 개발( O명 ) 
+
+
+
+사업분야ㆍ금융 관련 SI 및 SM
+
+
+
+담당업무
+ㆍ프론트엔드 및 백엔드 개발
+자격요건
+ㆍ학력 : 초대졸 이상
+ㆍ경력 : 3년 이상ㆍ다음 업무 중 1개 이상의 개발 스킬 보유 또는 실무 경력 있으신 분    - 프론트엔드 : Vue.js, ReactJS, Javascript    - 백엔드 : 백엔드 프레임웍(Spring, Spring Boot 등), Restful API, RDBMS 설계 등
+
+우대사항
+ㆍ풀스택 개발 역량 보유자ㆍ정보처리기사 소지자
+ㆍ클라우드 환경 기반의 개발 및 운영 경험 보유자 ㆍ금융권 SI 프로젝트 수행 유경험자
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+전형절차
+ㆍ서류전형 > 면접전형 > 처우협의 > 최종합격
+ㆍ면접일정은 추후 통보됩니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+유의사항
+ㆍ허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+
+
+
+
+
+
+"	[]	모집분야   웹/서버 개발   모집인원   ○명   고용형태   정규직      급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 용산구 한강대로 366 (동자동, 트윈시티남산) 809호   인근지하철   주5일(월~금)   09:00 ~ 18:00	경력3년↑, 초대졸↑, 서울 용산구, 정규직	{'basic_info': {'산업': '솔루션·SI·CRM·ERP', '사원수': '45명 | ', '기업구분': '중소기업', '설립일': '2024.07.19 | (3년차)', '자본금': '- | ', '매출액': '- | ', '대표자': '정효균 외 1', '주요사업': '소프트웨어 개발 및 서비스', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': '-', '주소': '서울 용산구 한강대로 366 (동자동, 트윈시티남산) 733호'}, 'financial': {}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {}, 'location': {'address': '서울 용산구 한강대로 366 (동자동, 트윈시티남산) 733호', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%eb%91%90%ec%8b%9c%ec%8a%a4%ed%85%9c&lat=37.551126523994&lng=126.972916766363'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49378570
+차봇인슈어런스㈜	[남양주 별내] 차봇인슈어런스-PHP Fullstack 개발자 모집	['PHP', 'Fullstack', '개발자']		['//file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=1757512', '//file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=1757513']	모집분야   PHP Fullstack 개발자   모집인원   1명   고용형태   정규직   (수습 3개월)   급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   경기 남양주시 순화궁로 249 (별내동, 별내역파라곤스퀘어) M동 1808호   인근지하철   주5일(월~금)   09:00 ~ 18:00	경력3년↑, 학력무관, 서울 중랑구 외, 정규직	{'basic_info': {'산업': '보험 대리 및 중개업', '사원수': '60명 | ', '기업구분': '중소기업', '설립일': '2019.09.01 | (8년차)', '자본금': '2억원 | (2022.12.31)', '매출액': '9억 8,952만원 | (2022.12.31)', '대표자': '김성범', '주요사업': '보험대리점', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'https://insurance.chabot.kr/', '주소': '경기 남양주시 순화궁로 249 (별내동, 별내역파라곤스퀘어) M1811호, M1812호', '계열사': '차봇모빌리티그룹 차봇모빌리티(주) 씨앤디파트너스(주) 차봇파이낸스(주) 씨앤에이치파트너스(주) 에이앤지모빌리티(주)'}, 'financial': {'매출액': {'current_value': '9억 8,952만원'}, '영업이익': {'current_value': '-1억 8,016만원'}, '당기순이익': {'current_value': '-1억 6,802만원'}, '기업등급': {'current_value': None}}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험'], '휴무·휴가·행사': ['연차제도', '경조휴가', '반차제도', '리프레시 휴가', '노동절 휴무', '공휴일 휴무', '반반차 제도', '주말 휴무'], '보상·수당·지원': ['퇴직금', '경조금', '인센티브', '복리후생 지원'], '사내제도·성장': ['신입 사원 교육', '직무능력향상교육', '교육/세미나/스터디', '수평적 문화', '자율복장', '주52시간'], '사내시설': ['휴식공간', '카페테리아', '쾌적한 업무공간', '탕비실'], '편의·여가·건강': ['건강검진', '음료/간식 제공']}, 'location': {'address': '경기 남양주시 순화궁로 249 (별내동, 별내역파라곤스퀘어) M1811호, M1812호', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%ec%b0%a8%eb%b4%87%ec%9d%b8%ec%8a%88%ec%96%b4%eb%9f%b0%ec%8a%a4%e3%88%9c&lat=37.6503005535875&lng=127.128154231445'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49378092
+㈜유니디아	[증권/여의도] 장외주식 시스템 운영 Java 개발자 인력 채용	['JAVA', '프로그래머']	"
+
+
+
+
+㈜유니디아
+
+
+[증권/여의도] 장외주식 시스템 운영 Java 개발자 인력 채용
+
+
+
+
+저희 유니디아는 1995년 창사이래 고객 여러분의 지속적인 사랑속에 선진기술력과 경험을 축척하면서
+ 이제IT 중견기업으로 성장하였습니다.
+
+새로운 환경의 정보와 최신의 기술력확보, 빠른 서비스 제공을 위한 인프라 구축, 최첨단 기술력 
+보유만이 우리의 경쟁력을 확보하고 새로운IT시장을 선도할 수 있다고 생각합니다.
+각종 선진 솔루션 발굴 및 개발, 경쟁력 있는 H/W제공, 신속한 전산유지보수 서비스제공, 각정 
+전문인력 확보 및 양성, 전산소모품 사업을 통해 고객여러분께 보다 나은 전산 서비스 제공을 
+위해 최선의 노력을 다하겠습니다.
+
+
+
+
+
+
+
+포지션 및 자격요건
+
+
+
+
+
+
+
+개발 및 운영 ( 1명 ) 
+
+
+
+
+
+
+
+담당업무
+ㆍK-OTC 시스템 업무 개발 및 시스템 유지보수
+스킬ㆍJava, SpringㆍHTML, JSPㆍOracle, Mybatis, JPAㆍGit, JenkinsㆍLinux
+자격요건
+ㆍ학력 : 대학교 졸업자 (관련 학과 전공)ㆍ경력 : 신입, 경력 (2년 이하)ㆍ원활한 커뮤니케이션 능력을 보유하신 분
+ㆍ적극적인 마인드로 업무에 임하는 분
+우대사항ㆍ관련 자격증 보유자
+ㆍ관련 업무 경험자ㆍJava Web Application 관련 개발/운영 경험자
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+전형절차
+ㆍ서류전형 > 1차면접 > 최종합격
+ㆍ면접일정은 추후 통보됩니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+유의사항
+ㆍ허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+
+
+
+
+
+
+"	[]	모집분야   JAVA 프로그래머   모집인원   1명   고용형태   정규직      ,    계약직      ,    프리랜서      직급/직책   급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 영등포구 국제금융로6길 33 (여의도동) 맨하탄 빌딩 5층   인근지하철   주5일(월~금)   08:40 ~ 17:40	경력무관, 초대졸↑, 서울 영등포구, 정규직 외, 사원급 외	{'basic_info': {'산업': '컴퓨터·하드웨어·장비', '사원수': '260명 | ', '기업구분': '중소기업', '설립일': '1995.11.01 | (32년차)', '자본금': '4억원 | ', '매출액': '310억 | ', '대표자': '이경중.이성중', '대졸초임': '2,888만원', '주요사업': 'OA,서버,네트워크 유지보수,망연계솔루션, QR코드로그인, DB암호화 솔루션', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://www.unidia.co.kr', '주소': '서울 영등포구 영등포로 144 (당산동1가, (주)유니디아) 8층'}, 'financial': {}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험'], '휴무·휴가·행사': ['주5일제', '연차제도', '경조휴가'], '보상·수당·지원': ['경조금'], '편의·여가·건강': ['건강검진']}, 'location': {'address': '서울 영등포구 영등포로 144 (당산동1가, (주)유니디아) 8층', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%ec%9c%a0%eb%8b%88%eb%94%94%ec%95%84&lat=37.52086359912&lng=126.897322130519'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49378052
+㈜ec-bank	신입 개발자 모집 기회를 잡아(JAVA)요	['JAVA/JSP', '웹프로그래밍']	"
+
+
+
+
+㈜ec-bank
+
+
+신입 개발자 모집 기회를 잡아(JAVA)요
+
+
+
+
+이씨뱅크는 작은 중소기업이지만 창사이래 연속흑자경영을 하는 회사로써 안정적인 수익구조를 가지고 있으며  
+지속적으로  매년 성장하고 있는 회사입니다. 금년도에는 지난해에 이어 고객만족 향상에 중점을 두어 서비스 
+운영부문의 체계화와 시스템통합(SI)구축 사업을 위해 임직원의 신기술 구현 능력을 배가하고 당사가 보유하고 
+있는 솔루션을 보완하고 이를 중심으로 외부솔루션을 Line-Up 하겠습니다.
+ 
+
+
+
+
+
+
+
+포지션 및 자격요건
+
+
+
+
+
+
+
+JAVA/JSP 웹프로그래밍 ( ○명 ) 
+
+
+
+
+
+
+
+담당업무
+ㆍ상세내용을 입력하세요
+ㆍ상세내용을 입력하세요
+
+스킬
+ㆍJAVA, Javascript, JPA, Jquery, JSP, Spring, Spring Boot, SQL, Spring Framework, 정보처리기사 자격
+
+자격요건
+ㆍ학력 : 대졸이상
+ㆍ경력 : 신입
+
+우대사항
+ㆍ정보처리기사
+ㆍ컴퓨터공학과
+ㆍ교육수료자
+ㆍAI프로젝트 경험
+ㆍAI자격증
+ㆍ자격증 : 정보처리기사, SQL 개발자
+ㆍ전공 : 컴퓨터공학과, 소프트웨어개발전공, 웹프로그래밍전공
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+전형절차
+ㆍ서류전형 > 1차면접 및 필기시험 > 2차면접 > 임원면접 > 최종합격
+ㆍ면접일정은 추후 통보됩니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+유의사항
+ㆍ허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+
+
+
+
+
+
+"	[]	모집분야   JAVA/JSP 웹프로그래밍   모집인원   ○명   고용형태   정규직   (수습 3개월)   직급/직책   급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 영등포구 경인로 775 (문래동3가, 에이스하이테크시티) 2동 1106호   인근지하철   주5일(월~금)   08:30 ~ 18:00	신입, 대졸↑, 서울 영등포구, 정규직, 사원급 외	{'basic_info': {'산업': '컴퓨터시스템 통합 자문 및 구축 서비스업', '사원수': '72명 | (2026.04.15)', '기업구분': '중소기업', '설립일': '1999.06.17 | (28년차)', '자본금': '2억 5,930만원 | (2025.12.31)', '매출액': '165억 9천만원 | (2025.12.31)', '대표자': '최승관', '대졸초임': '3,600만원', '주요사업': '자료 처리,온라인정보 제공,소프트웨어 개발/비주거용건물 임대', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://www.ec-bank.net', '주소': '서울 영등포구 문래동3가 54-66 에이스하이테크시티 2동 1203호'}, 'financial': {'매출액': {'current_value': '165억 9천만원'}, '영업이익': {'current_value': '2억 8,748만원'}, '당기순이익': {'current_value': '4억 1,754만원'}, '산업 내 위치': {'current_value': None}, '기업등급': {'current_value': None}, '총자산 증가율': {'current_value': '86억 9백만원'}, '동종업계 순위': {'current_value': None}}, 'history': [{'year': '2019', 'month': '12', 'events': ['Cloud Service를 위한 open API Interface 개발']}, {'year': '2018', 'month': '12', 'events': ['간편결재(제로페이) 연동모듈']}, {'year': '2017', 'month': '12', 'events': ['블록체인 기반 인증시스템']}, {'year': '2016', 'month': '12', 'events': ['SK(주)우수협력사 선정']}, {'year': '2015', 'month': '12', 'events': ['AAS(Auto Accounting System)']}, {'year': '2014', 'month': '06', 'events': ['파생금융상품 표준시키마 관리 솔루션출시 ec-FpML']}, {'year': '2013', 'month': '04', 'events': ['병원전용 전자구매시스템구축(ec-mps ver 1.0)']}, {'year': '2012', 'month': '04', 'events': ['전자증빙 솔루션출시 EC-Voucher시스템(ver 1.5)']}, {'year': '2012', 'month': '03', 'events': ['전자계약솔루션 ec-Con with SAP 출시']}, {'year': '2011', 'month': '04', 'events': ['무전표 솔루션출시, 전자증빙 솔루션출시, 전자입찰(ec-bid)2.0출시']}, {'year': '2010', 'month': '02', 'events': ['SK B-Cube 전자세금계산서 서비스업체선정 및 서비스제휴, 법인카드 서비스개시']}, {'year': '2009', 'month': '11', 'events': ['전자세금계산서 클라이언트 솔루션ec-deskBill개발']}, {'year': '2009', 'month': '10', 'events': ['정보통신산업진흥원 전자세금계산서 표준인증획득']}, {'year': '2008', 'month': '02', 'events': ['전자입찰 솔루션(ec-Bid)개발, ASP 전자세금계산서 사이트구축(www.ecbill.co.kr)']}, {'year': '2007', 'month': '06', 'events': ['사옥 확장 이전: 에이스하이테크시티']}, {'year': '2007', 'month': '05', 'events': ['전자문서 장애감지 솔루션 개발']}, {'year': '2006', 'month': '06', 'events': ['펌뱅킹용 전자결재 시스템 개발 및 서비스']}, {'year': '2006', 'month': '01', 'events': ['기술혁신 중소기업(INNO-BIZ)확인서', '엠코 전자계약, 건설공제조합 보증연계, 전자보증서비스사업개시, 기술혁신 중소기업(INNO-BIZ)확인서']}, {'year': '2005', 'month': '11', 'events': ['공인인증 사업 개시']}, {'year': '2005', 'month': '06', 'events': ['전자세금계산서 XML 표준 인증 획득(전자거래진흥원)']}, {'year': '2005', 'month': '03', 'events': ['구매확인서 솔루션 개발']}, {'year': '2004', 'month': '09', 'events': ['전자계약(ec-con)솔루션개발 및 서비스개시, 소기업용ASP ERP서비스 개시']}, {'year': '2004', 'month': '03', 'events': ['사옥 이전: 문래동 우리벤처타운']}, {'year': '2003', 'month': '11', 'events': ['HIVAN 송수신 Server/Client Program 등록']}, {'year': '2003', 'month': '05', 'events': ['현대차/기아차 EPAY서비스개시, 현대미포조선 전자세금계산서 서비스 개시']}, {'year': '2002', 'month': '03', 'events': ['거래문서 추적시스템(ec-DTS)개발', '전자외상매출채권(ec-Credit)솔루션개발 및 서비스개시, 전자계약서(ec-Contract)솔루션개발']}, {'year': '2001', 'month': '11', 'events': ['전자세금계산서(ec-bill)솔루션개발 및 서비스 개시']}, {'year': '2001', 'month': '10', 'events': ['현대자동차 무역 EAI 변경 구축 SI 수주']}, {'year': '2001', 'month': '08', 'events': ['현대중공업 구매포탈통합 EAI 수주']}, {'year': '2001', 'month': '06', 'events': ['자체 솔루션 개발 (디지털세금계산서, e-procurement, ec-XMLEAI)']}, {'year': '2001', 'month': '05', 'events': ['Web Local L/C 서비스, XML/EDI Package, 전자세금계산서(ec-bill)솔루션개발 및 서비스 개시']}, {'year': '2001', 'month': '04', 'events': ['정부 PJT 수행 (조선, 기계, 전자 CALS)']}, {'year': '2000', 'month': '10', 'events': ['2000 한국 전자상거래대상 수상', '벤처기업 등록']}, {'year': '2000', 'month': '09', 'events': ['전자서명 인증 서비스']}, {'year': '2000', 'month': '02', 'events': ['기업부설 연구소 설립 (주)이씨뱅크 전자거래연구소']}, {'year': '1999', 'month': '07', 'events': ['한국전자거래(CALS/EC)협의회 가입']}, {'year': '1999', 'month': '06', 'events': ['(주)이씨뱅크 설립(현대정보기술(주)에서 분사/사업이관']}, {'year': '1994', 'month': '08', 'events': ['현대전자에서 현대정보기술로 사업이관']}, {'year': '1994', 'month': '03', 'events': ['무역자동화(EDI) 일반사업자로 지정/사업 개시']}, {'year': '1992', 'month': '08', 'events': ['CMS(Cash Management Service, Firm Banking)']}, {'year': '1991', 'month': '02', 'events': ['현대중공업 수발주 EDI서비스, 현대백화점 유통 EDI서비스']}, {'year': '1989', 'month': '05', 'events': ['현대전자 정보통신 사업 착수']}], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험', '퇴직연금'], '휴무·휴가·행사': ['주5일제', '연차제도', '경조휴가', '창립일 휴무', '노동절 휴무', '창립일 행사'], '보상·수당·지원': ['퇴직금', '경조금', '장기근속 포상', '우수사원 포상제도', '가족 의료비 지원', '자기개발 지원', '야간교통비 지급', '도서 구입비 지원', '헬스비'], '사내제도·성장': ['신입 사원 교육', '자격증취득지원'], '사내시설': ['휴식공간'], '편의·여가·건강': ['사내 동호회', '건강검진', '저녁 식사 지원', '아침 식사 지원', '휴양시설']}, 'location': {'address': '서울 영등포구 문래동3가 54-66 에이스하이테크시티 2동 1203호', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9cec-bank&lat=37.5165698398719&lng=126.896808405946'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49378003
+위킵㈜	[구로] 개발팀 Java 개발자 (신입/경력) 채용	['개발팀']	 	['https://i.ifh.cc/hQ4A7s.jpg']	모집분야   개발팀   모집인원   ○명   고용형태   정규직   (수습 3개월)   ,    계약직   (근무기간 3개월, 정규직 전환 가능)   급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 구로구 구로동로22길 5  (구로동) 위킵 서울센터   인근지하철   주5일(월~금)   10:00 ~ 19:00	경력무관, 학력무관, 서울 구로구, 정규직 외	{'basic_info': {'산업': '물류·운송·배송', '사원수': '168명 | ', '기업구분': '중소기업', '설립일': '2013.10.11 | (14년차)', '자본금': '- | ', '매출액': '- | ', '대표자': '장보영', '주요사업': '풀필먼트 / 스마트 물류', '홈페이지': 'https://www.wekeep.kr/wekeep', '주소': '서울특별시 구로구 구로동로22길 5  (구로동) 위킵사옥'}, 'financial': {}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험', '퇴직연금'], '휴무·휴가·행사': ['주5일제', '연차제도', '경조휴가'], '보상·수당·지원': ['퇴직금', '경조금', '우수사원 포상제도', '명절선물/명절상여'], '편의·여가·건강': ['점심 식사 지원']}, 'location': {'address': '서울특별시 구로구 구로동로22길 5  (구로동) 위킵사옥', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%ec%9c%84%ed%82%b5%e3%88%9c&lat=37.4896059638675&lng=126.884800351672'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49377980
+㈜아이티에스 커뮤니티	[비즈액터] 대기업 자재관리 시스템 운영(SM) 초급 개발자 모집	['대기업', '자재관리', '시스템', '운영']	"
+
+
+
+
+㈜아이티에스 커뮤니티
+
+
+[비즈액터] 대기업 자재관리 시스템 운영(SM) 초급 개발자 모집
+
+
+
+
+㈜아이티에스 커뮤니티는 2023년에 설립된 회사로 자본금 1억원, 매출액 8억 7,148만원, 사원수 12명 규모의 중소기업입니다. 경기 부천시 소사구 부광로 220 (옥길동, 우성테크노파크Ⅰ)에 위치하고 있으며, 시스템 통합(SI) , 시스템 운영(SM), IT 컨설팅사업을 하고 있습니다.
+
+
+
+
+
+
+
+포지션 및 자격요건
+
+
+
+
+
+
+
+대기업 자재관리 시스템 운영 ( 1명 ) 
+
+
+
+
+
+
+
+담당업무
+ㆍ대기업 자재관리 시스템 운영 및 유지보수
+
+ㆍ사용자 요구사항 분석 및 기능 개선
+
+ㆍ프로그램 개발 및 수정
+
+ㆍ장애 대응 및 원인 분석
+
+ㆍ정기 배포 및 운영 지원
+
+ㆍ데이터 조회 및 SQL 튜닝 지원
+
+ㆍ현업 부서와의 커뮤니케이션 
+
+자격요건
+ㆍJava 기반 웹 개발 경험 1년 이상
+ㆍSpring Framework 사용 경험
+
+ㆍJSP 기반 화면 개발 경험
+
+ㆍOracle DB 사용 경험
+
+ㆍSQL 작성 가능자
+
+ㆍ원활한 커뮤니케이션 능력
+우대사항
+ㆍ제조/자재관리/구매 시스템 운영 경험
+ㆍ대기업 SM 프로젝트 경험
+ㆍMyBatis 또는 iBATIS 경험
+ㆍ형상관리(SVN, Git) 사용 경험
+
+ㆍ전산 관련 학과 졸업자
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+전형절차
+ㆍ서류전형 > 1차면접 > 2차면접 > 임원면접 > 최종합격
+ㆍ면접일정은 추후 통보됩니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+유의사항
+ㆍ허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+
+
+
+
+
+
+"	[]	모집분야   대기업 자재관리 시스템 운영   모집인원   1명   고용형태   정규직      ,    계약직      ,    프리랜서      급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 강서구 공항대로 163 (마곡동, 마곡역(5호선)) 마곡역 근처   인근지하철   주5일(월~금)   09:00 ~ 18:00	경력4년↑, 초대졸↑, 서울 강서구, 정규직 외	{'basic_info': {'산업': '컴퓨터시스템 통합 자문 및 구축 서비스업', '사원수': '7명 | ', '기업구분': '중소기업', '설립일': '2023.03.27 | (4년차)', '자본금': '5,000만원 | (2024.12.31)', '매출액': '8억 7,148만원 | (2024.12.31)', '대표자': '정병진', '대졸초임': '3,800만원', '주요사업': '컴퓨터 시스템 통합 자문 및 구축 서비스업,컴퓨터시설 관리업,응용 소프트웨어 개발 및 공급업', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://www.its-com.co.kr', '주소': '경기 부천시 소사구 부광로 220 (옥길동, 우성테크노파크Ⅰ) 10F 1019호'}, 'financial': {'매출액': {'current_value': '8억 7,148만원'}, '영업이익': {'current_value': '-3,443만원'}, '당기순이익': {'current_value': '-3,137만원'}, '산업 내 위치': {'current_value': None}, '동종업계 순위': {'current_value': None}}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'보상·수당·지원': ['가족 의료비 지원', '보육수당'], '사내제도·성장': ['교육/세미나/스터디'], '사내시설': ['구내식당'], '편의·여가·건강': ['사내 동호회']}, 'location': {'address': '경기 부천시 소사구 부광로 220 (옥길동, 우성테크노파크Ⅰ) 10F 1019호', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%ec%95%84%ec%9d%b4%ed%8b%b0%ec%97%90%ec%8a%a4+%ec%bb%a4%eb%ae%a4%eb%8b%88%ed%8b%b0&lat=37.4676290116281&lng=126.825246821476'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49377831
+㈜굿씽크	[[[편의점업무경험자 가능//자바/SPRING/ 고급/6개월일/즉시부터]]]	['자바', 'SPRING']	"
+
+
+
+
+㈜굿씽크
+
+[[[편의점업무경험자 가능/자바/SPRING/ 고급/6개월일/즉시부터]]]
+
+
+
+
+
+
+
+
+
+
+
+
+포지션 및 자격요건
+
+
+
+
+
+
+
+포지션 ( 고급1명 ) 
+
+
+업무내용편의점 정산 업무 및 배치 개발기간즉시 ~ 12월말(이후 연장 가능성 있음)장소문래역 근처등급고급 1명스킬JAVA. Spring, 정산 업무 및 배치 개발 경험자(필수) , 편의점 경험자만 지원가능.단가3.3% 계약직 620만원담당업무정산 업무 및 배치 개발우대          아래 이메일로 경력서 주시면 신속히 처리 됩니다.  jon@dareun.co.kr자격요건
+ㆍ학력 : 전문대 2년 이상.
+
+우대사항
+ㆍ상세내용을 입력하세요
+ㆍ상세내용을 입력하세요
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+전형절차
+ㆍ서류전형 > 1차면접  > 최종합격
+ㆍ면접일정은 추후 통보됩니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+유의사항
+ㆍ허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+
+
+
+
+
+
+"	[]	모집분야   자바 SPRING   모집인원   1명   고용형태   계약직   (근무기간 6개월)   급여   월급 620~620만원   근무시간   근무지주소   서울 강서구 양천로 551-17 (가양동, 한화비즈메트로1차) A동 203호 한화비즈메트로1차   인근지하철   주5일(월~금)   09:00 ~ 18:00	경력9년↑, 초대졸↑, 서울 강서구, 계약직, 620만원 이상(월)	{'basic_info': {'산업': '시스템 소프트웨어 개발 및 공급업', '사원수': '16명 | (2022.06.28)', '기업구분': '중소기업', '설립일': '2014.08.13 | (13년차)', '자본금': '2억원 | (2025.12.31)', '매출액': '35억 4천만원 | (2025.12.31)', '대표자': '김은상', '주요사업': '시스템\u3000소프트웨어\u3000개발\u3000및\u3000공급업', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://www.gdthink.co.kr', '주소': '서울 강서구 양천로 551-17 (가양동, 한화비즈메트로1차) A동 203호 한화비즈메트로1차'}, 'financial': {'매출액': {'current_value': '35억 4천만원'}, '영업이익': {'current_value': '8,418만원'}, '당기순이익': {'current_value': '1,087만원'}, '산업 내 위치': {'current_value': None}, '기업등급': {'current_value': None}, '동종업계 순위': {'current_value': None}}, 'history': [{'year': '2020', 'month': '01', 'events': ['경영혁신형 중소기업(Main-Biz) 등록']}, {'year': '2019', 'month': '01', 'events': ['본사사옥매입이전(가양동)']}, {'year': '2018', 'month': '01', 'events': ['자본금 증자(2억)']}, {'year': '2017', 'month': '01', 'events': ['사무실 확장 이전(가산동 KCC웰츠밸리)']}, {'year': '2016', 'month': '01', 'events': ['자본금 증자(5천만원)']}, {'year': '2015', 'month': '01', 'events': ['Think-HR v1.0 솔루션 출시(인사관리솔루션)']}, {'year': '2014', 'month': '01', 'events': ['소프트포유 HR 및 SI사업부 인수', '굿씽크 법인 설립(마포구 상수동)']}], 'employment': {'recruitments': []}, 'benefits': {}, 'location': {'address': '서울 강서구 양천로 551-17 (가양동, 한화비즈메트로1차) A동 203호 한화비즈메트로1차', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%ea%b5%bf%ec%94%bd%ed%81%ac&lat=37.5591552508388&lng=126.860991993399'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49377798
+㈜조인아이티	마곡나루역/즉시-10.31&운영예정/고급.pl급/업무리딩,분설개,기술 등 상세	['OO', '사내업무시스템', '분석.설계.개발&운영', '인력']	"
+
+
+
+
+㈜조인아이티
+
+
+마곡나루역/즉시-10.31+운영예정/고급.pl급/업무리딩,분설개,기술 등 상세
+
+
+
+
+
+
+
+
+
+
+
+
+포지션 및 자격요건
+
+
+
+
+
+
+
+OO 사내업무시스템 분석.설계.개발&운영 인력 ( ○명 ) 
+
+
+
+
+
+
+
+프로젝트 : OO 사내업무시스템 분석/설계/개발 ? 운영 예정 개발장소 : 서울 마곡나루역개발업무 : IT 전문회사의 내부업무시스템 분석/설계/개발                    ? 운영 예정개발기간 : 즉시~26.10.31 + 운영 예정요구기술 : PL급 - 분석/설계 ( ERD 작성가능한 실제 분석/설계자 )                               + 개발( JAVA, JavaScript )요구인력 : 고급 1명참조사항 :  단가 기재 지원요청                  -업무 Process에 대해 PL급으로 분석/설계를 리딩하고 개발                    그리고 운영까지 담당할 인력이오니                   -검증된 인력으로 부탁드립니다. ☞지원_성명_공고명_일반 워드이력서,SKILL INVENTORY,,,경력년수,단가,투입가능일,사업자여부, 부탁드립니다---.  bearhcw@naver.com  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+전형절차
+ㆍ서류전형 > 1차면접 > 2차면접 > 임원면접 > 최종합격
+ㆍ면접일정은 추후 통보됩니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+유의사항
+ㆍ허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+
+
+
+
+
+
+"	[]	모집분야   OO 사내업무시스템 분석.설계.개발&운영 인력   모집인원   ○명   고용형태   프리랜서      급여   회사 내규에 따름   근무시간   근무지주소   서울 강서구 마곡중앙5로 2 (마곡동, 마곡나루역(9호선))    인근지하철   주5일(월~금)   09:00 ~ 18:00	경력9년↑, 학력무관, 서울 강서구, 프리랜서	{'basic_info': {'산업': '응용 소프트웨어 개발 및 공급업', '사원수': '18명 | (2023.03.16)', '기업구분': '중소기업', '설립일': '2007.04.17 | (20년차)', '자본금': '5,000만원 | (2023.12.31)', '매출액': '18억 8천만원 | (2023.12.31)', '대표자': '전준수', '주요사업': '소프트웨어개발,시스템운영및보수', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://-', '주소': '경기 안양시 동안구 안양판교로 20 (관양동, 신한데뷰오피스텔) 신한데뷰오피스텔812호'}, 'financial': {'매출액': {'current_value': '18억 8천만원'}, '영업이익': {'current_value': '190만원'}, '당기순이익': {'current_value': '496만원'}, '기업등급': {'current_value': None}}, 'history': [{'year': '2012', 'month': '04', 'events': ['회사 이전: 안양 관양동']}, {'year': '2009', 'month': '04', 'events': ['회사 이전: 서울 서초동']}, {'year': '2007', 'month': '12', 'events': ['정보관리실 데이터 운영관리']}, {'year': '2007', 'month': '10', 'events': ['KT BMS 시스템 용역(포스데이타)']}, {'year': '2007', 'month': '09', 'events': ['엔투지 물류시스템 개선(포스데이타)']}, {'year': '2007', 'month': '08', 'events': ['현대제철 일관제철 정보화 기본계획 수립(오토에버시스템즈)']}, {'year': '2007', 'month': '07', 'events': ['하나로텔레콤 코러스 성능개발 용역(포스데이타)']}, {'year': '2007', 'month': '05', 'events': ['현대하이스코 ADM운영 용역(오토에버시스템즈: 아토스 경유)', '한국자산관리공사 SM기술용역 계약(동양시스템즈)', '하나로텔레콤 OSS운영 용역 계약(포스데이타: 아토스 경유)', '엔투지 정보시스템 운영 용역(포스데이타: 아토스 경유)']}, {'year': '2007', 'month': '04', 'events': ['(주)조인아이티 설립']}], 'employment': {'recruitments': []}, 'benefits': {}, 'location': {'address': '경기 안양시 동안구 안양판교로 20 (관양동, 신한데뷰오피스텔) 신한데뷰오피스텔812호', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%ec%a1%b0%ec%9d%b8%ec%95%84%ec%9d%b4%ed%8b%b0&lat=37.4003164521585&lng=126.978050724228'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49377725
+㈜앰진	(주)앰진 웹 프론트엔드 신입·경력 채용공고	['프론트엔드']	"
+
+
+
+
+㈜앰진
+
+
+
+
+
+
+
+(주)앰진 웹 프론트엔드 신입·경력 채용공고
+
+
+
+
+
+(주)앰진은 사이버 위협의 라이프사이클에 대한 올라운드플레이어로서 깊이 있는 이해와 독창적인 분석방법론 기반의 보안 프레임워크를구축하여 사이버 위협 보안 체계를 선도하는 업력 10년차의 보안·솔루션 전문기업입니다.앞으로도 전략적이고 고도화된 사이버 위협 분석·보안 기술을 바탕으로 더 안전한 사이버 공간을 위해역량 있는 인재들과 함께 도약해 나가고자 합니다.
+
+
+
+
+
+
+
+
+모집부문 및 상세내용
+
+
+웹 프론트엔드근무부서담당업무자격요건우대사항웹프론트엔드ㆍ웹 프론트엔드 개발
+ㆍ주요 개발 언어 : Javascript, Typescript, jQuery
+ㆍ주요 프레임워크 : React, AngularJS, Node.js / Qt
+ㆍHTML5, CSS, 웹표준 기반 개발
+ㆍJavascript 기반 데이터 시각화 ㆍ개발에 대한 기본지식 보유자
+ㆍ협업 및 커뮤니케이션이
+   원할한 자
+ㆍ일에 대한 열정과 창의력이
+   있는 자
+ㆍ언어 개발 능숙한자 ㆍWordpress 경험자
+ㆍChart 라이브러리 경험자
+ㆍ경력 1년 이상
+ㆍ대졸 이상 
+
+
+
+
+
+
+
+
+
+
+근무조건
+
+
+
+
+ㆍ근무형태 : 정규직(수습기간)-3개월
+
+
+ㆍ근무일시 : 주 5일(월~금) 오전 9시~오후 6시
+
+
+ㆍ급여 : 회사내규에 따름(경력에 따라 협의)
+
+
+ㆍ근무지역 : 서울본사 (서울특별시 송파구 법원로 127, 3층 310호, 311호, 312호)                        세종지사 (세종특별자치시 한누리대로 1962, 607호)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+전형절차
+ㆍ서류전형 > 1차면접 > 2차면접 > 최종합격
+
+
+
+
+
+
+
+
+
+
+
+
+
+접수기간 및 방법
+
+
+
+
+ㆍ접수기간: 2026년 06월 15일 (월) 09시  ~ 2026년 06월 22일 (월) 24시
+
+
+ㆍ접수방법 : 잡코리아 입사지원
+
+
+ㆍ이력서양식 : 잡코리아 온라인 이력서
+
+
+ㆍ제출서류 : 
+
+                                              - 잡코리아 온라인 이력서 및 자기소개서
+                                                                  - 경력기술서(경력직 해당)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+유의사항
+
+
+
+
+ㆍ학력, 성별, 연령을 보지않는 블라인드 채용입니다. 
+
+
+ㆍ입사지원 서류에 허위사실이 발견될 경우, 채용확정 이후라도 채용이 취소될 수 있습니다.
+
+
+ㆍ모집분야별로 마감일이 상이할 수 있으니 유의하시길 바랍니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+"	['//file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=393946']	모집분야   프론트엔드   모집인원   ○○명   고용형태   정규직   (수습 3개월)   직급/직책      급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 송파구 법원로 127 (문정동, 문정대명벨리온) 3층 310호, 311호, 312호   인근지하철   주5일(월~금)   09:00 ~ 18:00   탄력근무제	경력, 초대졸↑, 서울 송파구, 정규직, 사원급	{'basic_info': {'산업': '정보보안', '사원수': '19명 | ', '기업구분': '중소기업', '설립일': '2012.06.12 | (15년차)', '대표자': '조양현', '대졸초임': '3,000만원', '주요사업': '정보보호솔루션, 사이버 인텔리전스, 사이버침해대응, Honeynet 구축, 악성코드 분석', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'https://www.amgine.co.kr/', '주소': '서울 송파구 법원로 127 (문정동, 문정대명벨리온) 3층 310호, 311호, 312호'}, 'financial': {}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험', '퇴직연금'], '휴무·휴가·행사': ['연차제도', '경조휴가', '반차제도', '노동절 휴무', '공휴일 휴무'], '보상·수당·지원': ['퇴직금', '명절선물/명절상여', '주차 지원', '야간교통비 지급', '각종 기념일 선물', '임직원 학자금', '상여금'], '사내제도·성장': ['님/닉네임 호칭', '수평적 문화', '자율복장'], '사내시설': ['탕비실'], '편의·여가·건강': ['건강검진', '점심 식사 지원', '저녁 식사 지원']}, 'location': {'address': '서울 송파구 법원로 127 (문정동, 문정대명벨리온) 3층 310호, 311호, 312호', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%ec%95%b0%ec%a7%84&lat=37.4863026526111&lng=127.118767376612'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49377699
+㈜위펀	[위펀] 백엔드 엔지니어 (운영 & 보안)	['DevOps', '개발/운영']	 	['//file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=1494742', 'https://file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=504535', '//file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=1703247', '//file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=1415983', '//file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=1415982']	모집분야   DevOps 개발/운영   모집인원   ○명   고용형태   정규직      급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 강남구 강남대로 374 (역삼동, 형제빌딩) 15층   인근지하철   주5일(월~금)   [8시~10시30분 자율출근제]	경력5년↑, 학력무관, 서울 강남구 외, 정규직	{'basic_info': {'산업': '포털·컨텐츠·커뮤니티', '사원수': '400명 | ', '기업구분': '중소기업', '설립일': '2018.12.24 | (9년차)', '대표자': '김헌', '주요사업': '구독으로 만나는 새로운 복지 플랫폼', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://wefuncorp.com', '주소': '서울 강남구 강남대로 374 (역삼동, 형제빌딩) 15층'}, 'financial': {}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험', '퇴직연금'], '휴무·휴가·행사': ['주5일제', '연차제도', '월차제도', '경조휴가', '반차제도', '출산휴가', '남성출산휴가', '창립일 휴무', '노동절 휴무', '공휴일 휴무', '다양한 휴가제도', '반반차 제도', '패밀리데이'], '보상·수당·지원': ['퇴직금', '경조금', '인센티브', '장기근속 포상', '우수사원 포상제도', '임직원 교육비', '자기개발 지원', '직책수당', '명절선물/명절상여', '도서 구입비 지원', '연차수당', '장비 지원', '회사 차량 지원', '회식비 지원', '포상제도', '임직원몰', '추천비 지원'], '사내제도·성장': ['교육/세미나/스터디', '님/닉네임 호칭', '수평적 문화', '임산부 근로시간 단축', '자율복장'], '사내시설': ['휴식공간', '카페테리아', '쾌적한 업무공간', '탕비실'], '편의·여가·건강': ['건강검진', '점심 식사 지원', '저녁 식사 지원', '식사 지원', '사내 편의 서비스', '음료/간식 제공']}, 'location': {'address': '서울 강남구 강남대로 374 (역삼동, 형제빌딩) 15층', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%ec%9c%84%ed%8e%80&lat=37.4962862830454&lng=127.029093681142'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49377694
+㈜위펀	[위펀] 백엔드 개발 엔지니어 (미들급/5년이상)	['Backend', 'Engineer']	 	['//file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=1703248', '//file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=1576368', 'https://file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=504535', '//file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=1415983', '//file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=1415982']	모집분야   Backend Engineer   모집인원   ○명   고용형태   정규직      급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 강남구 강남대로 374 (역삼동, 형제빌딩) 15층   인근지하철   주5일(월~금)   [8시~10시30분 자율출근제]	경력5년↑, 학력무관, 서울 강남구 외, 정규직	{'basic_info': {'산업': '포털·컨텐츠·커뮤니티', '사원수': '400명 | ', '기업구분': '중소기업', '설립일': '2018.12.24 | (9년차)', '대표자': '김헌', '주요사업': '구독으로 만나는 새로운 복지 플랫폼', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://wefuncorp.com', '주소': '서울 강남구 강남대로 374 (역삼동, 형제빌딩) 15층'}, 'financial': {}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험', '퇴직연금'], '휴무·휴가·행사': ['주5일제', '연차제도', '월차제도', '경조휴가', '반차제도', '출산휴가', '남성출산휴가', '창립일 휴무', '노동절 휴무', '공휴일 휴무', '다양한 휴가제도', '반반차 제도', '패밀리데이'], '보상·수당·지원': ['퇴직금', '경조금', '인센티브', '장기근속 포상', '우수사원 포상제도', '임직원 교육비', '자기개발 지원', '직책수당', '명절선물/명절상여', '도서 구입비 지원', '연차수당', '장비 지원', '회사 차량 지원', '회식비 지원', '포상제도', '임직원몰', '추천비 지원'], '사내제도·성장': ['교육/세미나/스터디', '님/닉네임 호칭', '수평적 문화', '임산부 근로시간 단축', '자율복장'], '사내시설': ['휴식공간', '카페테리아', '쾌적한 업무공간', '탕비실'], '편의·여가·건강': ['건강검진', '점심 식사 지원', '저녁 식사 지원', '식사 지원', '사내 편의 서비스', '음료/간식 제공']}, 'location': {'address': '서울 강남구 강남대로 374 (역삼동, 형제빌딩) 15층', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%ec%9c%84%ed%8e%80&lat=37.4962862830454&lng=127.029093681142'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49377680
+㈜위펀	[위펀] 백엔드 개발 엔지니어 (시니어급/8년이상)	['Backend', 'Engineer']	 	['//file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=1703249', 'https://file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=504535', '//file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=1576373', '//file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=1415983', '//file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=1415982']	모집분야   Backend Engineer   모집인원   ○명   고용형태   정규직      급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 강남구 강남대로 374 (역삼동, 형제빌딩) 15층   인근지하철   주5일(월~금)   [8시~10시30분 자율출근제]	경력8년↑, 학력무관, 서울 강남구 외, 정규직	{'basic_info': {'산업': '포털·컨텐츠·커뮤니티', '사원수': '400명 | ', '기업구분': '중소기업', '설립일': '2018.12.24 | (9년차)', '대표자': '김헌', '주요사업': '구독으로 만나는 새로운 복지 플랫폼', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://wefuncorp.com', '주소': '서울 강남구 강남대로 374 (역삼동, 형제빌딩) 15층'}, 'financial': {}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험', '퇴직연금'], '휴무·휴가·행사': ['주5일제', '연차제도', '월차제도', '경조휴가', '반차제도', '출산휴가', '남성출산휴가', '창립일 휴무', '노동절 휴무', '공휴일 휴무', '다양한 휴가제도', '반반차 제도', '패밀리데이'], '보상·수당·지원': ['퇴직금', '경조금', '인센티브', '장기근속 포상', '우수사원 포상제도', '임직원 교육비', '자기개발 지원', '직책수당', '명절선물/명절상여', '도서 구입비 지원', '연차수당', '장비 지원', '회사 차량 지원', '회식비 지원', '포상제도', '임직원몰', '추천비 지원'], '사내제도·성장': ['교육/세미나/스터디', '님/닉네임 호칭', '수평적 문화', '임산부 근로시간 단축', '자율복장'], '사내시설': ['휴식공간', '카페테리아', '쾌적한 업무공간', '탕비실'], '편의·여가·건강': ['건강검진', '점심 식사 지원', '저녁 식사 지원', '식사 지원', '사내 편의 서비스', '음료/간식 제공']}, 'location': {'address': '서울 강남구 강남대로 374 (역삼동, 형제빌딩) 15층', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%ec%9c%84%ed%8e%80&lat=37.4962862830454&lng=127.029093681142'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49377671
+㈜위펀	[위펀] 프론트엔드 개발 (Frontend/React)	['Frontend', 'Engineer/React']	 	['https://file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=504535', '//file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=1415983', '//file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=1703246', '//file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=1574786', '//file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=1415982']	모집분야   Frontend Engineer/React   모집인원   ○명   고용형태   정규직      급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 강남구 강남대로 374 (역삼동, 형제빌딩) 15층   인근지하철   주5일(월~금)   [8시~10시30분 자율출근제]	경력5년↑, 학력무관, 서울 강남구 외, 정규직	{'basic_info': {'산업': '포털·컨텐츠·커뮤니티', '사원수': '400명 | ', '기업구분': '중소기업', '설립일': '2018.12.24 | (9년차)', '대표자': '김헌', '주요사업': '구독으로 만나는 새로운 복지 플랫폼', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://wefuncorp.com', '주소': '서울 강남구 강남대로 374 (역삼동, 형제빌딩) 15층'}, 'financial': {}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험', '퇴직연금'], '휴무·휴가·행사': ['주5일제', '연차제도', '월차제도', '경조휴가', '반차제도', '출산휴가', '남성출산휴가', '창립일 휴무', '노동절 휴무', '공휴일 휴무', '다양한 휴가제도', '반반차 제도', '패밀리데이'], '보상·수당·지원': ['퇴직금', '경조금', '인센티브', '장기근속 포상', '우수사원 포상제도', '임직원 교육비', '자기개발 지원', '직책수당', '명절선물/명절상여', '도서 구입비 지원', '연차수당', '장비 지원', '회사 차량 지원', '회식비 지원', '포상제도', '임직원몰', '추천비 지원'], '사내제도·성장': ['교육/세미나/스터디', '님/닉네임 호칭', '수평적 문화', '임산부 근로시간 단축', '자율복장'], '사내시설': ['휴식공간', '카페테리아', '쾌적한 업무공간', '탕비실'], '편의·여가·건강': ['건강검진', '점심 식사 지원', '저녁 식사 지원', '식사 지원', '사내 편의 서비스', '음료/간식 제공']}, 'location': {'address': '서울 강남구 강남대로 374 (역삼동, 형제빌딩) 15층', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%ec%9c%84%ed%8e%80&lat=37.4962862830454&lng=127.029093681142'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49377649
+㈜미래지기	보험사 SAP 재무회계 운영 (고급)	['보험사', 'SAP', '재무회계', '운영']	"
+
+
+
+
+㈜미래지기
+
+
+보험사 SAP 재무회계 운영 (고급)포지션 및 자격요건
+
+
+
+
+
+
+
+보험사 SAP 재무회계 운영
+
+
+
+1. 프로젝트명: 보험사 SAP 재무회계 운영 2. 근무지: 서대문역 근방3. 기간:  6월 29일 ~ 장기 계약4. 업무: SAP 재무회계 업무 운영5. 필요 스펙    - SAP FI 모듈 경력    - ABAP 프로젝트 경력    - 고급 경력 증빙 가능자    - SAP CO 모듈 경력 우대
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+전형절차
+ㆍ서류전형 > 1차면접 > 최종합격
+ㆍ면접일정은 추후 통보됩니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+유의사항
+ㆍ허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+
+
+
+
+
+
+"	[]	모집분야   보험사 SAP 재무회계 운영   모집인원   1명   고용형태   프리랜서   (근무기간 12개월)   급여   회사 내규에 따름   근무시간   근무지주소   서울 서대문구 미근동 0   인근지하철   주5일(월~금)   09:00 ~ 18:00	경력7년↑, 학력무관, 서울 서대문구, 프리랜서	{'basic_info': {'산업': '모바일·APP', '사원수': '11명 | ', '기업구분': '벤처기업', '설립일': '2010.06.17 | (17년차)', '자본금': '5,000만원 | ', '매출액': '22억 | ', '대표자': '양승만', '주요사업': '소프트웨어 개발 및 서비스', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://www.miraejigi.com', '주소': '경기 성남시 수정구 수정로73번길 8 (태평동) 201호'}, 'financial': {}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험'], '휴무·휴가·행사': ['주5일제', '정기휴가']}, 'location': {'address': '경기 성남시 수정구 수정로73번길 8 (태평동) 201호', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%eb%af%b8%eb%9e%98%ec%a7%80%ea%b8%b0&lat=37.4404932880324&lng=127.128605325222'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49377452
+㈜새한정보	신한카드 웹서버 개발 및 운영 - SM	['신한카드', '웹서버', '개발', '및', '운영', '-', 'SM']	"
+
+
+
+
+㈜새한정보
+
+
+신한카드 웹서버 개발 및 운영 - SM
+
+
+
+
+
+
+
+
+
+
+
+
+포지션 및 자격요건
+
+
+
+
+
+
+
+신한카드 웹서버 개발 및 운영 - SM
+
+
+
+1. 신한카드 마켓플레이스 웹 / 업무포탈 / APi서비스 개발 및 운영 - SM
+      - 고급 개발자   - JAVA, SpringBoot   - 백엔드 API 분석/설계/개발 능숙자    - PostgreSQL, Mybatis, Jquery, Thymeleaf   - Git/CICD, Vue.js 경험자 우대   - 협업 및 커뮤니케이션 능력 능숙자   - 근무기간 :  2026.07 ~ 2027.06 (12개월 이후 연단위 연장)   - 근무장소 : 을지로3가   - 코사등 경력증빙 필수   - 정규직 및 프리랜서 가능   - 개인 프로필 및 희망급여 제시 요망 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+전형절차
+ㆍ서류전형 > 1차면접 > 2차면접 > 임원면접 > 최종합격
+ㆍ면접일정은 추후 통보됩니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+유의사항
+ㆍ허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+
+
+
+
+
+
+"	[]	모집분야   신한카드 웹서버 개발 및 운영 - SM   모집인원   ○명   고용형태   정규직      ,    계약직   (근무기간 12개월)   ,    프리랜서   (근무기간 12개월)   급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 중구 을지로 100  (을지로2가) A동   인근지하철   주5일(월~금)   09:00 ~ 18:00	경력7년↑, 학력무관, 서울 중구, 정규직 외	{'basic_info': {'산업': '시스템 소프트웨어 개발 및 공급업', '사원수': '12명 | ', '기업구분': '중소기업', '설립일': '2023.01.13 | (4년차)', '자본금': '5,000만원 | ', '매출액': '10억 | ', '대표자': '김현태', '주요사업': '시스템소프트웨어개발, 공급,컴퓨터프로그래밍, 소프트웨어 유지보수', '4대보험': '고용보험, 산재보험', '홈페이지': '-', '주소': '서울 동대문구 회기로 195 (휘경동) 6층 601호-씨 133'}, 'financial': {}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험'], '휴무·휴가·행사': ['월차제도', '경조휴가', '반차제도', '노동절 휴무', '공휴일 휴무'], '보상·수당·지원': ['경조금', '복리후생 지원'], '사내제도·성장': ['자율복장']}, 'location': {'address': '서울 동대문구 회기로 195 (휘경동) 6층 601호-씨 133', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%ec%83%88%ed%95%9c%ec%a0%95%eb%b3%b4&lat=37.5902448336423&lng=127.057654510537'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49377249
+아이모션	메일 시스템 운영 엔지니어 모집	['정보시스템운영']	"대규모 메일 시스템 운영 엔지니어 채용 공고
+
+
+
+기업 소개
+
+
+회사명
+(주)아이모션 (2000년 설립)
+
+
+위치
+서울 마포구 월드컵북로 21 (서교동)
+
+
+사업 분야
+메일 S/W 개발 및 대규모 메일 플랫폼 서비스 전문 기업
+
+
+
+
+
+""신규 기능 개발보다 대규모 메일 서비스의 `안정 운영`과 `릴리스`를 책임집니다.""
+일 대량 트래픽이 오가는 메일 플랫폼(웹·IMAP·POP3·SMTP)을 모니터링하고, 장애에 대응하며 무중단 배포를 책임질 운영 엔지니어를 찾습니다.
+
+
+
+모집 부문 및 담당 업무
+
+
+모집 포지션
+정보시스템운영 엔지니어 (채용 인원: 2명)
+
+
+
+장애 대응 : 알람 수신 ? 로그 추적 ? 원인 분석 ? 조치 및 사후 회고
+모니터링 : 서비스 지표 및 알람 상시 관제, 임계치 튜닝
+CS 연계 : 운영툴을 활용한 로그·설정 조회, 고객 문의의 기술적 원인 규명
+릴리스/배포 : 무중단 배포, 롤백, 핫픽스 운영
+인프라 운영 : 메시지 큐(RabbitMQ/Kafka), DB, Kubernetes 상태 점검 및 운영 작업
+운영 자동화 : 반복 작업 스크립트화, 런북(Runbook) 작성
+
+
+
+
+자격 요건
+※ 연차의 숫자보다 `운영 마인드와 기본기`를 우선으로 검토합니다.
+
+학력 : 초대졸 이상
+경력 : 경력 3년 이상 ~ 7년 이하
+기술 기본기 :
+
+Linux 서버 운영 기본기 (로그·프로세스·네트워크 확인, 셸 스크립트 활용)
+코드를 읽고 간단히 수정할 수 있는 역량 (Java, Kotlin, Node.js, Python 등 언어 무관)
+Git 기반의 협업 경험 및 로그/모니터링 도구 사용 경험 (Kibana, Grafana, APM 등 종류 무관)
+
+
+성향 및 태도 : 이슈를 끝까지 추적하는 문제 해결 성향, 온콜(On-call) 및 즉시 대응 체계 참여 가능자
+
+
+
+
+우대 사항
+
+메시지 큐(RabbitMQ, Kafka) 운영 경험자 (클러스터 이관 및 버전 업그레이드 경험 시 강력 우대)
+Kubernetes 운영 경험 및 다양한 데이터 저장소(MongoDB, Redis, Elasticsearch, MySQL) 운영 경험
+SRE / DevOps 실무 경험 (무중단 배포, 관측성 구축, 장애 회고 문화)
+이메일 시스템 프로토콜 및 아키텍처 이해 (SMTP, IMAP, POP3, MTA, 스팸 필터)
+CI/CD 및 IaC(Ansible 등) 운영 경험
+실무에 AI 코딩 툴(Claude Code, Codex 등)을 적극적으로 활용해 보신 분
+
+
+
+
+활용 기술 스택 (Tech Stack)
+
+
+Language
+Java / Kotlin, Node.js, Python
+
+
+Data & Message Queue
+RabbitMQ, Kafka, MongoDB, Redis, Elasticsearch, MySQL
+
+
+Infra & DevOps
+Kubernetes, Ansible
+
+
+Monitoring
+Kibana, APM
+
+
+Cooperation
+GitHub, Jira, Confluence
+
+
+
+
+
+전형 절차 및 안내사항
+
+
+전형 단계
+서류 전형 ? 기술 면접 (운영 시나리오 및 장애 대응 중심) ? 임원 면접 ? 최종 합격
+
+
+성장 지원
+입사 후 시스템 토폴로지, 인프라, 관측 도구 학습과 쉐도잉 기간을 거치게 되며, 진행 중인 인프라 고도화 과제에 실전 참여하며 빠르게 성장할 수 있습니다.
+
+
+유의 사항
+기재된 내용 중 허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+ "	[]	모집분야   정보시스템운영   모집인원   2명   고용형태   정규직   (수습 3개월)   급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   경기 성남시 분당구 판교역로 235 (삼평동, 에이치스퀘어 엔동)    인근지하철   주5일(월~금)   09:00 ~ 18:00   9시~10시 사이 자유출근 (8시간근무, 1시간휴게)	경력3년↑, 초대졸↑, 서울 강남구 외, 정규직	{'basic_info': {'산업': '솔루션·SI·CRM·ERP', '기업구분': '중소기업', '설립일': '2000.07.22 | (27년차)', '대표자': '김종민', '주요사업': '메일S/W 개발전문기업', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://www.imoxion.com', '주소': '서울 마포구 월드컵북로 21 (서교동) 풍성빌딩 9층'}, 'financial': {}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험', '퇴직연금'], '휴무·휴가·행사': ['연차제도', '월차제도', '경조휴가', '반차제도', '포상휴가', '출산휴가', '남성출산휴가', '창립일 행사', '워크샵/MT', '체육대회'], '보상·수당·지원': ['장기근속 포상', '우수사원 포상제도', '가족 의료비 지원', '자기개발 지원', '야간근로수당', '휴일근로수당', '연월차제도수당', '직책수당', '야간교통비 지급', '헬스비', '복리후생 지원'], '사내제도·성장': ['신입 사원 교육'], '사내시설': ['휴식공간'], '편의·여가·건강': ['저녁 식사 지원', '아침 식사 지원']}, 'location': {'address': '서울 마포구 월드컵북로 21 (서교동) 풍성빌딩 9층', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%ec%95%84%ec%9d%b4%eb%aa%a8%ec%85%98&lat=37.5565517936996&lng=126.919522997889'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49377224
+㈜쓰리케이원에이아이	(주)3KOneAI IT 개발자 공고	['IT', '개발']	"
+
+
+
+
+㈜쓰리케이원에이아이
+
+
+[3KOneAI] IT 개발자 채용
+
+
+
+
+㈜쓰리케이원에이아이는 2020년에 설립된 회사로 서울 강동구 강동대로 177 (성내동)에 위치하고 있으며, e비즈니스에 필요한 플랫폼과 솔루션(AutoXML, 보안 및 컴포넌트) 개발 및 공급사업을 하고 있습니다.우리는 인성과 열정을 바탕으로 자신의 사명과 비전을 실현하며, 재능을 통해 AutoXML 기술 가치를 함께 만들어갈 인재를 찾습니다.변화 속에서 배우고 성장하는 사람, 함께 더 나은 세상을 만들고자 하는 사람을 환영합니다.
+
+
+
+
+
+
+
+포지션 및 자격요건
+
+
+
+
+
+
+
+IT 개발 ( ○명 ) 
+
+
+
+
+
+
+
+담당업무
+ㆍ프론트엔드 개발 (HTML5, CSS3, Javascript)ㆍ앱 개발 (iOS, Android)
+
+스킬
+ㆍHTML5, CSS3, Javascript, Jquery, Ajax, Node.js 
+
+자격요건ㆍ긍정적 태도와 기본적인 예의를 갖춘 바른 인성을 가진 분ㆍ어려운 문제에도 포기하지 않는 열정과 주도성ㆍ자신의 인생 목표·비전을 명확히 가지고 꾸준히 성장하려는 분ㆍ새로운 기술을 배우고 적용하는 데 두려움이 없는 성장형 재능 보유자ㆍAutoXML 기술의 가치(표준, 구조화, 혁신)를 이해하고 가치 중심으로 일하는 분ㆍ+a: 팀워크, 커뮤니케이션, 책임감 등 기본 직무 역량 외에 스스로 일을 만들어가는 분
+
+우대사항
+ㆍ영어가능자
+ㆍ관련 학과 전공자
+ㆍ해외근무 가능자
+ㆍ전공 : 컴퓨터 소프트웨어, AIㆍ데이터공학부, 데이터정보전공
+
+
+
+
+
+
+
+
+
+
+
+* 홈페이지 https://3ksoftware.com/kr/3ksoft_home.htmlhttps://www.3koneai.com/
+
+
+
+
+
+
+전형절차
+ㆍ서류전형 > 1차면접 >  2차면접 > 최종합격
+ㆍ면접일정은 추후 통보됩니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+유의사항
+ㆍ허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+
+
+
+
+
+
+"	['//file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=1367850']	모집분야   IT 개발   모집인원   ○명   고용형태   인턴   (협의, 정규직 전환 가능)   급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 강동구 강동대로 177 (성내동, 현대코랄) 303호   인근지하철   주5일(월~금)   10:00 ~ 19:00	신입, 학력무관, 서울 강동구, 인턴	{'basic_info': {'산업': '응용 소프트웨어 개발 및 공급업', '사원수': '7명 | ', '기업구분': '중소기업', '설립일': '2020.05.01 | (7년차)', '자본금': '- | ', '매출액': '- | ', '대표자': '김현정', '주요사업': '소프트웨어개발,소프트웨어 판매', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://www.3ksoftware.com', '주소': '서울 강동구 강동대로 179 (성내동) 3K AI Global Center'}, 'financial': {}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험'], '휴무·휴가·행사': ['주5일제'], '사내시설': ['휴식공간', '주차장'], '편의·여가·건강': ['점심 식사 지원']}, 'location': {'address': '서울 강동구 강동대로 179 (성내동) 3K AI Global Center', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%ec%93%b0%eb%a6%ac%ec%bc%80%ec%9d%b4%ec%9b%90%ec%97%90%ec%9d%b4%ec%95%84%ec%9d%b4&lat=37.525053561498&lng=127.126762895388'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49376866
+㈜그랩록	[명동] 금융사 채널 중급 개발자 07.03부터 27.01월중순	['금융사', '채널', '중급개발자']	"
+
+
+
+
+㈜그랩록
+
+
+[명동] 금융사 채널 중급 개발자 07.03부터 27.01월 중순
+
+
+
+
+㈜그랩록은 2017년에 설립된 회사로 매출액 31 사원수 37명 규모의 중소기업입니다. 서울 금천구 가산디지털1로 58  (가산동)에 위치하고 있으며, 소프트웨어개발, 시스템 통합사업을 하고 있습니다.
+
+
+
+
+
+
+
+포지션 및 자격요건
+
+
+
+
+
+
+
+금융사 채널 중급개발자 ( ○명 ) 
+
+
+등급 : 중급 1명기간 : 26.07.03~27.01 중순역할 : 채널 개발채널 개발 환경 : 사용 언어 : WebSquare, JS, JSP , Java 사용하며 MVC 패턴으로 구성채널구성 : JBANK, 모바일앱, 인터넷뱅킹인터넷 뱅킹 : 더존 ERP < - > 전자금융 < - > 채널 방식으로 구성장소 : 명동기타 : 경력증빙 필수
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+전형절차
+ㆍ서류전형 > 1차면접 > 2차면접 > 임원면접 > 최종합격
+ㆍ면접일정은 추후 통보됩니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+유의사항
+ㆍ허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+
+
+
+
+
+
+"	[]	모집분야   금융사 채널 중급개발자   모집인원   ○명   고용형태   프리랜서   (근무기간 7개월)   급여   회사 내규에 따름   근무시간   근무지주소   서울 금천구 가산디지털1로 58  (가산동) .   인근지하철   주5일(월~금)   09:00 ~ 18:00	경력6년↑, 초대졸↑, 서울 금천구, 프리랜서	{'basic_info': {'산업': '솔루션·SI·CRM·ERP', '사원수': '37명 | ', '기업구분': '중소기업', '설립일': '2017.03.23 | (10년차)', '자본금': '- | ', '매출액': '3만원 | ', '대표자': '.', '주요사업': '소프트웨어개발, 시스템 통합', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': '-', '주소': '서울 금천구 가산디지털1로 58  (가산동) .'}, 'financial': {}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {}, 'location': {'address': '서울 금천구 가산디지털1로 58  (가산동) .', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%ea%b7%b8%eb%9e%a9%eb%a1%9d&lat=37.4712504727794&lng=126.886588010844'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49376615
+㈜그랩록	[마포] 증권사 화면개발, JAVASCRIPT, FormDe, 게시판 원격지원, 중급이상,	['증권사', 'MTS', '개발,', '서버개발']	"
+
+
+
+
+㈜그랩록
+
+
+[마포] 증권사 화면개발, JAVASCRIPT, FormDe, 게시판 원격지원, 중급이상,
+
+
+
+
+㈜그랩록은 2017년에 설립된 회사로 매출액 31 사원수 37명 규모의 중소기업입니다. 서울 금천구 가산디지털1로 58  (가산동)에 위치하고 있으며, 소프트웨어개발, 시스템 통합사업을 하고 있습니다.
+
+
+
+
+
+
+
+포지션 및 자격요건
+
+
+
+
+
+
+
+증권사 MTS 개발,QC
+
+
+1.    클라이언트 맵화면 개발자-         인원 : 1명-         등급 : 중급 이상-         기술 : html, css, javascript-         업무 : VSCode 통한 MTS 맵화면 개발-         필수 :  대고객 MTS 화면개발 유경험자-         근무지 : 공덕역 재화스퀘어   2.    화면 개발-         인원 : 1명-         등급 : 중급 이상-         기술 : javascript, Java, Android, Xcode-         업무 :  키움증권 영웅문S# 프로젝트 화면 개발-         우대 : 대고객 MTS 증권 화면개발 유경험자-         근무지 : 마포역 일진빌딩 or 공덕역 재화스퀘어 3.    MTS 게시판 응대 및 원격 지원-         인원 : 1명-         등급 : 중급 이상-         업무 :  MTS 게시판 응대(업무, 앱사용법) 및 MTS 원격지원-         우대 : 고객센터 MTS 응대 경험자, 모바일 앱 기본기능(OS별) 기능 숙지자-         근무지 :  공덕역 재화스퀘어 6층  4.    MTS 테스터 -         인원 : 1명-         업무 : 해외주식 유니버스 프로젝트 MTS 테스트-         우대 : 금융 및 증권 분야 테스트 경력 (2년 이상)-         근무지 :  공덕역 재화스퀘어 11층
+
+
+
+
+
+
+
+증권사 서버 개발( ○○명 ) 
+
+
+HTS 서버 개발-         인원 : 1명-         등급 : 중급 이상-         기술 :linux, C, C-isam, kafca 통신-         업무 : 나스닥 24시간 거래시스템 개발-         우대 : 해외증권 서버 개발/운영 관련 경험, 해외파생 시세 가공,배치 및 TR 개발 유경험자-         근무지 :  공덕역 재화스퀘어 7층
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+전형절차
+ㆍ서류전형 > 1차면접 > 2차면접 > 임원면접 > 최종합격
+ㆍ면접일정은 추후 통보됩니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+유의사항
+ㆍ허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+
+
+
+
+
+
+"	[]	모집분야   증권사 MTS 개발, 서버개발   모집인원   1명   고용형태   프리랜서   (근무기간 3개월)   급여   회사 내규에 따름   근무시간   근무지주소   서울 금천구 가산디지털1로 58  (가산동) .   인근지하철   주5일(월~금)   09:00 ~ 18:00	경력6년↑, 초대졸↑, 서울 금천구, 프리랜서	{'basic_info': {'산업': '솔루션·SI·CRM·ERP', '사원수': '37명 | ', '기업구분': '중소기업', '설립일': '2017.03.03 | (10년차)', '자본금': '- | ', '매출액': '3만원 | ', '대표자': '.', '주요사업': '소프트웨어개발, 시스템 통합', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': '-', '주소': '서울 금천구 가산디지털1로 58  (가산동) .'}, 'financial': {}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {}, 'location': {'address': '서울 금천구 가산디지털1로 58  (가산동) .', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%ea%b7%b8%eb%9e%a9%eb%a1%9d&lat=37.4712504727794&lng=126.886588010844'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49376492
+㈜유니베이아이엔씨	[프로젝트/광화문] 영업시스템 웹개발자(JAVA) 경력직 채용	['웹개발']	"
+
+
+
+
+㈜유니베이아이엔씨
+
+
+[프로젝트/광화문] 영업시스템 웹개발자(JAVA) 경력직 채용
+
+
+
+
+㈜유니베이아이엔씨는 2010년에 설립된 회사로 자본금 1억원, 매출액 62억원, 사원수 60명 규모의 중소기업입니다. 서울 송파구 법원로 127 (문정동, 문정대명벨리온)에 위치하고 있으며, 소프트웨어 개발 및 공급, 장비유지보수 및 전산기술용역사업을 하고 있습니다.
+
+
+
+
+
+
+
+포지션 및 자격요건
+
+
+
+
+
+
+
+웹개발 (JAVA)
+
+
+
+
+
+
+
+담당업무
+ㆍ영업시스템 개발 및 유지보수 
+ㆍ시스템 운영, 장애대응
+ㆍ기능개선 및 고도화
+스킬
+ㆍJAVA, MySQL, Oracle, Spring Framework, StoredProcedureㆍ이기종 I/F, SAP RFC 연동경험
+
+자격요건
+ㆍ학력 : 초대졸이상
+ㆍ경력 : 경력 6년이상 (중급~고급)ㆍ영업시스템 업무경험자  (회원,판매,실적,수납) 
+우대사항
+ㆍ이기종 I/F, SAP RFC 연동 경험자ㆍ시스템 운영 및 장애 대응 경험 보유자기타사항ㆍ계약기간 : 즉시 ~ 12개월 (단 3개월 단위 연장계약)ㆍ근무지 : 광화문 ㆍ급여 : 협의 (프리랜서 또는 개인사업자 계약)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+전형절차
+ㆍ서류전형 > 1차면접 > 최종합격
+ㆍ면접일정은 추후 통보됩니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+유의사항
+ㆍ허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+
+
+
+
+
+
+"	[]	모집분야   웹개발   모집인원   ○명   고용형태   계약직   (근무기간 12개월)   ,    프리랜서   (근무기간 12개월)   직급/직책   급여   회사 내규에 따름   근무시간   근무지주소   서울 영등포구 국회대로76길 22 (여의도동, 기계산업진흥회) 프로젝트룸   인근지하철   주5일(월~금)   09:00 ~ 18:00	경력6년↑, 초대졸↑, 서울 영등포구, 계약직 외, 주임~대리급 외	{'basic_info': {'산업': '솔루션·SI·CRM·ERP', '사원수': '60명 | ', '기업구분': '중소기업', '설립일': '2010.10.08 | (17년차)', '자본금': '1억원 | ', '매출액': '62억원 | ', '대표자': '고강혁', '주요사업': '소프트웨어 개발 및 공급, 장비유지보수 및 전산기술용역', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://unibay.co.kr/', '주소': '서울 송파구 법원로 127 (문정동, 문정대명벨리온) 5층 506호 유니베이아이엔씨'}, 'financial': {}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험'], '휴무·휴가·행사': ['주5일제', '월차제도'], '보상·수당·지원': ['야간근로수당', '휴일근로수당', '직책수당'], '편의·여가·건강': ['저녁 식사 지원']}, 'location': {'address': '서울 송파구 법원로 127 (문정동, 문정대명벨리온) 5층 506호 유니베이아이엔씨', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%ec%9c%a0%eb%8b%88%eb%b2%a0%ec%9d%b4%ec%95%84%ec%9d%b4%ec%97%94%ec%94%a8&lat=37.4863026526111&lng=127.118767376612'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49376313
+세무법인 동안 서초지사	[세무법인 동안] AI와 함께 일하는 세무 실무자를 모집합니다.	['AI', '활용', '세무실무자']	"
+
+
+
+
+세무법인 동안 서초지사
+
+
+[세무법인 동안] AI와 함께 일하는 세무 실무자를 모집합니다.
+
+
+
+
+세무법인 동안은 AI를 실무에 본격 도입하고 있는 세무법인입니다. 단순히 트렌드를 따라가는 게 아니라, 실제 업무 방식을 바꿔가고 있습니다.AI에 관심은 있지만 혼자 시작하기 막막했던 분이라면, 동안에서 실무와 함께 성장할 수 있습니다.
+
+
+
+
+
+
+
+포지션 및 자격요건
+
+
+
+
+
+
+
+AI 활용 세무실무자 ( ○명 ) 
+
+
+
+우리는 이런 분을 찾고 있어요!? ChatGPT나 Claude로 세무 검토 초안을 작성해본 적 있으신 분? 엑셀 반복 작업을 줄여보려고 이것저것 시도해보신 분? ""이 업무 자동화할 수 있지 않을까?"" 하고 찾아본 적이 있으신 분? AI 관련 강의나 영상을 챙겨보는 편이신 분꼭 코딩을 할 줄 알아야 하는 건 아닙니다. **""해보겠다는 의지""와 ""작게라도 시도해본 경험""**이 있으면 충분합니다.
+
+
+
+담당업무
+? 고객사 기장대행 및 관리? 원천세, 부가가치세 및 4대 보험 업무? 법인세, 소득세 결산 및 세무조정? AI 도구를 활용한 업무 효율화? 반복 업무를 줄이기 위한 내부 프로세스 개선
+주요 업무? 고객사 기장대행 및 관리? 원천세, 부가가치세 및 4대 보험 업무? 법인세, 소득세 결산 및 세무조정? AI 도구를 활용한 업무 효율화? 반복 업무를 줄이기 위한 내부 프로세스 개선 우대사항? 노코드 도구(Make, Zapier, n8n 등)를 써본 적 있으신 분? Python이나 엑셀 매크로를 다뤄본 적 있으신 분? AI 관련 교육을 수료한 적 있으신 분? 업무 방식을 바꿔본 경험이 있으신 분 (작은 것이라도)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+전형절차
+ㆍ서류전형 > 1차면접 > 2차면접 > 임원면접 > 최종합격
+ㆍ면접일정은 추후 통보됩니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+유의사항
+ㆍ허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+
+
+
+
+
+
+"	[]	모집분야   AI 활용 세무실무자   모집인원   ○명   고용형태   정규직      급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 서초구 방배로25길 17 (방배동, 대한전광사옥) 301호   인근지하철   주5일(월~금)   09:30 ~ 18:00	경력무관, 학력무관, 서울 서초구, 정규직	{'basic_info': {'산업': '회계·세무·법무', '사원수': '12명 | ', '기업구분': '중소기업', '설립일': '2014.12.18 | (13년차)', '자본금': '- | ', '매출액': '- | ', '대표자': '정용식', '주요사업': '세무신고, 결산 및 장부작성, 세무컨설팅', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': '-', '주소': '서울 서초구 방배로25길 17 (방배동, 대한전광사옥) 301호'}, 'financial': {}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험'], '휴무·휴가·행사': ['주5일제', '연차제도', '정기휴가', '반차제도', '육아휴직'], '보상·수당·지원': ['퇴직금', '경조금', '임직원 교육비', '성과급', '복리후생 지원', '회식비 지원'], '편의·여가·건강': ['점심 식사 지원', '음료/간식 제공']}, 'location': {'address': '서울 서초구 방배로25길 17 (방배동, 대한전광사옥) 301호', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%ec%84%b8%eb%ac%b4%eb%b2%95%ec%9d%b8+%eb%8f%99%ec%95%88+%ec%84%9c%ec%b4%88%ec%a7%80%ec%82%ac&lat=37.4882703848851&lng=126.991859114821'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49376235
+씨앤에프시스템㈜	공공기관 ERP 시스템 개발 및 운영 (경력)	['공공기관', 'ERP', '시스템', '개발', '및', '운영']	"
+
+
+공공기관 ERP 시스템 개발 / 운영 (경력)        
+
+
+씨앤에프시스템㈜는 2009년에 설립된 회사로 고용노동부에서 선정한  강소기업입니다.  서울 송파구 법원로11길 11 (문정동)에 위치하고 있으며, SI, SM, 소프트웨어 자문 및 개발공급 외사업을 하고 있습니다.
+
+
+
+ 
+
+모집분야 및 자격요건   모집분야 담당업무 자격요건 모집인원    공공기관 ERP 시스템 개발 및 운영(경력)  공공기관 ERP 시스템 개발 및 운영 [자격요건]- 학력 : 초대졸 이상- 경력 : 3년 이상- 해외여행에 결격사유가 없는 자[우대사항]- 관련 업무 경험자 우대 - 관련 자격증 소지자 우대[업무내용]- 공공기관 경영정보시스템(ERP) 솔루션 개발 및 운영- 전자정부프레임워크 기반- JAVA / Oracle 외 2명   
+
+
+
+ 
+
+
+
+
+
+서류전형
+
+
+
+
+
+
+실무자면접
+
+
+
+
+
+
+임원면접
+
+
+
+
+
+
+최종합격
+
+
+
+
+
+
+
+ 
+
+- 근무형태 : 정규직- 근무지 : 서울- 근무시간 : 09시~18시 . 주5일 근무 
+
+
+
+ 
+
+- 마감일 : 2026년 7월 15일 (채용시 마감)- 이력서양식 : 잡코리아 이력서 또는 자유이력서- 접수방법 : 잡코리아 온라인 지원 또는 e-mail 지원
+
+
+
+ 
+
+- 이력서, 자기소개서 제출 - 최종합격 후 졸업증명서, 관련 자격증 사본(소지자에 한함)  제출
+
+
+
+ 
+- 허위사실이 발견될 경우 채용이 취소될 수 있습니다.- 최종 합격자를 제외한 구직자는 기 제출한 채용서류(단, 홈페이지 또는 전자우편으로 제출한 경우나 구직자가 구인자의 요구없이 자발적으로 제출한 채용 서류 제외) 반환 청구가 가능합니다.- 채용 종료일 이후 14일 이내 당사로 반환 청구시, 청구한날로부터 14일 이내 발송될 수 있음을 안내드립니다.- 구직자의 반환청구에 대비하여 채용 종료일 이후 180일까지 채용서류를 보관하게 되며, 그때까지 채용서류 반환을 청구하지 않는 경우개인정보보호법에 따른 보관 기간이 경과한 때에 채용서류 일체를 파기할 예정임을 안내드립니다.
+
+
+ "	['http://i.jobkorea.kr/content/images/yocruit/yctr/gen/skin/blue/step_shape_7_light.gif?v4', 'http://i.jobkorea.kr/content/images/yocruit/yctr/gen/skin/blue/icn_shape_7.gif', 'http://i.jobkorea.kr/content/images/yocruit/yctr/gen/hd_doc.png', 'http://i.jobkorea.kr/content/images/yocruit/yctr/gen/hd_envir.png', 'http://i.jobkorea.kr/content/images/yocruit/yctr/gen/icn_arr_step.png', 'http://i.jobkorea.kr/content/images/yocruit/yctr/gen/hd_step.png', 'http://i.jobkorea.kr/content/images/yocruit/yctr/gen/hd_req.png', 'http://i.jobkorea.kr/content/images/yocruit/yctr/gen/skin/blue/step_shape_7.gif?v4', 'http://i.jobkorea.kr/content/images/yocruit/yctr/gen/hd_how.png', 'http://i.jobkorea.kr/content/images/yocruit/yctr/gen/hd_guid.png']	모집분야   공공기관 ERP 시스템 개발 및 운영   모집인원   2명   고용형태   정규직      급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 송파구 법원로11길 11 (문정동, 문정현대지식산업센터1-1) A동 1207~10호   인근지하철   주5일(월~금)   09:00 ~ 18:00	경력3년↑, 초대졸↑, 서울 송파구, 정규직	{'basic_info': {'산업': '솔루션·SI·CRM·ERP', '사원수': '115명 | ', '기업구분': '중소기업', '설립일': '2009 | (18년차)', '대표자': '박정수', '주요사업': '솔루션, SI, SM, 소프트웨어 자문,개발및공급 외', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'https://www.cnfsystem.co.kr', '주소': '서울 송파구 법원로11길 11 (문정동, 문정현대지식산업센터1-1) A동 1207~10호'}, 'financial': {}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험', '퇴직연금'], '휴무·휴가·행사': ['주5일제', '연차제도', '경조휴가', '반차제도', '출산휴가', '남성출산휴가', '노동절 휴무', '창립일 행사', '워크샵/MT', '체육대회', '야유회', '반반차 제도', '생일 이벤트', '자유로운 휴가문화'], '보상·수당·지원': ['퇴직금', '경조금', '장기근속 포상', '우수사원 포상제도', '자기개발 지원', '자격증 수당', '명절선물/명절상여', '야간교통비 지급', '각종 기념일 선물', '도서 구입비 지원', '연차수당', '장비 지원', '청년내일채움공제', '회식비 지원', '업무활동비 지원', '웰컴키트'], '사내제도·성장': ['직무능력향상교육', '교육/세미나/스터디', '주40시간', '칼퇴 권장'], '사내시설': ['휴식공간', '쾌적한 업무공간'], '편의·여가·건강': ['건강검진', '저녁 식사 지원', '가족 건강검진', '음료/간식 제공']}, 'location': {'address': '서울 송파구 법원로11길 11 (문정동, 문정현대지식산업센터1-1) A동 1207~10호', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%ec%94%a8%ec%95%a4%ec%97%90%ed%94%84%ec%8b%9c%ec%8a%a4%ed%85%9c%e3%88%9c&lat=37.4847684491174&lng=127.118446176537'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49376205
+메가스터디교육㈜	웹서비스(백엔드) 개발자 채용	['웹서비스', '개발']	  	['//file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=1668730']	모집분야   웹서비스 개발   모집인원   ○명   고용형태   정규직      급여   회사 내규에 따름   근무시간   근무지주소   서울 서초구 효령로 321 (서초동, 메가스터디)    인근지하철   주5일(월~금)   09:00 ~ 18:00	경력3년↑, 학력무관, 서울 서초구 외, 정규직	{'basic_info': {'산업': '학원·어학원·교육원', '사원수': '1,700명 | ', '기업구분': '중견기업', '설립일': '2015.04.01 | (12년차)', '자본금': '11억 8천만원 | ', '매출액': '8,356억 | ', '대표자': '손성은', '대졸초임': '3,073만원', '주요사업': '도서출판, 사이버 입시강의, 논술강의 인터넷서비스, 학원사업', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://corp.megastudy.net/', '주소': '서울 서초구 서초동 효령로321(서초동, 덕원빌딩)', '계열사': '메가스터디그룹 메가스터디(주) (주)현현교육 메가엠디(주) (주)파인트리컴퍼니 (주)유니브 새이솔(주) (주)메가커리어랩 (주)아이비김영 메가위드(주) (주)마이스 엠에스레저(주) 땡스벤처스(주) (주)메가비엠씨'}, 'financial': {'사업분석': {'current_value': None}, '매출액': {'current_value': '7,602억 7천만원'}, '영업이익': {'current_value': '1,037억 3천만원'}, '당기순이익': {'current_value': '786억 1천만원'}, '산업 내 위치': {'current_value': None}, '기업등급': {'current_value': None}}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험', '퇴직연금'], '휴무·휴가·행사': ['주5일제', '연차제도', '경조휴가', '리프레시 휴가', '출산휴가', '육아휴직', '남성출산휴가', '노동절 휴무', '워크샵/MT'], '보상·수당·지원': ['퇴직금', '경조금', '자녀교육비', '사내대출', '장기근속 포상', '우수사원 포상제도', '가족 의료비 지원', '임직원 교육비', '휴일근로수당', '연월차제도수당', '직책수당', '명절선물/명절상여', '야간교통비 지급', '휴가비', '성과급', '복리후생 지원', '임직원 할인'], '사내제도·성장': ['신입 사원 교육', '직무능력향상교육', '리더쉽강화교육', '사이버연수원운영'], '사내시설': ['구내식당', '휴식공간', '주차장', '장애인용 주차장'], '편의·여가·건강': ['사내 동호회', '건강검진', '저녁 식사 지원', '휴양시설']}, 'location': {'address': '서울 서초구 서초동 효령로321(서초동, 덕원빌딩)', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%eb%a9%94%ea%b0%80%ec%8a%a4%ed%84%b0%eb%94%94%ea%b5%90%ec%9c%a1%e3%88%9c&lat=37.4885677712823&lng=127.01644964723'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49376060
+㈜조인아이티	MS Azure인프라운영/DE/중급2명/7.1-12(년단위)/서초/역할,업무등 상세참조	['전자', 'V2V', 'MS', 'Azure', '인프라', '운영']	"
+
+
+
+
+
+㈜조인아이티
+
+
+MS Azure인프라운영/DE/중급2명/7.1-12(년단위)/서초/역할,업무등 상세참조
+
+
+
+
+
+
+
+
+
+
+
+
+포지션 및 자격요건
+
+
+
+
+
+
+
+전자 V2V MS Azure 인프라 운영 ( ○명 ) 
+
+
+
+
+1. 프로젝트명 : 전자 V2V(Voice-to-Value) MS Azure 인프라 운영2. 직무 : DE (Data Engineer)3. 인력/등급 : 중급 2명 4.  투입기간 : 2026년 7월 1일 ~ 2026년 12월 31일 (1년단위 연장)5. 근무장소 : 서초 사옥6. 역할 : 데이터 운영/장애 대응          - Azure 데이터 패브릭 운영          - 데이터 처리 장애 대응7. 주요업무       - 관계형 DB 설계, 모델링 및 마이그레이션 전략 수립        - 쿼리 개선, 인덱스 최적화 및 성능 튜닝 제안        - 데이터 이상 분석, 검증 및 마이그레이션/복구 지원        - 데이터 보안 실사 대응 및 미사용 데이터 파기
+
+ ☞지원_성명_공고명_일반 워드이력서,SKILL INVENTORY,,,경력년수,운영단가,투입가능일,사업자여부, 각 항목별 경험 or 가능여부 (6. 역할 , 7. 주요업무) 따로 기재, 부탁드립니다---.  bearhcw@naver.com  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+전형절차
+ㆍ서류전형 > 1차면접 > 2차면접 > 임원면접 > 최종합격
+ㆍ면접일정은 추후 통보됩니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+유의사항
+ㆍ허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+
+
+
+
+
+
+"	[]	모집분야   전자 V2V MS Azure 인프라 운영   모집인원   ○명   고용형태   계약직      ,    프리랜서      급여   회사 내규에 따름   근무시간   근무지주소   서울 서초구 서초대로 233 (서초동, 서초역)    인근지하철   주5일(월~금)   09:00 ~ 18:00	경력6년↑, 학력무관, 서울 서초구, 계약직 외	{'basic_info': {'산업': '응용 소프트웨어 개발 및 공급업', '사원수': '18명 | (2023.03.16)', '기업구분': '중소기업', '설립일': '2007.04.17 | (20년차)', '자본금': '5,000만원 | (2023.12.31)', '매출액': '18억 8천만원 | (2023.12.31)', '대표자': '전준수', '주요사업': '소프트웨어개발,시스템운영및보수', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://-', '주소': '경기 안양시 동안구 안양판교로 20 (관양동, 신한데뷰오피스텔) 812호'}, 'financial': {'매출액': {'current_value': '18억 8천만원'}, '영업이익': {'current_value': '190만원'}, '당기순이익': {'current_value': '496만원'}, '기업등급': {'current_value': None}}, 'history': [{'year': '2012', 'month': '04', 'events': ['회사 이전: 안양 관양동']}, {'year': '2009', 'month': '04', 'events': ['회사 이전: 서울 서초동']}, {'year': '2007', 'month': '12', 'events': ['정보관리실 데이터 운영관리']}, {'year': '2007', 'month': '10', 'events': ['KT BMS 시스템 용역(포스데이타)']}, {'year': '2007', 'month': '09', 'events': ['엔투지 물류시스템 개선(포스데이타)']}, {'year': '2007', 'month': '08', 'events': ['현대제철 일관제철 정보화 기본계획 수립(오토에버시스템즈)']}, {'year': '2007', 'month': '07', 'events': ['하나로텔레콤 코러스 성능개발 용역(포스데이타)']}, {'year': '2007', 'month': '05', 'events': ['현대하이스코 ADM운영 용역(오토에버시스템즈: 아토스 경유)', '한국자산관리공사 SM기술용역 계약(동양시스템즈)', '하나로텔레콤 OSS운영 용역 계약(포스데이타: 아토스 경유)', '엔투지 정보시스템 운영 용역(포스데이타: 아토스 경유)']}, {'year': '2007', 'month': '04', 'events': ['(주)조인아이티 설립']}], 'employment': {'recruitments': []}, 'benefits': {}, 'location': {'address': '경기 안양시 동안구 안양판교로 20 (관양동, 신한데뷰오피스텔) 812호', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%ec%a1%b0%ec%9d%b8%ec%95%84%ec%9d%b4%ed%8b%b0&lat=37.4003164521585&lng=126.978050724228'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49375954
+아이하우㈜(ihow Co.,	아이하우 AI 웹 서비스 플랫폼 개발 팀장 채용	['AI', '웹', '서비스', '플랫폼', '개발', '팀장', '채용']	"
+
+
+
+
+아이하우㈜(ihow Co.,
+
+
+아이하우(주)로봇 AI 웹 서비스 플랫폼 개발 팀장 채용 
+
+
+
+
+아이하우 주식회사는 로보틱스와 생성형 AI 기술을 융합하여 제조, 물류, 그리고 시니어 복지 산업의 차세대 기술기업 입니다. 3D Vision, VLA(Vision-Language-Action) 모델, 그리고 휴머노이드 제어 기술을 아우르는 차세대 로봇 AI 플랫폼을 함께 구축할 역량 있는 팀장
+
+
+
+
+
+
+
+포지션 및 자격요건
+
+
+
+
+
+
+
+AI 웹 서비스 플랫폼 개발 팀장( 1명 )로봇 비전기술개발 팀장 ( 1명 )
+
+
+
+1. 담당 업무 (Key Role) AI 아키텍처: LLM Agent, RAG 파이프라인(LangChain/Graph) 설계 및 고도화 로봇 지능화: 로봇 인지(VLA/3D Vision) 데이터 연동 및 행동 최적화 R&D 운영 총괄: LLMOps/MLOps 체계 구축 및 다중 로봇 관제 시스템 리딩기술 관리: 기술 의사결정 및 개발 로드맵 수립2. 기술 요건 (Must-have) 언어/프레임워크: Python(FastAPI), LangChain, Docker/Git 활용 능력 경험: LLM 기반 서비스 기획·개발 및 실제 배포/운영 경험자 데이터: Vector DB(Qdrant, Pinecone 등) 및 검색 엔진 구축 경험 학력: 대졸 이상 3년차 경력 이상 (경력기술서 포트폴리오 제출 필수)3. 우대 사항 (Nice-to-have) 전문성: LLM 파인튜닝(SFT/LoRA) 및 LLM 데이터 분석 유경험자, VLA분석 경험자 로보틱스: ROS, Visual SLAM, Lidar 센서 처리 및 시뮬레이션 경험 인프라: AWS, Kubernetes 기반 클라우드 아키텍처 설계 가능자 학위: 로봇·컴퓨터공학·AI 분야 학사 등 유관분야 석/박사 학위 소지자4. 처우 및 혜택 (Compensation) 급여: 경력에 따른 연봉 협의 (스톡옵션 부여 가능) 장비: 고사양 GPU 서버 및 최신 개발 장비 전폭 지원 성장: TIPS 등 정부 R&D 과제 주도 및 기술 지원 환경: 유연한 근무 문화 및 성과에 따른 인센티브 지급
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+전형절차
+ㆍ서류전형 > 1차면접 > 2차면접 > 임원면접 > 최종합격
+ㆍ면접일정은 추후 통보됩니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+유의사항
+ㆍ허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+
+
+
+
+
+
+"	[]	모집분야   AI 웹 서비스 플랫폼 개발 팀장 채용   모집인원   ○명   고용형태   정규직   (수습 3개월)   직급/직책   급여   회사 내규에 따름   근무시간   근무지주소   서울 노원구 동일로174길 27 (공릉동) 창업디딤터 303호   인근지하철   주5일(월~금)   09:00 ~ 18:00   탄력근무제	경력3년↑, 초대졸↑, 서울 노원구, 정규직, 과장~차장급 외	{'basic_info': {'산업': '응용 소프트웨어 개발 및 공급업', '사원수': '4명 | ', '기업구분': '중소기업', '설립일': '2024.06.12 | (3년차)', '자본금': '- | ', '매출액': '- | ', '대표자': '김재경', '주요사업': '응용 소프트웨어 개발 및 공급업,인터넷 정보 매개 서비스업,데이터 베이스 개발, 구축, 판매업', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': '-', '주소': '서울 노원구 동일로174길 27 (공릉동) 창업디딤터 303호'}, 'financial': {}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'보상·수당·지원': ['장비 지원'], '사내제도·성장': ['교육/세미나/스터디', '유연근무제']}, 'location': {'address': '서울 노원구 동일로174길 27 (공릉동) 창업디딤터 303호', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%ec%95%84%ec%9d%b4%ed%95%98%ec%9a%b0%e3%88%9c(ihow+Co.%2c&lat=37.6201857965902&lng=127.076953099511'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49375811
+㈜굿씽크	[[[RPA TOOL/즉시부터/초급/장기SM일/운영 유지보수]]]	['RPA', '개발']	"
+
+
+
+
+㈜굿씽크
+
+[[[RPA TOOL/즉시부터/초급/장기SM일/운영 유지보수]]]
+
+
+
+
+
+
+
+
+
+
+
+
+포지션 및 자격요건
+
+
+
+
+
+
+
+포지션 ( 초급1명 ) 
+
+
+<RPA 개발 프로젝트>기간 : 즉시부터 ~ 1년단위 재계약장소 :  동대문기술 : RPA TOOL코딩만 , 등급 : 초급1명-단가 : 3.3% 계약직 초급(400만원)   아래 이메일로 경력서 주시면 신속히 처리 됩니다.  jon@dareun.co.kr자격요건
+ㆍ학력 : 전문대 2년 이상.
+
+우대사항
+ㆍ상세내용을 입력하세요
+ㆍ상세내용을 입력하세요
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+전형절차
+ㆍ서류전형 > 1차면접  > 최종합격
+ㆍ면접일정은 추후 통보됩니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+유의사항
+ㆍ허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+
+
+
+
+
+
+"	[]	모집분야   RPA 개발   모집인원   1명   고용형태   계약직   (근무기간 12개월)   급여   월급 400~400만원   근무시간   근무지주소   서울 강서구 양천로 551-17 (가양동, 한화비즈메트로1차) A동 203호 한화비즈메트로1차   인근지하철   주5일(월~금)   09:00 ~ 18:00	경력2년↑, 초대졸↑, 서울 강서구, 계약직, 400만원 이상(월)	{'basic_info': {'산업': '시스템 소프트웨어 개발 및 공급업', '사원수': '16명 | (2022.06.28)', '기업구분': '중소기업', '설립일': '2014.08.13 | (13년차)', '자본금': '2억원 | (2025.12.31)', '매출액': '35억 4천만원 | (2025.12.31)', '대표자': '김은상', '주요사업': '시스템\u3000소프트웨어\u3000개발\u3000및\u3000공급업', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://www.gdthink.co.kr', '주소': '서울 강서구 양천로 551-17 (가양동, 한화비즈메트로1차) A동 203호 한화비즈메트로1차'}, 'financial': {'매출액': {'current_value': '35억 4천만원'}, '영업이익': {'current_value': '8,418만원'}, '당기순이익': {'current_value': '1,087만원'}, '산업 내 위치': {'current_value': None}, '기업등급': {'current_value': None}, '동종업계 순위': {'current_value': None}}, 'history': [{'year': '2020', 'month': '01', 'events': ['경영혁신형 중소기업(Main-Biz) 등록']}, {'year': '2019', 'month': '01', 'events': ['본사사옥매입이전(가양동)']}, {'year': '2018', 'month': '01', 'events': ['자본금 증자(2억)']}, {'year': '2017', 'month': '01', 'events': ['사무실 확장 이전(가산동 KCC웰츠밸리)']}, {'year': '2016', 'month': '01', 'events': ['자본금 증자(5천만원)']}, {'year': '2015', 'month': '01', 'events': ['Think-HR v1.0 솔루션 출시(인사관리솔루션)']}, {'year': '2014', 'month': '01', 'events': ['소프트포유 HR 및 SI사업부 인수', '굿씽크 법인 설립(마포구 상수동)']}], 'employment': {'recruitments': []}, 'benefits': {}, 'location': {'address': '서울 강서구 양천로 551-17 (가양동, 한화비즈메트로1차) A동 203호 한화비즈메트로1차', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%ea%b5%bf%ec%94%bd%ed%81%ac&lat=37.5591552508388&lng=126.860991993399'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49375675
+㈜팀오투	AI Agent 개발자 경력	['AI', 'Agent', '개발자', '경력']	 	['//file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=1757268']	모집분야   AI Agent 개발자 경력   모집인원   2명   고용형태   정규직   (수습 3개월)   직급/직책   급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 중구 서소문로 120 (서소문동, ENACenter) 11층   인근지하철   주5일(월~금)   09:00 ~ 18:00	경력3년↑, 대졸↑, 서울 중구 외, 정규직, 사원급 외	{'basic_info': {'산업': '모바일·APP', '사원수': '40명 | ', '기업구분': '중소기업', '설립일': '2015.09.24 | (12년차)', '매출액': '66억 | ', '대표자': '홍성주, 성장근', '주요사업': '소프트웨어 개발, 모바일 서비스', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://teamo2.kr', '주소': '서울 중구 서소문로 120 (서소문동, ENACenter) 11층'}, 'financial': {}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험', '퇴직연금'], '휴무·휴가·행사': ['주5일제', '연차제도', '월차제도', '경조휴가', '반차제도', '리프레시 휴가', '출산휴가', '육아휴직', '보건휴가', '노동절 휴무', '워크샵/MT'], '보상·수당·지원': ['스톡옵션', '퇴직금', '경조금', '장기근속 포상', '임직원 교육비', '자기개발 지원', '휴일근로수당', '장기근속수당', '야간교통비 지급', '도서 구입비 지원', '임직원 할인'], '사내제도·성장': ['신입 사원 교육', '직무능력향상교육'], '편의·여가·건강': ['건강검진', '점심 식사 지원', '저녁 식사 지원', '식사 지원']}, 'location': {'address': '서울 중구 서소문로 120 (서소문동, ENACenter) 11층', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%ed%8c%80%ec%98%a4%ed%88%ac&lat=37.5629184681354&lng=126.97467913385'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49375565
+㈜비투넷	[정규직 채용] 개발 PM. PL (경력직), SI프로젝트 구축/ 과장-차장급	['개발', 'PM,', 'PL']	"
+
+
+
+
+㈜비투넷
+
+
+[ 정규직 채용 ]개발 PM, PL (경력직)- 과장~차장급 우대 -
+
+
+
+
+
+
+포지션 및 자격요건
+
+
+
+
+
+
+
+SI개발 PM,PL정규직 채용
+
+
+
+
+
+
+
+ㆍ프리랜서 경력 위주인 분, 잦은 이직 경력자(단기 경력 다수)는     서류 검토에서 제외되니 참고 바랍니다.< 정규직 채용 : SI개발 PM.PL >[ 담당업무: SI개발 PM,PL ]* 업무 : 솔루션 적용, 고객사 대상 SI 프로젝트 구축,수행ㆍ고객사 대상 SI 프로젝트 구축.ㆍ프로젝트 리딩/ 요구사항 협의&정의/      프로세스 설계(WBS, 실행계획서 등)/ 아키텍쳐 설계/ 문서작성 (보고서 등)ㆍ팀원 관리/ 진척률 관리 등.ㆍ개발 경력자.[ 자격요건 ]ㆍ경력 : 경력 5년 이상.ㆍ중,대형 프로젝트 SI 개발 및 PM,PL 경험자.ㆍPL/SQL, 프로시져, 쿼리 등, 개발 가능자.[ 우대사항 ]ㆍSI 프로젝트 컨설팅 유경험자.ㆍSCM 프로젝트 유경험자 (경영/판매/공급/생산계획,SCP,S&OP 등)ㆍDA, DBA 유경험자.ㆍ적극적인 업무 태도/ 의사소통 원활하신 분.ㆍ정규직 장기 근무 경력자 우대.ㆍ과장~차장급 지원자 우대.ㆍ프리랜서 및 정규직 이직 경험이 많이 없는분 우대.[ 기타 ] ㆍ근무지 : 서울시 강남구[ 근무 회사 정보 ] * 산업분야 : 솔루션,SI,CRM,ERP * 사원수 : 225명 * 기업구분 : 코스닥 상장 기업 * 설립일 : 2005년 4월 (22년차) * 매출액 : 314억 (2025년) * 주요사업 : AI 기반 데이터 분석 및 IT솔루션 개발,공급 * 주소 : 서울 강남구.자격요건ㆍ학력 : 초대졸 이상ㆍ경력 : 경력 5년 이상.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+전형절차
+ㆍ서류전형 > 1차면접 > 2차면접 > 최종합격
+ㆍ면접일정은 추후 통보됩니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+유의사항
+ㆍ허위사실이 발견될 경우 채용이 취소될 수 있습니다.
+
+
+
+
+
+
+
+
+
+"	[]	모집분야   개발 PM, PL   모집인원   ○명   고용형태   정규직   (수습 3개월)   급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 금천구 가산디지털1로 168 (가산동) 우림라이온스밸리 A동 10층 1012호   인근지하철   주5일(월~금)   09:00 ~ 18:00	경력5년↑, 대졸↑, 서울 금천구, 정규직	{'basic_info': {'산업': '솔루션·SI·CRM·ERP', '사원수': '17명 | ', '기업구분': '중소기업', '설립일': '2022.02.07 | (5년차)', '자본금': '1억원 | ', '매출액': '17억 | ', '대표자': '박선용', '주요사업': 'ITO, 소프트웨어, 응용, 시스템 개발 및 구축', '4대보험': '고용보험, 산재보험', '홈페이지': 'http://www.b2net.co.kr', '주소': '서울 금천구 가산디지털1로 168 (가산동) 우림라이온스밸리 A동 10층 1012호'}, 'financial': {}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {}, 'location': {'address': '서울 금천구 가산디지털1로 168 (가산동) 우림라이온스밸리 A동 10층 1012호', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%eb%b9%84%ed%88%ac%eb%84%b7&lat=37.4799713590291&lng=126.882637049883'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49375471
+㈜이크레더블네트웍스	안정적인 플랫폼 운영을 함께할 경력 개발자를 모십니다.	['플랫폼', '운영을', '함께할', '경력', '개발자를', '모십니다.']	"
+"	['//file2.jobkorea.co.kr/Net/Mng/DownImage/CorpEditor?file_No=1757216']	모집분야   플랫폼 운영을 함께할 경력 개발자를 모십니다.   모집인원   1명   고용형태   정규직   (수습 3개월)   급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 구로구 디지털로33길 27 (구로동, 삼성IT밸리) 604호   인근지하철   주5일(월~금)   09:00 ~ 18:00	경력5년↑, 학력무관, 서울 구로구, 정규직	{'basic_info': {'산업': '네트워크·통신서비스', '사원수': '11명 | ', '기업구분': '대기업 계열사·자회사', '설립일': '2012.06.01 | (15년차)', '자본금': '15억원 | (2024.12.31)', '매출액': '23억 1천만원 | (2024.12.31)', '대표자': '남정우', '주요사업': '전자상거래 금융서비스업(B2B e-Market Place ), 기업조사서비스 외', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://www.tamz.co.kr', '주소': '서울 구로구 디지털로33길 27 (구로동, 삼성IT밸리) 604호', '계열사': '한국기업평가그룹 (주)이크레더블 한국기업평가(주)'}, 'financial': {'매출액': {'current_value': '23억 1천만원'}, '영업이익': {'current_value': '6억 3,391만원'}, '당기순이익': {'current_value': '7억 8,662만원'}, '산업 내 위치': {'current_value': None}, '기업등급': {'current_value': None}, '총자산 증가율': {'current_value': '110억 4천만원'}, '동종업계 순위': {'current_value': None}}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험', '퇴직연금'], '휴무·휴가·행사': ['주5일제', '연차제도', '정기휴가', '경조휴가', '육아휴직', '패밀리데이'], '보상·수당·지원': ['경조금', '인센티브', '사내대출', '휴가비', '복리후생 지원', '복지포인트'], '편의·여가·건강': ['건강검진']}, 'location': {'address': '서울 구로구 디지털로33길 27 (구로동, 삼성IT밸리) 604호', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%ec%9d%b4%ed%81%ac%eb%a0%88%eb%8d%94%eb%b8%94%eb%84%a4%ed%8a%b8%ec%9b%8d%ec%8a%a4&lat=37.4860585769673&lng=126.894679168178'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49375331
+㈜에스메이트	[ Java,ExBuilder,보험사 사고지급(클레임)] 고급.여의도.6월말	['ExBuilder,보험클레임']	"안녕하세요, ㈜에스메이트
+채용담당자입니다.아래의 프로젝트 정보를 검토하시고, 업무 가능하시면 이력서/단가/출근가능일과 함께 회신 바랍니다.고맙습니다. ※ 문의 :
+02-588-4118※ 이메일
+지원 : hj@smate.kr (워드파일  경력기술서
+첨부) ☞ 생보사 클레임(사고지급) 운영/개발- 스킬: Java, ExBuilder & 생보사 장기보험, 사고지급, 사고조사 경험자- 기간: 6월말 ~ 2027년6월말(이후 연장)- 장소: 여의도- 등급: 고급(2명)- 비고: 오전8시30분 출근
+
+
+
+
+ "	[]	모집분야   ExBuilder,보험클레임   모집인원   ○명   고용형태   프리랜서   (협의)   급여   회사 내규에 따름 (면접 후 결정)   근무시간   근무지주소   서울 금천구 가산디지털1로 181 (가산동, 가산더블유센터) 803호   인근지하철   주5일(월~금)	경력8년↑, 학력무관, 서울 금천구 외, 프리랜서	{'basic_info': {'산업': '솔루션·SI·CRM·ERP', '사원수': '50명 | ', '기업구분': '벤처기업', '설립일': '2008.07.07 | (19년차)', '자본금': '2억원 | ', '매출액': '40억 | ', '대표자': '성신호', '주요사업': '소프트웨어 개발 및 공급, SI,SM 등', '4대보험': '국민연금, 건강보험, 고용보험, 산재보험', '홈페이지': 'http://www.smate.kr', '주소': '서울 금천구 가산디지털1로 181 (가산동) 가산더블유센터 803호'}, 'financial': {}, 'history': [], 'employment': {'recruitments': []}, 'benefits': {'연금·보험': ['국민연금', '고용보험', '산재보험', '건강보험'], '휴무·휴가·행사': ['주5일제', '정기휴가', '경조휴가']}, 'location': {'address': '서울 금천구 가산디지털1로 181 (가산동) 가산더블유센터 803호', 'map_url': 'https://maps.naver.com/?mapMode=0&dlevel=12&pinTitle=%e3%88%9c%ec%97%90%ec%8a%a4%eb%a9%94%ec%9d%b4%ed%8a%b8&lat=37.4814278907583&lng=126.880399259108'}}	https://www.jobkorea.co.kr/Recruit/GI_Read_Comt_Ifrm?Gno=49375245
