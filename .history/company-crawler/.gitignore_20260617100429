@@ -1,7 +1,0 @@
-.env
-output/
-__pycache__/
-*.pyc
-
-.claude
-.history

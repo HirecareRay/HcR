@@ -1,0 +1,4502 @@
+[
+  {
+    "corp_name": "CJ ENM",
+    "corp_code": "00265324",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250319000884",
+    "divisions": {
+      "방송사업": {
+        "male": {
+          "head_count": 462,
+          "regular": 458,
+          "contract": 4,
+          "avg_tenure": null,
+          "avg_salary": 118000000,
+          "total_salary": 54393000000
+        },
+        "female": {
+          "head_count": 823,
+          "regular": 818,
+          "contract": 5,
+          "avg_tenure": null,
+          "avg_salary": 76000000,
+          "total_salary": 62248000000
+        }
+      },
+      "커머스사업": {
+        "female": {
+          "head_count": 547,
+          "regular": 541,
+          "contract": 6,
+          "avg_tenure": null,
+          "avg_salary": 77000000,
+          "total_salary": 41947000000
+        },
+        "male": {
+          "head_count": 321,
+          "regular": 321,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 103000000,
+          "total_salary": 33047000000
+        }
+      },
+      "통합관리": {
+        "male": {
+          "head_count": 311,
+          "regular": 306,
+          "contract": 5,
+          "avg_tenure": null,
+          "avg_salary": 120000000,
+          "total_salary": 37347000000
+        },
+        "female": {
+          "head_count": 349,
+          "regular": 337,
+          "contract": 12,
+          "avg_tenure": null,
+          "avg_salary": 86000000,
+          "total_salary": 29906000000
+        }
+      },
+      "영화사업": {
+        "male": {
+          "head_count": 15,
+          "regular": 15,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 84000000,
+          "total_salary": 1267000000
+        },
+        "female": {
+          "head_count": 48,
+          "regular": 48,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 63000000,
+          "total_salary": 3039000000
+        }
+      },
+      "음악사업": {
+        "male": {
+          "head_count": 31,
+          "regular": 31,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 92000000,
+          "total_salary": 2863000000
+        },
+        "female": {
+          "head_count": 103,
+          "regular": 103,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 61000000,
+          "total_salary": 6236000000
+        }
+      },
+      "공연사업": {
+        "male": {
+          "head_count": 5,
+          "regular": 5,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 109000000,
+          "total_salary": 543000000
+        },
+        "female": {
+          "head_count": 8,
+          "regular": 7,
+          "contract": 1,
+          "avg_tenure": null,
+          "avg_salary": 83000000,
+          "total_salary": 661000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "CJ ENM",
+    "corp_code": "00265324",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260318001469",
+    "divisions": {
+      "방송사업": {
+        "male": {
+          "head_count": 469,
+          "regular": 467,
+          "contract": 2,
+          "avg_tenure": null,
+          "avg_salary": 107000000,
+          "total_salary": 50183000000
+        },
+        "female": {
+          "head_count": 873,
+          "regular": 860,
+          "contract": 13,
+          "avg_tenure": null,
+          "avg_salary": 73000000,
+          "total_salary": 63842000000
+        }
+      },
+      "커머스사업": {
+        "female": {
+          "head_count": 558,
+          "regular": 553,
+          "contract": 5,
+          "avg_tenure": null,
+          "avg_salary": 72000000,
+          "total_salary": 39999000000
+        },
+        "male": {
+          "head_count": 344,
+          "regular": 343,
+          "contract": 1,
+          "avg_tenure": null,
+          "avg_salary": 97000000,
+          "total_salary": 33443000000
+        }
+      },
+      "통합관리": {
+        "male": {
+          "head_count": 285,
+          "regular": 274,
+          "contract": 11,
+          "avg_tenure": null,
+          "avg_salary": 102000000,
+          "total_salary": 29136000000
+        },
+        "female": {
+          "head_count": 358,
+          "regular": 340,
+          "contract": 18,
+          "avg_tenure": null,
+          "avg_salary": 76000000,
+          "total_salary": 27380000000
+        }
+      },
+      "영화사업": {
+        "male": {
+          "head_count": 11,
+          "regular": 11,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 89000000,
+          "total_salary": 982000000
+        },
+        "female": {
+          "head_count": 36,
+          "regular": 35,
+          "contract": 1,
+          "avg_tenure": null,
+          "avg_salary": 79000000,
+          "total_salary": 2833000000
+        }
+      },
+      "음악사업": {
+        "male": {
+          "head_count": 34,
+          "regular": 34,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 91000000,
+          "total_salary": 3104000000
+        },
+        "female": {
+          "head_count": 124,
+          "regular": 118,
+          "contract": 6,
+          "avg_tenure": null,
+          "avg_salary": 65000000,
+          "total_salary": 8031000000
+        }
+      },
+      "공연사업": {
+        "male": {
+          "head_count": 5,
+          "regular": 5,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 113000000,
+          "total_salary": 565000000
+        },
+        "female": {
+          "head_count": 8,
+          "regular": 7,
+          "contract": 1,
+          "avg_tenure": null,
+          "avg_salary": 99000000,
+          "total_salary": 791000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "CJ대한통운",
+    "corp_code": "00113410",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250317000953",
+    "divisions": {
+      "CL사업, 택배사업, 글로벌사업, 건설사업": {
+        "male": {
+          "head_count": 5895,
+          "regular": 5744,
+          "contract": 151,
+          "avg_tenure": 9.7,
+          "avg_salary": 82000000,
+          "total_salary": 482164000000
+        },
+        "female": {
+          "head_count": 1107,
+          "regular": 1073,
+          "contract": 34,
+          "avg_tenure": 7.2,
+          "avg_salary": 63000000,
+          "total_salary": 69644000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "CJ대한통운",
+    "corp_code": "00113410",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260316001417",
+    "divisions": {
+      "CL사업, 택배사업, 글로벌사업, 건설사업": {
+        "male": {
+          "head_count": 5771,
+          "regular": 5595,
+          "contract": 176,
+          "avg_tenure": 10.5,
+          "avg_salary": 78000000,
+          "total_salary": 449369000000
+        },
+        "female": {
+          "head_count": 1076,
+          "regular": 1032,
+          "contract": 44,
+          "avg_tenure": 7.0,
+          "avg_salary": 60000000,
+          "total_salary": 64757000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "F&F",
+    "corp_code": "01568413",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250318001144",
+    "divisions": {
+      "의류부문": {
+        "male": {
+          "head_count": 255,
+          "regular": 251,
+          "contract": 4,
+          "avg_tenure": null,
+          "avg_salary": 94211000,
+          "total_salary": 24023811000
+        },
+        "female": {
+          "head_count": 424,
+          "regular": 406,
+          "contract": 18,
+          "avg_tenure": null,
+          "avg_salary": 66882000,
+          "total_salary": 28357802000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "F&F",
+    "corp_code": "01568413",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260318001512",
+    "divisions": {
+      "의류부문": {
+        "male": {
+          "head_count": 231,
+          "regular": 223,
+          "contract": 8,
+          "avg_tenure": null,
+          "avg_salary": 101000000,
+          "total_salary": 23323000000
+        },
+        "female": {
+          "head_count": 415,
+          "regular": 393,
+          "contract": 22,
+          "avg_tenure": null,
+          "avg_salary": 68000000,
+          "total_salary": 28337000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "JYP Ent.",
+    "corp_code": "00258689",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250317000598",
+    "divisions": {
+      "엔터테인먼트": {
+        "male": {
+          "head_count": 139,
+          "regular": 138,
+          "contract": 1,
+          "avg_tenure": null,
+          "avg_salary": 124062000,
+          "total_salary": 17006861000
+        },
+        "female": {
+          "head_count": 283,
+          "regular": 278,
+          "contract": 5,
+          "avg_tenure": null,
+          "avg_salary": 97087000,
+          "total_salary": 26294509000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "JYP Ent.",
+    "corp_code": "00258689",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260318001519",
+    "divisions": {
+      "엔터테인먼트": {
+        "male": {
+          "head_count": 146,
+          "regular": 145,
+          "contract": 1,
+          "avg_tenure": null,
+          "avg_salary": 107657000,
+          "total_salary": 14738472000
+        },
+        "female": {
+          "head_count": 350,
+          "regular": 348,
+          "contract": 2,
+          "avg_tenure": null,
+          "avg_salary": 91616000,
+          "total_salary": 28273850000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "나이스정보통신",
+    "corp_code": "00264945",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250317000835",
+    "divisions": {
+      "VAN부문": {
+        "male": {
+          "head_count": 169,
+          "regular": 156,
+          "contract": 13,
+          "avg_tenure": null,
+          "avg_salary": 102182000,
+          "total_salary": 17268762000
+        },
+        "female": {
+          "head_count": 61,
+          "regular": 45,
+          "contract": 16,
+          "avg_tenure": null,
+          "avg_salary": 64767000,
+          "total_salary": 3950763000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "나이스정보통신",
+    "corp_code": "00264945",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260316001148",
+    "divisions": {
+      "신용카드조회부문": {
+        "male": {
+          "head_count": 305,
+          "regular": 285,
+          "contract": 20,
+          "avg_tenure": null,
+          "avg_salary": 72854000,
+          "total_salary": 22220459000
+        },
+        "female": {
+          "head_count": 127,
+          "regular": 99,
+          "contract": 28,
+          "avg_tenure": null,
+          "avg_salary": 42483000,
+          "total_salary": 5395293000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "SK텔레콤",
+    "corp_code": "00159023",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250317000684",
+    "divisions": {
+      "total": {
+        "male": {
+          "head_count": 4227,
+          "regular": 4099,
+          "contract": 128,
+          "avg_tenure": 14.4,
+          "avg_salary": 175000000,
+          "total_salary": 737862000000
+        },
+        "female": {
+          "head_count": 1266,
+          "regular": 1054,
+          "contract": 212,
+          "avg_tenure": 8.7,
+          "avg_salary": 117000000,
+          "total_salary": 148589000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "SK텔레콤",
+    "corp_code": "00159023",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260318000532",
+    "divisions": {
+      "total": {
+        "male": {
+          "head_count": 4047,
+          "regular": 3882,
+          "contract": 165,
+          "avg_tenure": 15.2,
+          "avg_salary": 178000000,
+          "total_salary": 719179000000
+        },
+        "female": {
+          "head_count": 1269,
+          "regular": 999,
+          "contract": 270,
+          "avg_tenure": 8.9,
+          "avg_salary": 115000000,
+          "total_salary": 145354000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "갤럭시아머니트리",
+    "corp_code": "00587457",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250321001956",
+    "divisions": {
+      "total": {
+        "male": {
+          "head_count": 76,
+          "regular": 73,
+          "contract": 2,
+          "avg_tenure": 6.33,
+          "avg_salary": 76000000,
+          "total_salary": 5812000000
+        },
+        "female": {
+          "head_count": 73,
+          "regular": 67,
+          "contract": 5,
+          "avg_tenure": 5.21,
+          "avg_salary": 54000000,
+          "total_salary": 3907000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "갤럭시아머니트리",
+    "corp_code": "00587457",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260323001081",
+    "divisions": {
+      "total": {
+        "male": {
+          "head_count": 76,
+          "regular": 74,
+          "contract": 2,
+          "avg_tenure": 6.34,
+          "avg_salary": 79000000,
+          "total_salary": 5982000000
+        },
+        "female": {
+          "head_count": 74,
+          "regular": 69,
+          "contract": 5,
+          "avg_tenure": 5.99,
+          "avg_salary": 59000000,
+          "total_salary": 4373000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "골드앤에스",
+    "corp_code": "00249502",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250318001388",
+    "divisions": {
+      "교육": {
+        "male": {
+          "head_count": 8,
+          "regular": 8,
+          "contract": null,
+          "avg_tenure": 2.49,
+          "avg_salary": 83168000,
+          "total_salary": 665347000
+        },
+        "female": {
+          "head_count": 32,
+          "regular": 32,
+          "contract": null,
+          "avg_tenure": 2.33,
+          "avg_salary": 37348000,
+          "total_salary": 1195144000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "골드앤에스",
+    "corp_code": "00249502",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260323000991",
+    "divisions": {
+      "교육": {
+        "male": {
+          "head_count": 12,
+          "regular": 12,
+          "contract": null,
+          "avg_tenure": 1.92,
+          "avg_salary": 46173000,
+          "total_salary": 692606000
+        },
+        "female": {
+          "head_count": 34,
+          "regular": 34,
+          "contract": null,
+          "avg_tenure": 2.56,
+          "avg_salary": 31827000,
+          "total_salary": 1304947000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "넷마블",
+    "corp_code": "00904672",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250321001686",
+    "divisions": {
+      "게임사업": {
+        "male": {
+          "head_count": 480,
+          "regular": 470,
+          "contract": 10,
+          "avg_tenure": 5.6,
+          "avg_salary": 85000000,
+          "total_salary": 42193000000
+        },
+        "female": {
+          "head_count": 272,
+          "regular": 255,
+          "contract": 17,
+          "avg_tenure": 5.9,
+          "avg_salary": 64000000,
+          "total_salary": 18392000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "넷마블",
+    "corp_code": "00904672",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260318001170",
+    "divisions": {
+      "게임사업": {
+        "male": {
+          "head_count": 508,
+          "regular": 497,
+          "contract": 11,
+          "avg_tenure": 5.8,
+          "avg_salary": 95000000,
+          "total_salary": 46327000000
+        },
+        "female": {
+          "head_count": 287,
+          "regular": 272,
+          "contract": 15,
+          "avg_tenure": 6.1,
+          "avg_salary": 74000000,
+          "total_salary": 20859000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "누리플렉스",
+    "corp_code": "00269889",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250327000145",
+    "divisions": {
+      "영업": {
+        "male": {
+          "head_count": 38,
+          "regular": 38,
+          "contract": null,
+          "avg_tenure": 7.4,
+          "avg_salary": 48337000,
+          "total_salary": 2513819000
+        },
+        "female": {
+          "head_count": 6,
+          "regular": 6,
+          "contract": null,
+          "avg_tenure": 3.13,
+          "avg_salary": 21734000,
+          "total_salary": 214860000
+        }
+      },
+      "개발": {
+        "male": {
+          "head_count": 36,
+          "regular": 36,
+          "contract": null,
+          "avg_tenure": 5.23,
+          "avg_salary": 39707000,
+          "total_salary": 2113031000
+        },
+        "female": {
+          "head_count": 6,
+          "regular": 6,
+          "contract": null,
+          "avg_tenure": 4.27,
+          "avg_salary": 31335000,
+          "total_salary": 277424000
+        }
+      },
+      "관리": {
+        "male": {
+          "head_count": 7,
+          "regular": 7,
+          "contract": null,
+          "avg_tenure": 7.9,
+          "avg_salary": 37986000,
+          "total_salary": 419070000
+        },
+        "female": {
+          "head_count": 9,
+          "regular": 9,
+          "contract": null,
+          "avg_tenure": 7.61,
+          "avg_salary": 37463000,
+          "total_salary": 516518000
+        }
+      },
+      "생산": {
+        "male": {
+          "head_count": 7,
+          "regular": 7,
+          "contract": null,
+          "avg_tenure": 5.07,
+          "avg_salary": 32134000,
+          "total_salary": 311864000
+        },
+        "female": {
+          "head_count": 4,
+          "regular": 4,
+          "contract": null,
+          "avg_tenure": 4.35,
+          "avg_salary": 21875000,
+          "total_salary": 118895000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "누리플렉스",
+    "corp_code": "00269889",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260318000419",
+    "divisions": {
+      "영업": {
+        "male": {
+          "head_count": 34,
+          "regular": 34,
+          "contract": null,
+          "avg_tenure": 8.64,
+          "avg_salary": 65738000,
+          "total_salary": 2235076000
+        },
+        "female": {
+          "head_count": 6,
+          "regular": 6,
+          "contract": null,
+          "avg_tenure": 3.48,
+          "avg_salary": 43971000,
+          "total_salary": 263827000
+        }
+      },
+      "개발": {
+        "male": {
+          "head_count": 32,
+          "regular": 32,
+          "contract": null,
+          "avg_tenure": 5.69,
+          "avg_salary": 56345000,
+          "total_salary": 1803024000
+        },
+        "female": {
+          "head_count": 6,
+          "regular": 6,
+          "contract": null,
+          "avg_tenure": 4.69,
+          "avg_salary": 47897000,
+          "total_salary": 287382000
+        }
+      },
+      "관리": {
+        "male": {
+          "head_count": 7,
+          "regular": 7,
+          "contract": null,
+          "avg_tenure": 8.79,
+          "avg_salary": 56537000,
+          "total_salary": 395757000
+        },
+        "female": {
+          "head_count": 8,
+          "regular": 8,
+          "contract": null,
+          "avg_tenure": 9.12,
+          "avg_salary": 59560000,
+          "total_salary": 476481000
+        }
+      },
+      "생산": {
+        "male": {
+          "head_count": 5,
+          "regular": 5,
+          "contract": null,
+          "avg_tenure": 5.8,
+          "avg_salary": 50390000,
+          "total_salary": 251948000
+        },
+        "female": {
+          "head_count": 1,
+          "regular": 1,
+          "contract": null,
+          "avg_tenure": 6.18,
+          "avg_salary": 30856000,
+          "total_salary": 30856000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "다올투자증권",
+    "corp_code": "00156859",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250317000595",
+    "divisions": {
+      "전부문": {
+        "male": {
+          "head_count": 206,
+          "regular": 68,
+          "contract": 138,
+          "avg_tenure": null,
+          "avg_salary": 173000000,
+          "total_salary": 37606000000
+        },
+        "female": {
+          "head_count": 136,
+          "regular": 89,
+          "contract": 47,
+          "avg_tenure": null,
+          "avg_salary": 72000000,
+          "total_salary": 10113000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "다올투자증권",
+    "corp_code": "00156859",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260312000604",
+    "divisions": {
+      "전부문": {
+        "male": {
+          "head_count": 214,
+          "regular": 51,
+          "contract": 163,
+          "avg_tenure": null,
+          "avg_salary": 237000000,
+          "total_salary": 47662000000
+        },
+        "female": {
+          "head_count": 130,
+          "regular": 79,
+          "contract": 51,
+          "avg_tenure": null,
+          "avg_salary": 81000000,
+          "total_salary": 10441000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "디아이티",
+    "corp_code": "00576798",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250318001120",
+    "divisions": {
+      "total": {
+        "male": {
+          "head_count": 193,
+          "regular": 191,
+          "contract": 2,
+          "avg_tenure": null,
+          "avg_salary": 70000000,
+          "total_salary": 13459000000
+        },
+        "female": {
+          "head_count": 13,
+          "regular": 13,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 50000000,
+          "total_salary": 652000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "디아이티",
+    "corp_code": "00576798",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260317000522",
+    "divisions": {
+      "total": {
+        "male": {
+          "head_count": 221,
+          "regular": 219,
+          "contract": 2,
+          "avg_tenure": null,
+          "avg_salary": 80000000,
+          "total_salary": 17712000000
+        },
+        "female": {
+          "head_count": 16,
+          "regular": 16,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 49000000,
+          "total_salary": 779000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "디지털대성",
+    "corp_code": "00398808",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250318000764",
+    "divisions": {
+      "디지털대성": {
+        "male": {
+          "head_count": 235,
+          "regular": 204,
+          "contract": 31,
+          "avg_tenure": 4.69,
+          "avg_salary": 46000000,
+          "total_salary": 10729000000
+        },
+        "female": {
+          "head_count": 257,
+          "regular": 223,
+          "contract": 34,
+          "avg_tenure": 4.19,
+          "avg_salary": 34000000,
+          "total_salary": 8821000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "디지털대성",
+    "corp_code": "00398808",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260318000608",
+    "divisions": {
+      "디지털대성": {
+        "male": {
+          "head_count": 237,
+          "regular": 210,
+          "contract": 27,
+          "avg_tenure": 5.34,
+          "avg_salary": 59000000,
+          "total_salary": 14051000000
+        },
+        "female": {
+          "head_count": 264,
+          "regular": 232,
+          "contract": 32,
+          "avg_tenure": 4.81,
+          "avg_salary": 42000000,
+          "total_salary": 11053000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "로보티즈",
+    "corp_code": "00946030",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250317000802",
+    "divisions": {
+      "로봇": {
+        "male": {
+          "head_count": 118,
+          "regular": 114,
+          "contract": 4,
+          "avg_tenure": null,
+          "avg_salary": 55910000,
+          "total_salary": 6597399000
+        },
+        "female": {
+          "head_count": 35,
+          "regular": 34,
+          "contract": 1,
+          "avg_tenure": null,
+          "avg_salary": 38221000,
+          "total_salary": 1337737000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "로보티즈",
+    "corp_code": "00946030",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260316001475",
+    "divisions": {
+      "로봇": {
+        "male": {
+          "head_count": 83,
+          "regular": 77,
+          "contract": 6,
+          "avg_tenure": null,
+          "avg_salary": 53816000,
+          "total_salary": 4466759000
+        },
+        "female": {
+          "head_count": 28,
+          "regular": 28,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 42223000,
+          "total_salary": 1182245000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "리드코프",
+    "corp_code": "00117708",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250320001571",
+    "divisions": {
+      "경영지원부문": {
+        "male": {
+          "head_count": 18,
+          "regular": 15,
+          "contract": 3,
+          "avg_tenure": 8.1,
+          "avg_salary": 73502000,
+          "total_salary": 1323028000
+        },
+        "female": {
+          "head_count": 10,
+          "regular": 9,
+          "contract": 1,
+          "avg_tenure": 5.3,
+          "avg_salary": 46539000,
+          "total_salary": 465386000
+        }
+      },
+      "소비자금융부문": {
+        "male": {
+          "head_count": 98,
+          "regular": 91,
+          "contract": 7,
+          "avg_tenure": 10.8,
+          "avg_salary": 51748000,
+          "total_salary": 5071268000
+        },
+        "female": {
+          "head_count": 50,
+          "regular": 36,
+          "contract": 14,
+          "avg_tenure": 7.1,
+          "avg_salary": 39434000,
+          "total_salary": 1971687000
+        }
+      },
+      "석유사업부문": {
+        "male": {
+          "head_count": 17,
+          "regular": 17,
+          "contract": null,
+          "avg_tenure": 9.6,
+          "avg_salary": 58059000,
+          "total_salary": 986997000
+        },
+        "female": {
+          "head_count": 6,
+          "regular": 6,
+          "contract": null,
+          "avg_tenure": 3.5,
+          "avg_salary": 35673000,
+          "total_salary": 214038000
+        }
+      },
+      "휴게소사업부문": {
+        "male": {
+          "head_count": 16,
+          "regular": 10,
+          "contract": 6,
+          "avg_tenure": 13.0,
+          "avg_salary": 50808000,
+          "total_salary": 812934000
+        },
+        "female": {
+          "head_count": 24,
+          "regular": 8,
+          "contract": 16,
+          "avg_tenure": 4.0,
+          "avg_salary": 39974000,
+          "total_salary": 959377000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "리드코프",
+    "corp_code": "00117708",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260319001217",
+    "divisions": {
+      "경영지원부문": {
+        "male": {
+          "head_count": 20,
+          "regular": 16,
+          "contract": 4,
+          "avg_tenure": 8.1,
+          "avg_salary": 68845000,
+          "total_salary": 1376904000
+        },
+        "female": {
+          "head_count": 13,
+          "regular": 13,
+          "contract": null,
+          "avg_tenure": 5.6,
+          "avg_salary": 44085000,
+          "total_salary": 573105000
+        }
+      },
+      "소비자금융부문": {
+        "male": {
+          "head_count": 101,
+          "regular": 94,
+          "contract": 7,
+          "avg_tenure": 11.0,
+          "avg_salary": 49170000,
+          "total_salary": 4966124000
+        },
+        "female": {
+          "head_count": 46,
+          "regular": 38,
+          "contract": 8,
+          "avg_tenure": 8.2,
+          "avg_salary": 44836000,
+          "total_salary": 2062467000
+        }
+      },
+      "석유사업부문": {
+        "male": {
+          "head_count": 17,
+          "regular": 17,
+          "contract": null,
+          "avg_tenure": 10.6,
+          "avg_salary": 59610000,
+          "total_salary": 1013364000
+        },
+        "female": {
+          "head_count": 4,
+          "regular": 4,
+          "contract": null,
+          "avg_tenure": 4.2,
+          "avg_salary": 35124000,
+          "total_salary": 140496000
+        }
+      },
+      "휴게소사업부문": {
+        "male": {
+          "head_count": 15,
+          "regular": 9,
+          "contract": 6,
+          "avg_tenure": 10.5,
+          "avg_salary": 54080000,
+          "total_salary": 811200000
+        },
+        "female": {
+          "head_count": 24,
+          "regular": 9,
+          "contract": 15,
+          "avg_tenure": 4.6,
+          "avg_salary": 42225000,
+          "total_salary": 1013402000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "마크로젠",
+    "corp_code": "00261373",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250321001254",
+    "divisions": {
+      "관리행정직": {
+        "male": {
+          "head_count": 72,
+          "regular": 72,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 79075000,
+          "total_salary": 5423326000
+        },
+        "female": {
+          "head_count": 79,
+          "regular": 79,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 53610000,
+          "total_salary": 4200152000
+        }
+      },
+      "생산직": {
+        "male": {
+          "head_count": 79,
+          "regular": 75,
+          "contract": 4,
+          "avg_tenure": null,
+          "avg_salary": 52242000,
+          "total_salary": 4055160000
+        },
+        "female": {
+          "head_count": 115,
+          "regular": 111,
+          "contract": 4,
+          "avg_tenure": null,
+          "avg_salary": 46213000,
+          "total_salary": 5483989000
+        }
+      },
+      "영업직": {
+        "male": {
+          "head_count": 73,
+          "regular": 73,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 61889000,
+          "total_salary": 4460150000
+        },
+        "female": {
+          "head_count": 58,
+          "regular": 57,
+          "contract": 1,
+          "avg_tenure": null,
+          "avg_salary": 53860000,
+          "total_salary": 3041916000
+        }
+      },
+      "연구직": {
+        "male": {
+          "head_count": 28,
+          "regular": 28,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 59068000,
+          "total_salary": 1734598000
+        },
+        "female": {
+          "head_count": 25,
+          "regular": 25,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 52938000,
+          "total_salary": 1401304000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "마크로젠",
+    "corp_code": "00261373",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260323001371",
+    "divisions": {
+      "관리행정직": {
+        "male": {
+          "head_count": 60,
+          "regular": 60,
+          "contract": null,
+          "avg_tenure": 6.7,
+          "avg_salary": 85471000,
+          "total_salary": 5436575000
+        },
+        "female": {
+          "head_count": 61,
+          "regular": 61,
+          "contract": null,
+          "avg_tenure": 8.1,
+          "avg_salary": 57120000,
+          "total_salary": 4012090000
+        }
+      },
+      "생산직": {
+        "male": {
+          "head_count": 77,
+          "regular": 75,
+          "contract": 2,
+          "avg_tenure": 6.2,
+          "avg_salary": 54397000,
+          "total_salary": 4428602000
+        },
+        "female": {
+          "head_count": 134,
+          "regular": 127,
+          "contract": 7,
+          "avg_tenure": 5.7,
+          "avg_salary": 45643000,
+          "total_salary": 6309761000
+        }
+      },
+      "영업직": {
+        "male": {
+          "head_count": 71,
+          "regular": 70,
+          "contract": 1,
+          "avg_tenure": 6.7,
+          "avg_salary": 59974000,
+          "total_salary": 4072234000
+        },
+        "female": {
+          "head_count": 60,
+          "regular": 58,
+          "contract": 2,
+          "avg_tenure": 7.2,
+          "avg_salary": 52391000,
+          "total_salary": 3032341000
+        }
+      },
+      "연구직": {
+        "male": {
+          "head_count": 17,
+          "regular": 17,
+          "contract": null,
+          "avg_tenure": 5.7,
+          "avg_salary": 70320000,
+          "total_salary": 1503284000
+        },
+        "female": {
+          "head_count": 8,
+          "regular": 8,
+          "contract": null,
+          "avg_tenure": 9.8,
+          "avg_salary": 77016000,
+          "total_salary": 719072000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "메가스터디교육",
+    "corp_code": "01074862",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250319000794",
+    "divisions": {
+      "total": {
+        "male": {
+          "head_count": 1024,
+          "regular": 822,
+          "contract": 202,
+          "avg_tenure": 5.7,
+          "avg_salary": 53541000,
+          "total_salary": 48115949000
+        },
+        "female": {
+          "head_count": 1144,
+          "regular": 849,
+          "contract": 295,
+          "avg_tenure": 3.8,
+          "avg_salary": 44762000,
+          "total_salary": 41512941000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "메가스터디교육",
+    "corp_code": "01074862",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260318000849",
+    "divisions": {
+      "total": {
+        "male": {
+          "head_count": 926,
+          "regular": 730,
+          "contract": 196,
+          "avg_tenure": 6.6,
+          "avg_salary": 56311000,
+          "total_salary": 43814270000
+        },
+        "female": {
+          "head_count": 1076,
+          "regular": 760,
+          "contract": 316,
+          "avg_tenure": 4.5,
+          "avg_salary": 46676000,
+          "total_salary": 39647357000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "뷰노",
+    "corp_code": "01344202",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250320000289",
+    "divisions": {
+      "사무": {
+        "male": {
+          "head_count": 23,
+          "regular": 20,
+          "contract": 3,
+          "avg_tenure": 2.1,
+          "avg_salary": 80221000,
+          "total_salary": 1787064000
+        },
+        "female": {
+          "head_count": 37,
+          "regular": 37,
+          "contract": null,
+          "avg_tenure": 2.3,
+          "avg_salary": 57587000,
+          "total_salary": 2053059000
+        }
+      },
+      "영업": {
+        "male": {
+          "head_count": 11,
+          "regular": 11,
+          "contract": null,
+          "avg_tenure": 3.1,
+          "avg_salary": 91384000,
+          "total_salary": 817870000
+        },
+        "female": {
+          "head_count": 3,
+          "regular": 3,
+          "contract": null,
+          "avg_tenure": 3.8,
+          "avg_salary": 60285000,
+          "total_salary": 180855000
+        }
+      },
+      "연구": {
+        "male": {
+          "head_count": 70,
+          "regular": 69,
+          "contract": 1,
+          "avg_tenure": 3.0,
+          "avg_salary": 81074000,
+          "total_salary": 5736909000
+        },
+        "female": {
+          "head_count": 16,
+          "regular": 15,
+          "contract": 1,
+          "avg_tenure": 2.1,
+          "avg_salary": 94662000,
+          "total_salary": 1472955000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "뷰노",
+    "corp_code": "01344202",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260318000614",
+    "divisions": {
+      "사무": {
+        "male": {
+          "head_count": 23,
+          "regular": 19,
+          "contract": 4,
+          "avg_tenure": 2.6,
+          "avg_salary": 92106000,
+          "total_salary": 2079720000
+        },
+        "female": {
+          "head_count": 39,
+          "regular": 37,
+          "contract": 2,
+          "avg_tenure": 2.8,
+          "avg_salary": 63223000,
+          "total_salary": 2530706000
+        }
+      },
+      "영업": {
+        "male": {
+          "head_count": 9,
+          "regular": 9,
+          "contract": null,
+          "avg_tenure": 3.6,
+          "avg_salary": 93196000,
+          "total_salary": 919879000
+        },
+        "female": {
+          "head_count": 3,
+          "regular": 3,
+          "contract": null,
+          "avg_tenure": 3.5,
+          "avg_salary": 48897000,
+          "total_salary": 146690000
+        }
+      },
+      "연구": {
+        "male": {
+          "head_count": 68,
+          "regular": 65,
+          "contract": 3,
+          "avg_tenure": 3.3,
+          "avg_salary": 83428000,
+          "total_salary": 6014383000
+        },
+        "female": {
+          "head_count": 23,
+          "regular": 22,
+          "contract": 1,
+          "avg_tenure": 2.3,
+          "avg_salary": 88938000,
+          "total_salary": 1775058000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "비아이매트릭스",
+    "corp_code": "01462739",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250320000988",
+    "divisions": {
+      "경영및 전략 기획실": {
+        "male": {
+          "head_count": 11,
+          "regular": 10,
+          "contract": 1,
+          "avg_tenure": 5.5,
+          "avg_salary": 95000000,
+          "total_salary": 1053000000
+        },
+        "female": {
+          "head_count": 9,
+          "regular": 6,
+          "contract": 3,
+          "avg_tenure": 1.7,
+          "avg_salary": 27000000,
+          "total_salary": 243000000
+        }
+      },
+      "DX컨설팅본부": {
+        "female": {
+          "head_count": 5,
+          "regular": 5,
+          "contract": null,
+          "avg_tenure": 6.1,
+          "avg_salary": 65000000,
+          "total_salary": 392000000
+        },
+        "male": {
+          "head_count": 39,
+          "regular": 38,
+          "contract": 1,
+          "avg_tenure": 7.5,
+          "avg_salary": 79000000,
+          "total_salary": 3116000000
+        }
+      },
+      "컨설팅사업부": {
+        "male": {
+          "head_count": 14,
+          "regular": 14,
+          "contract": null,
+          "avg_tenure": 3.1,
+          "avg_salary": 71000000,
+          "total_salary": 1005000000
+        },
+        "female": {
+          "head_count": 11,
+          "regular": 11,
+          "contract": null,
+          "avg_tenure": 2.6,
+          "avg_salary": 53000000,
+          "total_salary": 585000000
+        }
+      },
+      "AUD 사업부문": {
+        "male": {
+          "head_count": 32,
+          "regular": 31,
+          "contract": 1,
+          "avg_tenure": 3.8,
+          "avg_salary": 110000000,
+          "total_salary": 3987000000
+        },
+        "female": {
+          "head_count": 9,
+          "regular": 8,
+          "contract": 1,
+          "avg_tenure": 5.1,
+          "avg_salary": 51000000,
+          "total_salary": 512000000
+        }
+      },
+      "기술연구소": {
+        "male": {
+          "head_count": 28,
+          "regular": 28,
+          "contract": null,
+          "avg_tenure": 5.1,
+          "avg_salary": 76000000,
+          "total_salary": 2052000000
+        },
+        "female": {
+          "head_count": 12,
+          "regular": 12,
+          "contract": null,
+          "avg_tenure": 4.0,
+          "avg_salary": 49000000,
+          "total_salary": 592000000
+        }
+      },
+      "전략사업본부": {
+        "male": {
+          "head_count": 28,
+          "regular": 28,
+          "contract": null,
+          "avg_tenure": 5.7,
+          "avg_salary": 72000000,
+          "total_salary": 2114000000
+        },
+        "female": {
+          "head_count": 9,
+          "regular": 9,
+          "contract": null,
+          "avg_tenure": 6.4,
+          "avg_salary": 54000000,
+          "total_salary": 437000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "비아이매트릭스",
+    "corp_code": "01462739",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260320001308",
+    "divisions": {
+      "경영및 전략 기획실": {
+        "male": {
+          "head_count": 11,
+          "regular": 9,
+          "contract": 2,
+          "avg_tenure": 6.6,
+          "avg_salary": 123000000,
+          "total_salary": 1353000000
+        },
+        "female": {
+          "head_count": 7,
+          "regular": 5,
+          "contract": 2,
+          "avg_tenure": 2.1,
+          "avg_salary": 41000000,
+          "total_salary": 292000000
+        }
+      },
+      "DX컨설팅본부": {
+        "female": {
+          "head_count": 10,
+          "regular": 10,
+          "contract": null,
+          "avg_tenure": 3.5,
+          "avg_salary": 58000000,
+          "total_salary": 582000000
+        },
+        "male": {
+          "head_count": 41,
+          "regular": 40,
+          "contract": 1,
+          "avg_tenure": 7.3,
+          "avg_salary": 84000000,
+          "total_salary": 3452000000
+        }
+      },
+      "컨설팅사업부": {
+        "male": {
+          "head_count": 15,
+          "regular": 14,
+          "contract": 15,
+          "avg_tenure": 3.1,
+          "avg_salary": 94000000,
+          "total_salary": 1419000000
+        },
+        "female": {
+          "head_count": 15,
+          "regular": 15,
+          "contract": 15,
+          "avg_tenure": 2.2,
+          "avg_salary": 70000000,
+          "total_salary": 1064000000
+        }
+      },
+      "AUD 사업부문": {
+        "male": {
+          "head_count": 36,
+          "regular": 32,
+          "contract": 4,
+          "avg_tenure": 3.2,
+          "avg_salary": 99000000,
+          "total_salary": 3581000000
+        },
+        "female": {
+          "head_count": 10,
+          "regular": 10,
+          "contract": null,
+          "avg_tenure": 5.0,
+          "avg_salary": 63000000,
+          "total_salary": 636000000
+        }
+      },
+      "기술연구소": {
+        "male": {
+          "head_count": 28,
+          "regular": 28,
+          "contract": 28,
+          "avg_tenure": 5.6,
+          "avg_salary": 89000000,
+          "total_salary": 2492000000
+        },
+        "female": {
+          "head_count": 14,
+          "regular": 13,
+          "contract": 1,
+          "avg_tenure": 4.0,
+          "avg_salary": 57000000,
+          "total_salary": 799000000
+        }
+      },
+      "전략사업본부": {
+        "male": {
+          "head_count": 33,
+          "regular": 33,
+          "contract": null,
+          "avg_tenure": 5.7,
+          "avg_salary": 74000000,
+          "total_salary": 2471000000
+        },
+        "female": {
+          "head_count": 8,
+          "regular": 7,
+          "contract": 1,
+          "avg_tenure": 5.5,
+          "avg_salary": 69000000,
+          "total_salary": 599000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "비트컴퓨터",
+    "corp_code": "00231707",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250317000141",
+    "divisions": {
+      "의료정보사업 등": {
+        "male": {
+          "head_count": 91,
+          "regular": 91,
+          "contract": null,
+          "avg_tenure": 10.41,
+          "avg_salary": 58526000,
+          "total_salary": 5176285000
+        },
+        "female": {
+          "head_count": 42,
+          "regular": 42,
+          "contract": null,
+          "avg_tenure": 8.15,
+          "avg_salary": 44774000,
+          "total_salary": 1679020000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "비트컴퓨터",
+    "corp_code": "00231707",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260318000396",
+    "divisions": {
+      "의료정보사업 등": {
+        "male": {
+          "head_count": 92,
+          "regular": 90,
+          "contract": 2,
+          "avg_tenure": 12.2,
+          "avg_salary": 57865000,
+          "total_salary": 5112863000
+        },
+        "female": {
+          "head_count": 46,
+          "regular": 46,
+          "contract": null,
+          "avg_tenure": 8.0,
+          "avg_salary": 45083000,
+          "total_salary": 1938589000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "세중",
+    "corp_code": "00264671",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250321001670",
+    "divisions": {
+      "여행\n사업부": {
+        "male": {
+          "head_count": 44,
+          "regular": 44,
+          "contract": null,
+          "avg_tenure": 8.2,
+          "avg_salary": 45000000,
+          "total_salary": 1973000000
+        },
+        "female": {
+          "head_count": 61,
+          "regular": 61,
+          "contract": null,
+          "avg_tenure": 4.1,
+          "avg_salary": 36000000,
+          "total_salary": 2172000000
+        }
+      },
+      "에스앤씨\n사업부": {
+        "male": {
+          "head_count": 5,
+          "regular": 5,
+          "contract": null,
+          "avg_tenure": 7.7,
+          "avg_salary": 60000000,
+          "total_salary": 301000000
+        },
+        "female": {
+          "head_count": 7,
+          "regular": 7,
+          "contract": null,
+          "avg_tenure": 1.9,
+          "avg_salary": 35000000,
+          "total_salary": 244000000
+        }
+      },
+      "PLM 영업부": {
+        "male": {
+          "head_count": 6,
+          "regular": 6,
+          "contract": null,
+          "avg_tenure": 3.0,
+          "avg_salary": 65000000,
+          "total_salary": 394000000
+        },
+        "female": {
+          "head_count": 1,
+          "regular": 1,
+          "contract": null,
+          "avg_tenure": 2.0,
+          "avg_salary": 31000000,
+          "total_salary": 31000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "세중",
+    "corp_code": "00264671",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260323001716",
+    "divisions": {
+      "여행\n사업부": {
+        "male": {
+          "head_count": 41,
+          "regular": 36,
+          "contract": 5,
+          "avg_tenure": 7.6,
+          "avg_salary": 42000000,
+          "total_salary": 1714000000
+        },
+        "female": {
+          "head_count": 62,
+          "regular": 54,
+          "contract": 8,
+          "avg_tenure": 4.1,
+          "avg_salary": 38000000,
+          "total_salary": 2339000000
+        }
+      },
+      "에스앤씨\n사업부": {
+        "male": {
+          "head_count": 5,
+          "regular": 5,
+          "contract": null,
+          "avg_tenure": 8.7,
+          "avg_salary": 60000000,
+          "total_salary": 302000000
+        },
+        "female": {
+          "head_count": 10,
+          "regular": 9,
+          "contract": 1,
+          "avg_tenure": 2.1,
+          "avg_salary": 39000000,
+          "total_salary": 385000000
+        }
+      },
+      "PLM 영업부": {
+        "male": {
+          "head_count": 11,
+          "regular": 11,
+          "contract": null,
+          "avg_tenure": 11.5,
+          "avg_salary": 71000000,
+          "total_salary": 776000000
+        },
+        "female": {
+          "head_count": 1,
+          "regular": 1,
+          "contract": null,
+          "avg_tenure": 3.2,
+          "avg_salary": 39000000,
+          "total_salary": 39000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "시큐아이",
+    "corp_code": "00294511",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250331000491",
+    "divisions": {
+      "정보보안사업": {
+        "male": {
+          "head_count": 421,
+          "regular": 380,
+          "contract": 41,
+          "avg_tenure": 5.99,
+          "avg_salary": 82000000,
+          "total_salary": 34565000000
+        },
+        "female": {
+          "head_count": 70,
+          "regular": 60,
+          "contract": 10,
+          "avg_tenure": 4.5,
+          "avg_salary": 63000000,
+          "total_salary": 4440000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "시큐아이",
+    "corp_code": "00294511",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260331000168",
+    "divisions": {
+      "정보보안사업": {
+        "male": {
+          "head_count": 428,
+          "regular": 389,
+          "contract": 39,
+          "avg_tenure": 6.5,
+          "avg_salary": 80000000,
+          "total_salary": 34030000000
+        },
+        "female": {
+          "head_count": 78,
+          "regular": 66,
+          "contract": 12,
+          "avg_tenure": 4.9,
+          "avg_salary": 61000000,
+          "total_salary": 4720000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "쓰리빌리언",
+    "corp_code": "01506617",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250417000394",
+    "divisions": {
+      "total": {
+        "male": {
+          "head_count": 45,
+          "regular": 45,
+          "contract": null,
+          "avg_tenure": 2.47,
+          "avg_salary": 61000000,
+          "total_salary": 2758000000
+        },
+        "female": {
+          "head_count": 40,
+          "regular": 40,
+          "contract": null,
+          "avg_tenure": 1.98,
+          "avg_salary": 57000000,
+          "total_salary": 2273000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "쓰리빌리언",
+    "corp_code": "01506617",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260323000161",
+    "divisions": {
+      "연구개발": {
+        "male": {
+          "head_count": 41,
+          "regular": 41,
+          "contract": null,
+          "avg_tenure": 2.84,
+          "avg_salary": 71114000,
+          "total_salary": 2900455000
+        },
+        "female": {
+          "head_count": 11,
+          "regular": 11,
+          "contract": null,
+          "avg_tenure": 2.86,
+          "avg_salary": 54986000,
+          "total_salary": 646368000
+        }
+      },
+      "기  타": {
+        "male": {
+          "head_count": 12,
+          "regular": 10,
+          "contract": 2,
+          "avg_tenure": 2.39,
+          "avg_salary": 61484000,
+          "total_salary": 583087000
+        },
+        "female": {
+          "head_count": 34,
+          "regular": 29,
+          "contract": 5,
+          "avg_tenure": 2.2,
+          "avg_salary": 68499000,
+          "total_salary": 2074016000
+        }
+      },
+      "성별계": {
+        "male": {
+          "head_count": 53,
+          "regular": 51,
+          "contract": 2,
+          "avg_tenure": 2.74,
+          "avg_salary": 69228000,
+          "total_salary": 3483542000
+        },
+        "female": {
+          "head_count": 45,
+          "regular": 40,
+          "contract": 5,
+          "avg_tenure": 2.36,
+          "avg_salary": 64611000,
+          "total_salary": 2720384000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "씨티케이",
+    "corp_code": "01144028",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250530001936",
+    "divisions": {
+      "사무": {
+        "male": {
+          "head_count": 38,
+          "regular": 37,
+          "contract": 1,
+          "avg_tenure": null,
+          "avg_salary": 75846000,
+          "total_salary": 2882128000
+        },
+        "female": {
+          "head_count": 57,
+          "regular": 55,
+          "contract": 2,
+          "avg_tenure": null,
+          "avg_salary": 53366000,
+          "total_salary": 3041849000
+        }
+      },
+      "영업": {
+        "male": {
+          "head_count": 14,
+          "regular": 14,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 69986000,
+          "total_salary": 979797000
+        },
+        "female": {
+          "head_count": 19,
+          "regular": 19,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 42070000,
+          "total_salary": 799320000
+        }
+      },
+      "연구": {
+        "male": {
+          "head_count": 4,
+          "regular": 4,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 90345000,
+          "total_salary": 361380000
+        },
+        "female": {
+          "head_count": 5,
+          "regular": 5,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 43614000,
+          "total_salary": 218067000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "씨티케이",
+    "corp_code": "01144028",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260320001391",
+    "divisions": {
+      "사무": {
+        "male": {
+          "head_count": 34,
+          "regular": 33,
+          "contract": 1,
+          "avg_tenure": null,
+          "avg_salary": 75834000,
+          "total_salary": 2578323000
+        },
+        "female": {
+          "head_count": 56,
+          "regular": 54,
+          "contract": 2,
+          "avg_tenure": null,
+          "avg_salary": 45905000,
+          "total_salary": 2570672000
+        }
+      },
+      "영업": {
+        "male": {
+          "head_count": 15,
+          "regular": 15,
+          "contract": 0,
+          "avg_tenure": null,
+          "avg_salary": 68725000,
+          "total_salary": 1030862000
+        },
+        "female": {
+          "head_count": 15,
+          "regular": 15,
+          "contract": 0,
+          "avg_tenure": null,
+          "avg_salary": 42509000,
+          "total_salary": 637624000
+        }
+      },
+      "연구": {
+        "male": {
+          "head_count": 2,
+          "regular": 2,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 91810000,
+          "total_salary": 183620000
+        },
+        "female": {
+          "head_count": 7,
+          "regular": 7,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 36204000,
+          "total_salary": 253425000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "씽크풀",
+    "corp_code": "00355380",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250328002066",
+    "divisions": {
+      "total": {
+        "male": {
+          "head_count": 40,
+          "regular": 37,
+          "contract": 3,
+          "avg_tenure": 8.2,
+          "avg_salary": 47075000,
+          "total_salary": 1883019000
+        },
+        "female": {
+          "head_count": 20,
+          "regular": 20,
+          "contract": 0,
+          "avg_tenure": 13.2,
+          "avg_salary": 48922000,
+          "total_salary": 978434000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "씽크풀",
+    "corp_code": "00355380",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260330000536",
+    "divisions": {
+      "total": {
+        "male": {
+          "head_count": 36,
+          "regular": 34,
+          "contract": 2,
+          "avg_tenure": 8.3,
+          "avg_salary": 53387000,
+          "total_salary": 1921935000
+        },
+        "female": {
+          "head_count": 22,
+          "regular": 20,
+          "contract": 2,
+          "avg_tenure": 11.9,
+          "avg_salary": 43506000,
+          "total_salary": 957138000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "알체라",
+    "corp_code": "01405451",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250318000651",
+    "divisions": {
+      "사무": {
+        "male": {
+          "head_count": 46,
+          "regular": 26,
+          "contract": 20,
+          "avg_tenure": null,
+          "avg_salary": 54000000,
+          "total_salary": 2476000000
+        },
+        "female": {
+          "head_count": 54,
+          "regular": 19,
+          "contract": 35,
+          "avg_tenure": null,
+          "avg_salary": 25000000,
+          "total_salary": 1362000000
+        }
+      },
+      "연구,개발": {
+        "male": {
+          "head_count": 24,
+          "regular": 24,
+          "contract": 0,
+          "avg_tenure": null,
+          "avg_salary": 94000000,
+          "total_salary": 2245000000
+        },
+        "female": {
+          "head_count": 3,
+          "regular": 2,
+          "contract": 1,
+          "avg_tenure": null,
+          "avg_salary": 57000000,
+          "total_salary": 171000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "알체라",
+    "corp_code": "01405451",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260318000741",
+    "divisions": {
+      "사무": {
+        "male": {
+          "head_count": 97,
+          "regular": 27,
+          "contract": 70,
+          "avg_tenure": null,
+          "avg_salary": 27000000,
+          "total_salary": 2640000000
+        },
+        "female": {
+          "head_count": 74,
+          "regular": 19,
+          "contract": 55,
+          "avg_tenure": null,
+          "avg_salary": 19000000,
+          "total_salary": 1386000000
+        }
+      },
+      "연구,개발": {
+        "male": {
+          "head_count": 28,
+          "regular": 26,
+          "contract": 2,
+          "avg_tenure": null,
+          "avg_salary": 76000000,
+          "total_salary": 2122000000
+        },
+        "female": {
+          "head_count": 4,
+          "regular": 4,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 58000000,
+          "total_salary": 231000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "에프앤가이드",
+    "corp_code": "00331016",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250811000299",
+    "divisions": {
+      "total": {
+        "male": {
+          "head_count": 99,
+          "regular": 85,
+          "contract": 12,
+          "avg_tenure": null,
+          "avg_salary": 69145000,
+          "total_salary": 6845398000
+        },
+        "female": {
+          "head_count": 58,
+          "regular": 56,
+          "contract": 2,
+          "avg_tenure": null,
+          "avg_salary": 55107000,
+          "total_salary": 3196204000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "에프앤가이드",
+    "corp_code": "00331016",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260309001578",
+    "divisions": {
+      "total": {
+        "male": {
+          "head_count": 97,
+          "regular": 92,
+          "contract": 4,
+          "avg_tenure": null,
+          "avg_salary": 61864000,
+          "total_salary": 6000789000
+        },
+        "female": {
+          "head_count": 63,
+          "regular": 61,
+          "contract": 1,
+          "avg_tenure": null,
+          "avg_salary": 52898000,
+          "total_salary": 3332567000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "엠아이큐브솔루션",
+    "corp_code": "01497142",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250320001600",
+    "divisions": {
+      "전체": {
+        "male": {
+          "head_count": 202,
+          "regular": 202,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 56234000,
+          "total_salary": 11359328000
+        },
+        "female": {
+          "head_count": 52,
+          "regular": 52,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 43187000,
+          "total_salary": 2245711000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "엠아이큐브솔루션",
+    "corp_code": "01497142",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260320000616",
+    "divisions": {
+      "전체": {
+        "male": {
+          "head_count": 201,
+          "regular": 199,
+          "contract": 2,
+          "avg_tenure": null,
+          "avg_salary": 59867000,
+          "total_salary": 12033180000
+        },
+        "female": {
+          "head_count": 52,
+          "regular": 52,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 45070000,
+          "total_salary": 2343626000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "오션스바이오",
+    "corp_code": "01860010",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250318000305",
+    "divisions": {
+      "회사전체": {
+        "male": {
+          "head_count": 7,
+          "regular": 7,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 26259913,
+          "total_salary": 183819394
+        },
+        "female": {
+          "head_count": 5,
+          "regular": 4,
+          "contract": 1,
+          "avg_tenure": null,
+          "avg_salary": 30114285,
+          "total_salary": 150571426
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "오션스바이오",
+    "corp_code": "01860010",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260310003043",
+    "divisions": {
+      "회사전체": {
+        "male": {
+          "head_count": 13,
+          "regular": 9,
+          "contract": 4,
+          "avg_tenure": null,
+          "avg_salary": 62319634,
+          "total_salary": 527288104
+        },
+        "female": {
+          "head_count": 5,
+          "regular": 3,
+          "contract": 2,
+          "avg_tenure": null,
+          "avg_salary": 39400000,
+          "total_salary": 132643295
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "오토앤",
+    "corp_code": "01084294",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250321000636",
+    "divisions": {
+      "사무/영업": {
+        "male": {
+          "head_count": 107,
+          "regular": 106,
+          "contract": 1,
+          "avg_tenure": 3.3,
+          "avg_salary": null,
+          "total_salary": null
+        },
+        "female": {
+          "head_count": 63,
+          "regular": 59,
+          "contract": 4,
+          "avg_tenure": 2.8,
+          "avg_salary": null,
+          "total_salary": null
+        }
+      },
+      "연구/개발": {
+        "male": {
+          "head_count": 22,
+          "regular": 22,
+          "contract": null,
+          "avg_tenure": 3.3,
+          "avg_salary": null,
+          "total_salary": null
+        },
+        "female": {
+          "head_count": 6,
+          "regular": 6,
+          "contract": null,
+          "avg_tenure": 3.5,
+          "avg_salary": null,
+          "total_salary": null
+        }
+      },
+      "CS/물류": {
+        "male": {
+          "head_count": 8,
+          "regular": 8,
+          "contract": null,
+          "avg_tenure": 1.0,
+          "avg_salary": null,
+          "total_salary": null
+        },
+        "female": {
+          "head_count": 9,
+          "regular": 8,
+          "contract": 1,
+          "avg_tenure": 2.7,
+          "avg_salary": null,
+          "total_salary": null
+        }
+      },
+      "성별 합계": {
+        "male": {
+          "head_count": 137,
+          "regular": 136,
+          "contract": 1,
+          "avg_tenure": 3.1,
+          "avg_salary": 49058000,
+          "total_salary": 6720928000
+        },
+        "female": {
+          "head_count": 78,
+          "regular": 73,
+          "contract": 5,
+          "avg_tenure": 3.2,
+          "avg_salary": 35087000,
+          "total_salary": 2736788000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "오토앤",
+    "corp_code": "01084294",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260320001402",
+    "divisions": {
+      "사무/영업": {
+        "male": {
+          "head_count": 106,
+          "regular": 105,
+          "contract": 1,
+          "avg_tenure": 4.0,
+          "avg_salary": null,
+          "total_salary": null
+        },
+        "female": {
+          "head_count": 56,
+          "regular": 52,
+          "contract": 4,
+          "avg_tenure": 3.7,
+          "avg_salary": null,
+          "total_salary": null
+        }
+      },
+      "연구/개발": {
+        "male": {
+          "head_count": 21,
+          "regular": 20,
+          "contract": 1,
+          "avg_tenure": 3.4,
+          "avg_salary": null,
+          "total_salary": null
+        },
+        "female": {
+          "head_count": 7,
+          "regular": 6,
+          "contract": 1,
+          "avg_tenure": 3.9,
+          "avg_salary": null,
+          "total_salary": null
+        }
+      },
+      "CS/물류": {
+        "male": {
+          "head_count": 6,
+          "regular": 6,
+          "contract": null,
+          "avg_tenure": 1.3,
+          "avg_salary": null,
+          "total_salary": null
+        },
+        "female": {
+          "head_count": 9,
+          "regular": 8,
+          "contract": 1,
+          "avg_tenure": 3.6,
+          "avg_salary": null,
+          "total_salary": null
+        }
+      },
+      "성별 합계": {
+        "male": {
+          "head_count": 133,
+          "regular": 131,
+          "contract": 2,
+          "avg_tenure": 3.8,
+          "avg_salary": 54042000,
+          "total_salary": 7187577000
+        },
+        "female": {
+          "head_count": 72,
+          "regular": 66,
+          "contract": 6,
+          "avg_tenure": 3.7,
+          "avg_salary": 38536000,
+          "total_salary": 2774626000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "유라클",
+    "corp_code": "00407294",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250320000692",
+    "divisions": {
+      "사무": {
+        "male": {
+          "head_count": 27,
+          "regular": 27,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 67691000,
+          "total_salary": 1827647000
+        },
+        "female": {
+          "head_count": 10,
+          "regular": 10,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 50985000,
+          "total_salary": 509848000
+        }
+      },
+      "연구개발": {
+        "male": {
+          "head_count": 148,
+          "regular": 148,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 67908000,
+          "total_salary": 10050372000
+        },
+        "female": {
+          "head_count": 51,
+          "regular": 51,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 48474000,
+          "total_salary": 2472166000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "유라클",
+    "corp_code": "00407294",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260319001386",
+    "divisions": {
+      "사무": {
+        "male": {
+          "head_count": 19,
+          "regular": 19,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 75129000,
+          "total_salary": 1427460000
+        },
+        "female": {
+          "head_count": 8,
+          "regular": 8,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 45962000,
+          "total_salary": 367696000
+        }
+      },
+      "연구개발": {
+        "male": {
+          "head_count": 164,
+          "regular": 164,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 73566000,
+          "total_salary": 12064981000
+        },
+        "female": {
+          "head_count": 51,
+          "regular": 51,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 51952000,
+          "total_salary": 2649570000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "이지스",
+    "corp_code": "01211889",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260320000003",
+    "divisions": {
+      "전체": {
+        "male": {
+          "head_count": 123,
+          "regular": 107,
+          "contract": 16,
+          "avg_tenure": 4.88,
+          "avg_salary": 5054000,
+          "total_salary": 7307443000
+        },
+        "female": {
+          "head_count": 63,
+          "regular": 59,
+          "contract": 4,
+          "avg_tenure": 3.55,
+          "avg_salary": 3451000,
+          "total_salary": 2415273000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "이지케어텍",
+    "corp_code": "00490090",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-03-31",
+    "rcept_no": "20240619000159",
+    "divisions": {
+      "SI/SM": {
+        "male": {
+          "head_count": 322,
+          "regular": 320,
+          "contract": 2,
+          "avg_tenure": 7.4,
+          "avg_salary": 70000000,
+          "total_salary": 22581000000
+        },
+        "female": {
+          "head_count": 134,
+          "regular": 132,
+          "contract": 2,
+          "avg_tenure": 5.4,
+          "avg_salary": 56000000,
+          "total_salary": 7527000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "이지케어텍",
+    "corp_code": "00490090",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-03-31",
+    "rcept_no": "20250618000187",
+    "divisions": {
+      "SI/SM": {
+        "male": {
+          "head_count": 324,
+          "regular": 320,
+          "contract": 4,
+          "avg_tenure": 7.4,
+          "avg_salary": 69000000,
+          "total_salary": 22310000000
+        },
+        "female": {
+          "head_count": 147,
+          "regular": 138,
+          "contract": 9,
+          "avg_tenure": 4.11,
+          "avg_salary": 52000000,
+          "total_salary": 7598000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "이지케어텍",
+    "corp_code": "00490090",
+    "bsns_year": "2026",
+    "stlm_dt": "2026-03-31",
+    "rcept_no": "20260617000359",
+    "divisions": {
+      "SI/SM": {
+        "male": {
+          "head_count": 330,
+          "regular": 321,
+          "contract": 9,
+          "avg_tenure": null,
+          "avg_salary": 71000000,
+          "total_salary": 23561000000
+        },
+        "female": {
+          "head_count": 165,
+          "regular": 152,
+          "contract": 13,
+          "avg_tenure": null,
+          "avg_salary": 53000000,
+          "total_salary": 8722000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "인스웨이브",
+    "corp_code": "01222113",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250320001200",
+    "divisions": {
+      "total": {
+        "male": {
+          "head_count": 117,
+          "regular": 117,
+          "contract": null,
+          "avg_tenure": 7.0,
+          "avg_salary": 57000000,
+          "total_salary": 6611000000
+        },
+        "female": {
+          "head_count": 50,
+          "regular": 50,
+          "contract": null,
+          "avg_tenure": 4.5,
+          "avg_salary": 48000000,
+          "total_salary": 2375000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "인스웨이브",
+    "corp_code": "01222113",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260319001011",
+    "divisions": {
+      "total": {
+        "male": {
+          "head_count": 125,
+          "regular": 125,
+          "contract": null,
+          "avg_tenure": 6.1,
+          "avg_salary": 72000000,
+          "total_salary": 9025000000
+        },
+        "female": {
+          "head_count": 56,
+          "regular": 55,
+          "contract": 1,
+          "avg_tenure": 4.9,
+          "avg_salary": 50000000,
+          "total_salary": 2827000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "인크로스",
+    "corp_code": "00819073",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250318000959",
+    "divisions": {
+      "광고/용역": {
+        "male": {
+          "head_count": 85,
+          "regular": 81,
+          "contract": 4,
+          "avg_tenure": null,
+          "avg_salary": 60558000,
+          "total_salary": 5430093000
+        },
+        "female": {
+          "head_count": 105,
+          "regular": 101,
+          "contract": 4,
+          "avg_tenure": null,
+          "avg_salary": 50668000,
+          "total_salary": 6102116000
+        }
+      },
+      "기타": {
+        "male": {
+          "head_count": 31,
+          "regular": 29,
+          "contract": 2,
+          "avg_tenure": null,
+          "avg_salary": 62740000,
+          "total_salary": 2002432000
+        },
+        "female": {
+          "head_count": 26,
+          "regular": 23,
+          "contract": 3,
+          "avg_tenure": null,
+          "avg_salary": 50580000,
+          "total_salary": 1535956000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "인크로스",
+    "corp_code": "00819073",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260318000011",
+    "divisions": {
+      "광고/용역": {
+        "male": {
+          "head_count": 84,
+          "regular": 80,
+          "contract": 4,
+          "avg_tenure": null,
+          "avg_salary": 62160000,
+          "total_salary": 5534296000
+        },
+        "female": {
+          "head_count": 103,
+          "regular": 92,
+          "contract": 11,
+          "avg_tenure": null,
+          "avg_salary": 51206000,
+          "total_salary": 5547206000
+        }
+      },
+      "기타": {
+        "male": {
+          "head_count": 38,
+          "regular": 34,
+          "contract": 6,
+          "avg_tenure": null,
+          "avg_salary": 60697000,
+          "total_salary": 2148191000
+        },
+        "female": {
+          "head_count": 30,
+          "regular": 26,
+          "contract": 5,
+          "avg_tenure": null,
+          "avg_salary": 49345000,
+          "total_salary": 1440751000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "인티큐브",
+    "corp_code": "00470829",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250312000696",
+    "divisions": {
+      "DCS사업": {
+        "male": {
+          "head_count": 149,
+          "regular": 149,
+          "contract": null,
+          "avg_tenure": 8.0,
+          "avg_salary": 73000000,
+          "total_salary": 10821000000
+        },
+        "female": {
+          "head_count": 55,
+          "regular": 55,
+          "contract": null,
+          "avg_tenure": 7.0,
+          "avg_salary": 56000000,
+          "total_salary": 3073000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "인티큐브",
+    "corp_code": "00470829",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260227005846",
+    "divisions": {
+      "AI기반 디지털 컨택센터": {
+        "male": {
+          "head_count": 153,
+          "regular": 153,
+          "contract": null,
+          "avg_tenure": 9.0,
+          "avg_salary": 81000000,
+          "total_salary": 12446000000
+        },
+        "female": {
+          "head_count": 51,
+          "regular": 51,
+          "contract": null,
+          "avg_tenure": 8.0,
+          "avg_salary": 67000000,
+          "total_salary": 3423000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "자이에스앤디",
+    "corp_code": "00367844",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250725000507",
+    "divisions": {
+      "주택개발": {
+        "male": {
+          "head_count": 194,
+          "regular": 178,
+          "contract": 16,
+          "avg_tenure": 3.2,
+          "avg_salary": 77000000,
+          "total_salary": 14982000000
+        },
+        "female": {
+          "head_count": 20,
+          "regular": 12,
+          "contract": 8,
+          "avg_tenure": 2.4,
+          "avg_salary": 53000000,
+          "total_salary": 1054000000
+        }
+      },
+      "HS": {
+        "male": {
+          "head_count": 1153,
+          "regular": 371,
+          "contract": 782,
+          "avg_tenure": 4.1,
+          "avg_salary": 41000000,
+          "total_salary": 46716000000
+        },
+        "female": {
+          "head_count": 414,
+          "regular": 90,
+          "contract": 324,
+          "avg_tenure": 4.2,
+          "avg_salary": 29000000,
+          "total_salary": 11806000000
+        }
+      },
+      "경영지원": {
+        "male": {
+          "head_count": 50,
+          "regular": 49,
+          "contract": 1,
+          "avg_tenure": 5.0,
+          "avg_salary": 74000000,
+          "total_salary": 3681000000
+        },
+        "female": {
+          "head_count": 18,
+          "regular": 16,
+          "contract": 2,
+          "avg_tenure": 4.5,
+          "avg_salary": 46000000,
+          "total_salary": 825000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "자이에스앤디",
+    "corp_code": "00367844",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260316000556",
+    "divisions": {
+      "주택개발": {
+        "male": {
+          "head_count": 203,
+          "regular": 187,
+          "contract": 16,
+          "avg_tenure": 3.6,
+          "avg_salary": 75000000,
+          "total_salary": 15221000000
+        },
+        "female": {
+          "head_count": 21,
+          "regular": 12,
+          "contract": 9,
+          "avg_tenure": 2.7,
+          "avg_salary": 51000000,
+          "total_salary": 1062000000
+        }
+      },
+      "HS": {
+        "male": {
+          "head_count": 1204,
+          "regular": 375,
+          "contract": 829,
+          "avg_tenure": 3.5,
+          "avg_salary": 40000000,
+          "total_salary": 48257000000
+        },
+        "female": {
+          "head_count": 450,
+          "regular": 88,
+          "contract": 362,
+          "avg_tenure": 3.1,
+          "avg_salary": 27000000,
+          "total_salary": 12315000000
+        }
+      },
+      "경영지원": {
+        "male": {
+          "head_count": 52,
+          "regular": 52,
+          "contract": null,
+          "avg_tenure": 5.6,
+          "avg_salary": 75000000,
+          "total_salary": 3916000000
+        },
+        "female": {
+          "head_count": 16,
+          "regular": 15,
+          "contract": 1,
+          "avg_tenure": 5.7,
+          "avg_salary": 55000000,
+          "total_salary": 878000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "제이시스메디칼",
+    "corp_code": "01267602",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250407003477",
+    "divisions": {
+      "의료기기": {
+        "male": {
+          "head_count": 212,
+          "regular": 200,
+          "contract": 12,
+          "avg_tenure": 2.8,
+          "avg_salary": 67000000,
+          "total_salary": 14139000000
+        },
+        "female": {
+          "head_count": 112,
+          "regular": 105,
+          "contract": 7,
+          "avg_tenure": 2.6,
+          "avg_salary": 57000000,
+          "total_salary": 6360000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "제이엘케이",
+    "corp_code": "01153293",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250320001226",
+    "divisions": {
+      "인공지능 사업부": {
+        "male": {
+          "head_count": 59,
+          "regular": 55,
+          "contract": 4,
+          "avg_tenure": 1.78,
+          "avg_salary": 83940000,
+          "total_salary": 4354078000
+        },
+        "female": {
+          "head_count": 24,
+          "regular": 19,
+          "contract": 5,
+          "avg_tenure": 1.38,
+          "avg_salary": 66049000,
+          "total_salary": 1532950000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "제이엘케이",
+    "corp_code": "01153293",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260319001416",
+    "divisions": {
+      "인공지능 사업부": {
+        "male": {
+          "head_count": 61,
+          "regular": 61,
+          "contract": null,
+          "avg_tenure": 2.41,
+          "avg_salary": 100868000,
+          "total_salary": 5893115000
+        },
+        "female": {
+          "head_count": 26,
+          "regular": 24,
+          "contract": 2,
+          "avg_tenure": 2.04,
+          "avg_salary": 60921000,
+          "total_salary": 1556857000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "디모아",
+    "corp_code": "00125725",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250514000482",
+    "divisions": {
+      "영업부문": {
+        "male": {
+          "head_count": 76,
+          "regular": 76,
+          "contract": null,
+          "avg_tenure": 3.3,
+          "avg_salary": 66989908,
+          "total_salary": 5091232971
+        },
+        "female": {
+          "head_count": 18,
+          "regular": 18,
+          "contract": null,
+          "avg_tenure": 1.09,
+          "avg_salary": 42318222,
+          "total_salary": 761727998
+        }
+      },
+      "비영업부문": {
+        "male": {
+          "head_count": 70,
+          "regular": 70,
+          "contract": null,
+          "avg_tenure": 2.6,
+          "avg_salary": 60561139,
+          "total_salary": 4239279758
+        },
+        "female": {
+          "head_count": 40,
+          "regular": 40,
+          "contract": null,
+          "avg_tenure": 2.81,
+          "avg_salary": 35809751,
+          "total_salary": 1432390039
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "디모아",
+    "corp_code": "00125725",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260320000639",
+    "divisions": {
+      "영업부문": {
+        "male": {
+          "head_count": null,
+          "regular": 70,
+          "contract": null,
+          "avg_tenure": 4.81,
+          "avg_salary": 80172585,
+          "total_salary": 5612080974
+        },
+        "female": {
+          "head_count": null,
+          "regular": 21,
+          "contract": null,
+          "avg_tenure": 2.51,
+          "avg_salary": 43324000,
+          "total_salary": 909803996
+        }
+      },
+      "비영업부문": {
+        "male": {
+          "head_count": null,
+          "regular": 35,
+          "contract": null,
+          "avg_tenure": 4.06,
+          "avg_salary": 73543261,
+          "total_salary": 2574014145
+        },
+        "female": {
+          "head_count": null,
+          "regular": 39,
+          "contract": null,
+          "avg_tenure": 4.27,
+          "avg_salary": 35901990,
+          "total_salary": 1400177599
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "컴투스",
+    "corp_code": "00476498",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250320001690",
+    "divisions": {
+      "게임부문": {
+        "male": {
+          "head_count": 960,
+          "regular": 882,
+          "contract": 78,
+          "avg_tenure": null,
+          "avg_salary": 88000000,
+          "total_salary": 83359000000
+        },
+        "female": {
+          "head_count": 511,
+          "regular": 474,
+          "contract": 37,
+          "avg_tenure": null,
+          "avg_salary": 71000000,
+          "total_salary": 35509000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "컴투스",
+    "corp_code": "00476498",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260320001410",
+    "divisions": {
+      "게임부문": {
+        "male": {
+          "head_count": 981,
+          "regular": 897,
+          "contract": 84,
+          "avg_tenure": null,
+          "avg_salary": 88000000,
+          "total_salary": 87787000000
+        },
+        "female": {
+          "head_count": 524,
+          "regular": 496,
+          "contract": 28,
+          "avg_tenure": null,
+          "avg_salary": 69000000,
+          "total_salary": 36531000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "핀텔",
+    "corp_code": "01524507",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250314000744",
+    "divisions": {
+      "total": {
+        "male": {
+          "head_count": 42,
+          "regular": 42,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 46000000,
+          "total_salary": 1949000000
+        },
+        "female": {
+          "head_count": 18,
+          "regular": 17,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 42000000,
+          "total_salary": 764000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "핀텔",
+    "corp_code": "01524507",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260312000904",
+    "divisions": {
+      "total": {
+        "male": {
+          "head_count": 40,
+          "regular": 40,
+          "contract": 0,
+          "avg_tenure": null,
+          "avg_salary": 56000000,
+          "total_salary": 2230000000
+        },
+        "female": {
+          "head_count": 16,
+          "regular": 15,
+          "contract": 0,
+          "avg_tenure": null,
+          "avg_salary": 50000000,
+          "total_salary": 796000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "커넥트웨이브",
+    "corp_code": "00585608",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250321000823",
+    "divisions": {
+      "데이타 커머스": {
+        "male": {
+          "head_count": 166,
+          "regular": 166,
+          "contract": null,
+          "avg_tenure": 6.7,
+          "avg_salary": 41000000,
+          "total_salary": 6786000000
+        },
+        "female": {
+          "head_count": 141,
+          "regular": 141,
+          "contract": null,
+          "avg_tenure": 5.3,
+          "avg_salary": 36000000,
+          "total_salary": 5140000000
+        }
+      },
+      "이커머스 솔루션": {
+        "male": {
+          "head_count": 187,
+          "regular": 181,
+          "contract": 6,
+          "avg_tenure": 6.0,
+          "avg_salary": 50000000,
+          "total_salary": 9431000000
+        },
+        "female": {
+          "head_count": 223,
+          "regular": 215,
+          "contract": 8,
+          "avg_tenure": 4.5,
+          "avg_salary": 38000000,
+          "total_salary": 8577000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "케어랩스",
+    "corp_code": "01187148",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250319000603",
+    "divisions": {
+      "CRM": {
+        "male": {
+          "head_count": 11,
+          "regular": 11,
+          "contract": 0,
+          "avg_tenure": 3.41,
+          "avg_salary": 81000000,
+          "total_salary": 892000000
+        },
+        "female": {
+          "head_count": 9,
+          "regular": 9,
+          "contract": 0,
+          "avg_tenure": 3.21,
+          "avg_salary": 50000000,
+          "total_salary": 453000000
+        }
+      },
+      "기타": {
+        "female": {
+          "head_count": 16,
+          "regular": 15,
+          "contract": 1,
+          "avg_tenure": 0.94,
+          "avg_salary": 36000000,
+          "total_salary": 582000000
+        },
+        "male": {
+          "head_count": 13,
+          "regular": 13,
+          "contract": 0,
+          "avg_tenure": 1.11,
+          "avg_salary": 68000000,
+          "total_salary": 889000000
+        }
+      },
+      "total": {
+        "male": {
+          "head_count": 59,
+          "regular": 59,
+          "contract": 0,
+          "avg_tenure": 2.64,
+          "avg_salary": 95000000,
+          "total_salary": 5189000000
+        },
+        "female": {
+          "head_count": 61,
+          "regular": 60,
+          "contract": 1,
+          "avg_tenure": 2.4,
+          "avg_salary": 50000000,
+          "total_salary": 2592000000
+        }
+      },
+      "디지털 마케팅": {
+        "male": {
+          "head_count": 18,
+          "regular": 18,
+          "contract": 0,
+          "avg_tenure": 5.07,
+          "avg_salary": 124000000,
+          "total_salary": 2245000000
+        },
+        "female": {
+          "head_count": 22,
+          "regular": 22,
+          "contract": 0,
+          "avg_tenure": 4.36,
+          "avg_salary": 49000000,
+          "total_salary": 1086000000
+        }
+      },
+      "SH": {
+        "male": {
+          "head_count": 12,
+          "regular": 12,
+          "contract": 0,
+          "avg_tenure": 0.91,
+          "avg_salary": 75000000,
+          "total_salary": 901000000
+        },
+        "female": {
+          "head_count": 2,
+          "regular": 2,
+          "contract": 0,
+          "avg_tenure": 0.92,
+          "avg_salary": 60000000,
+          "total_salary": 122000000
+        }
+      },
+      "ML": {
+        "male": {
+          "head_count": 5,
+          "regular": 5,
+          "contract": 0,
+          "avg_tenure": 0.35,
+          "avg_salary": 52000000,
+          "total_salary": 261000000
+        },
+        "female": {
+          "head_count": 12,
+          "regular": 12,
+          "contract": 0,
+          "avg_tenure": 0.42,
+          "avg_salary": 29000000,
+          "total_salary": 349000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "케어랩스",
+    "corp_code": "01187148",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260319000459",
+    "divisions": {
+      "total": {
+        "male": {
+          "head_count": 63,
+          "regular": 61,
+          "contract": 2,
+          "avg_tenure": 2.71,
+          "avg_salary": 89000000,
+          "total_salary": 5651000000
+        },
+        "female": {
+          "head_count": 62,
+          "regular": 62,
+          "contract": 0,
+          "avg_tenure": 2.87,
+          "avg_salary": 48000000,
+          "total_salary": 2980000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "코콤",
+    "corp_code": "00187725",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250318001160",
+    "divisions": {
+      "본사": {
+        "male": {
+          "head_count": 128,
+          "regular": 128,
+          "contract": null,
+          "avg_tenure": 9.76,
+          "avg_salary": 49000000,
+          "total_salary": 6213000000
+        },
+        "female": {
+          "head_count": 27,
+          "regular": 27,
+          "contract": null,
+          "avg_tenure": 8.85,
+          "avg_salary": 37000000,
+          "total_salary": 996000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "코콤",
+    "corp_code": "00187725",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260318001121",
+    "divisions": {
+      "본사": {
+        "male": {
+          "head_count": 126,
+          "regular": 126,
+          "contract": null,
+          "avg_tenure": 10.47,
+          "avg_salary": 56000000,
+          "total_salary": 7039000000
+        },
+        "female": {
+          "head_count": 25,
+          "regular": 25,
+          "contract": null,
+          "avg_tenure": 9.84,
+          "avg_salary": 43000000,
+          "total_salary": 1071000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "키다리스튜디오",
+    "corp_code": "00140131",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250319000526",
+    "divisions": {
+      "기술연구개발": {
+        "male": {
+          "head_count": 20,
+          "regular": 20,
+          "contract": 0,
+          "avg_tenure": 2.7,
+          "avg_salary": 51096000,
+          "total_salary": 1021913000
+        },
+        "female": {
+          "head_count": 26,
+          "regular": 22,
+          "contract": 4,
+          "avg_tenure": 2.6,
+          "avg_salary": 37544000,
+          "total_salary": 976142000
+        }
+      },
+      "영업/마케팅": {
+        "male": {
+          "head_count": 48,
+          "regular": 47,
+          "contract": 1,
+          "avg_tenure": 2.4,
+          "avg_salary": 42070000,
+          "total_salary": 2019372000
+        },
+        "female": {
+          "head_count": 186,
+          "regular": 161,
+          "contract": 25,
+          "avg_tenure": 2.4,
+          "avg_salary": 29442000,
+          "total_salary": 5476131000
+        }
+      },
+      "관리사무직": {
+        "male": {
+          "head_count": 23,
+          "regular": 19,
+          "contract": 4,
+          "avg_tenure": 2.3,
+          "avg_salary": 50492000,
+          "total_salary": 1161320000
+        },
+        "female": {
+          "head_count": 34,
+          "regular": 23,
+          "contract": 11,
+          "avg_tenure": 1.8,
+          "avg_salary": 32940000,
+          "total_salary": 1119969000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "키다리스튜디오",
+    "corp_code": "00140131",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260317000560",
+    "divisions": {
+      "기술연구개발": {
+        "male": {
+          "head_count": 27,
+          "regular": 27,
+          "contract": 0,
+          "avg_tenure": 2.6,
+          "avg_salary": 61990000,
+          "total_salary": 1673722000
+        },
+        "female": {
+          "head_count": 21,
+          "regular": 21,
+          "contract": 0,
+          "avg_tenure": 3.1,
+          "avg_salary": 54846000,
+          "total_salary": 1151766000
+        }
+      },
+      "영업/마케팅": {
+        "male": {
+          "head_count": 43,
+          "regular": 41,
+          "contract": 2,
+          "avg_tenure": 3.1,
+          "avg_salary": 69401000,
+          "total_salary": 2984240000
+        },
+        "female": {
+          "head_count": 140,
+          "regular": 125,
+          "contract": 15,
+          "avg_tenure": 3.1,
+          "avg_salary": 44327000,
+          "total_salary": 6205729000
+        }
+      },
+      "관리사무직": {
+        "male": {
+          "head_count": 26,
+          "regular": 25,
+          "contract": 1,
+          "avg_tenure": 2.5,
+          "avg_salary": 68705000,
+          "total_salary": 1786320000
+        },
+        "female": {
+          "head_count": 24,
+          "regular": 20,
+          "contract": 4,
+          "avg_tenure": 2.8,
+          "avg_salary": 44112000,
+          "total_salary": 1058681000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "텔코웨어",
+    "corp_code": "00361488",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250814001427",
+    "divisions": {
+      "기타 소프트웨어자문ㆍ개발ㆍ\n공급(단일사업부문)": {
+        "male": {
+          "head_count": null,
+          "regular": 140,
+          "contract": null,
+          "avg_tenure": 11.73,
+          "avg_salary": 80019000,
+          "total_salary": 11237113000
+        },
+        "female": {
+          "head_count": null,
+          "regular": 38,
+          "contract": null,
+          "avg_tenure": 10.21,
+          "avg_salary": 64440000,
+          "total_salary": 2555381000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "텔코웨어",
+    "corp_code": "00361488",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260319000726",
+    "divisions": {
+      "기타 소프트웨어자문ㆍ개발ㆍ\n공급(단일사업부문)": {
+        "male": {
+          "head_count": 136,
+          "regular": 136,
+          "contract": null,
+          "avg_tenure": 12.02,
+          "avg_salary": 83569000,
+          "total_salary": 11231534000
+        },
+        "female": {
+          "head_count": 36,
+          "regular": 36,
+          "contract": null,
+          "avg_tenure": 10.68,
+          "avg_salary": 70263000,
+          "total_salary": 2548680000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "포인트모바일",
+    "corp_code": "00962393",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250321001997",
+    "divisions": {
+      "PDA": {
+        "male": {
+          "head_count": 112,
+          "regular": 112,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 60732000,
+          "total_salary": 6802024000
+        },
+        "female": {
+          "head_count": 47,
+          "regular": 47,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 36197000,
+          "total_salary": 1701239000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "포인트모바일",
+    "corp_code": "00962393",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260318001433",
+    "divisions": {
+      "PDA": {
+        "male": {
+          "head_count": 113,
+          "regular": 113,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 66245000,
+          "total_salary": 7485637000
+        },
+        "female": {
+          "head_count": 47,
+          "regular": 47,
+          "contract": null,
+          "avg_tenure": null,
+          "avg_salary": 40005000,
+          "total_salary": 1880242000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "플래티어",
+    "corp_code": "01454341",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250318000778",
+    "divisions": {
+      "IT직군": {
+        "male": {
+          "head_count": 175,
+          "regular": 175,
+          "contract": null,
+          "avg_tenure": 4.07,
+          "avg_salary": 63307000,
+          "total_salary": 11078800000
+        },
+        "female": {
+          "head_count": 86,
+          "regular": 86,
+          "contract": null,
+          "avg_tenure": 3.25,
+          "avg_salary": 53948000,
+          "total_salary": 4639606000
+        }
+      },
+      "일반": {
+        "male": {
+          "head_count": 10,
+          "regular": 10,
+          "contract": null,
+          "avg_tenure": 3.15,
+          "avg_salary": 54360000,
+          "total_salary": 543609000
+        },
+        "female": {
+          "head_count": 9,
+          "regular": 9,
+          "contract": null,
+          "avg_tenure": 4.99,
+          "avg_salary": 53313000,
+          "total_salary": 479818000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "플래티어",
+    "corp_code": "01454341",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260319001038",
+    "divisions": {
+      "IT직군": {
+        "male": {
+          "head_count": 191,
+          "regular": 191,
+          "contract": null,
+          "avg_tenure": 4.22,
+          "avg_salary": 65461000,
+          "total_salary": 12503090000
+        },
+        "female": {
+          "head_count": 93,
+          "regular": 93,
+          "contract": null,
+          "avg_tenure": 3.56,
+          "avg_salary": 54079000,
+          "total_salary": 5029353000
+        }
+      },
+      "일반": {
+        "male": {
+          "head_count": 10,
+          "regular": 10,
+          "contract": null,
+          "avg_tenure": 3.9,
+          "avg_salary": 55573000,
+          "total_salary": 555727000
+        },
+        "female": {
+          "head_count": 9,
+          "regular": 9,
+          "contract": null,
+          "avg_tenure": 5.74,
+          "avg_salary": 52087000,
+          "total_salary": 468787000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "핑거",
+    "corp_code": "01142075",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250317000742",
+    "divisions": {
+      "total": {
+        "male": {
+          "head_count": 192,
+          "regular": 192,
+          "contract": null,
+          "avg_tenure": 4.4,
+          "avg_salary": 73000000,
+          "total_salary": 14006000000
+        },
+        "female": {
+          "head_count": 78,
+          "regular": 78,
+          "contract": null,
+          "avg_tenure": 4.6,
+          "avg_salary": 54000000,
+          "total_salary": 4231000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "핑거",
+    "corp_code": "01142075",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260323001250",
+    "divisions": {
+      "total": {
+        "male": {
+          "head_count": 205,
+          "regular": 205,
+          "contract": null,
+          "avg_tenure": 4.7,
+          "avg_salary": 76000000,
+          "total_salary": 15669000000
+        },
+        "female": {
+          "head_count": 90,
+          "regular": 90,
+          "contract": null,
+          "avg_tenure": 4.5,
+          "avg_salary": 54000000,
+          "total_salary": 4863000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "하이스틸",
+    "corp_code": "00435312",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250312001033",
+    "divisions": {
+      "제조": {
+        "male": {
+          "head_count": 206,
+          "regular": 192,
+          "contract": 14,
+          "avg_tenure": 6.93,
+          "avg_salary": 51473000,
+          "total_salary": 10603532000
+        },
+        "female": {
+          "head_count": 16,
+          "regular": 16,
+          "contract": null,
+          "avg_tenure": 3.88,
+          "avg_salary": 32571000,
+          "total_salary": 521133000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "하이스틸",
+    "corp_code": "00435312",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260310002913",
+    "divisions": {
+      "제조": {
+        "male": {
+          "head_count": 198,
+          "regular": 186,
+          "contract": 12,
+          "avg_tenure": 6.82,
+          "avg_salary": 47730000,
+          "total_salary": 11264250000
+        },
+        "female": {
+          "head_count": 18,
+          "regular": 17,
+          "contract": 1,
+          "avg_tenure": 4.72,
+          "avg_salary": 33971000,
+          "total_salary": 475599000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "한세엠케이",
+    "corp_code": "00357360",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250318000981",
+    "divisions": {
+      "사무": {
+        "male": {
+          "head_count": 100,
+          "regular": 98,
+          "contract": 2,
+          "avg_tenure": 5.8,
+          "avg_salary": 65000000,
+          "total_salary": 7045000000
+        },
+        "female": {
+          "head_count": 152,
+          "regular": 142,
+          "contract": 10,
+          "avg_tenure": 4.6,
+          "avg_salary": 53000000,
+          "total_salary": 8990000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "한세엠케이",
+    "corp_code": "00357360",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260318001269",
+    "divisions": {
+      "사무": {
+        "male": {
+          "head_count": 82,
+          "regular": 80,
+          "contract": 2,
+          "avg_tenure": 7.1,
+          "avg_salary": 70000000,
+          "total_salary": 6264000000
+        },
+        "female": {
+          "head_count": 125,
+          "regular": 115,
+          "contract": 10,
+          "avg_tenure": 5.3,
+          "avg_salary": 57000000,
+          "total_salary": 7550000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "현대오토에버",
+    "corp_code": "00362441",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250317000930",
+    "divisions": {
+      "IT": {
+        "male": {
+          "head_count": 2676,
+          "regular": 2652,
+          "contract": 24,
+          "avg_tenure": 7.6,
+          "avg_salary": 107000000,
+          "total_salary": 287014000000
+        },
+        "female": {
+          "head_count": 919,
+          "regular": 917,
+          "contract": 2,
+          "avg_tenure": 4.6,
+          "avg_salary": 85000000,
+          "total_salary": 78373000000
+        }
+      },
+      "차량용SW": {
+        "male": {
+          "head_count": 1182,
+          "regular": 1174,
+          "contract": 8,
+          "avg_tenure": 5.9,
+          "avg_salary": 117000000,
+          "total_salary": 16985000000
+        },
+        "female": {
+          "head_count": 391,
+          "regular": 384,
+          "contract": 7,
+          "avg_tenure": 4.3,
+          "avg_salary": 89000000,
+          "total_salary": 9615000000
+        }
+      },
+      "경영지원": {
+        "male": {
+          "head_count": 145,
+          "regular": 145,
+          "contract": null,
+          "avg_tenure": 9.2,
+          "avg_salary": 104000000,
+          "total_salary": 123196000000
+        },
+        "female": {
+          "head_count": 108,
+          "regular": 108,
+          "contract": null,
+          "avg_tenure": 6.1,
+          "avg_salary": 86000000,
+          "total_salary": 33447000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "현대오토에버",
+    "corp_code": "00362441",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260318001324",
+    "divisions": {
+      "IT": {
+        "male": {
+          "head_count": 2888,
+          "regular": 2870,
+          "contract": 18,
+          "avg_tenure": 7.8,
+          "avg_salary": 105000000,
+          "total_salary": 302474000000
+        },
+        "female": {
+          "head_count": 1024,
+          "regular": 1022,
+          "contract": 2,
+          "avg_tenure": 5.1,
+          "avg_salary": 87000000,
+          "total_salary": 89349000000
+        }
+      },
+      "차량용SW": {
+        "male": {
+          "head_count": 1185,
+          "regular": 1174,
+          "contract": 11,
+          "avg_tenure": 6.6,
+          "avg_salary": 100000000,
+          "total_salary": 118071000000
+        },
+        "female": {
+          "head_count": 383,
+          "regular": 370,
+          "contract": 13,
+          "avg_tenure": 5.1,
+          "avg_salary": 82000000,
+          "total_salary": 31470000000
+        }
+      },
+      "경영지원": {
+        "male": {
+          "head_count": 154,
+          "regular": 154,
+          "contract": null,
+          "avg_tenure": 9.7,
+          "avg_salary": 117000000,
+          "total_salary": 17988000000
+        },
+        "female": {
+          "head_count": 119,
+          "regular": 114,
+          "contract": 5,
+          "avg_tenure": 6.2,
+          "avg_salary": 87000000,
+          "total_salary": 10313000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "환인제약",
+    "corp_code": "00166573",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250813000488",
+    "divisions": {
+      "제약": {
+        "male": {
+          "head_count": 412,
+          "regular": 388,
+          "contract": 24,
+          "avg_tenure": null,
+          "avg_salary": 75000000,
+          "total_salary": 31013000000
+        },
+        "female": {
+          "head_count": 241,
+          "regular": 218,
+          "contract": 23,
+          "avg_tenure": null,
+          "avg_salary": 50000000,
+          "total_salary": 12142000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "환인제약",
+    "corp_code": "00166573",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260312001200",
+    "divisions": {
+      "제약": {
+        "male": {
+          "head_count": 424,
+          "regular": 402,
+          "contract": 22,
+          "avg_tenure": null,
+          "avg_salary": 86000000,
+          "total_salary": 36424000000
+        },
+        "female": {
+          "head_count": 247,
+          "regular": 237,
+          "contract": 10,
+          "avg_tenure": null,
+          "avg_salary": 57000000,
+          "total_salary": 14036000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "효성 ITX",
+    "corp_code": "00414850",
+    "bsns_year": "2024",
+    "stlm_dt": "2024-12-31",
+    "rcept_no": "20250318000878",
+    "divisions": {
+      "경영 IT": {
+        "male": {
+          "head_count": 257,
+          "regular": 254,
+          "contract": 3,
+          "avg_tenure": 6.3,
+          "avg_salary": 75000000,
+          "total_salary": 18588000000
+        },
+        "female": {
+          "head_count": 112,
+          "regular": 107,
+          "contract": 5,
+          "avg_tenure": 8.1,
+          "avg_salary": 56000000,
+          "total_salary": 6087000000
+        }
+      },
+      "서비스직": {
+        "male": {
+          "head_count": 1630,
+          "regular": 1564,
+          "contract": 66,
+          "avg_tenure": 2.5,
+          "avg_salary": 32000000,
+          "total_salary": 51394000000
+        },
+        "female": {
+          "head_count": 6095,
+          "regular": 5938,
+          "contract": 157,
+          "avg_tenure": 2.9,
+          "avg_salary": 31000000,
+          "total_salary": 183827000000
+        }
+      }
+    }
+  },
+  {
+    "corp_name": "효성 ITX",
+    "corp_code": "00414850",
+    "bsns_year": "2025",
+    "stlm_dt": "2025-12-31",
+    "rcept_no": "20260318001001",
+    "divisions": {
+      "경영 IT": {
+        "male": {
+          "head_count": 267,
+          "regular": 257,
+          "contract": 10,
+          "avg_tenure": 6.5,
+          "avg_salary": 78000000,
+          "total_salary": 20286000000
+        },
+        "female": {
+          "head_count": 119,
+          "regular": 116,
+          "contract": 3,
+          "avg_tenure": 8.3,
+          "avg_salary": 59000000,
+          "total_salary": 6898000000
+        }
+      },
+      "서비스직": {
+        "male": {
+          "head_count": 1653,
+          "regular": 1562,
+          "contract": 91,
+          "avg_tenure": 2.5,
+          "avg_salary": 33000000,
+          "total_salary": 54588000000
+        },
+        "female": {
+          "head_count": 6053,
+          "regular": 5804,
+          "contract": 249,
+          "avg_tenure": 3.0,
+          "avg_salary": 31000000,
+          "total_salary": 185882000000
+        }
+      }
+    }
+  }
+]
