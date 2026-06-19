@@ -1,4 +1,3 @@
-import csv
 import json
 import os
 import time
@@ -319,7 +318,7 @@ def process_company(company_name: str, index: int, total: int) -> dict:
     return result
 
 
-CSV_FIELDS = [
+RESULT_FIELDS = [
     "company_name",
     "website_url",
     "business_description",
@@ -331,13 +330,15 @@ CSV_FIELDS = [
 ]
 
 
-def append_csv_row(filepath: str, result: dict, write_header: bool) -> None:
-    row = {**result, "main_products_services": "|".join(result.get("main_products_services") or [])}
-    with open(filepath, "a", newline="", encoding="utf-8-sig") as f:
-        writer = csv.DictWriter(f, fieldnames=CSV_FIELDS, extrasaction="ignore")
-        if write_header:
-            writer.writeheader()
-        writer.writerow(row)
+def to_record(result: dict) -> dict:
+    """결과 dict 를 출력 필드만 추린 레코드로 변환. main_products_services 는 배열 그대로 유지."""
+    return {field: result.get(field) for field in RESULT_FIELDS}
+
+
+def write_json(filepath: str, records: list[dict]) -> None:
+    """전체 레코드를 JSON 배열로 저장. 매 회사 처리 후 호출해 중간 진행 상황을 보존한다."""
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(records, f, ensure_ascii=False, indent=2)
 
 
 def main():
@@ -345,12 +346,14 @@ def main():
     total = len(companies)
     print(f"총 {total}개 회사 처리 시작\n")
 
-    output_path = "output/results.csv"
+    output_path = "data/company-crawler.json"
+    records = []
     success_count = 0
 
     for i, company in enumerate(companies, start=1):
         result = process_company(company, i, total)
-        append_csv_row(output_path, result, write_header=(i == 1))
+        records.append(to_record(result))
+        write_json(output_path, records)
         if result.get("crawl_success"):
             success_count += 1
 
