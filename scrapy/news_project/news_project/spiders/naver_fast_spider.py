@@ -9,7 +9,6 @@ from pathlib import Path
 
 # Path 객체 생성 후 str()로 감싸기
 BASE_DIR = str(Path(__file__).resolve().parents[3])
-COMPANY = "넷마블"
 
 class NaverNewsSpider(scrapy.Spider):
     name = 'naver_fast_spider'
@@ -19,7 +18,7 @@ class NaverNewsSpider(scrapy.Spider):
         # print(f"✅ 파싱 성공: {response.url}")
         # tsv_files = glob.glob(f"{BASE_DIR}\\news\\*.tsv")  # 필요 시 경로 변경 예: "./data/*.tsv"
         # tsv_files = glob(f"{BASE_DIR}\\news\\삼화왕관*.tsv") + glob(f"{BASE_DIR}\\news\\CJ ENM*.tsv")  # 필요 시 경로 변경 예: "./data/*.tsv"
-        tsv_files = glob(f"{BASE_DIR}\\news\\{COMPANY}*total*.tsv")
+        tsv_files = glob(f"{BASE_DIR}\\news\\0total*.tsv")
         # tsv_files = glob(f"{BASE_DIR}\\news\\삼성전자*total*.tsv")
         # tsv_files = [r"C:\myfolder\spc\scp_genai\tmp_xray_model\news\CJ ENM_from_2024-01-01_to_2024-06-12.tsv"]
         if not tsv_files:
@@ -32,6 +31,7 @@ class NaverNewsSpider(scrapy.Spider):
         for file in tsv_files:
             
             base_name = os.path.basename(file).split(".")[0]
+            company = base_name[7:].split("_from_")[0]
             urls = set()
             try:
                 # tsv 파일에서 'url' 컬럼 추출 (컬럼명이 다르면 수정 필요)
@@ -49,21 +49,25 @@ class NaverNewsSpider(scrapy.Spider):
             }
             for url in urls:
                 # if "n.news.naver.com" in url:  # 네이버 뉴스 URL 검증
-                    yield scrapy.Request(url=url, headers=headers, callback=self.parse, cb_kwargs={"base_name": base_name, "file": file})
+                    yield scrapy.Request(url=url, headers=headers, callback=self.parse, cb_kwargs={"base_name": base_name, "file": file, "company": company})
 
     # 2. 고속 파싱 (Scrapy 자체 Selector는 lxml 기반이라 BeautifulSoup보다 훨씬 빠름)
     def parse(self, response, base_name, file, company):
         print(f"✅ 파싱 성공: {response.url}")
         try:
+            date = response.css("span.media_end_head_info_datestamp_time._ARTICLE_MODIFY_DATE_TIME::attr(data-modify-date-time)").get()
+            if not date:
+                date = response.css("span.media_end_head_info_datestamp_time._ARTICLE_DATE_TIME::attr(data-date-time)").get()
             title = response.css('#title_area > span ::text').get()
             body = response.css('article#dic_area ::text, #articleBodyContents ::text').getall()
-            media = response.css('a.media_end_head_top_logo img::attr(alt)').get()
+            media = response.css('a.media_end_head_top_logo span.media_end_head_top_press ::text').get()
 
             clean_body = " ".join([text.strip() for text in body if text.strip()])
             
             # 저장할 데이터 딕셔너리 생성
             item = {
                 'url': response.url,
+                "date": date,
                 'title': title.strip() if title else '',
                 'media': media.strip() if media else '',
                 'body': clean_body
@@ -129,4 +133,4 @@ if __name__ == "__main__":
     process = CrawlerProcess(settings)
     process.crawl(NaverNewsSpider)
     process.start() # 크롤링 시작
-    print(f"✅ 크롤링 완료! 결과는 {COMPANY}_scraped_news_result.json 파일에 저장되었습니다.")
+    print(r"✅ 크롤링 완료! 결과는 {company}_scraped_news_result.json 파일에 저장되었습니다.")

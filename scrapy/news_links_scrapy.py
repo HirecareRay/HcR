@@ -44,7 +44,7 @@ def save_to_csv(page_data, tsv_file):
         for news in page_data:
             writer.writerow(
                 {
-                    "company": company,  # 파일명에서 기업명 추출
+                    "company": company.replace("0total_", ""),  # 파일명에서 기업명 추출
                     "title": news["title"],
                     "url": news["url"],
                     "press": news["press"],
@@ -173,7 +173,6 @@ def scrape_corporate_news(keyword, target_start_date="2024-01-01"):
 
     # 기사 건수가 2000건보다 낮으면 전체 구간을 한번에 수집하고 루프 종결
     if total_count < 2000:
-        print(f"[!] 확정된 스케일링 구간 수집: {f_start_str} ~ {f_end_str}")
         page_data = collect_page_data(keyword, test_start_date, end_str, sm)
         save_to_csv(page_data, f"0total_{keyword}_from_{test_start_date}_to_{end_str}.tsv")
         all_data_cnt += len(page_data)
@@ -185,7 +184,7 @@ def scrape_corporate_news(keyword, target_start_date="2024-01-01"):
         total_tsv_file = f"0total_{keyword}_from_{test_start_date}_to_{end_str}.tsv"
         print(f"[*] 3개년 임시 조회 구간 ({test_start_date} ~ {end_str}) -> 검색 결과: {total_count}건")
         if total_count < 2000:
-            print(f"[!] 확정된 스케일링 구간 수집: {f_start_str} ~ {f_end_str}")
+            print(f"[!] 확정된 스케일링 구간 수집: {test_start_date} ~ {end_str}")
             page_data = collect_page_data(keyword, test_start_date, end_str, sm)
             save_to_csv(page_data, total_tsv_file)
             all_data_cnt += len(page_data)
@@ -264,19 +263,12 @@ def scrape_corporate_news(keyword, target_start_date="2024-01-01"):
 
 # ==================== 실행 예시 ====================
 if __name__ == "__main__":
-    # 예시: 1000개 기업 리스트 중 일부 매핑 가상 정의
-    # corporate_list = ["캐롯아이", "삼화왕관", "삼성전자"]
-
     corporate_list = []
     for fileName in glob(full_path("data/*.tsv")):
         with open(fileName, "r", encoding="utf_8") as f:
             csv_reader = csv.reader(f, delimiter="\t")
             for row in csv_reader:
-                print(row[0])
-                if row[0] in ["캐롯아이", "삼화왕관", "삼성전자"]:
-                    continue
-                else:
-                    corporate_list.append(row[0])
+                corporate_list.append(row[0])
     
     corporate_list = [clean_text(company) for company in corporate_list]
     corporate_list = list(set(corporate_list))
