@@ -127,17 +127,6 @@ class Employee(Base):
     fyer_salary_totamt = Column(BigInteger)
 
 
-class Report(Base):
-    __tablename__ = "reports"
-
-    id         = Column(Integer, primary_key=True, autoincrement=True)
-    corp_code  = Column(String, ForeignKey("companies.corp_code"))
-    rcept_no   = Column(String)
-    section_nm = Column(String)
-    content    = Column(Text)
-    created_at = Column(String)
-
-
 class AuditReport(Base):
     __tablename__ = "audit_reports"
 
@@ -195,25 +184,6 @@ def _parse_amount(value: str | None) -> int | None:
 
 
 # ── 저장 함수들 ───────────────────────────────────────────────────────────────
-
-def save_company(session: Session, data: dict) -> None:
-    """
-    기업 기본 정보를 저장한다.
-    같은 corp_code가 이미 있으면 덮어쓴다 (upsert).
-    """
-    obj = Company(
-        corp_code   = data.get("corp_code"),
-        corp_name   = data.get("corp_name"),
-        ceo_nm      = data.get("ceo_nm"),
-        est_dt      = data.get("est_dt"),
-        induty_code = data.get("induty_code"),
-        adres       = data.get("adres"),
-        hm_url      = data.get("hm_url"),
-        stock_code  = data.get("stock_code"),
-    )
-    session.merge(obj)  # PK 기준 있으면 UPDATE, 없으면 INSERT
-    print(f"[DB] save_company → {obj.corp_name} ({obj.corp_code})")
-
 
 def save_disclosures(session: Session, corp_code: str, data_list: list[dict]) -> None:
     """
@@ -467,33 +437,3 @@ def save_failures_csv(failures: list[dict]) -> None:
     except Exception as exc:
         import warnings
         warnings.warn(f"[경고] 수집실패 CSV 저장 실패: {exc}")
-
-
-def save_report_text(
-    session: Session,
-    corp_code: str,
-    rcept_no: str,
-    section_nm: str,
-    content: str,
-) -> None:
-    """
-    보고서 원문 텍스트를 저장한다.
-    같은 corp_code + rcept_no + section_nm 조합이 있으면 지우고 다시 삽입한다.
-    """
-    session.execute(
-        delete(Report).where(
-            Report.corp_code  == corp_code,
-            Report.rcept_no   == rcept_no,
-            Report.section_nm == section_nm,
-        )
-    )
-
-    row = Report(
-        corp_code  = corp_code,
-        rcept_no   = rcept_no,
-        section_nm = section_nm,
-        content    = content,
-        created_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-    )
-    session.add(row)
-    print(f"[DB] save_report_text → '{section_nm}' {len(content)}자 저장")

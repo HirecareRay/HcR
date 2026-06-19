@@ -24,15 +24,12 @@ from pathlib import Path
 DATA_DIR = Path("data")
 
 # 출력 파일 경로 — 테이블/도메인 단위로 분리해 DB 담당자가 적재하기 쉽게 한다.
-COMPANIES_JSON          = DATA_DIR / "기업정보.json"
 AUDIT_JSON              = DATA_DIR / "감사보고서.json"
 FINANCES_JSON           = DATA_DIR / "재무_사업반기.json"
 FINANCES_QUARTERLY_JSON = DATA_DIR / "재무_분기.json"
-REPORT_TEXTS_JSON       = DATA_DIR / "사업보고서원문.json"
-# 취준생 관심 정보 — 연봉·직원수·근속(직원현황), 부채비율·ROE(재무지표), 회사 리스크(소송)
+# 취준생 관심 정보 — 연봉·직원수·근속(직원현황), 부채비율·ROE(재무지표)
 EMPLOYEES_JSON          = DATA_DIR / "직원현황.json"
 INDICATORS_JSON         = DATA_DIR / "재무지표.json"
-LITIGATION_JSON         = DATA_DIR / "소송내역.json"
 FAILURES_JSON           = DATA_DIR / "수집실패.json"
 
 
@@ -54,23 +51,17 @@ def write_json(records: list[dict], path: Path) -> None:
 
 def save_all(
     *,
-    companies: list[dict],
     audit_reports: list[dict],
     finances_annual_semi: list[dict],
     finances_quarterly: list[dict],
-    report_texts: list[dict],
     employees: list[dict],
     financial_indicators: list[dict],
-    litigation: list[dict],
     failures: list[dict],
 ) -> None:
-    """수집 결과 9종을 각각의 JSON 파일로 한 번에 기록한다."""
-    write_json(companies,            COMPANIES_JSON)
+    """수집 결과 6종을 각각의 JSON 파일로 한 번에 기록한다."""
     write_json(audit_reports,        AUDIT_JSON)
     write_json(finances_annual_semi, FINANCES_JSON)
     write_json(finances_quarterly,   FINANCES_QUARTERLY_JSON)
-    write_json(report_texts,         REPORT_TEXTS_JSON)
     write_json(employees,            EMPLOYEES_JSON)
     write_json(financial_indicators, INDICATORS_JSON)
-    write_json(litigation,           LITIGATION_JSON)
     write_json(failures,             FAILURES_JSON)

@@ -1,20 +1,21 @@
 """
 dart_report.py
-DART OpenAPI의 문서 다운로드(document.xml)를 통해 사업보고서 원문 ZIP을 받아
-내부 XML에서 특정 챕터의 텍스트를 파싱하는 모듈.
+DART OpenAPI 문서 다운로드(document.xml)로 보고서 원문 ZIP을 받아
+내부 XML을 BeautifulSoup으로 파싱하는 저수준 유틸 모듈.
 
-파싱 흐름:
-  1) opendart.fss.or.kr/api/document.xml → rcept_no에 해당하는 ZIP 다운로드
-  2) ZIP 안의 메인 XML(rcept_no.xml)을 BeautifulSoup으로 파싱
-  3) <TITLE ATOC="Y"> 태그를 순회하며 목표 챕터를 찾음
-  4) 해당 <SECTION-N> 부모 요소 전체 텍스트 추출 → 불필요 소제목 섹션 제거 후 10000자 제한
+사업보고서 원문 텍스트 수집 기능은 제거됐다(refactor: 원문·소송·기업정보 수집 제거).
+현재는 dart_audit.py가 감사보고서 원문에서 재무수치를 추출할 때
+ZIP 다운로드·XML 파싱·텍스트 정리 로직을 재사용하기 위해 유지된다.
+
+제공 유틸:
+  _download_report_zip  document.xml ZIP 다운로드
+  _load_main_xml        ZIP에서 메인 XML 파싱
+  _clean_text           불필요 소제목 섹션 제거 + 길이 제한 텍스트 추출
 """
 
 import io
-import re
 import warnings
 import zipfile
-from datetime import datetime, timedelta
 
 import requests
 from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
@@ -26,14 +27,6 @@ from config import DART_API_KEY
 
 # ── 상수 ──────────────────────────────────────────────────────────────────────
 OPENDART_BASE = 'https://opendart.fss.or.kr/api'
-
-# reprt_code → 보고서명 핵심 키워드 매핑
-REPRT_CODE_NAME: dict[str, str] = {
-    '11011': '사업보고서',
-    '11012': '반기보고서',
-    '11013': '1분기보고서',
-    '11014': '3분기보고서',
-}
 
 TEXT_MAX_LEN = 10000  # RAG 파이프라인 청킹 전 최대 글자 수
 
@@ -178,228 +171,3 @@ def _clean_text(soup_element: BeautifulSoup, max_len: int = TEXT_MAX_LEN) -> str
 
     # ④ 최대 글자 수로 자름
     return '\n'.join(cleaned_lines)[:max_len]
-
-
-def _find_section_by_title(soup: BeautifulSoup, target: str) -> BeautifulSoup | None:
-    """
-    target 키워드와 일치하는 <TITLE ATOC="Y"> 태그를 찾아
-    해당 섹션 최상위 부모 요소(예: <SECTION-1>)를 반환한다.
-
-    매칭 우선순위:
-      1) 완전 일치
-      2) target이 태그 텍스트에 포함
-      3) 태그 텍스트가 target에 포함 (짧은 제목 대응)
-    """
-    all_titles = soup.find_all('title', attrs={'atoc': 'Y'})
-
-    matched_tag = None
-
-    # 1) 완전 일치
-    for tag in all_titles:
-        if tag.get_text(strip=True) == target:
-            matched_tag = tag
-            break
-
-    # 2) target이 태그 텍스트에 포함
-    if not matched_tag:
-        for tag in all_titles:
-            if target in tag.get_text(strip=True):
-                matched_tag = tag
-                break
-
-    # 3) 태그 텍스트가 target에 포함
-    if not matched_tag:
-        for tag in all_titles:
-            title_text = tag.get_text(strip=True)
-            if title_text and title_text in target:
-                matched_tag = tag
-                break
-
-    if not matched_tag:
-        return None
-
-    # 부모를 타고 올라가며 <SECTION-N> 또는 <SOURCE> 레벨 요소를 반환
-    parent = matched_tag.parent
-    return parent
-
-
-def _search_regular_disclosures(
-    corp_code: str,
-    bgn_de: str,
-    end_de: str,
-) -> list[dict]:
-    """
-    DART list.json에 정기공시(pblntf_ty=A) 필터와 page_count=100을 적용해
-    공시 목록을 가져온다.
-
-    get_disclosures()는 pblntf_ty·page_count를 지원하지 않아 여기서 직접 호출.
-    """
-    try:
-        resp = requests.get(
-            f'{OPENDART_BASE}/list.json',
-            params={
-                'crtfc_key': DART_API_KEY,
-                'corp_code': corp_code,
-                'bgn_de': bgn_de,
-                'end_de': end_de,
-                'pblntf_ty': 'A',  # 정기공시만
-                'page_count': 100,  # 한 번에 최대 조회
-            },
-            headers=_HEADERS,
-            timeout=30,
-        )
-        resp.raise_for_status()
-        data = resp.json()
-        if data.get('status') == '000' and 'list' in data:
-            return data['list']
-        # "013" = 조회 데이터 없음 — 정상 케이스
-        if data.get('status') == '013':
-            return []
-        warnings.warn(
-            f'[경고] list.json 오류: status={data.get("status")} message={data.get("message")}'
-        )
-    except Exception as exc:
-        warnings.warn(f'[경고] 정기공시 목록 조회 실패: {exc}')
-    return []
-
-
-# ── 공개 함수 ─────────────────────────────────────────────────────────────────
-
-
-def get_latest_report_rcept_no(
-    corp_code: str,
-    reprt_code: str = '11011',
-) -> str | None:
-    """
-    해당 기업·보고서 코드의 최신 접수번호(rcept_no)를 반환한다.
-
-    최근 2년 정기공시(pblntf_ty=A) 목록을 조회한 뒤
-    보고서명 키워드(예: "사업보고서")로 필터링한다.
-
-    Args:
-        corp_code:  DART 기업 고유번호 (8자리)
-        reprt_code: 보고서 코드 (기본값 "11011" = 사업보고서)
-
-    Returns:
-        최신 접수번호 문자열, 없으면 None
-    """
-    target_keyword = REPRT_CODE_NAME.get(reprt_code, '사업보고서')
-    today = datetime.today()
-    end_de = today.strftime('%Y%m%d')
-    bgn_de = (today - timedelta(days=730)).strftime('%Y%m%d')  # 최대 2년 전까지 탐색
-
-    print(
-        f'[get_latest_report_rcept_no] corp_code={corp_code}, 보고서={target_keyword}, 기간={bgn_de}~{end_de}'
-    )
-
-    items = _search_regular_disclosures(corp_code, bgn_de, end_de)
-    if not items:
-        warnings.warn(f'[경고] 정기공시 목록이 비어있음 (corp_code={corp_code})')
-        return None
-
-    # 보고서명에 키워드가 포함된 항목만 필터
-    # "[기재정정]사업보고서" 처럼 접두어가 붙은 경우도 포함
-    matched = [item for item in items if target_keyword in item.get('report_nm', '')]
-
-    if not matched:
-        warnings.warn(
-            f"[경고] '{target_keyword}' 보고서를 찾지 못했음 (corp_code={corp_code})"
-        )
-        return None
-
-    # 접수일자 내림차순 → 가장 최신 선택
-    matched.sort(key=lambda x: x.get('rcept_dt', ''), reverse=True)
-    best = matched[0]
-    print(
-        f'[get_latest_report_rcept_no] 최신 접수번호={best["rcept_no"]} ({best.get("report_nm")})'
-    )
-    return best['rcept_no']
-
-
-def get_report_text(
-    rcept_no: str,
-    sections: list[str] | None = None,
-) -> dict[str, str]:
-    """
-    DART 사업보고서 원문에서 지정 챕터의 텍스트를 파싱해 반환한다.
-
-    파싱 흐름:
-      1) DART document.xml API로 보고서 ZIP 다운로드
-      2) ZIP 안의 메인 XML(rcept_no.xml)을 파싱
-      3) <TITLE ATOC="Y"> 태그에서 챕터명 매칭 → 부모 섹션 요소 텍스트 추출
-      4) 불필요 소제목 섹션 제거 후 TEXT_MAX_LEN(10000자)으로 잘라냄
-
-    Args:
-        rcept_no: 접수번호 (예: "20260310002820")
-        sections: 가져올 챕터명 목록
-                  (기본값: ["사업의 내용", "이사의 경영진단"])
-
-    Returns:
-        {"사업의 내용": "...", "이사의 경영진단": "..."} 형태의 dict.
-        파싱에 실패한 챕터는 빈 문자열("") 반환.
-    """
-    if sections is None:
-        sections = ['사업의 내용', '이사의 경영진단']
-
-    # 결과 초기값: 모든 챕터를 빈 문자열로 초기화
-    result: dict[str, str] = {s: '' for s in sections}
-
-    # ① ZIP 다운로드
-    print(f'[get_report_text] ZIP 다운로드 중 (rcept_no={rcept_no}) ...')
-    zip_bytes = _download_report_zip(rcept_no)
-    if not zip_bytes:
-        return result
-
-    # ② 메인 XML 파싱
-    soup = _load_main_xml(zip_bytes, rcept_no)
-    if not soup:
-        return result
-
-    print(f'[get_report_text] XML 파싱 완료, 챕터 추출 시작')
-
-    # ③ 각 챕터별 텍스트 추출
-    for section in sections:
-        section_elem = _find_section_by_title(soup, section)
-        if not section_elem:
-            warnings.warn(
-                f"[경고] 챕터 '{section}'을 찾지 못했음 (rcept_no={rcept_no})"
-            )
-            continue
-
-        text = _clean_text(section_elem)
-        result[section] = text
-        print(f"[get_report_text] '{section}' → {len(text)}자 추출")
-
-    return result
-
-
-# ── 직접 실행 시 테스트 ───────────────────────────────────────────────────────
-
-if __name__ == '__main__':
-    SAMSUNG = '00126380'  # 삼성전자 고유번호
-    TARGET_SECTIONS = ['사업의 내용', '이사의 경영진단']
-
-    print('=' * 64)
-    print('  삼성전자 사업보고서(11011) 텍스트 파싱 테스트')
-    print('=' * 64)
-
-    # 1. 최신 사업보고서 접수번호 조회
-    rcept_no = get_latest_report_rcept_no(SAMSUNG, reprt_code='11011')
-    if not rcept_no:
-        print('\n[오류] 접수번호를 가져오지 못했습니다. 종료합니다.')
-    else:
-        print(f'\n최신 사업보고서 접수번호: {rcept_no}\n')
-
-        # 2. 지정 챕터 텍스트 파싱
-        texts = get_report_text(rcept_no, sections=TARGET_SECTIONS)
-
-        for section, text in texts.items():
-            print(f'\n{"─" * 64}')
-            print(f'  [{section}]')
-            print('─' * 64)
-            if text:
-                # 테스트 출력은 500자만 — 전체는 최대 10000자
-                print(text[:500])
-                print(f'\n... (파싱된 텍스트 총 {len(text)}자 / 최대 {TEXT_MAX_LEN}자)')
-            else:
-                print('  (텍스트를 가져오지 못했습니다)')

@@ -49,30 +49,6 @@ def _get(endpoint: str, params: dict) -> dict | None:
 
 # ── 공개 함수 ─────────────────────────────────────────────────────────────────
 
-def get_company(corp_code: str) -> dict | None:
-    """
-    기업 기본 정보(개황)를 조회한다.
-
-    주요 반환 필드:
-        corp_name   회사명
-        ceo_nm      대표자명
-        est_dt      설립일 (YYYYMMDD)
-        induty_code 업종코드
-        adres        주소
-        hm_url      홈페이지 URL
-        phn_no      전화번호
-        fax_no      팩스번호
-
-    Args:
-        corp_code: DART 기업 고유번호 (8자리 문자열, 예: "00126380")
-
-    Returns:
-        조회 성공 시 응답 JSON 딕셔너리, 실패 시 None
-    """
-    print(f"[get_company] corp_code={corp_code}")
-    return _get("company.json", {"corp_code": corp_code})
-
-
 def get_disclosures(corp_code: str, bgn_de: str, end_de: str) -> dict | None:
     """
     기간 내 공시 목록을 조회한다.
@@ -376,21 +352,6 @@ def get_major_shareholders(
     })
 
 
-def get_litigation(
-    corp_code: str,
-    bgn_de: str,
-    end_de: str,
-) -> dict | None:
-    """소송 등의 제기 내역(회사 리스크 파악용)을 기간으로 조회한다."""
-    # 소송이 없는 기간에는 status "013" 이 정상적으로 반환될 수 있음
-    print(f"[get_litigation] corp_code={corp_code}, 기간={bgn_de}~{end_de}")
-    return _get("lwstLg.json", {
-        "corp_code": corp_code,
-        "bgn_de": bgn_de,
-        "end_de": end_de,
-    })
-
-
 # ── 직접 실행 시 테스트 ───────────────────────────────────────────────────────
 
 if __name__ == "__main__":
@@ -408,11 +369,7 @@ if __name__ == "__main__":
         else:
             print(json.dumps(data, ensure_ascii=False, indent=2))
 
-    # 1. 기업 기본 정보
-    result = get_company(SAMSUNG)
-    pp("get_company — 삼성전자 기업개황", result)
-
-    # 2. 최근 3개월 공시 목록 (2026-03-16 ~ 2026-06-15 기준)
+    # 1. 최근 3개월 공시 목록 (2026-03-16 ~ 2026-06-15 기준)
     result = get_disclosures(SAMSUNG, bgn_de="20260316", end_de="20260615")
     pp("get_disclosures — 최근 3개월 공시 목록", result)
 
@@ -449,7 +406,3 @@ if __name__ == "__main__":
     # 6. 2024년 최대주주 현황
     result = get_major_shareholders(SAMSUNG, bsns_year="2024")
     pp("get_major_shareholders — 2024년 최대주주 현황 (전체 출력)", result)
-
-    # 7. 소송 내역 — 2024년 한 해 기준
-    result = get_litigation(SAMSUNG, bgn_de="20240101", end_de="20241231")
-    pp("get_litigation — 2024년 소송 내역 (전체 출력)", result)
