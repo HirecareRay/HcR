@@ -16,7 +16,7 @@ from tqdm import tqdm
 DATA_DIR = "./data"          
 CHROMA_DB_DIR = "./chroma_db" 
 FINAL_JSON_PATH = "./data/refined_news_output.json" 
-SIMILARITY_THRESHOLD = 0.3
+SIMILARITY_THRESHOLD = 0.99
 BATCH_SIZE = 50000              
 NUM_WORKERS = os.cpu_count()  
 
@@ -64,7 +64,9 @@ def process_single_company(file_path):
         with open(file_path, "r", encoding="utf-8") as f:
             for line in f:
                 if line.strip():
-                    news_list.append(json.loads(line))
+                    tmp = json.loads(line)
+                    if tmp.get("body"):
+                        news_list.append(json.loads(line))
     except Exception as e:
         return company_name, f"실패: {str(e)}", []
 
@@ -77,7 +79,9 @@ def process_single_company(file_path):
     date_groups = {} # 예: {"2026-06-04": [기사1, 기사2, ...]}
     
     for n in news_list:
-        pub_date = extract_date_from_text(n.get('title', ''), n.get('body', ''))
+        pub_date = n.get("date", "")
+        if pub_date:
+            pub_date = pub_date[:10]
         if pub_date not in date_groups:
             date_groups[pub_date] = []
         date_groups[pub_date].append(n)
@@ -105,7 +109,7 @@ def process_single_company(file_path):
         # 해당 날짜에 기사가 여러 개 있다면, 내부에서 유사도 검사를 통해 중복을 2차 필터링하거나 병합
         # (날짜가 같은 기사들은 대개 같은 이슈이므로 모두 병합하여 1개의 거대한 '일일 뉴스 리포트'로 만듭니다)
         corpus = [f"{clean_text(n.get('body', ''))}" for n in group_news]
-        vectorizer = TfidfVectorizer(max_features=1000, min_df=1) 
+        vectorizer = TfidfVectorizer(max_features=10000, min_df=1) 
         tfidf_matrix = vectorizer.fit_transform(corpus)
         sim_matrix = cosine_similarity(tfidf_matrix, tfidf_matrix)
         
@@ -138,7 +142,8 @@ def process_single_company(file_path):
             # (만약 같은 날의 모든 뉴스를 다 이어붙이고 싶다면 이 부분을 이전처럼 loop로 다 더하시면 됩니다)
             representative = max(sub_group, key=lambda x: len(x.get('body', '')))
             day_combined_contents.append(
-                f"[{representative.get('media', '알수없음')}] {representative.get('title', '')}\n{representative.get('body', '')}"
+                # f"[{representative.get('media', '알수없음')}] {representative.get('title', '')}\n{representative.get('body', '')}"
+                f"{clean_text(representative.get('body', ''))}"
             )
             
             # 언론사와 URL은 누락 없이 모두 수집
@@ -177,9 +182,10 @@ def main():
     file_list = [f for f in file_list if "refined_news_output.json" not in f]
     
     ####################################### test
-    file_list = [r"C:\myfolder\spc\scp_genai\tmp_xray_model\article\CJ ENM_scraped_news_result.json"]
+    file_list = [r"C:\Users\NT551XED\gitws\HcR\news_preprocess\article\CJ ENM_scraped_news_result.jsonl"]
+    file_list = [r"C:\Users\NT551XED\gitws\HcR\news_preprocess\article\CJ대한통운_scraped_news_result.jsonl"]
     sample_saved = False
-    SAMPLE_OUTPUT_PATH = r"C:\myfolder\spc\scp_genai\tmp_xray_model\0refined_sample_check.jsonl"
+    SAMPLE_OUTPUT_PATH = r"C:\Users\NT551XED\gitws\HcR\news_preprocess\0refined_sample_check.jsonl"
 
     print(f"📂 총 {len(file_list)}개 기업 파일을 처리합니다.")
     
