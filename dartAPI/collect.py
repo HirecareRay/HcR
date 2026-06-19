@@ -41,6 +41,7 @@ from dart_api import (
     get_financial_indicators,
 )
 from dart_audit import get_audit_reports, get_audit_text
+from normalize import normalize_employees, normalize_finances, normalize_indicators
 
 # DART 원문 보고서 직링크 — rcept_no로 원본 공시를 바로 열어볼 수 있다.
 _DART_REPORT_URL = "https://dart.fss.or.kr/dsaf001/main.do?rcpNo={rcept_no}"
@@ -92,8 +93,10 @@ def _collect_employees(
     corp_code: str, corp_name: str, start_year: int, end_year: int
 ) -> list[dict]:
     """
-    연도별 직원현황(empSttus.json)을 수집한다 — 취준생 핵심: 연봉·직원수·근속.
+    연도별 직원현황(empSttus.json) 원본 행을 평면 리스트로 수집한다.
+    (정규화는 collect()에서 normalize_employees가 담당 — 여기선 원본 보존)
 
+    원본은 사업부문(fo_bbm)×성별(sexdstn)로 행이 쪼개져 온다.
     주요 필드: sm(직원수), sexdstn(성별), avrg_cnwk_sdytrn(평균 근속연수),
               jan_salary_am(1인 평균 급여액), fyer_salary_totamt(연간 급여 총액)
     데이터 없는 연도(status 013)는 건너뛴다.
@@ -114,10 +117,12 @@ def _collect_indicators(
     corp_code: str, corp_name: str, start_year: int, end_year: int
 ) -> list[dict]:
     """
-    연도별 주요 재무지표(fnlttSinglIndx.json)를 4개 분류 전부 수집한다.
+    연도별 주요 재무지표(fnlttSinglIndx.json) 원본 행을 4개 분류 전부 수집한다.
+    (정규화는 collect()에서 normalize_indicators가 담당 — 여기선 원본 보존)
 
     DART가 이미 계산해 둔 지표(부채비율·ROE 등)라 취준생이 회사 안정성·수익성을
-    바로 가늠할 수 있다. 데이터 없는 연도/분류(status 013)는 건너뛴다.
+    바로 가늠할 수 있다. 원본은 지표 1개가 1행이다.
+    데이터 없는 연도/분류(status 013)는 건너뛴다.
     """
     rows: list[dict] = []
     first = True
@@ -239,11 +244,11 @@ def collect(corp_name: str) -> dict:
     )
 
     if annual_list:
-        # corp_name을 각 계정 행에 주입(불변 패턴: 새 dict 생성)
-        result["finances_annual_semi"] = [
-            {"corp_name": corp_name, **row} for row in annual_list
-        ]
+        # corp_name 주입(불변 패턴) 후 보고서 단위 k,v 레코드로 정규화한다.
+        annual_named = [{"corp_name": corp_name, **row} for row in annual_list]
+        result["finances_annual_semi"] = normalize_finances(annual_named)
         _print_finance_summary("사업·반기보고서", annual_list)
+        print(f"[STEP 2] 계정 {len(annual_list)}행 → {len(result['finances_annual_semi'])}레코드")
     else:
         print("[STEP 2] 사업·반기보고서 재무 데이터 없음")
 
@@ -259,22 +264,26 @@ def collect(corp_name: str) -> dict:
     )
 
     if quarterly_list:
-        result["finances_quarterly"] = [
-            {"corp_name": corp_name, **row} for row in quarterly_list
-        ]
+        quarterly_named = [{"corp_name": corp_name, **row} for row in quarterly_list]
+        result["finances_quarterly"] = normalize_finances(quarterly_named)
         _print_finance_summary("분기보고서", quarterly_list)
+        print(f"[STEP 3] 계정 {len(quarterly_list)}행 → {len(result['finances_quarterly'])}레코드")
     else:
         print("[STEP 3] 분기보고서 재무 데이터 없음")
 
     # ────────────────────────────────────────────────────────────────────────
     # STEP 4. 취준생 관심 정보 — 직원현황(연봉·직원수) / 재무지표
     # ────────────────────────────────────────────────────────────────────────
+    # 원본 행을 수집한 뒤 (회사·연도) 단위 k,v 레코드로 정규화한다.
+    # (직원현황은 부문×성별로, 재무지표는 지표별로 행이 쪼개져 오므로 묶는다)
     print(f"\n[STEP 4] 직원현황·재무지표 수집")
-    result["employees"] = _collect_employees(corp_code, corp_name, start_year, end_year)
-    print(f"[STEP 4] 직원현황 {len(result['employees'])}건")
+    emp_rows = _collect_employees(corp_code, corp_name, start_year, end_year)
+    result["employees"] = normalize_employees(emp_rows)
+    print(f"[STEP 4] 직원현황 원본 {len(emp_rows)}행 → {len(result['employees'])}레코드")
 
-    result["financial_indicators"] = _collect_indicators(corp_code, corp_name, start_year, end_year)
-    print(f"[STEP 4] 재무지표 {len(result['financial_indicators'])}건")
+    idx_rows = _collect_indicators(corp_code, corp_name, start_year, end_year)
+    result["financial_indicators"] = normalize_indicators(idx_rows)
+    print(f"[STEP 4] 재무지표 원본 {len(idx_rows)}행 → {len(result['financial_indicators'])}레코드")
 
     print(f"\n{'=' * 60}")
     print(f"  {corp_name} 데이터 수집 완료")
