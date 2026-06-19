@@ -26,6 +26,12 @@ import requests
 from bs4 import BeautifulSoup
 
 from config import DART_API_KEY
+from finance_labels import (
+    FINANCE_FIELDS,
+    FIELD_SYNONYMS,
+    FIELD_CONTAINS,
+    normalize_label,
+)
 from dart_report import (
     # ZIP 다운로드·XML 파싱 로직을 그대로 재사용 (중복 구현 방지)
     _download_report_zip,
@@ -280,94 +286,76 @@ def _extract_financial_figures(soup) -> dict[str, int | None]:
     """
     soup의 모든 <table>을 순회하며 주요 재무수치를 추출한다.
 
-    탐색 순서: 행의 첫 번째 셀에 키워드가 포함되면 두 번째 셀부터 숫자를 탐색.
-    각 항목마다 첫 번째 매칭값만 저장하고, 파싱 실패 시 None을 유지한다.
+    매칭은 finance_labels의 정규화 + 동의어 매핑 레이어를 사용한다.
+      - 라벨을 normalize_label()로 정규화 (머리번호·공백·주석 suffix·손익 부호 제거)
+      - 1차: FIELD_SYNONYMS 정확 일치 (고정밀)
+      - 2차: 1차에서 못 잡은 필드만 FIELD_CONTAINS 부분 일치 + exclude (저정밀 fallback)
+
+    각 필드는 첫 매칭 행의 첫 유효 금액 셀만 저장하고, 실패 시 None을 유지한다.
 
     금액 유효성:
-      - abs(amount) >= MIN_AMOUNT(1,000,000)인 값만 채택 (행 순번·소계 오파싱 방지)
+      - abs(amount) >= MIN_AMOUNT(1,000,000)인 값만 채택 (행 순번·주석번호 오파싱 방지)
 
-    fallback 탐색:
-      - 매출액 행이 없으면 영업수익으로 재탐색 (금융·신탁사 대응)
-      - 자산총계 행이 없으면 자산합계로 재탐색
+    기말자본(ending_capital)은 여기서 추출하지 않는다 (FIELD_SYNONYMS에 없음).
+      자본변동표(SCE)의 기말 행은 포맷이 매우 다양하고 "기말잔액" 키워드가 현금흐름표와도
+      충돌하므로, get_audit_text에서 자본총계(total_equity) 값을 그대로 사용한다.
     """
-    MIN_AMOUNT = 1_000_000  # 행 번호·소계 등 소수 오파싱 방지
+    MIN_AMOUNT = 1_000_000  # 행 번호·주석번호 등 소수 오파싱 방지
 
-    figures: dict[str, int | None] = {
-        "revenue":            None,
-        "operating_income":   None,
-        "net_income":         None,
-        # BS
-        "total_assets":       None,
-        "total_liabilities":  None,
-        "total_equity":       None,
-        # SCE
-        "ending_capital":     None,
-        # CF
-        "operating_cash_flow": None,
-        "investing_cash_flow": None,
-        "financing_cash_flow": None,
-    }
+    figures: dict[str, int | None] = {f: None for f in FINANCE_FIELDS}
 
-    # (탐색 키워드, figures 키): 당기순손실도 net_income으로 저장
-    # CF는 "으로인한현금흐름" 장문 표현도 병행 탐색 (GAAP/IFRS 혼용 대응)
-    keyword_to_key: list[tuple[str, str]] = [
-        ("매출액",     "revenue"),
-        ("영업이익",   "operating_income"),
-        ("당기순이익", "net_income"),
-        ("당기순손실", "net_income"),
-        # BS
-        ("자산총계",   "total_assets"),
-        ("부채총계",   "total_liabilities"),
-        ("자본총계",   "total_equity"),
-        # SCE
-        # 주의: 기말자본(ending_capital)은 여기서 키워드로 추출하지 않는다.
-        #   자본변동표(SCE)의 기말 행은 "기말자본"이 아니라 "YYYY.MM.DD(당기말)"·
-        #   "보고기간말"·"기말잔액" 등으로 표기되며, 기말 총자본은 행의 첫 금액 셀(자본금)이
-        #   아니라 마지막 금액 셀(총계/합계 열)에 있다. 이 함수의 "첫 매칭 셀" 로직과 맞지 않으므로
-        #   전용 함수 _extract_ending_capital()로 별도 처리한다.
-        # CF
-        ("영업활동현금흐름",        "operating_cash_flow"),
-        ("영업활동으로인한현금흐름", "operating_cash_flow"),
-        ("투자활동현금흐름",        "investing_cash_flow"),
-        ("투자활동으로인한현금흐름", "investing_cash_flow"),
-        ("재무활동현금흐름",        "financing_cash_flow"),
-        ("재무활동으로인한현금흐름", "financing_cash_flow"),
-    ]
+    def _row_amount(cells) -> int | None:
+        """행의 두 번째 셀부터 순회하며 첫 유효 금액(>= MIN_AMOUNT)을 반환한다."""
+        for cell in cells[1:]:
+            amount = _parse_amount(cell.get_text())
+            if amount is not None and abs(amount) >= MIN_AMOUNT:
+                return amount
+        return None
 
-    def _scan_tables(kw_map: list[tuple[str, str]]) -> None:
+    def _iter_rows():
+        """모든 table의 (정규화 라벨, 셀들)을 순회한다."""
         for table in soup.find_all("table"):
             for tr in table.find_all("tr"):
                 # DART XML은 표준 td/th 외에 커스텀 <te> 태그를 사용하는 중소기업 포맷도 존재
                 cells = tr.find_all(["td", "th", "te"])
                 if len(cells) < 2:
                     continue
+                yield normalize_label(cells[0].get_text()), cells
 
-                label = cells[0].get_text(strip=True).replace(" ", "").replace("\xa0", "")
+    def _scan_exact() -> None:
+        for norm, cells in _iter_rows():
+            for field, synonyms in FIELD_SYNONYMS.items():
+                if figures[field] is not None:
+                    continue
+                if norm in synonyms:
+                    amount = _row_amount(cells)
+                    if amount is not None:
+                        # "영업손실"·"당기순손실" 등 손실 라벨은 원문이 양수 크기로
+                        # 표기하는 경우가 많으므로 음수로 보정한다 (이미 음수면 유지).
+                        if norm.endswith("손실") and amount > 0:
+                            amount = -amount
+                        figures[field] = amount
+                    break  # 한 라벨은 한 필드에만 매칭
+            if all(figures[f] is not None for f in FIELD_SYNONYMS):
+                return
 
-                for keyword, result_key in kw_map:
-                    if figures[result_key] is not None:
-                        continue
-                    if keyword not in label:
-                        continue
-                    for cell in cells[1:]:
-                        amount = _parse_amount(cell.get_text())
-                        if amount is not None and abs(amount) >= MIN_AMOUNT:
-                            figures[result_key] = amount
-                            break
-
-            if all(v is not None for v in figures.values()):
-                break
+    def _scan_contains() -> None:
+        for norm, cells in _iter_rows():
+            for field, spec in FIELD_CONTAINS.items():
+                if figures[field] is not None:
+                    continue
+                if any(ex in norm for ex in spec["exclude"]):
+                    continue
+                if any(kw in norm for kw in spec["keywords"]):
+                    amount = _row_amount(cells)
+                    if amount is not None:
+                        figures[field] = amount
 
     try:
-        _scan_tables(keyword_to_key)
-
-        # 매출액 미발견 시 영업수익으로 재탐색 (금융·신탁사 fallback)
-        if figures["revenue"] is None:
-            _scan_tables([("영업수익", "revenue")])
-
-        # 자산총계 미발견 시 자산합계로 재탐색
-        if figures["total_assets"] is None:
-            _scan_tables([("자산합계", "total_assets")])
+        _scan_exact()
+        # 1차에서 못 잡은 fallback 대상 필드가 있으면 부분 일치로 재탐색
+        if any(figures[f] is None for f in FIELD_CONTAINS):
+            _scan_contains()
     except Exception as exc:
         warnings.warn(f"[경고] 재무수치 파싱 중 오류: {exc}")
 
