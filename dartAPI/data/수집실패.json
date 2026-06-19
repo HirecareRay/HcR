@@ -1,0 +1,5242 @@
+[
+  {
+    "collected_at": "2026-06-19 15:17",
+    "corp_name": "SK AX",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:17",
+    "corp_name": "iRT",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:18",
+    "corp_name": "m114",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:18",
+    "corp_name": "가람아이티",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:18",
+    "corp_name": "가온소프트랩",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:18",
+    "corp_name": "가치플레이",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:18",
+    "corp_name": "고고에프앤디",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:18",
+    "corp_name": "공감데이터",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:18",
+    "corp_name": "교림소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:19",
+    "corp_name": "굿씽크",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:19",
+    "corp_name": "그랩록",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:19",
+    "corp_name": "기어세컨드",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:20",
+    "corp_name": "나루데이타",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:20",
+    "corp_name": "나모웹비즈",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:20",
+    "corp_name": "나우정보기술",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:20",
+    "corp_name": "나이스인베스팅",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:20",
+    "corp_name": "내친구네트웍스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:20",
+    "corp_name": "넥서스인프라",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:20",
+    "corp_name": "넥스에스아이",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:20",
+    "corp_name": "넥스트라인코드",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:20",
+    "corp_name": "넥스트빌더",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:20",
+    "corp_name": "넥시큐어 시스템 테크놀로지",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:20",
+    "corp_name": "넬슨씨엔씨",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:21",
+    "corp_name": "노버스메이",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:21",
+    "corp_name": "누리꿈소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:21",
+    "corp_name": "누리랩",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:21",
+    "corp_name": "누리어시스템",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:21",
+    "corp_name": "다다미디어",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:21",
+    "corp_name": "다모아솔루션",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:21",
+    "corp_name": "다복메디칼",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:21",
+    "corp_name": "다산소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:21",
+    "corp_name": "다온아이티에스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:22",
+    "corp_name": "다임즈",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:22",
+    "corp_name": "대교에듀베이션",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:22",
+    "corp_name": "대성전산",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:22",
+    "corp_name": "대한상공회의소",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:22",
+    "corp_name": "더 프리미엄 마케팅",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:22",
+    "corp_name": "더다올디앤씨",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:22",
+    "corp_name": "더블유에이티원홀딩스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:22",
+    "corp_name": "더솔트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:22",
+    "corp_name": "더웹스타일",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:22",
+    "corp_name": "덕아웃",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:22",
+    "corp_name": "데이터디자인엔지니어링",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:22",
+    "corp_name": "데이터시티위마켓",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:23",
+    "corp_name": "델레오코리아",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:23",
+    "corp_name": "도전하는사람들",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:23",
+    "corp_name": "동양정보서비스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:23",
+    "corp_name": "두아즈",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:23",
+    "corp_name": "디노블",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:23",
+    "corp_name": "디노텍",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:23",
+    "corp_name": "디더블유아이",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:23",
+    "corp_name": "디비아이엔씨",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:23",
+    "corp_name": "디씨미디어",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:23",
+    "corp_name": "디에스아이텍",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:23",
+    "corp_name": "디에스이트레이드",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:23",
+    "corp_name": "디엑스앤브이엑스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:23",
+    "corp_name": "디엑스티앤",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:23",
+    "corp_name": "디오티스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:23",
+    "corp_name": "디지타이드",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:24",
+    "corp_name": "디지털스퀘어",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:24",
+    "corp_name": "디지토피아",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:24",
+    "corp_name": "디코랩",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:24",
+    "corp_name": "디티에쓰아이",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:24",
+    "corp_name": "디피플래닝",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:24",
+    "corp_name": "딥파인",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:24",
+    "corp_name": "라미",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:24",
+    "corp_name": "라쿠텐심포니코리아",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:24",
+    "corp_name": "랭코드",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:24",
+    "corp_name": "러닝뱅크",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:24",
+    "corp_name": "러쉬에잇",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:24",
+    "corp_name": "레드소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:24",
+    "corp_name": "레디올소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:25",
+    "corp_name": "렛유인에듀",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:25",
+    "corp_name": "로고스시스템",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:25",
+    "corp_name": "루돌프랩스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:25",
+    "corp_name": "리더스아이",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:26",
+    "corp_name": "리비바이오",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:26",
+    "corp_name": "리얼벨류",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:26",
+    "corp_name": "리플럭스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:26",
+    "corp_name": "릴레이브랜드",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:26",
+    "corp_name": "마루정보",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:26",
+    "corp_name": "마루한소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:26",
+    "corp_name": "마리나체인",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:26",
+    "corp_name": "마린웍스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:26",
+    "corp_name": "마바산업",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:26",
+    "corp_name": "마이나비코리아",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:26",
+    "corp_name": "마이링크",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:26",
+    "corp_name": "마이플랫",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:26",
+    "corp_name": "마이헨지",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:26",
+    "corp_name": "마인즈앤컴퍼니",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:26",
+    "corp_name": "마준소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:26",
+    "corp_name": "마켓링크",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:26",
+    "corp_name": "마크베이스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:26",
+    "corp_name": "매그넘브릿지",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:27",
+    "corp_name": "맨텍네트웍스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:27",
+    "corp_name": "맨파워코리아",
+    "fail_type": "audit_figure_missing",
+    "corp_code": "00664871",
+    "rcept_no": "20260420000140",
+    "report_nm": "연결감사보고서 (2025.12)",
+    "missing_fields": "net_income",
+    "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260420000140"
+  },
+  {
+    "collected_at": "2026-06-19 15:27",
+    "corp_name": "맨파워코리아",
+    "fail_type": "audit_figure_missing",
+    "corp_code": "00664871",
+    "rcept_no": "20250424000358",
+    "report_nm": "연결감사보고서 (2024.12)",
+    "missing_fields": "net_income",
+    "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250424000358"
+  },
+  {
+    "collected_at": "2026-06-19 15:27",
+    "corp_name": "메디랩스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:27",
+    "corp_name": "메디스토리지",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:28",
+    "corp_name": "메이저맵",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:28",
+    "corp_name": "메이커플랫폼",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:28",
+    "corp_name": "메이팜소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:28",
+    "corp_name": "메타덱스터",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:28",
+    "corp_name": "메타존",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:28",
+    "corp_name": "모던웨이브",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:28",
+    "corp_name": "모두투어네트워크",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:28",
+    "corp_name": "모드니사회적협동조합",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:28",
+    "corp_name": "모바일팩토리",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:28",
+    "corp_name": "모빌러그",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:28",
+    "corp_name": "모스티소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:28",
+    "corp_name": "모아씨앤씨",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:28",
+    "corp_name": "무한정보기술",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:28",
+    "corp_name": "미담기획",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:28",
+    "corp_name": "미래아이씨티",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:28",
+    "corp_name": "미래아이앤티",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:28",
+    "corp_name": "미래지기",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:28",
+    "corp_name": "미르솔텍",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:29",
+    "corp_name": "미뷰",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:29",
+    "corp_name": "민컴퍼니",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:29",
+    "corp_name": "밀버스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:29",
+    "corp_name": "바이스타일",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:29",
+    "corp_name": "바이오리서치에이아이",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:29",
+    "corp_name": "바이칼에이아이",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:29",
+    "corp_name": "바자울정보기술",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:29",
+    "corp_name": "반프",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:29",
+    "corp_name": "밴틱스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:29",
+    "corp_name": "버블콘",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:29",
+    "corp_name": "버전업소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:29",
+    "corp_name": "범소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:29",
+    "corp_name": "베스트아웃소싱",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:29",
+    "corp_name": "베스트아이씨티",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:29",
+    "corp_name": "베스티아소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:29",
+    "corp_name": "베이콘",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:29",
+    "corp_name": "벨텍소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:30",
+    "corp_name": "보미오라한의원",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:30",
+    "corp_name": "보인정보기술",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:30",
+    "corp_name": "뷰런테크놀로지",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:30",
+    "corp_name": "뷰티에이아이",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:30",
+    "corp_name": "브라더스비",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:30",
+    "corp_name": "브라이트벨 크리에이티브그룹",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:30",
+    "corp_name": "브리즈",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:31",
+    "corp_name": "브릭스트림",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:31",
+    "corp_name": "브이젠",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:31",
+    "corp_name": "블록스퀘어랩스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:31",
+    "corp_name": "블루비즈",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:31",
+    "corp_name": "블루비트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:31",
+    "corp_name": "블루웨이브컨설팅",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:31",
+    "corp_name": "블루케이",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:31",
+    "corp_name": "비롯시앤엠",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:31",
+    "corp_name": "비비트리",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:32",
+    "corp_name": "비에스비 매니지먼트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:32",
+    "corp_name": "비에이소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:32",
+    "corp_name": "비엠엠",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:32",
+    "corp_name": "비자림",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:32",
+    "corp_name": "비전스페이스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:32",
+    "corp_name": "비주얼래보러토리",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:32",
+    "corp_name": "비쥬웍스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:32",
+    "corp_name": "비즈비",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:32",
+    "corp_name": "비츠로넥스트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:32",
+    "corp_name": "비투넷",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:33",
+    "corp_name": "비피엠지",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:33",
+    "corp_name": "사운드마인드",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:33",
+    "corp_name": "삼성에이엑스아이",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:33",
+    "corp_name": "삼양문화",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:33",
+    "corp_name": "상상스토리",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:33",
+    "corp_name": "새롬씨앤씨",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:33",
+    "corp_name": "서우컴퍼니",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:33",
+    "corp_name": "서울유니에듀",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:33",
+    "corp_name": "서원정보",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:33",
+    "corp_name": "서인시스템",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:33",
+    "corp_name": "선시안 SUNCYAN In",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:34",
+    "corp_name": "세계로안전",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:34",
+    "corp_name": "세움웹",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:34",
+    "corp_name": "세인티",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:34",
+    "corp_name": "세틀원",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:34",
+    "corp_name": "셀빅",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:34",
+    "corp_name": "셈웨어",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:34",
+    "corp_name": "셋시큐리티",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:34",
+    "corp_name": "소리튠",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:34",
+    "corp_name": "소울엑스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:35",
+    "corp_name": "소프트베이스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:35",
+    "corp_name": "소프트파워",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:35",
+    "corp_name": "솔비트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:35",
+    "corp_name": "솔텍아이앤에스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:35",
+    "corp_name": "솔트레이",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:35",
+    "corp_name": "송아리아이티",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:35",
+    "corp_name": "수커뮤니케이션",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:35",
+    "corp_name": "수펙스테크놀러지",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:35",
+    "corp_name": "슈퍼스타트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:35",
+    "corp_name": "슈퍼플래닛",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:35",
+    "corp_name": "스노우온카드",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:35",
+    "corp_name": "스데반정보",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:35",
+    "corp_name": "스마일드래곤",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:35",
+    "corp_name": "스캐터엑스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:35",
+    "corp_name": "스타랩스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:35",
+    "corp_name": "스테인온",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:35",
+    "corp_name": "스토리앤미디어",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:35",
+    "corp_name": "스페이드컴퍼니",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:35",
+    "corp_name": "스프링컴즈",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:35",
+    "corp_name": "시계거래소",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:35",
+    "corp_name": "시너지시스템즈",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:35",
+    "corp_name": "시루정보",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:35",
+    "corp_name": "시선아이티",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:35",
+    "corp_name": "시스템노바",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:35",
+    "corp_name": "시엔에스정보기술",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:36",
+    "corp_name": "시프트원",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:36",
+    "corp_name": "신선고",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:36",
+    "corp_name": "신세계까사",
+    "fail_type": "audit_figure_missing",
+    "corp_code": "00250599",
+    "rcept_no": "20250331000993",
+    "report_nm": "연결감사보고서 (2024.12)",
+    "missing_fields": "operating_income",
+    "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250331000993"
+  },
+  {
+    "collected_at": "2026-06-19 15:36",
+    "corp_name": "신세계까사",
+    "fail_type": "audit_figure_missing",
+    "corp_code": "00250599",
+    "rcept_no": "20250331000986",
+    "report_nm": "감사보고서 (2024.12)",
+    "missing_fields": "operating_income",
+    "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250331000986"
+  },
+  {
+    "collected_at": "2026-06-19 15:36",
+    "corp_name": "신세계아이앤씨",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:36",
+    "corp_name": "써드맨",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:36",
+    "corp_name": "써스포",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:37",
+    "corp_name": "쓰리케이원에이아이",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:37",
+    "corp_name": "씨아이에스엠텍",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:37",
+    "corp_name": "씨앤에이커뮤니케이션즈",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:38",
+    "corp_name": "씨엔씨네트웍스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:38",
+    "corp_name": "씨지인사이드",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:38",
+    "corp_name": "씨티아이에스CTIS Co",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:38",
+    "corp_name": "씽클레어",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:38",
+    "corp_name": "아수소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:39",
+    "corp_name": "아이림프",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:39",
+    "corp_name": "아이비즈소프트웨어",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:39",
+    "corp_name": "아이비티에스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:39",
+    "corp_name": "아이서트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:40",
+    "corp_name": "아이알에스소프트코리아",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:40",
+    "corp_name": "아이에스오에스컨설팅",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:40",
+    "corp_name": "아이엑세스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:40",
+    "corp_name": "아이엠폼",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:40",
+    "corp_name": "아이오트리",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:40",
+    "corp_name": "아이웹",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:40",
+    "corp_name": "아이이에이",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:40",
+    "corp_name": "아이지아이코리아",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:40",
+    "corp_name": "아이컴테크놀러지",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:40",
+    "corp_name": "아이트럭",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:40",
+    "corp_name": "아이티사람들",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:40",
+    "corp_name": "아이티에스피",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:40",
+    "corp_name": "아이티컨버젼",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:40",
+    "corp_name": "아이티크루",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:40",
+    "corp_name": "아이티펍",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:40",
+    "corp_name": "아인스페이스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:40",
+    "corp_name": "아인잡",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:40",
+    "corp_name": "아임온",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:41",
+    "corp_name": "아큐라시스템",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:41",
+    "corp_name": "아토머스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:41",
+    "corp_name": "아톰소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:41",
+    "corp_name": "알로스타",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:41",
+    "corp_name": "알티시스템",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:41",
+    "corp_name": "애니로직",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:42",
+    "corp_name": "앰진",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:42",
+    "corp_name": "앱메이드",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:42",
+    "corp_name": "앵글컴퍼니",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:42",
+    "corp_name": "양재미디어",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:42",
+    "corp_name": "어다인",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:42",
+    "corp_name": "언버스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:42",
+    "corp_name": "언플러",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:42",
+    "corp_name": "에고이즘",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:42",
+    "corp_name": "에니트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:42",
+    "corp_name": "에듀베이스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:42",
+    "corp_name": "에버에듀시스템",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:42",
+    "corp_name": "에스넷시스템",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:43",
+    "corp_name": "에스디씨아이티",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:43",
+    "corp_name": "에스씨301의원",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:43",
+    "corp_name": "에스알포스트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:43",
+    "corp_name": "에스에이치엘에이비",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:44",
+    "corp_name": "에이블짐정보",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:44",
+    "corp_name": "에이솔",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:44",
+    "corp_name": "에이아이맥스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:44",
+    "corp_name": "에이아이소울",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:44",
+    "corp_name": "에이아이스타",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:44",
+    "corp_name": "에이아이월드",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:44",
+    "corp_name": "에이아이커넥트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:45",
+    "corp_name": "에이엔드",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:45",
+    "corp_name": "에이엠아이시스템즈",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:45",
+    "corp_name": "에이치와이소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:45",
+    "corp_name": "에이티이정보",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:45",
+    "corp_name": "에임비랩",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:45",
+    "corp_name": "에프아이솔루션",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:45",
+    "corp_name": "에프지아이",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:45",
+    "corp_name": "엑센솔루션",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:46",
+    "corp_name": "엔레드",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:46",
+    "corp_name": "엔솔루션스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:46",
+    "corp_name": "엔스크린",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:46",
+    "corp_name": "엔에스원소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:46",
+    "corp_name": "엔에이치엔케이씨피",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:46",
+    "corp_name": "엔에프에스시스템",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:46",
+    "corp_name": "엔지니어스토리",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:46",
+    "corp_name": "엔코씨앤에스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:47",
+    "corp_name": "엔투에이아이",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:47",
+    "corp_name": "엘로이랩",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:47",
+    "corp_name": "엘핀",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:47",
+    "corp_name": "엠넷정보통신",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:47",
+    "corp_name": "엠비씨아카데미 컴퓨터교육센터",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:47",
+    "corp_name": "엠시큐어",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:47",
+    "corp_name": "엠플러스정보시스템",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:47",
+    "corp_name": "영성미디어",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:47",
+    "corp_name": "예가비즈",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:47",
+    "corp_name": "오로라월드",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:47",
+    "corp_name": "오륜디지탈",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:48",
+    "corp_name": "오상테크놀로지",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:48",
+    "corp_name": "오스랩스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:48",
+    "corp_name": "오아시스펀딩",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:48",
+    "corp_name": "오엠티아이코리아 영업소",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:48",
+    "corp_name": "오퍼스케이",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:48",
+    "corp_name": "오픈마인즈",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:48",
+    "corp_name": "오픈에스티",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:49",
+    "corp_name": "온브릭스",
+    "fail_type": "audit_figure_missing",
+    "corp_code": "01907126",
+    "rcept_no": "20260331002770",
+    "report_nm": "감사보고서 (2025.12)",
+    "missing_fields": "operating_income",
+    "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260331002770"
+  },
+  {
+    "collected_at": "2026-06-19 15:49",
+    "corp_name": "올리브인터넷",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:49",
+    "corp_name": "올윈에듀",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:49",
+    "corp_name": "와이비엠넷",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:49",
+    "corp_name": "와이에스네오",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:49",
+    "corp_name": "와이에스지",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:49",
+    "corp_name": "와이티아이엔에스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:49",
+    "corp_name": "와커스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:49",
+    "corp_name": "와탭랩스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:50",
+    "corp_name": "원스글로벌",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:50",
+    "corp_name": "웨버씨엔에스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:50",
+    "corp_name": "웨이브",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:50",
+    "corp_name": "웰페어코리아",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:50",
+    "corp_name": "웹라이트WEBLIGHT C",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:50",
+    "corp_name": "웹브라이트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:50",
+    "corp_name": "위드위",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:50",
+    "corp_name": "위미츠",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:50",
+    "corp_name": "위버로프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:50",
+    "corp_name": "위쉬정보기술",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:50",
+    "corp_name": "위즈덤스페이스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:50",
+    "corp_name": "위지언",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:50",
+    "corp_name": "위치스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:50",
+    "corp_name": "위캔소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:50",
+    "corp_name": "위키",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:50",
+    "corp_name": "위트플러스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:51",
+    "corp_name": "위피아",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:51",
+    "corp_name": "윈에이드",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:51",
+    "corp_name": "윙소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:51",
+    "corp_name": "윙키",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:51",
+    "corp_name": "유니베이아이엔씨",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:51",
+    "corp_name": "유니온시스템즈",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:51",
+    "corp_name": "유니쿼스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:51",
+    "corp_name": "유니피아",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:51",
+    "corp_name": "유닛블랙",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:52",
+    "corp_name": "유비펀",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:52",
+    "corp_name": "유앤피플",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:52",
+    "corp_name": "유엔파인",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:52",
+    "corp_name": "유원시스템즈",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:52",
+    "corp_name": "유월드소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:52",
+    "corp_name": "유진정보기술",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:53",
+    "corp_name": "유탑소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:53",
+    "corp_name": "유피드",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:53",
+    "corp_name": "윤마케팅",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:53",
+    "corp_name": "이그레브",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:53",
+    "corp_name": "이글루코퍼레이션",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:53",
+    "corp_name": "이너버즈",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:53",
+    "corp_name": "이노지스소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:53",
+    "corp_name": "이니넥스트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:54",
+    "corp_name": "이로홀딩스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:54",
+    "corp_name": "이번트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:54",
+    "corp_name": "이베이스넷",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:54",
+    "corp_name": "이비엠",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:54",
+    "corp_name": "이에스티소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:54",
+    "corp_name": "이와이",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:54",
+    "corp_name": "이웃닷컴",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:54",
+    "corp_name": "이젠아카데미",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:54",
+    "corp_name": "이커머스테크",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:55",
+    "corp_name": "인스파이어파트너스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:56",
+    "corp_name": "인터넷밸리",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:56",
+    "corp_name": "인터엠디컴퍼니",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:56",
+    "corp_name": "인텔리즈",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:57",
+    "corp_name": "인포유앤컴퍼니",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:57",
+    "corp_name": "인포플라",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:57",
+    "corp_name": "인피니어",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:57",
+    "corp_name": "일루니",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:57",
+    "corp_name": "임프리메드코리아",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:57",
+    "corp_name": "자이로소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:57",
+    "corp_name": "자이언트솔루션",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:58",
+    "corp_name": "자이트솔루션",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:58",
+    "corp_name": "잠보 소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:58",
+    "corp_name": "전국개인택시공제조합",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:58",
+    "corp_name": "제스트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:58",
+    "corp_name": "제스트씨엔에스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:58",
+    "corp_name": "제이드크로스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:58",
+    "corp_name": "제이에이치솔루션",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:59",
+    "corp_name": "제이엠씨컨설팅",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:59",
+    "corp_name": "제이와이컴퍼니",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:59",
+    "corp_name": "제이와이테크",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:59",
+    "corp_name": "제이케이소프트랩",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:59",
+    "corp_name": "제이투이",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:59",
+    "corp_name": "조이팩토리",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:59",
+    "corp_name": "조인글로벌",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:59",
+    "corp_name": "조인아이티",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:59",
+    "corp_name": "K피엠씨",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:59",
+    "corp_name": "넥스인테크놀로지NexIn Technology CoLtd",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:59",
+    "corp_name": "디엔에이케어",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:59",
+    "corp_name": "비빔블",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:59",
+    "corp_name": "스마트인테크",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:59",
+    "corp_name": "여기에",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 15:59",
+    "corp_name": "인벤티스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:00",
+    "corp_name": "지뉴소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:00",
+    "corp_name": "지브라브라더스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:00",
+    "corp_name": "지산소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:00",
+    "corp_name": "지아이데이타",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:00",
+    "corp_name": "지앤아이소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:00",
+    "corp_name": "지에스비아이",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:00",
+    "corp_name": "지엘링크코리아",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:00",
+    "corp_name": "지엘아이에스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:00",
+    "corp_name": "지엠코퍼레이션",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:00",
+    "corp_name": "지케스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:00",
+    "corp_name": "지피에이코리아",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:00",
+    "corp_name": "진커뮤니케이션",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:00",
+    "corp_name": "차병원바이오그룹",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:00",
+    "corp_name": "채움솔루션",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:00",
+    "corp_name": "천명소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:00",
+    "corp_name": "첫눈소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:00",
+    "corp_name": "청년취업사관학교",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:00",
+    "corp_name": "체스트넛",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:01",
+    "corp_name": "카사요",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:01",
+    "corp_name": "캐롯아이",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:01",
+    "corp_name": "커넥트아이티",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:01",
+    "corp_name": "커머스온",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:01",
+    "corp_name": "커머스톤",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:01",
+    "corp_name": "컷백",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:02",
+    "corp_name": "케이소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:02",
+    "corp_name": "케이씨엠에스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:02",
+    "corp_name": "케이엔비윈텍",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:02",
+    "corp_name": "케이지파이낸셜",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:02",
+    "corp_name": "케파스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:02",
+    "corp_name": "코그니텀",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:02",
+    "corp_name": "코그로보",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:02",
+    "corp_name": "코나체인",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:02",
+    "corp_name": "코넥",
+    "fail_type": "audit_figure_missing",
+    "corp_code": "00524272",
+    "rcept_no": "20250526000184",
+    "report_nm": "[기재정정]연결감사보고서 (2022.12)",
+    "missing_fields": "net_income",
+    "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250526000184"
+  },
+  {
+    "collected_at": "2026-06-19 16:02",
+    "corp_name": "코드랩",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:02",
+    "corp_name": "코드랩이앤티",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:03",
+    "corp_name": "코드아이디어",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:03",
+    "corp_name": "코디얼",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:03",
+    "corp_name": "코리아아이티컨설팅",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:03",
+    "corp_name": "코리아정보보안아이티아카데미",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:03",
+    "corp_name": "코어디아이티",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:03",
+    "corp_name": "코어메이드",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:03",
+    "corp_name": "코운디티",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:03",
+    "corp_name": "쿡섬",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:03",
+    "corp_name": "퀀텀넥서스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:03",
+    "corp_name": "퀀텀에듀솔루션",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:03",
+    "corp_name": "퀀텀에이아이",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:04",
+    "corp_name": "큐디의원",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:04",
+    "corp_name": "큐브플레이어",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:04",
+    "corp_name": "크랜베리Cranberry",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:04",
+    "corp_name": "크로스포인트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:04",
+    "corp_name": "크리트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:04",
+    "corp_name": "클립에듀",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:04",
+    "corp_name": "키위즈",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:04",
+    "corp_name": "키트넷",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:04",
+    "corp_name": "타이드플로",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:04",
+    "corp_name": "타이코콜렉션",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:05",
+    "corp_name": "태화이노베이션",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:05",
+    "corp_name": "테르텐",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:05",
+    "corp_name": "테크온베이스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:05",
+    "corp_name": "테크핀레이팅스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:05",
+    "corp_name": "텐",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:05",
+    "corp_name": "트인시스템즈",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:06",
+    "corp_name": "티벨",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:06",
+    "corp_name": "티업엔조이",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:06",
+    "corp_name": "티웍스아이앤씨",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:06",
+    "corp_name": "티유컨설팅",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:06",
+    "corp_name": "티젠소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:06",
+    "corp_name": "티케이로지스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:06",
+    "corp_name": "티티비",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:06",
+    "corp_name": "티티엠소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:06",
+    "corp_name": "파란샘",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:06",
+    "corp_name": "파인법정의무교육센터",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:06",
+    "corp_name": "팔레트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:06",
+    "corp_name": "퍼니웍",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:06",
+    "corp_name": "퍼브",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:06",
+    "corp_name": "퍼즐데이터",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:07",
+    "corp_name": "펜타웍스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:07",
+    "corp_name": "포밸류소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:07",
+    "corp_name": "포스웨이브",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:07",
+    "corp_name": "포에스시스템",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:07",
+    "corp_name": "포이시스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:07",
+    "corp_name": "포인트엑스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:08",
+    "corp_name": "폴리큐브",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:08",
+    "corp_name": "프라임플레이",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:08",
+    "corp_name": "프리모리스엔젯리미티드",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:08",
+    "corp_name": "플레이랭귀지",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:08",
+    "corp_name": "플레이위드코리아",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:08",
+    "corp_name": "플립온코리아",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:08",
+    "corp_name": "플링캐스트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:08",
+    "corp_name": "피봇브릿지",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:08",
+    "corp_name": "피씨엔",
+    "fail_type": "audit_figure_missing",
+    "corp_code": "01500677",
+    "rcept_no": "20250331003585",
+    "report_nm": "감사보고서 (2024.12)",
+    "missing_fields": "operating_income",
+    "dart_link": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250331003585"
+  },
+  {
+    "collected_at": "2026-06-19 16:08",
+    "corp_name": "피아스페이스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:08",
+    "corp_name": "피아트SID",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:09",
+    "corp_name": "피엠그룹코리아",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:09",
+    "corp_name": "피엠에스컨설팅",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:09",
+    "corp_name": "픽셀소프트웨어",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:09",
+    "corp_name": "필그림소프트",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:09",
+    "corp_name": "하성씨앤아이",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:09",
+    "corp_name": "하이미디어컴퓨터학원",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:09",
+    "corp_name": "하이스트레인저",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:10",
+    "corp_name": "하이유엑스컨설팅",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:10",
+    "corp_name": "하이퍼와이즈",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:10",
+    "corp_name": "한겨레신문사",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:10",
+    "corp_name": "한국공간데이터",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:10",
+    "corp_name": "한국그루브",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:10",
+    "corp_name": "한국도시및지역계획학회",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:10",
+    "corp_name": "한국모바일인증",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:10",
+    "corp_name": "한국비앤에스시스템",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:10",
+    "corp_name": "한국세무사회전산법인",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:10",
+    "corp_name": "한국유투더블유",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:10",
+    "corp_name": "한국전자입찰연구소",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:11",
+    "corp_name": "한솔코에버",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:11",
+    "corp_name": "한얼아이티",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:11",
+    "corp_name": "한울아이씨티",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:11",
+    "corp_name": "한컴즈",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:11",
+    "corp_name": "핫셀러",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:11",
+    "corp_name": "해솔솔루션",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:11",
+    "corp_name": "해주세요컴퍼니",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:11",
+    "corp_name": "핸드위치",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:11",
+    "corp_name": "핸디아이씨에스",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:11",
+    "corp_name": "행복추구 패러다임kcms",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:11",
+    "corp_name": "헤밀레라이프랩",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:11",
+    "corp_name": "헥사아이",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:11",
+    "corp_name": "호디",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:11",
+    "corp_name": "화이트래빗스토리",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:11",
+    "corp_name": "화이트스캔",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:12",
+    "corp_name": "휴먼교육센터",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:12",
+    "corp_name": "휴텍씨",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  },
+  {
+    "collected_at": "2026-06-19 16:12",
+    "corp_name": "흑자",
+    "fail_type": "corp_code_not_found",
+    "corp_code": "",
+    "rcept_no": "",
+    "report_nm": "",
+    "missing_fields": "",
+    "dart_link": ""
+  }
+]
