@@ -81,6 +81,7 @@
 
 - `headcount`는 원문을 보존한다.
 - `headcount_value`는 숫자로 변환하며 `0명`, `00명`, 빈 값은 `null`로 처리한다.
+- 프리랜서 공고를 포함해 모든 고용형태를 정규화 대상으로 처리한다.
 - LLM이 `recruit_url`을 만들지 못하면 원공고 `source_url`을 사용한다.
 - 이메일 주소는 `recruit_url`로 취급하지 않는다.
 - `recruit_url`이 HTTP(S) URL이 아니면 원공고 `source_url`로 교체하고 audit 경고를 남긴다.

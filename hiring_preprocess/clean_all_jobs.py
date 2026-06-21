@@ -19,7 +19,9 @@ from tqdm import tqdm
 
 from audit_utils import audit_path_for, split_record
 from quality_utils import (
+    clear_inapplicable_tracks,
     remove_track_labels_from_preferred,
+    remove_common_preferred_duplicates,
     repeated_job_content,
     replace_null_scalars,
     sparse_job_content,
@@ -70,7 +72,6 @@ SCHEMA_VERSION = "hcr_job_schema_v2_8"
 SOURCE_URL_COLUMNS = ["source_url", "url", "posting_url", "recruit_url", "link"]
 COMPANY_COLUMNS = ["company_name", "company", "company_clean", "company_original"]
 TITLE_COLUMNS = ["posting_title", "title", "recruit_title", "job_title"]
-NON_FREELANCE_TYPES = ("정규직", "계약직", "인턴", "아르바이트", "파견직")
 
 
 def first_value(row: dict[str, Any], columns: list[str]) -> str:
@@ -166,34 +167,6 @@ def infer_source_site(row: dict[str, Any]) -> str:
         return "incruit"
     return explicit
 
-
-def freelancer_only_evidence(row: dict[str, Any]) -> str:
-    """잡코리아 원문에서 프리랜서 단독 공고를 LLM 호출 전에 판별한다."""
-    detail = str(row.get("detail") or "")
-    etc_info = str(row.get("etc_info") or "")
-    match = re.search(
-        r"고용형태\s+(.+?)(?=\s{2,}(?:급여|근무시간|근무지주소|인근지하철)|$)",
-        detail,
-    )
-    evidence = match.group(1).strip() if match else etc_info
-    if "프리랜서" not in evidence:
-        return ""
-    if any(employment_type in evidence for employment_type in NON_FREELANCE_TYPES):
-        return ""
-    return evidence
-
-
-def excluded_record(row: dict[str, Any], reason: str, evidence: str) -> dict[str, Any]:
-    return {
-        "company_name": first_value(row, COMPANY_COLUMNS),
-        "posting_title": first_value(row, TITLE_COLUMNS),
-        "source_site": infer_source_site(row),
-        "source_url": source_url(row),
-        "source_file": str(row.get("_source_file", "")),
-        "source_row": int(row.get("_source_row", 0) or 0),
-        "exclusion_reason": reason,
-        "original_value": evidence,
-    }
 
 def text_hash(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
@@ -305,6 +278,8 @@ def postprocess_record(
     if repeated_job_content(record.get("jobs", [])):
         add_warning(record, "여러 직무에 동일한 근무지/업무/트랙 정보가 반복됨 - 카테고리 오인식 가능성")
     remove_track_labels_from_preferred(record)
+    remove_common_preferred_duplicates(record)
+    clear_inapplicable_tracks(record, row)
     if sparse_job_content(record.get("jobs", [])):
         add_warning(record, "직무별 핵심 정보가 대부분 비어 있음 - OCR/원문 품질 확인 필요")
     replace_null_scalars(record)
@@ -442,9 +417,6 @@ def output_path_for(args: argparse.Namespace) -> Path:
     return DEFAULT_OUT_PATH
 
 
-def excluded_path_for(out_path: Path) -> Path:
-    return out_path.with_name(f"{out_path.stem}_excluded.jsonl")
-
 def main() -> None:
     args = parse_args()
     allow_api = USE_LLM and not args.no_llm
@@ -458,7 +430,6 @@ def main() -> None:
         return
     out_path = output_path_for(args)
     audit_path = audit_path_for(out_path, args.audit_output)
-    excluded_path = excluded_path_for(out_path)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     ocr_cache = load_cache(OCR_CACHE_PATH)
     llm_cache = load_cache(LLM_CACHE_PATH)
@@ -471,31 +442,17 @@ def main() -> None:
         "fallback": "사용 가능한 텍스트 품질이 낮아 수동 검수가 필요함",
     }
     total = 0
-    stats = {"api_calls": 0, "cache_hits": 0, "skipped": 0, "excluded": 0}
+    stats = {"api_calls": 0, "cache_hits": 0, "skipped": 0}
     try:
         with (
             out_path.open("w", encoding="utf-8") as output,
             audit_path.open("w", encoding="utf-8") as audit_output,
-            excluded_path.open("w", encoding="utf-8") as excluded_output,
         ):
             for frame in frames:
                 for _, series in tqdm(frame.iterrows(), total=len(frame)):
                     if args.limit > 0 and total >= args.limit:
                         break
                     row = series.to_dict()
-                    freelance_evidence = freelancer_only_evidence(row)
-                    if freelance_evidence:
-                        excluded_output.write(json.dumps(
-                            excluded_record(
-                                row,
-                                "고용형태가 프리랜서로만 구성된 공고",
-                                freelance_evidence,
-                            ),
-                            ensure_ascii=False,
-                        ) + "\n")
-                        stats["excluded"] += 1
-                        total += 1
-                        continue
                     detail_text = get_detail_text(row)
                     image_urls = find_image_urls(row)
                     if image_urls:
@@ -544,10 +501,8 @@ def main() -> None:
     print(f"OpenAI 실제 요청: {stats['api_calls']}회")
     print(f"LLM 캐시 재사용: {stats['cache_hits']}건")
     print(f"LLM 생략: {stats['skipped']}건")
-    print(f"프리랜서 단독 제외: {stats['excluded']}건")
     print(f"결과: {out_path}")
     print(f"전처리 로그: {audit_path}")
-    print(f"제외 공고: {excluded_path}")
 
 if __name__ == "__main__":
     main()
