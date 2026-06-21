@@ -61,7 +61,7 @@ class NaverNewsSpider(scrapy.Spider):
             title = response.css('#title_area > span ::text').get()
             body = response.css('article#dic_area ::text, #articleBodyContents ::text').getall()
             media = response.css('a.media_end_head_top_logo span.media_end_head_top_press ::text').get()
-
+            original_url = response.css("div.media_end_head_info_datestamp > a::attr(href)")
             clean_body = " ".join([text.strip() for text in body if text.strip()])
             
             # 저장할 데이터 딕셔너리 생성
@@ -70,7 +70,8 @@ class NaverNewsSpider(scrapy.Spider):
                 "date": date,
                 'title': title.strip() if title else '',
                 'media': media.strip() if media else '',
-                'body': clean_body
+                'body': clean_body,
+                "original_url": original_url
             }
 
             # 💡 [StackOverflow 핵심 로직]: 
