@@ -46,7 +46,7 @@ def _process_one(c: dict, args) -> tuple[str, str, str]:
         if not (data.get("news") or data.get("financial_indicators")
                 or data.get("financial_audit") or data.get("financial_interim")
                 or data.get("jobplanet") or data.get("business_description")
-                or data.get("talent_values")):
+                or data.get("talent_values") or data.get("main_products_services")):
             return ("skip", name, "")
         # refresh-financial: 재무 데이터 있는 회사면 (DART 확장 반영 위해) 재생성, 없으면 건너뜀
         if exists and not args.overwrite and args.refresh_financial:

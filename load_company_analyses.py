@@ -112,7 +112,8 @@ def main() -> None:
                 continue
             cid = json.loads(line).get("company_id")
             if cid and cid not in have_ids:
-                valid.append({"company_id": cid, "analysis_version": "v1", "generated_at": today})
+                # 보고서 없는 회사 stub: v2 스키마 행이되 분석 컬럼은 NULL (생성여부는 분석 컬럼 유무로 판단)
+                valid.append({"company_id": cid, "analysis_version": "v2_stub", "generated_at": today})
                 have_ids.add(cid)
                 stub_n += 1
 
@@ -134,8 +135,13 @@ def main() -> None:
     # 1) 테이블 생성
     with engine.begin() as conn:
         conn.execute(text(DDL))
-        conn.execute(text(_FIX_COLLATION))   # 기존 테이블 collation 통일
-    print("테이블 확인/생성 완료 (collation utf8mb4_unicode_ci)")
+        # collation은 DDL(CREATE)에서 utf8mb4_unicode_ci로 지정됨. 기존 테이블이 다른 경우만 1회 변환.
+        cur = conn.execute(text(
+            "SELECT table_collation FROM information_schema.tables "
+            "WHERE table_schema=DATABASE() AND table_name='company_analyses'")).scalar()
+        if cur and "unicode_ci" not in cur:
+            conn.execute(text(_FIX_COLLATION))   # 한 번만 (매번 ALTER하면 메타데이터 락 경합)
+    print("테이블 확인/생성 완료")
 
     # 2) 배치 적재 (락 짧게 + 중단돼도 진행분 보존)
     ok = 0
@@ -147,6 +153,7 @@ def main() -> None:
                 ok += 1
         print(f"  ...{ok}/{len(valid)} 적재")
 
+    engine.dispose()   # 커넥션 정리 후 깨끗하게 종료 (서버에 락/유령 커넥션 안 남게)
     print(f"\n완료: {ok}개 company_analyses 적재(upsert)")
 
 

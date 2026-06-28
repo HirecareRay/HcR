@@ -74,8 +74,15 @@ SYSTEM_PROMPT = (
     "너는 취업준비생을 위한 기업 분석가다. 반드시 주어진 실제 데이터만 근거로 분석한다.\n"
     "- 데이터에 없는 내용은 절대 추론하거나 지어내지 마라.\n"
     "- 제공된 섹션만 작성한다. 데이터 없는 섹션은 스키마에 없으니 신경 쓰지 마라.\n"
-    "- 각 섹션의 evidence에는 근거로 삼은 실제 데이터(뉴스 제목·재무 수치·리뷰 문구 등)를 짧게 인용한다.\n"
-    "- 뉴스를 근거로 쓸 때는 evidence에 언론사명을 함께 적는다 (예: '머니투데이: CJ ENM 아마존 파트너십'). 해당 기사의 출처 키는 sources에 기록된다.\n"
+    "- evidence의 각 항목은 '검증 가능한 사실 주장 문장'으로 쓴다. 기사 제목을 그대로 옮기지 말고, 그 근거가 뒷받침하는 구체적 사실(숫자·사건·결과)을 완결된 한 문장으로 진술한다.\n"
+    "  (나쁜 예: '한국경제: 업스테이지 유니콘 등극 기념식' / 좋은 예: '유니콘 등극과 5600억원 투자 유치로 시장 신뢰를 확보했다 [3]')\n"
+    "- summary는 섹션 전체를 서술하고, evidence는 그 서술을 떠받치는 개별 팩트들이다 (서로 다른 역할).\n"
+    "- 뉴스 기반 evidence·SWOT·key_points 항목 끝에는 그 뉴스의 번호를 [n]으로 단다 (출처 키는 후처리로 붙음).\n"
+    "- 하나의 evidence 항목에는 '하나의 핵심 사실'만 담는다 (여러 사실을 한 문장에 욱여넣지 마라).\n"
+    "- URL·출처키를 절대 직접 생성하지 마라. 출처 표시는 오직 제공된 [n] 번호로만 한다.\n"
+    "- 회사 프로필 기본정보(직원수·매출·설립연도·업종 등)에서 가져온 사실은 evidence 끝에 [P]를 단다 (뉴스는 [n], 둘 다면 함께).\n"
+    "- 출처(뉴스)가 없는 분석적 해석은 [n]을 달지 않는다 (후처리에서 evidence_type='inference'로 분류됨). 없는 출처를 지어내지 마라.\n"
+    "- 기본정보(회사 프로필)의 매출·직원수도 유효한 데이터다. DART 상세 재무가 없을 뿐이며, 매출 등이 있으면 '재무 데이터 부재'라고 단정하지 말고 '상세 재무공시 없음'으로 표현한다.\n"
     "- industry_status는 회사가 속한 산업의 구조적 상황·시장 경쟁·수요 변화 등 외부 환경을 요약한다.\n"
     "- recent_trends는 최근 뉴스에 나온 회사 관련 사건·사업 변화·리스크를 요약한다 (뉴스 없으면 추정 금지).\n"
     "- financial_analysis는 DART 재무지표/감사보고서/분기·반기 숫자(매출·영업이익·순이익·자산·부채 등)가 있을 때만 해석해 작성한다. 금액 단위는 원이며 억·조로 환산해 설명하고, 감사의견과 최근 분기 실적 추세, 직원 규모·평균연봉도 있으면 언급한다. 모두 없으면 '재무 데이터 없음'.\n"
@@ -85,6 +92,11 @@ SYSTEM_PROMPT = (
     "- 해외진출·글로벌 사업이 연혁/뉴스/사업설명에 나타나면 growth_potential·industry_status에서 언급한다 (없으면 지어내지 마라).\n"
     "- SWOT은 강점·약점·기회·위협을 각각 2~3개 작성한다. 기회/위협은 외부 환경과 뉴스에서 도출한다. 뉴스 근거 항목은 끝에 [n] 인용을 단다.\n"
     "- 모든 문장은 취준생이 자기소개서·면접 답변에 활용할 수 있게 구체적으로 쓴다.\n"
+    "- 문체는 '~이다/~한다' 평서형 종결로 통일한다. '~습니다/~합니다' 체를 섞지 마라.\n"
+    "- 재무 수치는 반드시 연결/별도 기준을 명시한다. 원칙적으로 연결(CFS) 기준을 우선 사용하고, 별도 수치는 '별도 기준'이라 명시한 경우에만 보조로 쓴다. "
+    "같은 지표에 두 기준 값이 다르면 둘 다 기준을 붙여 함께 제시한다 (예: '2026년 1분기 연결 영업이익은 15억원, 별도 영업이익은 195억원이다'). 기준 없이 숫자만 적어 모순을 만들지 마라.\n"
+    "- 회사 고유 정보(뉴스·재무·리뷰·프로필)가 빈약한 회사는 산업 일반론으로 분량을 억지로 채우지 마라. "
+    "확인된 사실만 짧게 쓰고, summary에 '공개 정보가 제한적이어서 분석에 한계가 있다'는 점을 명시한다.\n"
 )
 
 
@@ -221,6 +233,7 @@ def _interim_by_cid() -> dict:
             head = {
                 "기간": (r.get("periods") or {}).get("current"),
                 "보고서": r.get("reprt_nm"),
+                "기준": "연결" if r.get("fs_div") == "CFS" else "별도",   # 연결/별도 명시 (숫자 혼동 방지)
                 "매출액": _line_item(st, "포괄손익계산서", "매출액", "매출"),
                 "영업이익": _line_item(st, "포괄손익계산서", "영업이익(손실)", "영업이익"),
                 "순이익": _line_item(st, "포괄손익계산서", "당기순이익", "반기순이익",
@@ -365,6 +378,7 @@ def _news_by_cid() -> dict:
         for cid, items in buckets.items():
             items.sort(key=lambda r: r.get("date") or "", reverse=True)
             _NEWS_BY_CID[cid] = items
+        eng.dispose()   # 벌크로드 끝 → 커넥션 정리 (프로세스 hang 방지)
     return _NEWS_BY_CID
 
 
@@ -385,6 +399,7 @@ def gather(company: str) -> dict:
             data["basic"] = {k: p.get(k) for k in
                              ("industry", "company_size", "company_type", "employee_count",
                               "revenue", "founded", "main_business")}
+            data["has_recruit"] = bool(d.get("posting_refs"))   # 채용공고 보유 여부
             data["company_id"] = d.get("company_id")
             cid = d.get("company_id")
             break
@@ -394,6 +409,7 @@ def gather(company: str) -> dict:
         if norm(r.get("company_name", "")) == key:
             data["talent_values"] = r.get("talent_values")
             data["business_description"] = r.get("business_description")
+            data["main_products_services"] = r.get("main_products_services")
             break
 
     # 3) DART 재무지표 (resolver로 안전 매칭)
@@ -456,60 +472,65 @@ def gather(company: str) -> dict:
 
 
 def _attach_citations(report: dict, news: list) -> None:
-    """evidence·SWOT 문자열의 [n] 인용을 실제 뉴스 출처(url/media/key)로 변환.
+    """[n] 인용 → source_keys(키 문자열만) + evidence_type 으로 변환 (v2).
 
-    'text [3][6]' → {'text':'text', 'sources':[3번·6번 뉴스의 url/media/key]}.
-    범위 밖 번호는 무시(환각 방지). 인용 없으면 sources=[]. 같은 출처는 중복 제거.
+    'text [3][6]' → {'text':'text', 'source_keys':[3·6번 뉴스의 key], 'evidence_type':'sourced'}.
+    인용 없으면 source_keys=[] + evidence_type='inference' (= AI 해석, 기사 근거 아님).
+    실제 url/media/title은 보고서 맨 아래 전역 sources 에서만 관리 (중복·불일치 방지).
     """
-    def src(n):
-        if 1 <= n <= len(news):
-            x = news[n - 1]
-            return {"source_id": n, "source_type": "news", "media": x.get("media"),
-                    "title": x.get("title"), "url": x.get("url"),
-                    "raw_key": x.get("key"), "date": x.get("date")}
-        return None
-
-    def conv(s):
+    def conv(s, base="inference"):
+        # base = 뉴스 인용이 없을 때의 근거 종류 (섹션 성격에 따라 dart/jobplanet/inference)
         if not isinstance(s, str):
             return s
         nums = [int(x) for x in re.findall(r"\[(\d+)\]", s)]
-        text = re.sub(r"\s*\[\d+\]", "", s).strip()
-        seen, uniq = set(), []
+        has_profile = bool(re.search(r"\[[Pp]\]", s))   # 회사 프로필 기반 사실 표시
+        text = re.sub(r"\s*\[[Pp]\]", "", re.sub(r"\s*\[\d+\]", "", s)).strip()
+        seen, keys = set(), []
         for n in nums:
-            x = src(n)
-            if x and x["raw_key"] not in seen:
-                seen.add(x["raw_key"])
-                uniq.append(x)
-        return {"text": text, "sources": uniq}
+            if 1 <= n <= len(news):
+                k = news[n - 1].get("key")
+                if k and k not in seen:
+                    seen.add(k)
+                    keys.append(k)
+        etype = "news" if keys else ("profile" if has_profile else base)
+        return {"text": text, "source_keys": keys, "evidence_type": etype}
 
-    for k in ("industry_status", "recent_trends", "financial_analysis",
-              "jobplanet_review_summary", "growth_potential"):
+    # 섹션별 기본 근거 종류 (뉴스 인용 없을 때): 재무=dart, 잡플=jobplanet, 그 외=inference
+    sec_base = {"industry_status": "inference", "recent_trends": "inference",
+                "growth_potential": "inference", "financial_analysis": "dart",
+                "jobplanet_review_summary": "jobplanet"}
+    for k, base in sec_base.items():
         sec = report.get(k)
         if isinstance(sec, dict) and isinstance(sec.get("evidence"), list):
-            sec["evidence"] = [conv(e) for e in sec["evidence"]]
+            sec["evidence"] = [conv(e, base) for e in sec["evidence"]]
     for k in ("swot_strengths", "swot_weaknesses", "swot_opportunities", "swot_threats"):
         if isinstance(report.get(k), list):
-            report[k] = [conv(e) for e in report[k]]
+            report[k] = [conv(e, "inference") for e in report[k]]
+    if isinstance(report.get("key_points"), list):
+        report["key_points"] = [conv(e, "inference") for e in report["key_points"]]
 
 
 def finalize_report(report: dict, data: dict, company: str) -> dict:
-    """메타데이터 + 원본 소스 목록 추가 (출처 추적용)."""
-    _attach_citations(report, data.get("news", []))   # evidence·SWOT의 [n] → 실제 출처 부착
+    """메타데이터 + 전역 소스 목록 추가 (v2: source_key 기반)."""
+    _attach_citations(report, data.get("news", []))   # [n] → source_keys + evidence_type
     report["company_id"] = data.get("company_id")
     report["company_name"] = company
-    report["analysis_version"] = "v1"
+    report["analysis_version"] = "v2"
     report["generated_at"] = datetime.date.today().isoformat()
     report["source_snapshot"] = {
         "news_count": len(data.get("news", [])),
         "jobplanet_review_count": (data.get("jobplanet") or {}).get("count", 0),
         "has_dart": bool(data.get("financial_indicators") or data.get("financial_audit")
                          or data.get("financial_interim")),
-        "employee_count": (data.get("employees") or {}).get("total_employees"),
+        "has_company_profile": bool(data.get("basic") or data.get("business_description")
+                                    or data.get("talent_values")
+                                    or data.get("main_products_services")),
+        "has_recruit_data": bool(data.get("has_recruit")),
     }
-    # 사용한 원본 뉴스 목록 — evidence를 여기에 교차참조 (LLM이 URL 지어내는 것 방지)
-    # 출처 = 검증가능한 레코드 참조: key(news.id) + 실제 언론사 + 진짜 url
-    report["sources"] = [{"type": "news", "key": n.get("key"), "media": n.get("media"),
-                          "title": n.get("title"), "date": n.get("date"), "url": n.get("url")}
+    # 전역 sources — evidence의 source_keys가 이 배열의 source_key를 참조 (메타는 여기서만 관리)
+    report["sources"] = [{"source_key": n.get("key"), "source_type": "news",
+                          "media": n.get("media"), "title": n.get("title"),
+                          "url": n.get("url"), "date": n.get("date")}
                          for n in data.get("news", [])]
     return report
 
@@ -522,6 +543,7 @@ def build_prompt(data: dict) -> str:
         f"회사: {data['company_name']}\n\n"
         f"[기본정보]\n{json.dumps(data.get('basic', {}), ensure_ascii=False)}\n\n"
         f"[사업설명]\n{data.get('business_description') or '(없음)'}\n\n"
+        f"[주요 제품/서비스]\n{json.dumps(data.get('main_products_services') or [], ensure_ascii=False)}\n\n"
         f"[인재상]\n{data.get('talent_values') or '(없음)'}\n\n"
         f"[재무지표(DART)]\n{json.dumps(data.get('financial_indicators', {}), ensure_ascii=False) if data.get('financial_indicators') else '(없음)'}\n\n"
         f"[감사보고서 재무(DART, 단위 원)]\n{json.dumps(data.get('financial_audit', {}), ensure_ascii=False) if data.get('financial_audit') else '(없음)'}\n\n"
@@ -572,7 +594,8 @@ def main() -> None:
 
     print(f"[{args.company}] 데이터 수집 중...")
     data = gather(args.company)
-    have = [k for k in ("basic", "talent_values", "financial_indicators", "financial_audit",
+    have = [k for k in ("basic", "talent_values", "main_products_services",
+                        "financial_indicators", "financial_audit",
                         "financial_interim", "employees", "competitors", "jobplanet", "news") if data.get(k)]
     print(f"  수집된 소스: {have}")
 
