@@ -261,3 +261,10 @@ companies.txt
 test_*.txt
 
 
+
+# catch 로그인 수집 데이터(파트너십, raw 포함) — 커밋 금지
+catch/catch_company_detail*.jsonl
+catch/catch_summary_raw.jsonl
+catch/catch_*_api_dump.json
+catch/catch_*.old.jsonl
+catch/catch_detail_*.jsonl
